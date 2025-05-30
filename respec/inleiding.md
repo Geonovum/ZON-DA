@@ -1,5 +1,5 @@
 # inleiding
-<ZoN>
+<>ZoN
 <Waardeketen>
 <Datagedreven werken en moderne tools (modellen, Digital Twins, Large Language Models) vereisen vergaande, snelle toegang tot goed gedefinieerde data>
 <Bronhouders van data eisen soevereiniteit om toegang tot data te kunnen controleren/bepalen>
