@@ -60,3 +60,26 @@ Samenhang:
 
 <Scope: andere registraties? Wettelijk kader?>
 
+## Globale Architectuurbeschrijving Zicht op Nederland
+<copy/paste Architectuurbeschrijving 0.4? Of verwijzen in Inleiding?>
+
+
+<hier meteen een plaat erin gooien van het eindresultaat? Wel mooie stijl, dan vullen we hem in/leggen we hem uit gedurende de rest van het document, á la een detective>
+
+<verbinding met datawaardeketen met plaatje>
+
+## De referentie-architecturen: OpenDEI, FDS
+Overkoepelend: OpenDEI/DSSC, inclusief plaatje architectuurstack OpenDEI/DSSC . Ook al komen geografie en Ruimtelijke Ordening als zodanig niet voor in de lijst van voorziene dataspaces van DSSC – vanwege het feit dat daar vooral naar industrieën is gekeken en niet naar overheden op zichzelf).
+
+Voor de stelselfuncties geldt de referentie-architectuur zoals FDS die gebruikt:
+<plaatje stelselfuncties FDS>
+
+Voor de indeling van de FDS stelselfuncties is gebruik gemaakt van twee Europese achitectuurraamwerken:
+- Het (new) European Interoperability Framework (EIF) wat betreft het onderkennen van de 4 dimensies (‘layers’) van interoperabiliteit: technische interoperabiliteit, semantische interoperabiliteit, organisatorische interoperabiliteit en juridische (‘legal’) interoperabiliteit.
+- het bouwstenenmodel van OPENDEI.
+
+Hierbij is het OPENDEI model toegepast voor de opdeling van de technische stelselfuncties. Voor de organisatorische stelselfuncties is een eigen structuur toegepast omdat in het OPENDEI model de organisatorische en juridische interoperabiliteitsdimensies uit het EIF niet zijn uitgewerkt. Daarbij is de opdeling in coördinerende en faciliterende organisatorische stelselfuncties ontleend aan de stelselarchitectuur van het stelsel van basisregistraties, de voorganger (en startpunt van het ontstaan) van Zicht op Nederland. 
+
+Dit document richt zich op de technische stelselfuncties. Uitgangspunt is om de organisatorische stelselfuncties zo min mogelijk te raken en in eerste instantie (dus voor de scope van deze architectuur) deze te beleggen in het huidige Stelsel van Basisregistraties.  
+
+
