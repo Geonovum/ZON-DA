@@ -12,3 +12,5 @@
 <>EU: federatief datadelen is de toekomst, als tegenhanger tegenover traditioneel, commercieel gevoelig platformdenken
 
 Deze architectuur, gericht op de doelen zoals verwoord in Zicht op Nederland, noemen we de Dataspace voor de Fysieke Leefomgeving – DSFL
+
+## Waarom een 'Dataspace Fysieke Leefomgeving'?
