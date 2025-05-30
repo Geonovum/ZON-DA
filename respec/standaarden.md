@@ -1,6 +1,9 @@
 # Standaarden en referenties
+
 Standaarden zijn er om te helpen een bepaalde functionaliteit uniform binnen het stelsel te kunnen implementeren. In DSFL is het nooit het doel om een standaard (in zijn geheel) te implementeren. 
+
 Architectuur-referenties
+
 - IDSA/DSSC (voorheen: OpenDEI) voor generieke functionele dataspace componenten
 - Dataspace-overstijgende standaarden: heeft FDS die al gevonden? Anders Koën (Microsoft) eens raadplegen
 - Welke componenten/standaarden heeft DSGO reeds gebruikt / ingevuld? (meteen proof of the pudding)
