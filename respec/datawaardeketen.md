@@ -9,3 +9,11 @@
 
 <verwijzing naar “Patronen”>
 
+## Metadata
+<kan overlappen met 'interoperabiliteit'>
+
+## Kwaliteit
+<>
+
+## Publicatie
+<>
