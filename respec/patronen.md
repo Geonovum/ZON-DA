@@ -14,7 +14,7 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
   - Wat is de afstand tot de bebouwing? (BAG)
 3) Analyse
 - Bovenstaade informatie wil ik combineren en hiermee nagaan of de feitelijke situatie die ik waarneem nog voldoet aan de afgegeven vergunning.
-(achterliggend probleem: windturbines zijn niet eenduidig geidentificeerd, waardoor het zeer lastig is om in verschillende administraties gegevens te kunnen opvragen of te combineren.
+(achterliggend probleem: windturbines zijn niet eenduidig geidentificeerd, waardoor het zeer lastig is om in verschillende administraties gegevens te kunnen opvragen of te combineren. Het in ZoN gestelde doel om de kernregistraties te verbinden met de basisregistraties moet het mogelijk maken om eenvoudiger verschillende datasets in samenhang te kunnen bevragen.)
 
 
 ## Datagedreven werken – hoe kom je aan data?
