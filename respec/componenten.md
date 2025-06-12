@@ -33,16 +33,15 @@ Def. Een database is elke verzameling van opgeslagen data, ongeacht de structuur
 
 Het woord database wordt voor verschillende begrippen gebruikt:
 
-de opgeslagen gegevens als zodanig.
-de wijze waarop de gegevens zijn opgeslagen, het data(base)model.
-de software waarmee databases kunnen worden aangemaakt en benaderd, Het databasemanagement systeem (DBMS).
+De opgeslagen gegevens als zodanig.
+De wijze waarop de gegevens zijn opgeslagen, het data(base)model.
+De software waarmee databases kunnen worden aangemaakt en benaderd, Het databasemanagement systeem (DBMS).
 Algemeen zijn er vier typen DBMS te onderkennen. Deze zijn Relational DBMS (RDBMS), Hierarchical DBMS, Network DBMS en Object-Oriented DBMS (OODBMS). Met een databasemanagementsysteem (DBMS) wordt een systeem aangeduid dat als database opgeslagen gegevens ontsluit, bewaakt en beheert. Een database bestaat vaak uit drie onderdelen: de opgeslagen gegevens (in één of meer bestanden), de functionaliteit waarmee de gegevens worden beheert (DBMS) en eventueel de gebruikersomgeving (client) die het gebruikers mogelijk maakt om de gegevens te gebruiken. Meestal is er één DBMS actief voor meer dan een gebruiker. Bekende en veelgebruikte programma's zijn relationele DBMS'en (afgekort tot RDBMS).
 
 *Data warehouse*
 Def. Een data warehouse (vaak afgekort tot DW of DWH) een combinatie van twee primaire onderdelen: een geïntegreerde beslissingsondersteunende database en de bijbehorende softwareprogramma's die worden gebruikt voor het verzamelen, opschonen, transformeren en opslaan van data uit een verscheidenheid aan operationele en externe bronnen (p. 362 DAMA DMBOK). NB: Er is bij de DAMA DMBOK een aparte definitie voor een Enterprise Data Warehouse (EDW), terwijl in sommige definities dit onder dezelfde definitie valt. 
 
 Een datawarehouse kent de volgende kenmerken:
-
 thematisch ingericht
 geïntegreerd
 geordend in de tijd
