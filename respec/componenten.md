@@ -20,7 +20,7 @@ PDOK:
 
 Data.overheid.nl:
 - Duurt meer dan een jaar wanneer internationale DCAT standaard wijzigt om dat vervolgens te vertalen in nederlandse profiel o.a. tbv data.overheid.nl; hoe zorgen we dat gebruikte standaarden in sync blijven.
-- 
+  
 ## Dataopslag
 Volgens NORA gaat het om robuuste, veilige opslag van gegevens in rust, in transit (denk aan buffers) en in memory (denk aan caches). De beschikbaarheid, authenticiteit en integriteit van deze gegevens dient te allen tijde te zijn verzekerd. Als burger, bedrijf en dienstverlener kun je ervan op aan dat de gegevens (en daaruit vloeiende informatie) veilig is.
 
@@ -67,10 +67,10 @@ Een centraal, single-point-of-truth voor data
 
 Nadelen:
 Niet schaalbaar met toenemende behoeftes van het RDW in een modern data warehouse.
-Hogere kosten indien de data opslag behoefte omhoog gaat, en extra continue kosten met het kopieren van data naar het RDW. 
-Gekopieerde data in het RDW.
+Hogere kosten indien de data opslag behoefte omhoog gaat, en extra continue kosten met het kopieren van data.
+Gekopieerde data.
 Toegenomen complexiteit t.o.v. een traditioneel data lake, of data warehouse. 
-Zonder extra randvoorwaarden, een grote mogelijkheid tot dezelfde problemen die wij al binnen RWS zijn, bijv. data eilanden.
+Zonder extra randvoorwaarden, een grote mogelijkheid tot dezelfde problemen die wij al bekend zijn, bijv. data eilanden.
 Binnen in een domein, vooral één waar de hoeveelheid benodigde data in het data warehouse niet veel gaat groeien of uitbreiden, is het een mogelijke oplossing met weinig kosten maar veel flexibiliteit. Met de hoeveelheid data in RWS, nu en in de toekomst, kan een data fabric, een data lakehouse, of een data mesh een beter optie zijn voor het architectuur design op organisatie niveau. Federatief werken, vanuit de hoofdkennisvelden die wij al kennen, zit al in de organisatie structuur en is mogelijk dichter bij waar wij nu al naartoe aan het gaan zijn organisatie breed. 
 
 *Data fabric*
@@ -86,7 +86,7 @@ Flexibel en schaalbaar.
 Verminderen van data eilanden
 Data wordt zo veel mogelijk in real-time verwerkt om de stroming door het data landschap te automatiseren en verbeteren. 
 Geavanceerde data toegang beleidsregels, en de mogelijkheid om te voldoen aan verschillende sets regels en wetten. 
-Sterke randvoorwaarden waar wij als RWS naartoe willen; Toegankelijkheid methodes, metadatering, master data, kernregistraties, het gebruik van API's. 
+Sterke randvoorwaarden waar wij als overheid naartoe willen; Toegankelijkheid methodes, metadatering, master data, kernregistraties, het gebruik van API's. 
 Geen kopieën, voornamelijk bij gebruik van data virtualisatie. 
 
 Nadelen:
