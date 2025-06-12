@@ -18,3 +18,6 @@ NGR:
 PDOK:
 - (Geo-?)metadata/caching/viewer/ontsluiting wettelijke rapportages: PDOK
 
+Data.overheid.nl:
+- Duurt meer dan een jaar wanneer internationale DCAT standaard wijzigt om dat vervolgens te vertalen in nederlandse profiel o.a. tbv data.overheid.nl; hoe zorgen we dat gebruikte standaarden in sync blijven.
+- 
