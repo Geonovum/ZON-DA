@@ -90,19 +90,19 @@ Sterke randvoorwaarden waar wij als overheid naartoe willen; Toegankelijkheid me
 Geen kopieën, voornamelijk bij gebruik van data virtualisatie. 
 
 Nadelen:
-Een ontzettend ingewikkeld ontwerp
-Overgang naar data fabric kan veel tijd en geld kosten
-Een noodzaak om veel expertise in de organisatie te hebben en houden. 
-Achteraf oplossen van problemen, bijv. door gebrek aan expertise, is extra uitdagend door complexiteit van een data fabric.
-Het automatisch laten lopen van veel van deze processen vaak erg ver weg van waar wij zijn en kan een erg grote uitdaging vormen vanuit het huidige data landschap.
+Een ontzettend ingewikkeld ontwerp  
+Overgang naar data fabric kan veel tijd en geld kosten  
+Een noodzaak om veel expertise in de organisatie te hebben en houden.  
+Achteraf oplossen van problemen, bijv. door gebrek aan expertise, is extra uitdagend door complexiteit van een data fabric.  
+Het automatisch laten lopen van veel van deze processen vaak erg ver weg van waar wij zijn en kan een erg grote uitdaging vormen vanuit het huidige data landschap.  
 Mogelijke latency problemen, door de complexiteit
 (afhankelijk van definitie en implementatie) Een data virtualisatie kan nodig zijn om alle randvoorwaarden te halen, terwijl uit huidig onderzoek en referentiebezoeken het nog niet zeker is of data virtualisatie de functies biedt die wij nodig hebben. Specifiek zijn er onzekerheden rond de performance voor ons data landschap, en het geven van (groeps) autorisaties aan alle nodige partijen. 
 (afhankelijk van welke definitie en hoever het geïmplementeerd wordt) Nog niet alle nodige technologieën zijn implementeerbaar, voornamelijk bij de automatisering en real-time processing voorwaardes 
 
-*Data mesh*
+*Data mesh*  
 Het concept van een data mesh gaat voornamelijk over een holistisch data architectuur ontwerp met een focus op het decentralizeren van data in een organisatie, in plaats van het centraliseren, m.b.v. bijv. een data lakehouse. Bij een data mesh is elk domein verantwoordelijk voor zijn eigen data, schoonmaken, analyseren en het beschikbaar stellen. Een data mesh heeft vier kenmerkende principes:
 
-Domein-georiënteerde decentralisatie: Elk domein
-Data als product: Gegevens moeten worden behandeld als een product, waarbij domeinen verantwoordelijk zijn voor de kwaliteit, bruikbaarheid en toegankelijkheid ervan. is eigenaar van zijn gegevens en beheert deze. 
+Domein-georiënteerde decentralisatie: Elk domein  
+Data als product: Gegevens moeten worden behandeld als een product, waarbij domeinen verantwoordelijk zijn voor de kwaliteit, bruikbaarheid en toegankelijkheid ervan. Er iseen eigenaar van de gegevens en deze worden beheert. 
 Selfservice data-infrastructuur: Stel teams in staat met tools en platforms om hun data zelfstandig te beheren en te gebruiken zonder een grote afhankelijkheid van gecentraliseerde datateams.
 Federatief IT beheer: Er bestaat een gezamenlijk gegevensbeheer tussen domeinen en een centraal gegevensteam om globale regels te definiëren, te implementeren en te controleren. 
