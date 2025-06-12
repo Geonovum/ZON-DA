@@ -94,8 +94,8 @@ Nadelen:
 Een ontzettend ingewikkeld ontwerp
 Overgang naar data fabric kan veel tijd en geld kosten
 Een noodzaak om veel expertise in de organisatie te hebben en houden. 
-Achteraf oplossen van problemen, bijv. door gebrek aan expertise, is extra uitdagend door complexiteit van een data fabric
-Het automatisch laten lopen van veel van deze processen is erg ver weg van waar wij nu zijn als RWS en kan een erg grote uitdaging vormen vanuit het huidige data landschap
+Achteraf oplossen van problemen, bijv. door gebrek aan expertise, is extra uitdagend door complexiteit van een data fabric.
+Het automatisch laten lopen van veel van deze processen vaak erg ver weg van waar wij zijn en kan een erg grote uitdaging vormen vanuit het huidige data landschap.
 Mogelijke latency problemen, door de complexiteit
 (afhankelijk van definitie en implementatie) Een data virtualisatie kan nodig zijn om alle randvoorwaarden te halen, terwijl uit huidig onderzoek en referentiebezoeken het nog niet zeker is of data virtualisatie de functies biedt die wij nodig hebben. Specifiek zijn er onzekerheden rond de performance voor ons data landschap, en het geven van (groeps) autorisaties aan alle nodige partijen. 
 (afhankelijk van welke definitie en hoever het geïmplementeerd wordt) Nog niet alle nodige technologieën zijn implementeerbaar, voornamelijk bij de automatisering en real-time processing voorwaardes 
