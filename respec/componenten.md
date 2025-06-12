@@ -33,18 +33,19 @@ Def. Een database is elke verzameling van opgeslagen data, ongeacht de structuur
 
 Het woord database wordt voor verschillende begrippen gebruikt:
 
-De opgeslagen gegevens als zodanig.
-De wijze waarop de gegevens zijn opgeslagen, het data(base)model.
-De software waarmee databases kunnen worden aangemaakt en benaderd, Het databasemanagement systeem (DBMS).
-Algemeen zijn er vier typen DBMS te onderkennen. Deze zijn Relational DBMS (RDBMS), Hierarchical DBMS, Network DBMS en Object-Oriented DBMS (OODBMS). Met een databasemanagementsysteem (DBMS) wordt een systeem aangeduid dat als database opgeslagen gegevens ontsluit, bewaakt en beheert. Een database bestaat vaak uit drie onderdelen: de opgeslagen gegevens (in één of meer bestanden), de functionaliteit waarmee de gegevens worden beheert (DBMS) en eventueel de gebruikersomgeving (client) die het gebruikers mogelijk maakt om de gegevens te gebruiken. Meestal is er één DBMS actief voor meer dan een gebruiker. Bekende en veelgebruikte programma's zijn relationele DBMS'en (afgekort tot RDBMS).
+De opgeslagen gegevens als zodanig.  
+De wijze waarop de gegevens zijn opgeslagen, het data(base)model.  
+De software waarmee databases kunnen worden aangemaakt en benaderd, Het databasemanagement systeem (DBMS).  
+Algemeen zijn er vier typen DBMS te onderkennen. Deze zijn Relational DBMS (RDBMS), Hierarchical DBMS, Network DBMS en Object-Oriented DBMS (OODBMS).  
+Met een databasemanagementsysteem (DBMS) wordt een systeem aangeduid dat als database opgeslagen gegevens ontsluit, bewaakt en beheert. Een database bestaat vaak uit drie onderdelen: de opgeslagen gegevens (in één of meer bestanden), de functionaliteit waarmee de gegevens worden beheert (DBMS) en eventueel de gebruikersomgeving (client) die het gebruikers mogelijk maakt om de gegevens te gebruiken. Meestal is er één DBMS actief voor meer dan een gebruiker. Bekende en veelgebruikte programma's zijn relationele DBMS'en (afgekort tot RDBMS).
 
 *Data warehouse*
 Def. Een data warehouse (vaak afgekort tot DW of DWH) een combinatie van twee primaire onderdelen: een geïntegreerde beslissingsondersteunende database en de bijbehorende softwareprogramma's die worden gebruikt voor het verzamelen, opschonen, transformeren en opslaan van data uit een verscheidenheid aan operationele en externe bronnen (p. 362 DAMA DMBOK). NB: Er is bij de DAMA DMBOK een aparte definitie voor een Enterprise Data Warehouse (EDW), terwijl in sommige definities dit onder dezelfde definitie valt. 
 
-Een datawarehouse kent de volgende kenmerken:
-thematisch ingericht
-geïntegreerd
-geordend in de tijd
+Een datawarehouse kent de volgende kenmerken:  
+thematisch ingericht  
+geïntegreerd  
+geordend in de tijd  
 bevroren (gegevens)
 
 *Data lake*
@@ -61,11 +62,10 @@ Een modern data warehouse is een gecentralizeerd architectuur ontwerp met een co
 Een modern data warehouse is een flexibeler architectuur design, met een minder grote investering voor een grote hoeveelheid data in een data warehouse, met schema-on-write. Nog steeds veel van de voordelen van een traditioneel RDW en de voordelen van een data lake. De voordelen en nadelen van een modern data warehouse zijn afhankelijk van de scope (bijv. domein of organisatie) en de randvoorwaarden, bijv. governance, metadata, aangezien de definitie van een modern data warehouse niet verder ingaat op dit soort randvoorwaarden. 
 
 Voordelen: 
+Het is een flexibel architectuur design.  
+Een centraal, single-point-of-truth voor data  
 
-Het is een flexibel architectuur design.
-Een centraal, single-point-of-truth voor data
 Nadelen:
-
 Niet schaalbaar met toenemende behoeftes van het RDW in een modern data warehouse.
 Hogere kosten indien de data opslag behoefte omhoog gaat, en extra continue kosten met het kopieren van data naar het RDW. 
 Gekopieerde data in het RDW.
