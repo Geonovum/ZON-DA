@@ -24,7 +24,7 @@ Data.overheid.nl:
 ## Dataopslag
 Volgens NORA gaat het om robuuste, veilige opslag van gegevens in rust, in transit (denk aan buffers) en in memory (denk aan caches). De beschikbaarheid, authenticiteit en integriteit van deze gegevens dient te allen tijde te zijn verzekerd. Als burger, bedrijf en dienstverlener kun je ervan op aan dat de gegevens (en daaruit vloeiende informatie) veilig is.
 
-Afspraak: We maken afspraken over de vereisten van gespiegelde data.
+Afspraak: We maken afspraken over de vereisten van gespiegelde data.  
 Afspraak: We maken tevens afspraken over de minimale encryptie sterkte en wanneer data wel of niet encrypted dient te zijn. Encryptie is een onderdeel van data beveiling. 
 Er zijn verschillende oplossingen voor data opslag, de definities zijn hieronder uitgeschreven. Voornamelijk is als bron de DAMA DMBOK 2e editie (2017, ISBN: 9781634622349) gebruikt. Indien er afwijking is van de bron is dat vernoemd. 
 
