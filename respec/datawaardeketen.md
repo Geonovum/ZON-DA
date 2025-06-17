@@ -30,7 +30,7 @@ Waardeketen zoals beschreven in de visie Zicht op Nederland
     - Informatiebehoeften in de keten
 
 Originele input van René:
-- breed, moeilijk om vast omlijnde processen te onderscheiden>
+- breed, moeilijk om vast omlijnde processen te onderscheiden
 - plaatje en uitleg Datawaardeketen
 - Scope “RO/beleidscyclus” uitleggen, samenhang met datawwaardeketen
 - Vanuit enterprise architectuur zeg je bijv niks over inwinnen en inwineisen en kwaliteitsniveaus, maar bijv. wel over stapelbaarheid, dus elk object een ID en elk dataproduct een geo-referentie
