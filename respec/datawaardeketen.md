@@ -1,5 +1,19 @@
 # Datawaardeketen Zicht op Nederland
 
+![Samenhangende data](./respec/media/samenhangende_data.png)
+
+Een plaatje kun je invoegen door het te plaatsen in de respec/media map en dan een verwijzing in markdown te doen:
+
+```
+![<beschrijving plaatje>](./respec/media/<naam plaatje>)
+```
+Als je het plaatje geforceerd een bepaalde grootte wil geven kan het ook met een html tag:
+
+```
+<img src="./respec/media/naam plaatje>" alt="beschrijving plaatje" width="900">
+```
+(waarbij width het aantal pixels aangeeft van de breedte van het plaatje)
+
 ## Waardeketen (Paul/Peter)
 
 Waardeketen zoals beschreven in de visie Zicht op Nederland
