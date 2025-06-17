@@ -53,10 +53,11 @@ Originele input van René:
 - Autorisatie
 
 ## Kwaliteit (Danny)
-- Wat is het belang van gegevenskwaliteit in deze dataspace?
-- Welke eisen stel je aan bepaalde soorten gegevens?
-- Raamwerk gegevenskwaliteit NORA
-- Stappenplan gegevenskwaliteit NORA
+De kwaliteit van gegevens is een belangrijke bepalende factor voor de bruikbaarheid ervan. In de context van een datastelsel is dat niet anders. Het inzichtelijk maken en verbeteren van de  kwaliteit van de gegevens die beschikbaar in het datastelsel verdient daarom expliciete aandacht. Dit is in de basis een verantwoordelijkheid van bronhouders, maar ook afnemers hebben daarbij een verantwoordelijkheid. De eisen die worden gesteld aan de kwaliteit van gegevens zijn nu eenmaal afhankelijk van het gebruik. Er is dan ook expliciete afstemming over kwaliteitseisen nodig tussen bronhouders en afnemers. Afnemers zouden ook twijfels over de juistheid van gegevens expliciet moeten terugmelden aan bronhouders.
+
+Er is in de context van NORA eeen [stappenplan](https://www.noraonline.nl/wiki/Stappenplan_gegevenskwaliteit) ontwikkeld voor het verbeteren van de kwaliteit van gegevens dat bronhouders een handreiking biedt. Het geeft aan welke stappen voor een specifieke gegevensverzameling zou moeten worden gezet. Uitgangspunt voor het stappenplan is dat er al een algemene inrichting aanwezig is in de vorm van strategie, beleid, governance, architectuur, processen en systemen. De voorgestelde stappen voor het verbeteren van de kwaliteit van een specifieke gegevensverzameling zijn: 1. Bepalen context, 2. Beschrijven gegevens, 3. Beschrijven regels en eisen, 4. Meten gegevenskwaliteit, 5. Afhandelen signalen en 6. Implementeren maatregelen. Het verbeteren van de kwaliteit van gegevens staat relatief los van het datastelsel. Het is meer een randvoorwaarde.
+
+In de context van een datastelsel ligt de nadruk op het uitwisselen van gegevens. Daarbij is het vooral belangrijk dat er informatie en metagegevens beschikbaar zijn over kwaliteit. Dat betekent dat in de metagegevens van de dataset die beschikbaar wordt gesteld ook informatie over gegevenskwaliteit is opgenomen. Hiervoor zijn in een aantal metagevens standaarden voorgedefinieerde eigenschappen. Daarnaast kan in de beschrijvende tekst informatie over de gewenste en gemeten gegevenskwaliteit worden opgenomen. Binnen de Nederlandse overheid is er een raamwerk met een standaard begrippenkader beschikbaar voor gegevenskwaliteit: het [NORA raamwerk gegevenskwaliteit](https://www.noraonline.nl/wiki/Raamwerk_gegevenskwaliteit). Deze biedt standaard termen, maar ook standaard formuleringen om uitdrukking te geven aan de kwaliteit van gegevens. Dit raamwerk is liefst ook de basis voor het definiëren en meten van gegevenskwaliteit, zodat kwaliteit vanaf het begin op een uniforme manier wordt beschouwd.
 
 ## Gegevensleveringsovereenkomsten (Danny/Rene/Ine)
 - Overnemen rijksbreed gegevensdelingsbeleid (concept)?
