@@ -59,6 +59,10 @@ Er is in de context van NORA eeen [stappenplan](https://www.noraonline.nl/wiki/S
 
 In een datastelsel ligt de nadruk op het uitwisselen van gegevens. Daarbij is het vooral belangrijk dat er informatie en metagegevens beschikbaar zijn over kwaliteit. Dat betekent dat in de metagegevens van de dataset die beschikbaar wordt gesteld ook informatie over gegevenskwaliteit is opgenomen. Hiervoor zijn in een aantal standaarden voorgedefinieerde eigenschappen opgenomen. Daarnaast kan in de beschrijvende tekst informatie over de gewenste en gemeten gegevenskwaliteit worden opgenomen. Binnen de Nederlandse overheid is er een raamwerk met een standaard begrippenkader beschikbaar voor gegevenskwaliteit: het [NORA raamwerk gegevenskwaliteit](https://www.noraonline.nl/wiki/Raamwerk_gegevenskwaliteit). Deze biedt standaard termen, maar ook standaard formuleringen om uitdrukking te geven aan de kwaliteit van gegevens. Dit raamwerk is liefst ook de basis voor het definiëren en meten van gegevenskwaliteit, zodat kwaliteit vanaf het begin op een uniforme manier wordt beschouwd.
 
+Dit betekent:
+- Het expliciet maken van de kwaliteit van gegevens die beschikbaar worden gesteld in de metagegegevens
+- Het gebruik van de standaard begrippen in het NORA raamwerk gegevenskwaliteit
+
 ## Gegevensleveringsovereenkomsten (Danny/Rene/Ine)
 - Overnemen rijksbreed gegevensdelingsbeleid (concept)?
 - Relatie met connectoren
