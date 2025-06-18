@@ -10,6 +10,8 @@
 
 ## Identificatie
 ## Autorisatie
+Volgens de IAM (Identity & Access Management) expertgroep van NORA gaat het daarbij om: Het proces om te beslissen of een Entiteit op grond van een Authenticatiemiddel, Identiteitsverklaring, of een Machtiging, toegang krijgt tot een Resource. De beslissing wordt mede gebaseerd op de bij de resource behorende Autorisatieregels en omgevingsfactoren. Voorbeelden van omgevingsfactoren zijn het moment op de dag en de locatie. Vaak is er een splitsing in een functie om de autorisatie-beslissing te nemen (ook wel genoemd: PDP = Policy Decision Point) wat resulteert in een autorisatie-beslissing (soms ook toegangstoken genoemd) en een functie om deze beslissing af te dwingen op basis van de autorisatie-beslissing (ook wel genoemd: PEP = Policy Enforcement Point). De beslissingsfunctie (PDP) functie kan zowel binnen een dienst als daarbuiten worden uitgevoerd; het afdwingen van de beslissing (PEP) wordt noodzakelijkerwijs altijd binnen de dienst uitgevoerd.
+
 ## Zoeken en vinden (catalogi en directory services)
 ## Metadata
 NGR:
