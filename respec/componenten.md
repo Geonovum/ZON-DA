@@ -3,6 +3,15 @@
 ## Componenten volgens de DSSC referentie
 <DSSC view op componenten, per component invullen/aangeven of en hoe we die invullen>
 
+|    term       | omschrijving |
+| --------      | ------------ |
+| Dataproduct   |              |
+| Databron      |              |
+| Dataset       |              |
+| Dataservice   |              |
+| Dataprovider  |              |
+| Dataontvanger |              |
+
 ## Hergebruik van bestaande componenten
 <wat is er al, wie heeft het al/hergebruik, wat moet er nog ontwikkeld/bepaald/gekozen worden> 
 
