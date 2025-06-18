@@ -9,7 +9,7 @@
 ## Bronnen
 
 ## Identificatie
-De elektronische indentificatie en vertrouwensdienst voor elektronische transaties van personen is opgenomen in de VERORDENING (EU) Nr. 910/2014 VAN HET EUROPEES PARLEMENT EN DE RAAD, van 23 juli 2014.
+De elektronische indentificatie en vertrouwensdienst voor elektronische transaties van personen is opgenomen in de VERORDENING (EU) Nr. 910/2014 VAN HET EUROPEES PARLEMENT EN DE RAAD, van 23 juli 2014
 <https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32014R0910&from=NL>. De definitie die daarbij wordt gehanteerd voor "elektronishe identificatie": het proces van het gebruiken van persoonsidentificatiegegevens in elektronische vorm die op unieke wijze een natuurlijke persoon of rechtspersoon, of een natuurlijke persoon die een rechtspersoon vertegenwoordigt, aanduiden;  
 
 ## Autorisatie
