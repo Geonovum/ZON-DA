@@ -18,7 +18,6 @@ Als je het plaatje geforceerd een bepaalde grootte wil geven kan het ook met een
 
 Waardeketen zoals beschreven in de visie Zicht op Nederland
 
-
 - Stappen in de waardeketen
     - Verzamelen
     - Analytics
