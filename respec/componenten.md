@@ -1,37 +1,51 @@
 # Componenten/Voorzieningen
 <font color="red">
 Eerste braindump van componenten / voorzieningen die (mogelijk) nodig zijn in de doorontwikkeling van de Nationale Geo Informatie Infrastructuur:
+  
 - Uitgaande van een federatief datastelsel / data bij de bron
 - Uitgaande van het aanbieden van (ook) gesloten data
 
 **Bij elke dataprovider en bij elke data consumer:**
-1. Een connector conform het dataspace protocol
+1. Een connector conform het dataspace protocol. 
 Hiermee wordt ingeregeld dat metadata (DCAT en ODRL) bekeken kan worden (Data Catalog Protocol), dat het contract digitaal gesloten kan worden (Contract Negotiation Protocol) en dat de toegang tot de data wordt ingeregeld (Transfer Process Protocols). Dit is niet anders dan in andere dataspaces. Interessante aspecten:
 - gaan de beschikbare connectoren (al) goed om met geo-DCAT / kun je bv. de bounding box van de dataset inzichtelijk krijgen?
 - ik heb voorbeelden gezien dat de geo-locatie van de data consumer een rol speelt in de contract negotiation, bv. een aanvrager uit Rusland mag de data niet krijgen. Dit zal via identity management worden ingeregeld vermoed ik, maar wellicht zit hier nog een geo-haakje?
 
 **Centraal**
-0. Afsprakenstelsel Nationale Geo Informatie Infrastrcutuur
+
+0. Afsprakenstelsel Nationale Geo Informatie Infrastructuur. 
 Geo-standaarden staan nu wel op de Pas Toe of Leg Uit lijst en in het GI-beraad zijn wel afspraken gemaakt, maar wellicht is het goed om met de deelnemende partijen (verdergaande) afspraken te expliciteren. Dit is niet anders dan in andere dataspaces. 
 
-1. Een landelijke catalogus (zijnde NGR > of komt er een moment dat dit (ook voor geodata) data.overheid.nl kan zijn? > let op INSPIRE eisen, private data)
+1. Een landelijke catalogus (zijnde NGR > of komt er een moment dat dit (ook voor geodata) data.overheid.nl kan zijn? > let op INSPIRE eisen, private data). 
 Dataproviders met geodata maken een connectie tussen hun eigen catalogus en deze landelijke catalogus om hun data beter vindbaar te maken. Ook rekenmodellen en algoritmes worden op die wijze voor hergebruik aangeboden. De catalogus is alleen een centrale vindplek, om de data te benaderen wordt je verwezen naar de bron. Dit is niet anders dan in andere dataspaces. Uitgangspunten zouden kunnen zijn:
 - de landelijke catalogus bevat in ieder geval de geo-basisregistraties
 - de landelijke catalogus bevat in ieder geval de INSPIRE datasets
 - de landelijke catalogus bevat in ieder geval de HVD-data voorzover het geo-data is
 - de landelijke catalogus bevat alleen data die voldoet aan de geo-standaarden (kun je dat garanderen?)
 
-2. Een landelijke marktplaats / appstore
+2. Een landelijke marktplaats / appstore. 
 Op basis van data worden vele toepassingen gebouwd, denk aan digital twins, apps, viewers, AI-toepassingen. Om hergebruik te stimuleren kunnen deze toepassingen gepubliceerd worden in de landelijke marktplaats / appstore. Dit is niet anders dan in andere dataspaces.
 
-3. Deelnemers register
+3. Deelnemers register. 
 Als er binnen de Nationale Geo Informatie Infrastructuur op een uniforme wijze gesloten data uitgewisseld gaat worden, dan is het nodig te weten welke partijen zich geconformeerd hebben aan het (te maken) afsprakenstelsel. Dit is niet anders dan in andere dataspaces.
 
-4. Autorisatie register
+4. Autorisatie register. 
 Als er binnen de Nationale Geo Informatie Infrastructuur op een uniforme wijze gesloten data uitgewisseld gaat worden, dan is het nodig te weten welke partijen welke autorisaties hebben. Dit is niet anders dan in andere dataspaces.
 
-5. Idee: wegwijzer / helpdesk functie, bv om niet-geo gespecialiseerde organisaties op weg te helpen, bv met een vraag als 'hoe geo-refereer ik mijn dataset'
+5. Vocabulary Hub. 
+De betekenis en onderlinge samenhang van gegevenselementen dient inzichtelijk te zijn. Hiertoe dient de NL-SBB standaard, gebaseerd op SKOS. Dit kan op termijn mogelijk uitfaseren als AI dit op basis van metadata zelf kan. Dit is niet anders dan in andere dataspaces.
 
+6. Logging functionaliteit. 
+Bij het delen van gesloten data voor accountability. Dit is niet anders dan in andere dataspaces.
+
+7. De expertise rondom coordinaat referentie systemen. 
+De expertise rondom onze coordinaatreferentiestelsels (RD, NAP en LAT) is georganiseerd bij de Nederlandse Samenwerking Geodetische Infrastructuur (een samenwerking van het Kadaster, Rijkswaterstaat en de Dienst der Hydrografie van de Koninklijke Marine). Hier wordt bijvoorbeeld de transformatie API beheerd voor transformaties tussen coordinaatstelsels, ook naar internationale stelsels zoals ETRS'89 of WGS84. Dit is een blijvend van belang zijnde functie. 
+
+8. Idee: wegwijzer / helpdesk functie, bv om niet-geo gespecialiseerde organisaties op weg te helpen, bv met een vraag als 'hoe geo-refereer ik mijn dataset'. 
+
+9. Idee: URI-strategie adviespunt. 
+Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellicht nodig iets meer te gaan regelen rond UUID's. Hoewel dit in de eerdere Inventarisatie Data Ecosystemen alleen ter sprake kwam bij ZoN/NGII is dit niet anders dan in andere dataspaces. 
+   
 </font>
 
 ## Componenten volgens de DSSC referentie
