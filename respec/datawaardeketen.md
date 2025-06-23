@@ -1,4 +1,4 @@
-# Datawaardeketen Zicht op Nederland
+# Datawaardeketen
 
 ![Samenhangende data](./respec/media/samenhangende_data.png)
 
