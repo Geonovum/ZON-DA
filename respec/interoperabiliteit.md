@@ -44,7 +44,6 @@ Er is een behoefte aan het kunnen combineren van geografische gegevens met ander
 Nader uit te werken:
 - Hoe gaan we ervoor zorgen dat metagegevens op één plek integraal vindbaar en beschikbaar zijn voor afnemers?
 - Op welk niveau leggen we dit vast?
-- Impact van behoefte aan combineren
 
 Dit bekenent:
 - Gebruik van de Nederlandse standaard voor het beschrijven van begrippen (NL-SBB) voor het beschrijven van de betekenis van gegevens die worden uitgewisseld
@@ -55,13 +54,31 @@ Dit bekenent:
 - Gebruik van de informatiekundige kern van het federatief datastelsel voor het identifceren van gegevens
 
 ## Technisch (Danny, Otto, Arno)
-- Logische gegevensmodellen en fysieke datamodellen
-- Technische metadata
-- DCAT, NGR, ISO 1911X technisch uitgelegd
+Op technisch niveau vindt de daadwerkelijke uitwisseling van gegevens plaats, maar daarvoor zijn ook technische afspraken en metagegevens nodig. Dat gaat bijvoorbeeld over logische gegevensmodellen en fysieke datamodellen, maar ook over informatie over de precieze locatie van gegevens en de opbouw van API's. De eerder genoemde standaard MIM kan gebruikt worden voor het definiëren van logische gegevensmodellen. Ze worden vertaald naar XML- of JSON Schema's, bij voorkeur geautomatiseerd. Linked Data gebaseerde modellen maken gebruik van de [SHACL](https://www.w3.org/TR/shacl/) standaard, die de RDFS/OWL specificaties verdiepen en duidelijk maken in welke gegevensstructuur gegevens beschikbaar zijn.
+
+De locatie van gegevens en de beschikbare formaten worden beschreven in standaarden zoals DCAT en ISO 19115/19119. Daarnaast moeten er specificiaties voor API's worden opgesteld. Hiervoor is de [OpenAPI](https://www.openapis.org/) specificatie beschikbaar. Het resultaat wordt gepubliceerd op developer.overheid.nl zodat ontwikkelaars snel voor hen relevante API's kunnen vinden en gebruiken. Het is in meer algemene zin de plek waar ontwikkelaars binnen de overheid informatie kunnen vinden over hoe er binnen de Nederlandse overheid software wordt ontwikkeld.
+
+Voor de technische uitwisseling zelf geldt dat deze steeds meer gebaseerd is op API's, steeds meer realtime is en steeds fijnmaziger. Daarmee kunnen specifieke gebruikers (inclusief ontwikkelaats) op een laagdrempelige manier, direct voor hen relevante gegevens verkrijgen. In een aantal omstandigheden blijft uitwisseling in batch en/of van bestanden meer passend, bijvoorbeeld als het proces dat wordt ondersteund meer periodiek van aard is en/of geen hoge eisen stelt aan de actualiteit van gegevens. De geo-standaarden zijn inmiddels ook overgegaan naar API-gebaseerde standaarden en sluiten daarmee aan op genoemde ontwikkelingen. Het voordeel van API standaarden is dat deze in de basis weinig specifieke functionaliteit vragen en dus in veel gevallen geen aanvullende middleware componenten nodig hebben.
+
+Een belangrijk aandachtspunt is data bij de bron. Dit credo is vooral een uitting van de intentie om gegevens niet te kopiëren als het niet nodig is. Ze zouden moeten worden opgehaald bij de bron op het moment dat het relevant is. Daarmee worden problemen met consistentie en/of actualiteit zoveel mogelijk voorkomen. Dit heeft een directe relatie met de beweging naar API's, realtime en fijnmazigheid. Voor geodata blijven er echter nog steeds bepaalde processen die toch om een kopie vragen. Denk bijvoorbeeld aan het uitvoeren van geluidsberekeningen, waarbij gebruik wordt gemaakt van een grote hoeveelheid gegevens over de leefomgeving. Dit zijn langlopende processen, die ook directe toegang tot de betreffende gegevens nodig hebben. Het minimaliseren van kopieën kan alleen door de berekening direct bij de data zelf plaats te laten vinden. Er blijft daarbij echter altijd ook een behoefte aan een kopie van landelijke 3D basisbestanden.  
+
+Er wordt in de technische uitwisseling van gegevens onderscheid gemaakt tussen het control plane en het data plane. Het control plane is gericht op het ondersteunen van het proces, terwijl de data plane de daadwerkelijke overdracht van gegevens verzorgd. De laatste is toenemend minder relevant aan het worden, mede ingegeven door een algemene beweging naar het gebruik van open standaarden en RESTful API's. Het control plane is verantwoordelijk voor het controleren van relevante afspraken, zoals het controleren van de autorisatieregels (policies) die gelden voor het afnemen van de gegevens. Hiervoor zijn meerdere standaarden in ontwikkeling zoals het Dataspace Protocol, AuthZEN en de Nederlandse Federated Service Connectivity (FSC) en de standaarden die worden ontwikkeld in het project Federatieve Toegangsverlening. Tegelijkertijd zijn dit soort standaarden vooral relevant voor het uitwisselen van gevoelige gegevens, terwijl veel geografische gegevens als open data beschikbaar zijn.  
+
+Het gebruik van bepaalde standaarden heeft ook impact op de voorzieningen die deelnemers nodig hebben om deel te nemen aan het datastelsel. In algemene zin wordt in de context van data spaces gesproken over connectoren. Een connector is een technische voorziening waarmee een deelnemer aansluit op de data space. Voor het internationale Dataspace Protocol is er inmiddels een verzameling van standaard connectoren beschikbaar. Als gebruik wordt gemaakt van bijvoorbeeld de FSC standaard, dan vraagt dit weer andere connectoren (inways/outways) en voorzieningen. Als uitgebreide voorzieningen nodig zijn voor het controleren van autorisatieregels (bijvoorbeeld op basis van de AuthZEN standaard) dan is er ook een policy engine nodig om deze autorisatieregels te controleren.
+
+Nader uit te werken:
 - Op welk niveau leggen we dit vast?
-- Technische componenten
-- Bulk versus enkelvoudig
-- API versus bestanden
 - Metadata versus data uitwisselen
-- Data bij de bron - impact op geo
 - Impact van behoefte aan combineren
+- Is er een clearing house nodig in het datastelsel?
+- Gaat het datastelsel gebruik maken van het Dataspace Protocol, AuthZEN, FSC en/of FTV en in welke omstandigheden?
+- Welke connectoren hebben deelnemers nodig?
+
+Dit betekent:
+- Gebruik van de standaar MIM en/of SHACL voor het specificeren van logische gegevensmodellen
+- Automatisch genereren van fysieke schema's uit logische gegevenmsmodellen
+- Specificeren van API's middels de OpenAPI specificatie
+- Publiceren van API's op developer.overheid.nl
+
+
+
