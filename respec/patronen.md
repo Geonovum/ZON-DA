@@ -9,7 +9,7 @@ In het algemeen geldt de generieke keten:
 
 Vraag -> Data inwinnen/verzamelen -> Analyse/verwerking -> Informatie -> Visualisatie/presentatie
 
-Vraag
+# Vraag
 Vraagarticulatie is een eerste stap om te bepalen wat is de informatiebehoefte van de vrager is. Op basis van de behoefte kan bepaald worden welke data benodigd zijn om de gevraagde behoefte te vervullen. Vaak weet een vrager niet wat de mogelijkheden zijn. Best practices, voorbeelden zijn hierbij nodig. Dit is vooral een communicatie vraag en vereist goed doorvragen en de vraag achter de vraag helder krijgen. Stel de juiste vragen en probeer niet teveel in oplossingen te denken.
 
 Data inwinnen/verzamelen
