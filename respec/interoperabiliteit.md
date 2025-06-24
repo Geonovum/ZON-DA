@@ -79,6 +79,3 @@ Dit betekent:
 - Automatisch genereren van fysieke schema's uit logische gegevenmsmodellen
 - Specificeren van API's middels de OpenAPI specificatie
 - Publiceren van API's op developer.overheid.nl
-
-
-
