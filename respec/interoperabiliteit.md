@@ -69,7 +69,7 @@ Het gebruik van bepaalde standaarden heeft ook impact op de voorzieningen die de
 Nader uit te werken:
 - Op welk niveau leggen we dit vast?
 - Metadata versus data uitwisselen
-- Impact van behoefte aan combineren
+- Impact van behoefte aan combineren van gegevens
 - Is er een clearing house nodig in het datastelsel?
 - Gaat het datastelsel gebruik maken van het Dataspace Protocol, AuthZEN, FSC en/of FTV en in welke omstandigheden?
 - Welke connectoren hebben deelnemers nodig?
