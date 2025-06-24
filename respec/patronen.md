@@ -9,21 +9,21 @@ In het algemeen geldt de generieke keten:
 
 Vraag -> Data inwinnen/verzamelen -> Analyse/verwerking -> Informatie -> Visualisatie/presentatie
 
-# Vraag
+## Vraag
 Vraagarticulatie is een eerste stap om te bepalen wat is de informatiebehoefte van de vrager is. Op basis van de behoefte kan bepaald worden welke data benodigd zijn om de gevraagde behoefte te vervullen. Vaak weet een vrager niet wat de mogelijkheden zijn. Best practices, voorbeelden zijn hierbij nodig. Dit is vooral een communicatie vraag en vereist goed doorvragen en de vraag achter de vraag helder krijgen. Stel de juiste vragen en probeer niet teveel in oplossingen te denken.
 
-Data inwinnen/verzamelen
+## Data inwinnen/verzamelen
 Is eenmaal de behoefte bepaald dan is het noodzakelijk om de juiste data in te winnen of te verzamelen zodanig dat de informatie hieruit gegenereerd kan worden.
 Dit vereist kennis van data mamagement en het betekent dat data Findable (vindbaar), Accessible (toegankelijk), Interoperable (interoperabel) en Reusable (herbruikbaar) moeten zijn. 
 Er zijn basisdata, bijvoorbeeld de basisregistraties, maar ook bijvoorbeeld luchtfoto's, satellietdata en andere sensor data. Deze data zijn in feite een gegeven en moeten beschikbaar gesteld zijn voor iedereen. Deze data vormen de basis voor verdere verwerking.
 
-Analyse/verwerking
+## Analyse/verwerking
 Daarnaast zijn er verschillende niveau's van databewerking op deze basisdata mogelijk, zoals bijvoorbeeld van het toepassen van standaard, gevalideerde, algoritmes tot het toepassen van meer experimentele algoritmes. De diverse output data van deze niveau's zijn in zichzelf weer input voor een volgende verwerkingsstap. De te kiezen verwerkingsstap hangt af van de inputdata en de informatiebehoefte. Onderdeel van de verwerking zijn ook de kwaliteit en de validatie van de verwerking. Hoe goed is de uiteindelijk de informatie?
 
-Informatie
+## Informatie
 Hoe wordt de informatie uiteindelijk gebruikt? Uiteraard moet dit in de vraagarticulatie behandeld zijn. Maar als de informatie uiteindelijk beschikbaar komt zal de informatie gevisualiseerd/gepresenteerd worden. Dan is de manier waarop bepalend voor de manier hoe de "buitenwereld" er teganaan kijkt.
 
-Visualisatie/presentatie
+## Visualisatie/presentatie
 Hierbij is het van belang om voor de juiste doelgroep de informatie op de juiste manier te presenteren. De visualisatie van de informatie is van cruciaal belang voor het overbrengen van de boodschap. 
 
 ## Atomair
