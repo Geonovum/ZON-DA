@@ -26,6 +26,14 @@ Hoe wordt de informatie uiteindelijk gebruikt? Uiteraard moet dit in de vraagart
 ## Visualisatie/presentatie
 Hierbij is het van belang om voor de juiste doelgroep de informatie op de juiste manier te presenteren. De visualisatie van de informatie is van cruciaal belang voor het overbrengen van de boodschap. 
 
+## Specifieke handelingsperspectieven
+Mengen van geo en niet-geo data
+Mengen van private en publieke data
+Mengen van open en gesloten data
+Koppelen aan andere domeinen
+Aansluiten databronnen: wat moet je doen als je een bron wilt aansluiten / Wat moet een bron kunnen?
+Geo-enabling: ik weet niets van geo maar wil het wel gebruiken, handreiking hoe locatiecomponenten als bv adres in te zetten bij nieuwe registraties
+
 ## Atomair
 Atomair is als je eigenschappen van enkele objecten gebruikt (geen gebieden dus) om een doel te bereiken.
 Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de vergunning en welke subsidies verkregen zijn.
