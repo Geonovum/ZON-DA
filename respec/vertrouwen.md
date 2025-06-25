@@ -50,18 +50,14 @@ Open data dient toegankelijk te zijn zonder de identiteit van de afnemer te kenn
 > Dit betekent voor DSFL:
 > - DigiD en eHerkenning zijn erkende inlogmiddelen en deze worden gebruik voor toegang tot besloten (en getarifeerde) data
 
-## Privacy
-<AVG: privacy – by design: standaard afscherming van persoonsgegevens en privacy als
-basisprincipe, inclusief ‘zo min mogelijk gegevens over identiteit delen’/selectieve identificatie (komt deels ook uit WOB)>
 
-In DSFL worden geen bijzondere persoonsgegevens verwerkt. Bijzondere persoonsgegevens zijn persoonsgegevens die zo gevoelig zijn dat ze extra bescherming nodig hebben, zoals gegevens over iemands ras, gezondheid, politieke opvattingen, religie of seksuele gerichtheid. 
+## Veiligheid
 
-Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschikken over informatie van bedrijven, onder meer in het kader van vergunningverlening, toezicht en monitoring. Hieronder vallen concurrentiegevoelige bedrijfs- en fabricagegegevens. Hier dient zorgvuldig mee omgegaan te worden. 
+Veiligheid waarborgt de vertrouwde data uitwisseling tussen partijen. Het omvat organisatorische en technische maatregelen. Op basis van risico's kunnen de maatregelen worden getroffen. Hiervoor zijn geaccepteerde maatregelsets beschikbaar zoals NIS2/BIO2 en ISO27002. 
 
-> Dit betekent voor DSFL:
-> - Er komt een verwerkingsregister en privacy verklaring.
+Belangrijk is dat veiligheid niet achteraf kan worden toegevoegd maar integraal moet zijn mee-ontworpen. We praten dan over security en privacy 'by design'.
 
-## Security 'by design'
+## Security by design
 
 Security by design wordt toegepast. Dit passend bij het doel en benodigd beveiligingsniveau van DSFL (BIV 222).
 
@@ -77,4 +73,14 @@ Daar waarvan gegevens verwerkt worden hebben een aantal rechten, zoals het recht
 > - Er worden geen persoonsgegevens verwerkt die niet passen in de gerechtvaardigde doelen
 > - Er worden passende technische en organisatorische maatregelen getroffen om gegevens te beschermen
  
+## Privacy by design
 
+<AVG: privacy – by design: standaard afscherming van persoonsgegevens en privacy als
+basisprincipe, inclusief ‘zo min mogelijk gegevens over identiteit delen’/selectieve identificatie (komt deels ook uit WOB)>
+
+In DSFL worden geen bijzondere persoonsgegevens verwerkt. Bijzondere persoonsgegevens zijn persoonsgegevens die zo gevoelig zijn dat ze extra bescherming nodig hebben, zoals gegevens over iemands ras, gezondheid, politieke opvattingen, religie of seksuele gerichtheid. 
+
+Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschikken over informatie van bedrijven, onder meer in het kader van vergunningverlening, toezicht en monitoring. Hieronder vallen concurrentiegevoelige bedrijfs- en fabricagegegevens. Hier dient zorgvuldig mee omgegaan te worden. 
+
+> Dit betekent voor DSFL:
+> - Er komt een verwerkingsregister en privacy verklaring.
