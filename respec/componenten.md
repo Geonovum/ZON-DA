@@ -71,7 +71,7 @@ In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vind
 
 ## Interactie tussen technische componenten
 
-![Interactie tussen technische componenten](./respec/media/InteractionOfTechnicalComponents.png "Interactie tussen technische componenten")
+![Interactie tussen technische componenten](./media/InteractionOfTechnicalComponents.png "Interactie tussen technische componenten")
 Afbeelding Interactie tussen technische componenten (bron: IDS-RAM)
 
 ## Hergebruik van bestaande componenten
