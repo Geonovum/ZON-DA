@@ -51,7 +51,15 @@ Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschi
 
 ## Security 'by design'
 
-Security by design wordt toegepast.
+Security by design wordt toegepast. Dit passend bij het doel en benodigd beveiligingsniveau van DSFL (BIV 222).
+
+Daar waarvan gegevens verwerkt worden hebben een aantal rechten, zoals het recht op: 
+- inzage
+- rectificatie
+- gegevenswissing
+- beperking van de verwerking van gegevens
+- overdraagbaarheid
+- bezwaar/beroep
 
 > Dit betekent voor DSFL:
 > - Er worden geen persoonsgegevens verwerkt die niet passen in de gerechtvaardigde doelen
