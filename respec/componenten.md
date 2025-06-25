@@ -5,6 +5,13 @@ Eerste braindump van componenten / voorzieningen die (mogelijk) nodig zijn in de
 - Uitgaande van een federatief datastelsel / data bij de bron
 - Uitgaande van het aanbieden van (ook) gesloten data
 
+Belangrijk is het principe "Afspraken voor standaarden voor voozieningen". Natuurlijk hebben we het over digitale informatie uitwisseling waarvoor technische bouwblokken nodig zijn. Deze technische bouwblokken hoeven niet één op één overeen te komen met software. Zie [DSSC Blueprint - Technical Building Blocks](https://dssc.eu/space/BVE2/1071254703/Technical+Building+Blocks) voor een toelichting.
+
+Dit resulteert in 3 categoriën van services:
+- Sommige services die nodig zijn voor inidividuele deelnemers om van DSFL gebruik te kunnen maken: deelnemer services
+- Andere services die nodig zijn voor de samenwerking tussen deelnemers: federatie services
+- Laatste categorie services zijn aanvullend om waarde te kunnen verhogen bovenop het uitwisselen van data: waardecreatie services
+
 **Bij elke dataprovider en bij elke data consumer:**
 1. Een connector conform het dataspace protocol. 
 Hiermee wordt ingeregeld dat metadata (DCAT en ODRL) bekeken kan worden (Data Catalog Protocol), dat het contract digitaal gesloten kan worden (Contract Negotiation Protocol) en dat de toegang tot de data wordt ingeregeld (Transfer Process Protocols). Dit is niet anders dan in andere dataspaces. Interessante aspecten:
@@ -59,6 +66,8 @@ Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellic
 | Dataservice   |              |
 | Dataprovider  |              |
 | Dataontvanger |              |
+
+In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vinden die één of meer services kunnen realiseren.
 
 ## Hergebruik van bestaande componenten
 <wat is er al, wie heeft het al/hergebruik, wat moet er nog ontwikkeld/bepaald/gekozen worden> 
