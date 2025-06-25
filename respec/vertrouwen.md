@@ -2,7 +2,7 @@
 
 ## Inleiding
 
-Het OPENDEI bouwstenenmodel laat zien, dat data sovereiniteit en vertrouwen en de drie bijbehorende bouwstenen ‘Identity Management’, Trusted Exchange’ en ‘Access & Usage Control/Policies’ een belangrijk en integraal onderdeel zijn van het data space concept. Gezamenlijk worden ze het ‘vertrouwenskader’ (trust framework) genoemd. OPEN DEI definieert een ‘trust framework’ als “een structuur die mensen en organisaties veilig en betrouwbaar online zaken laat doen”.
+Het OPENDEI bouwstenenmodel laat zien, dat data sovereiniteit en vertrouwen en de drie bijbehorende bouwstenen ‘Identity Management’, Trusted Exchange’ en ‘Access & Usage Control/Policies’ een belangrijk en integraal onderdeel zijn van het data space concept. Gezamenlijk worden ze het ‘vertrouwenskader’ (trust framework) genoemd. OPEN DEI definieert een ‘trust framework’ als “een structuur die mensen en organisaties veilig en betrouwbaar online zaken laat doen”. Zie bijvoorbeeld ook iShare <https://docs.geostandaarden.nl/eu/VerkenningDataspaces/#2D59F874>
 
 Met de bouwsteen ‘Identiteit management’ (Identity Management) kunnen belanghebbenden die in een data space actief zijn, worden geïdentificeerd, geverifieerd en geautoriseerd. Het zorgt ervoor dat organisaties, personen, machines en andere actoren worden voorzien van erkende identiteiten en dat die identiteiten kunnen worden geverifieerd, met inbegrip van aanvullende informatieverstrekking, die door autorisatiemechanismen kunnen worden gebruikt om toegangs- en gebruikscontrole mogelijk te maken.
 
@@ -31,6 +31,10 @@ In DSFL: meerdere Identiteitsregisters mogelijk omdat veel Partijen in verschill
 - Welke mandaten en rollen van toepassing zijn
 - Hoe het werk van de actor wordt bestuurd
 
+Toegang/authenticatie wordt geregeld via eIDAS erkende inlogmiddelen. In Nederland zijn DigiD en eHerkenning Europees erkende inlogmiddelen.
+> Dit betekent voor DSFL:
+> - DigiD en eHerkenning zijn erkende inlogmiddelen en deze worden gebruik voor toegang tot besloten (en getarifeerde) data
+
 ### Delegeren, Machtigen en Mandateren
 
 Dit betreft het overdragen van bevoegdheden aan andere partijen om handelingen, eventueel met rechtsgevolgen, uit te voeren. Dit kunnen zowel natuurlijke als niet natuurlijke personen zijn. De ene partij komt als het ware in de plaats van de andere partij. Dit is niet hetzelfde als autoriseren waarbij partijen in hun eigen hoedanigheid blijven handelen.
@@ -50,17 +54,17 @@ N.B. De eHerkenning ketenmachtiging is geen ketenmachtiging.
 
 ## Toegang verlenen
 
-Toegang wordt geregeld via eIDAS erkende inlogmiddelen. In Nederland zijn DigiD en eHerkenning Europees erkende inlogmiddelen.
+Toegang verlenen of autorisatie betekent data ter beschikking stellen aan een afnemende partij (wat mag jij?). Toegang is afhankelijk van de wederzijdse identificatie en authenticatie van de betreffende partijen (wie ben jij?). Alleen Open data kan toegankelijk zijn zonder de afnemer te kennen.
 
-Open data dient toegankelijk te zijn zonder de identiteit van de afnemer te kennen.
+Toegang verlenen of access management dient buiten de applcaties te worden gebracht (externalised) om separaat te kunnen worden beheerd. De basisgedachte is het scheiden van verantwoordelijkheden (separation of concerns). Regels worden gescheiden van code in zogenaamde policies, en het beheer van policies wordt gescheiden van het handhaven ervan. Welke verantwoordelijkheden precies gescheiden moeten worden is al meer dan 20 jaar geleden bedacht als onderdeel van de XACML autorisatiestandaard. Deze standaard bevat nog veel meer, waaronder een XML-gebaseerde policy-taal. Hoewel XML goeddeels uit de gratie is gevallen, zijn de basisverantwoordelijkheden algemeen geaccepteerd in de zogenaamde PxP-architectuur. Hierin is de uitvoering (enforcement), beslissing (decision) en autorisatieregel (policy information) van elkaar gescheiden.
 
-> Dit betekent voor DSFL:
-> - DigiD en eHerkenning zijn erkende inlogmiddelen en deze worden gebruik voor toegang tot besloten (en getarifeerde) data
-
+? Verder verwijzen naar https://vng-realisatie.github.io/ftv/ en https://vng-realisatie.github.io/ftv/onderzoek/status_techniek/standaarden/
 
 ## Veiligheid
 
 Veiligheid waarborgt de vertrouwde data uitwisseling tussen partijen. Het omvat organisatorische en technische maatregelen. Op basis van risico's kunnen de maatregelen worden getroffen. Hiervoor zijn geaccepteerde maatregelsets beschikbaar zoals NIS2/BIO2 en ISO27002. 
+
+? Policies/Contracts
 
 Belangrijk is dat veiligheid niet achteraf kan worden toegevoegd maar integraal moet zijn mee-ontworpen. We praten dan over security en privacy 'by design'.
 
