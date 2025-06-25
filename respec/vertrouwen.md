@@ -1,5 +1,17 @@
 # Vertrouwen: Identiteiten, Toegang en Veiligheid
 
+## Inleiding
+
+In diverse data space initiatieven bestaat deze categorie ook bekend als het ‘Trust framework’. Voorbeelden zijn iSHARE en International Data Spaces. In de categorie ‘Vertrouwen’ treffen we ook een drietal bouwstenen aan.
+
+Met de bouwsteen ‘Identiteit management’ (IM) kunnen belanghebbenden die in een data space actief zijn, worden geïdentificeerd, geverifieerd en geautoriseerd. Het zorgt ervoor dat organisaties, personen, machines en andere actoren worden voorzien van erkende identiteiten en dat die identiteiten kunnen worden geverifieerd, met inbegrip van aanvullende informatieverstrekking, die door autorisatiemechanismen kunnen worden gebruikt om toegangs- en gebruikscontrole mogelijk te maken.
+
+De bouwsteen ‘toegangs- en gebruikscontrole’ garandeert de handhaving van het beleid inzake datatoegang en -gebruik dat is gedefinieerd als onderdeel van de algemene voorwaarden, die zijn vastgesteld wanneer data producten worden gepubliceerd (zie de bouwsteen Marktplaats’ verderop) of waarover wordt onderhandeld tussen providers en consumenten. Een dataprovider implementeert doorgaans mechanismen voor datatoegangsbeheer om misbruik van haar data te voorkomen, terwijl controlemechanismen voor datagebruik meestal worden geïmplementeerd aan de kant van de consument om misbruik van data te voorkomen. In complexe datawaardeketens worden beide mechanismen gecombineerd door ‘prosumenten’. Toegangscontrole en gebruikscontrole zijn afhankelijk van identificatie en authenticatie.
+
+De derde bouwsteen ‘vertrouwde uitwisseling’ vergemakkelijkt de vertrouwde data-uitwisseling tussen deelnemers en stelt de deelnemers aan een data-uitwisseling gerust dat andere deelnemers echt zijn wie ze beweren te zijn en dat ze voldoen aan de gemaakte afspraken van de data space. Dit kan enerzijds worden bereikt door organisatorische maatregelen (zoals het werken met certificering / certificaten of door geverifieerde referenties) of anderzijds door eventuele technische maatregelen als attestering op afstand.
+
+(bron: verkenning dataspaces GeoNovum)
+
 ## Identiteiten en actoren in de DSFL
 
 Identiteiten nauw volgens eIDAS (“Visie op Rijksbreed IAM” van CIO-Rijk, januari 2025 is hierop gebaseerd): 
