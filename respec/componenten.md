@@ -189,3 +189,4 @@ Selfservice data-infrastructuur: Stel teams in staat met tools en platforms om h
 Federatief IT beheer: Er bestaat een gezamenlijk gegevensbeheer tussen domeinen en een centraal gegevensteam om globale regels te definiëren, te implementeren en te controleren. 
 
 ## Historie
+Historie wordt beheerd en (wanneer van toepassing) ontsloten bij de bron; er wordt dus niet (opnieuw) historie worden opgebouwd. 
