@@ -51,7 +51,8 @@ De expertise rondom onze coordinaatreferentiestelsels (RD, NAP en LAT) is georga
 8. Idee: wegwijzer / helpdesk functie, bv om niet-geo gespecialiseerde organisaties op weg te helpen, bv met een vraag als 'hoe geo-refereer ik mijn dataset'. 
 
 9. Idee: URI-strategie adviespunt. 
-Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellicht nodig iets meer te gaan regelen rond UUID's. Hoewel dit in de eerdere Inventarisatie Data Ecosystemen alleen ter sprake kwam bij ZoN/NGII is dit niet anders dan in andere dataspaces. 
+Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellicht nodig iets meer te gaan regelen rond UUID's. Hoewel dit in de eerdere Inventarisatie Data Ecosystemen alleen ter sprake kwam bij ZoN/NGII is dit niet anders dan in andere dataspaces.
+HW: je hebt wel een URI strategie nodig om te borgen dat je het kunt ontsluiten voor linked data.
    
 </font>
 
@@ -68,6 +69,10 @@ Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellic
 | Dataontvanger |              |
 
 In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vinden die één of meer services kunnen realiseren.
+
+HW: DCAT maakt weer net een ander onderscheid, de datasetserie ontbreekt hier. Bij RWS hanteren we het zo:
+![image](https://github.com/user-attachments/assets/1a6f7259-b67a-4def-af10-b50c21d6c35f)
+
 
 ## Interactie tussen technische componenten
 
@@ -182,3 +187,5 @@ Domein-georiënteerde decentralisatie: Elk domein
 Data als product: Gegevens moeten worden behandeld als een product, waarbij domeinen verantwoordelijk zijn voor de kwaliteit, bruikbaarheid en toegankelijkheid ervan. Er iseen eigenaar van de gegevens en deze worden beheert. 
 Selfservice data-infrastructuur: Stel teams in staat met tools en platforms om hun data zelfstandig te beheren en te gebruiken zonder een grote afhankelijkheid van gecentraliseerde datateams.
 Federatief IT beheer: Er bestaat een gezamenlijk gegevensbeheer tussen domeinen en een centraal gegevensteam om globale regels te definiëren, te implementeren en te controleren. 
+
+## Historie
