@@ -1,4 +1,4 @@
-# Componenten/Voorzieningen
+# Technische componenten/Voorzieningen
 <font color="red">
 Eerste braindump van componenten / voorzieningen die (mogelijk) nodig zijn in de doorontwikkeling van de Nationale Geo Informatie Infrastructuur:
   
@@ -7,7 +7,7 @@ Eerste braindump van componenten / voorzieningen die (mogelijk) nodig zijn in de
 
 Belangrijk is het principe "Afspraken voor standaarden voor voozieningen". Natuurlijk hebben we het over digitale informatie uitwisseling waarvoor technische bouwblokken nodig zijn. Deze technische bouwblokken hoeven niet één op één overeen te komen met software. Zie [DSSC Blueprint - Technical Building Blocks](https://dssc.eu/space/BVE2/1071254703/Technical+Building+Blocks) voor een toelichting.
 
-Dit resulteert in 3 categoriën van services:
+Dit resulteert in 3 categoriën van services/technische componenten:
 - Sommige services die nodig zijn voor inidividuele deelnemers om van DSFL gebruik te kunnen maken: deelnemer services
 - Andere services die nodig zijn voor de samenwerking tussen deelnemers: federatie services
 - Laatste categorie services zijn aanvullend om waarde te kunnen verhogen bovenop het uitwisselen van data: waardecreatie services
@@ -15,20 +15,18 @@ Dit resulteert in 3 categoriën van services:
 **Bij elke dataprovider en bij elke data consumer:**
 1. Een connector conform het dataspace protocol. 
 Hiermee wordt ingeregeld dat metadata (DCAT en ODRL) bekeken kan worden (Data Catalog Protocol), dat het contract digitaal gesloten kan worden (Contract Negotiation Protocol) en dat de toegang tot de data wordt ingeregeld (Transfer Process Protocols). Dit is niet anders dan in andere dataspaces. Interessante aspecten:
-- gaan de beschikbare connectoren (al) goed om met geo-DCAT / kun je bv. de bounding box van de dataset inzichtelijk krijgen?
+- gaan de beschikbare connectoren (al) goed om met DCAT-AP / kun je bv. de bounding box van de dataset inzichtelijk krijgen?
 - ik heb voorbeelden gezien dat de geo-locatie van de data consumer een rol speelt in de contract negotiation, bv. een aanvrager uit Rusland mag de data niet krijgen. Dit zal via identity management worden ingeregeld vermoed ik, maar wellicht zit hier nog een geo-haakje?
 
 **Centraal**
 
 0. Afsprakenstelsel Nationale Geo Informatie Infrastructuur. 
-Geo-standaarden staan nu wel op de Pas Toe of Leg Uit lijst en in het GI-beraad zijn wel afspraken gemaakt, maar wellicht is het goed om met de deelnemende partijen (verdergaande) afspraken te expliciteren. Dit is niet anders dan in andere dataspaces. 
+Er is het [raamwerk van geo standaarden](https://docs.geostandaarden.nl/rwgs/rw/) en een aantal Geo-standaarden staan daarnaast de Pas Toe of Leg Uit lijst, maar wellicht is het goed om met de deelnemende partijen (verdergaande) afspraken te expliciteren. Dit is niet anders dan in andere dataspaces. 
 
-1. Een landelijke catalogus (zijnde NGR > of komt er een moment dat dit (ook voor geodata) data.overheid.nl kan zijn? > let op INSPIRE eisen, private data). 
-Dataproviders met geodata maken een connectie tussen hun eigen catalogus en deze landelijke catalogus om hun data beter vindbaar te maken. Ook rekenmodellen en algoritmes worden op die wijze voor hergebruik aangeboden. De catalogus is alleen een centrale vindplek, om de data te benaderen wordt je verwezen naar de bron. Dit is niet anders dan in andere dataspaces. Uitgangspunten zouden kunnen zijn:
-- de landelijke catalogus bevat in ieder geval de geo-basisregistraties
-- de landelijke catalogus bevat in ieder geval de INSPIRE datasets
-- de landelijke catalogus bevat in ieder geval de HVD-data voorzover het geo-data is
-- de landelijke catalogus bevat alleen data die voldoet aan de geo-standaarden (kun je dat garanderen?)
+1.Landelijke catalogi zijnde NGR, data.overheid.nl, API register,....
+Dataproviders met geodata maken een connectie tussen hun eigen catalogus en deze landelijke catalogus om hun data beter vindbaar te maken. Ook rekenmodellen en algoritmes worden op die wijze voor hergebruik aangeboden. De catalogus is alleen een centrale vindplek, om de data te benaderen wordt je verwezen naar de bron. 
+
+Wellicht komt er per dataspace een aparte catalogus die de relevante metadata voor de use cases binnen die dataspace harvest uit bestaande catalogi, voor geo data, miet geodata, modellen , API's etc.
 
 2. Een landelijke marktplaats / appstore. 
 Op basis van data worden vele toepassingen gebouwd, denk aan digital twins, apps, viewers, AI-toepassingen. Om hergebruik te stimuleren kunnen deze toepassingen gepubliceerd worden in de landelijke marktplaats / appstore. Dit is niet anders dan in andere dataspaces.
@@ -40,7 +38,7 @@ Als er binnen de Nationale Geo Informatie Infrastructuur op een uniforme wijze g
 Als er binnen de Nationale Geo Informatie Infrastructuur op een uniforme wijze gesloten data uitgewisseld gaat worden, dan is het nodig te weten welke partijen welke autorisaties hebben. Dit is niet anders dan in andere dataspaces.
 
 5. Vocabulary Hub. 
-De betekenis en onderlinge samenhang van gegevenselementen dient inzichtelijk te zijn. Hiertoe dient de NL-SBB standaard, gebaseerd op SKOS. Dit kan op termijn mogelijk uitfaseren als AI dit op basis van metadata zelf kan. Dit is niet anders dan in andere dataspaces.
+De betekenis en onderlinge samenhang van gegevenselementen dient inzichtelijk te zijn. Hiertoe dient onder andere de NL-SBB standaard, gebaseerd op SKOS. Dit is niet anders dan in andere dataspaces.
 
 6. Logging functionaliteit. 
 Bij het delen van gesloten data voor accountability. Dit is niet anders dan in andere dataspaces.
@@ -90,14 +88,18 @@ Volgens de IAM (Identity & Access Management) expertgroep van NORA gaat het bij 
 ## Metadata
 NGR:
 - Genereren van pseudo-geo info (als nieuwe component) voor mengen geo en niet-geo informatie? <welke eisen stellen we aan deze component, welke use case(s) willen we op korte termijn ondersteunen>
+- of gebruik maken van de generieke metadata standaard DCAT-AP-NL, waarmee zowel geo data als overige data beschreven kan worden. Dan zijn er geen specifieke functionaliteiten nodig, maar kan  de bevraging van alle metadata hetzelde zijn.
+- NGR is in vergevorderd stadium om de bestaande ISO 19115 metadata ook conform DCAT-AP-NL te ontsluiten.
 
 PDOK:
 - (Geo-?)metadata/caching/viewer/ontsluiting wettelijke rapportages: PDOK
 
 Data.overheid.nl:
 - Duurt meer dan een jaar wanneer internationale DCAT standaard wijzigt om dat vervolgens te vertalen in nederlandse profiel o.a. tbv data.overheid.nl; hoe zorgen we dat gebruikte standaarden in sync blijven.
+- nu er een eerste DCAT-AP-NL profiel is, is het een kwesie van updates om in sync te blijven. Daarvoor is een beheerproces ingeregeld. Daarmee is deze standaard echter nog niet geimplementeerd in dataoverheid.nl
   
 ## Dataopslag
+(? hoe moet ik dit zien in het kader van federatief data delen)
 Volgens NORA gaat het om robuuste, veilige opslag van gegevens in rust, in transit (denk aan buffers) en in memory (denk aan caches). De beschikbaarheid, authenticiteit en integriteit van deze gegevens dient te allen tijde te zijn verzekerd. Als burger, bedrijf en dienstverlener kun je ervan op aan dat de gegevens (en daaruit vloeiende informatie) veilig is.
 
 Afspraak: We maken afspraken over de vereisten van gespiegelde data.  
