@@ -18,7 +18,7 @@ Dit vereist kennis van data mamagement en het betekent dat data Findable (vindba
 Er zijn basisdata, bijvoorbeeld de basisregistraties, maar ook bijvoorbeeld luchtfoto's, satellietdata en andere sensor data. Deze data zijn in feite een gegeven en moeten beschikbaar gesteld zijn voor iedereen. Deze data vormen de basis voor verdere verwerking.
 
 ## Analyse/verwerking
-Daarnaast zijn er verschillende niveau's van databewerking op deze basisdata mogelijk, zoals bijvoorbeeld van het toepassen van standaard, gevalideerde, algoritmes tot het toepassen van meer experimentele algoritmes. De diverse output data van deze niveau's zijn in zichzelf weer input voor een volgende verwerkingsstap. De te kiezen verwerkingsstap hangt af van de inputdata en de informatiebehoefte. Onderdeel van de verwerking zijn ook de kwaliteit en de validatie van de verwerking. Hoe goed is de uiteindelijk de informatie?
+Daarnaast zijn er verschillende niveau's van databewerking op deze basisdata mogelijk, zoals bijvoorbeeld van het toepassen van standaard, gevalideerde, algoritmes tot het toepassen van meer experimentele algoritmes. De diverse output data van deze niveau's zijn in zichzelf weer input voor een volgende verwerkingsstap. De te kiezen verwerkingsstap hangt af van de inputdata en de informatiebehoefte. Onderdeel van de verwerking zijn ook de kwaliteit en de validatie van de verwerking. Hoe goed is de uiteindelijke informatie?
 
 ## Informatie
 Hoe wordt de informatie uiteindelijk gebruikt? Uiteraard moet dit in de vraagarticulatie behandeld zijn. Maar als de informatie uiteindelijk beschikbaar komt zal de informatie gevisualiseerd/gepresenteerd worden. Dan is de manier waarop bepalend voor de manier hoe de "buitenwereld" er teganaan kijkt.
