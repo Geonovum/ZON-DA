@@ -69,6 +69,11 @@ Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellic
 
 In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vinden die één of meer services kunnen realiseren.
 
+## Interactie tussen technische componenten
+
+![Interactie tussen technische componenten](./respec/media/InteractionOfTechnicalComponents.png "Interactie tussen technische componenten")
+Afbeelding Interactie tussen technische componenten (bron: IDS-RAM)
+
 ## Hergebruik van bestaande componenten
 <wat is er al, wie heeft het al/hergebruik, wat moet er nog ontwikkeld/bepaald/gekozen worden> 
 
