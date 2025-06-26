@@ -57,7 +57,8 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 ## Data Visualiseren
 <>
 ## Het gebruik van een Digital Twin of een model
-<>
+![Architectuur driehoek Met Geonovum logo](https://github.com/user-attachments/assets/a212129f-c54b-43b4-90f2-2fc561b41a69)
+
 ## Aansluiten van een nieuwe bron of dataset
 <>
 
