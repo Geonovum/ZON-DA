@@ -28,10 +28,10 @@ Hiermee wordt ingeregeld dat metadata (DCAT en ODRL) bekeken kan worden (Data Ca
 0. Afsprakenstelsel Nationale Geo Informatie Infrastructuur. 
 Er is het [raamwerk van geo standaarden](https://docs.geostandaarden.nl/rwgs/rw/) en een aantal Geo-standaarden staan daarnaast de Pas Toe of Leg Uit lijst, maar wellicht is het goed om met de deelnemende partijen (verdergaande) afspraken te expliciteren. Dit is niet anders dan in andere dataspaces. 
 
-1.Landelijke catalogi zijnde NGR, data.overheid.nl, API register,....
+1. Landelijke catalogi zijnde NGR, data.overheid.nl, API register,....
 Dataproviders met geodata maken een connectie tussen hun eigen catalogus en deze landelijke catalogus om hun data beter vindbaar te maken. Ook rekenmodellen en algoritmes worden op die wijze voor hergebruik aangeboden. De catalogus is alleen een centrale vindplek, om de data te benaderen wordt je verwezen naar de bron. 
 
-Wellicht komt er per dataspace een aparte catalogus die de relevante metadata voor de use cases binnen die dataspace harvest uit bestaande catalogi, voor geo data, miet geodata, modellen , API's etc.
+IdV: Wellicht komt er per dataspace een aparte catalogus die de relevante metadata voor de use cases binnen die dataspace harvest uit bestaande catalogi, voor geo data, miet geodata, modellen , API's etc.
 
 2. Een landelijke marktplaats / appstore. 
 Op basis van data worden vele toepassingen gebouwd, denk aan digital twins, apps, viewers, AI-toepassingen. Om hergebruik te stimuleren kunnen deze toepassingen gepubliceerd worden in de landelijke marktplaats / appstore. Dit is niet anders dan in andere dataspaces.
@@ -74,6 +74,7 @@ HW: je hebt wel een URI strategie nodig om te borgen dat je het kunt ontsluiten 
 In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vinden die één of meer services kunnen realiseren.
 
 HW: DCAT maakt weer net een ander onderscheid, de datasetserie ontbreekt hier. Bij RWS hanteren we het zo:
+IdV: in DCAT3 is er wel een klasse dataset series
 ![image](https://github.com/user-attachments/assets/1a6f7259-b67a-4def-af10-b50c21d6c35f)
 
 
@@ -98,7 +99,9 @@ Volgens de IAM (Identity & Access Management) expertgroep van NORA gaat het bij 
 ## Metadata
 NGR:
 - Genereren van pseudo-geo info (als nieuwe component) voor mengen geo en niet-geo informatie? <welke eisen stellen we aan deze component, welke use case(s) willen we op korte termijn ondersteunen>
+  IdV:
 - of gebruik maken van de generieke metadata standaard DCAT-AP-NL, waarmee zowel geo data als overige data beschreven kan worden. Dan zijn er geen specifieke functionaliteiten nodig, maar kan  de bevraging van alle metadata hetzelde zijn.
+- niet geo data zou ik overigens niet aan het NGR toevoegen, maar in een andere catalog ontsluiten
 - NGR is in vergevorderd stadium om de bestaande ISO 19115 metadata ook conform DCAT-AP-NL te ontsluiten.
 
 PDOK:
@@ -106,10 +109,10 @@ PDOK:
 
 Data.overheid.nl:
 - Duurt meer dan een jaar wanneer internationale DCAT standaard wijzigt om dat vervolgens te vertalen in nederlandse profiel o.a. tbv data.overheid.nl; hoe zorgen we dat gebruikte standaarden in sync blijven.
-- nu er een eerste DCAT-AP-NL profiel is, is het een kwesie van updates om in sync te blijven. Daarvoor is een beheerproces ingeregeld. Daarmee is deze standaard echter nog niet geimplementeerd in dataoverheid.nl
+IdV: nu er een eerste DCAT-AP-NL profiel is, is het een kwesie van updaten om in sync te blijven. Daarvoor is beheer belegd bij Geonovum en een beheerproces ingeregeld. Wel moet er samen met de werkgroep beoordeeld worden welke consequenties updates voor de verschillende domeinen hebben, en of het wenselijk is deze in het NL profiel door te voeren. Dat vergt toch enige tijd en zorgvuldigheid voor dit is doorvertaald naar een nieuwe versie van een profiel. Na vaststelling van een nieuwe versie van een profiel is deze echter nog niet geimplementeerd in dataoverheid.nl
   
 ## Dataopslag
-(? hoe moet ik dit zien in het kader van federatief data delen)
+IdV:  hoe moet ik dit zien in het kader van federatief data delen?
 Volgens NORA gaat het om robuuste, veilige opslag van gegevens in rust, in transit (denk aan buffers) en in memory (denk aan caches). De beschikbaarheid, authenticiteit en integriteit van deze gegevens dient te allen tijde te zijn verzekerd. Als burger, bedrijf en dienstverlener kun je ervan op aan dat de gegevens (en daaruit vloeiende informatie) veilig is.
 
 Afspraak: We maken afspraken over de vereisten van gespiegelde data.  
