@@ -12,6 +12,11 @@ Dit resulteert in 3 categoriën van services/technische componenten:
 - Andere services die nodig zijn voor de samenwerking tussen deelnemers: federatie services
 - Laatste categorie services zijn aanvullend om waarde te kunnen verhogen bovenop het uitwisselen van data: waardecreatie services
 
+> Voor de DSFL betekent dit:
+> - Het DSFL levert geen deelnemer services maar vertrouwd op al aanwezige (referentie) implementaties
+> - Het DSFL biedt voorzieningen die invulling geven aan de federatie services
+> - In de eerste versie van het DSFL zal nog niet actief invulling gegeven worden aan waardecreatie services maar op termijn moeten deze toegevoegd kunnen worden
+
 **Bij elke dataprovider en bij elke data consumer:**
 1. Een connector conform het dataspace protocol. 
 Hiermee wordt ingeregeld dat metadata (DCAT en ODRL) bekeken kan worden (Data Catalog Protocol), dat het contract digitaal gesloten kan worden (Contract Negotiation Protocol) en dat de toegang tot de data wordt ingeregeld (Transfer Process Protocols). Dit is niet anders dan in andere dataspaces. Interessante aspecten:
