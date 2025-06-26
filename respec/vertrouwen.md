@@ -41,6 +41,7 @@ Dit betreft het overdragen van bevoegdheden aan andere partijen om handelingen, 
 
 Het proces omdat naast de vasstelling van identiteiten en bevoegdheden ook de uitgifte, registratie, uitoefening, intrekking en controle. Dit kan zowel binnen organisaties als over organisaties heen. Het ontwerp van de dataspace dient zodanig te zijn dat machtigingenvoorzieningen en -registers kunnen worden ingevuld met generieke voorzieningen. Hiermee wordt geaccepteerd dat niet alle vormen van machtigen beschikbaar zijn zoals ketenmachtigingen.
 
+? FSC toevoegen als mandateringsinstrument op API niveau.
 
 Delegeren kent verschillende vormen:
 - Rechten kunnen doogeven aan personen binnen een organisatie
@@ -65,9 +66,7 @@ Toegang verlenen of access management dient buiten de applcaties te worden gebra
 
 ## Veiligheid
 
-Veiligheid waarborgt de vertrouwde data uitwisseling tussen partijen. Het omvat organisatorische en technische maatregelen. Op basis van risico's kunnen de maatregelen worden getroffen. Hiervoor zijn geaccepteerde maatregelsets beschikbaar zoals NIS2/BIO2 en ISO27002. 
-
-Belangrijk is dat veiligheid niet achteraf kan worden toegevoegd maar integraal moet zijn mee-ontworpen. We praten dan over security en privacy 'by design'. Hierop wordt verder in gegaan.
+Veiligheid waarborgt de vertrouwde data uitwisseling tussen partijen. Het omvat organisatorische en technische maatregelen. Op basis van risico's kunnen de maatregelen worden getroffen. Hiervoor zijn geaccepteerde maatregelsets beschikbaar zoals NIS2/BIO2 en ISO27001/2. Belangrijk is dat veiligheid niet achteraf kan worden toegevoegd maar integraal moet zijn mee-ontworpen. We praten dan over security en privacy 'by design'. Hierop wordt in de volgende paragrafen dieper op in gegaan.
 
 ? Policies/Contracts
 
@@ -75,34 +74,30 @@ Belangrijk is dat veiligheid niet achteraf kan worden toegevoegd maar integraal 
 
 ## Security by design
 
+Beveiliging kan worden gedefinieerd als het nemen van maatregelen en acties om risico’s te beperken of de impact of schade te beperken die ontstaat als dreigingen misbruik maken van kwetsbaarheden. Dit kan bijvoorbeeld zijn als iemand een ‘hack’ probeert te plaatsen. Een risico wordt gedefinieerd als de kans op een incident te vermenigvuldigen met de impact/schade. Uiteindelijk is 100% veiligheid nooit helemaal te realiseren maar kan worden gesteld dat het ‘veilig’ is als het restrisico acceptabel is. Risico’s neem je bewust: dat noemen we de risk appetite. Om iets goed te kunnen beveiligen is het dus allereerst nodig om de risico’s te weten. Wat is de dreiging en door wie wordt die veroorzaakt? Daarnaast is de vraag welke maatregelen en acties kunnen worden genomen. Dit wordt ook wel aangeduid als ‘passende technische en organisatorische maatregelen’. 
 
-
-
-
-
-Security by design wordt toegepast. Dit passend bij het doel en benodigd beveiligingsniveau van DSFL (BIV 222).
-
-Daar waarvan gegevens verwerkt worden hebben een aantal rechten, zoals het recht op: 
--
-- bezwaar/beroep
-
-DepV, BIO BBN2
-Logging auditing -> verantwoording
-Binnen DSFL zorgen aanbieders/eigenaars van data voor de juist classificatie en labeling van data die persoonsgegevens bevat.
-
-Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschikken over informatie van bedrijven, onder meer in het kader van vergunningverlening, toezicht en monitoring. Hieronder vallen concurrentiegevoelige bedrijfs- en fabricagegegevens. Hier dient zorgvuldig mee omgegaan te worden. 
+De VIR (Voorschrift Informatiebeveiliging Rijksdienst) en VIR-BI (Bijzondere informatie) geven de strategische en wettelijke kaders voor informatiebeveiliging van overheidsvoorzieningen. De overheid heeft dit op bais van de ISO27001/2 standaard samengevat (en uitgebreid met overheid specifieke maatregelen) in een tactisch beveiligingskader genaamd de Baseline Informatiebeveiliging Overheid (BIO). Versie 2 hiervan zal leidend zijn aangezien hier ook de NIS2 EU richtlijn zal worden verwerkt. Daarmee heeft beveiliging, analoog aan de AVG bij privacy, een wettelijk kader gekregen.  
 
 ### Services
 
-Services worden middels API's aangeboden. Hiervoor gelden de NL Design Rules als kader waarin specifiek beveiligingsrichtlijnen zijn opgenomen. Deels komen die van andere kaderstellende instanties zoals de TLS richtlijn van NCSC. Services die data aanbieden worden in drie categorieën ingedeeld in oplopende beveiliging:
+Services binnen de DSFL worden middels API's aangeboden. Hiervoor gelden de NL Design Rules als kader waarin specifiek beveiligingsrichtlijnen zijn opgenomen. Deels komen die van andere kaderstellende instanties zoals de TLS richtlijn van NCSC. Services die data aanbieden worden in drie categorieën ingedeeld in oplopende beveiliging:
 - Open services (afgeschermd met API-Keys)
 - Services met toegangsbeperking (afgeschermd met Oauth2/OIDC)
 - Services met doelbinding (afgeschermd met PKIO)
 
+### Classificatie
+
+Uitgangspunt is lage classificatie gezien de verantwoording van de kosten van beveiligingsmaatregelen. Het basisprincipe voor DSFL is ‘passende beveiligingsmaatregelen voor reële risico’s' Uitangspunt is dat de BIV-classificaties niet op risico’s duiden die maatregelen hoger dan het standaardniveau BIO2 BBN2 (basis beveiligingsniveau) vereisen. Maar gezien de verwerking van bedrijfsvertrouwelijke- en persoonsgegevens ook niet lager. De overheid kent grofweg drie niveaus van vertrouwelijkheidsclassificatie: publiek, departementaal vertrouwelijk (DepV) en staatsgeheim. Binnen DSFL zullen voor een groot deel publieke gegevens beschikbaar worden gemaakt. DepV betekent dat er schade kan ontstaan en hiervoor zijn de BIO2-maatregelen bedoeld. Hieronder vallen ook concurrentiegevoelige bedrijfs- en fabricagegegevens van organisaties. Staatsgeheime informatie dient buiten het stelsel te blijven omdat de kosten van de maatregelen niet opwegen tegen de kosten en de bruikbaarheid en beheerbaarheid ernstig in de weg zullen zitten. Voor DSO is DepV toepasselijk. Eigenaren van data dienen hun informatie van adequate labeling te voorzien. 
+
 ### Onweerlegbaarheid
 
 Van de acties en handelingen die binnen DFL plaatsvinden zal minimaal vastlegging moeten plaatsvinden die voor verantwoording achteraf kan zorgen (tot en met juridische procedures). Zo kan ook niet worden ontkend dat deze handelingen hebben plaatsgevonden (onweerlegbaarheid). Daarnaast kunnen deze in beheerprocessen worden gebruikt. Dit betekent voorzieningen voor logging, auditing en archivering van scrijf- én leesacties en mutaties op identiteiten en policies die in separate registraties staan.
- 
+
+### Organisatie
+
+Beveiliging begint bij inrichting van een beveiligingsorganisatie en –processen op strategisch, tactisch en operationeel niveau. Alleen dan kan beveiliging op bestendige wijze worden ingericht en uitgevoerd. Indien beveiligingsprocessen in de reguliere beheerprocessen worden opgenomen hebben zij de grootste effectiviteit. Beveiliging is per definitie hiërarchisch georganiseerd. Ook kunnen de maatregelen alleen bestendig zijn als deze continu op basis van nieuwe dreigingsinschattingen worden bijgesteld en verbeterd, bij voorkeur via een plan-do-check-act cyclus.
+! samenvoegen met organisatie privacy
+
 ## Privacy by design
 
 Privacy betreft het beperken van de inbreuk op iemands persoonlijke levenssfeer. Het vervult de wens om onbespied en onbewaakt te leven. Het is (in Europa) een grondrecht (art. 8 van Europees verdrag voor de rechten van mens) en een fundamentele bouwsteen voor een vrije samenleving. Privacy is met de verregaande verspreiding van digitale informatie via het internet een serieus vraagstuk en beschermingsprobleem geworden. Identiteitsfraude is geen incident meer maar een structureel criminele activiteit. Verlies van persoonsgegevens in de vorm van datalekken is aan de orde van de dag. Persoonsgegevens zijn gegevens die naar een natuurlijk persoon te herleiden zijn. Dus een gegeven of combinatie van gegevens waarmee een persoon zonder bijzondere inspanning kan worden geïdentificeerd. Op dit moment is de Algemene Verordening Gegevensbescherming (AVG) de juridische basis waarin is vastgelegd onder welke voorwaarden persoonsgegevens wél mogen worden verwerkt.
