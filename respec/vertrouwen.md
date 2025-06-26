@@ -80,6 +80,8 @@ DepV, BIO BBN2
 
 Binnen DSFL zorgen aanbieders/eigenaars van data voor de juist classificatie en labeling van data die persoonsgegevens bevat.
 
+Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschikken over informatie van bedrijven, onder meer in het kader van vergunningverlening, toezicht en monitoring. Hieronder vallen concurrentiegevoelige bedrijfs- en fabricagegegevens. Hier dient zorgvuldig mee omgegaan te worden. 
+
 > Dit betekent voor DSFL:
 > - Er worden passende technische en organisatorische maatregelen getroffen om gegevens te beschermen
  
@@ -96,23 +98,24 @@ Om te weten hoe persoonsgegevens beschermd moeten worden dienen deze eerste gecl
 - De persoonsgegevens die in de aan te bieden en af te nemen data is opgenomen. Deze vallen onder de verantwoordelijkheid van de aanbieder/eigenaar.
 - De persoonsgegevens van de partijen (burgers, medewerkers van organisaties) die interacteren met de DSFL. Hiervoor is de DSFL beheerorganisatie verantwoordelijk.
 
-Persoonsgegevens worden in een drietal categorieën indeels:
+Persoonsgegevens worden in een drietal categorieën ingedeeld:
 - Bijzondere persoonsgegevens.
 - Gevoelige persoonsgegevens.
 - Gewone persoonsgegevens.
 
-Bijzondere persoonsgegevens vallen onder een specifiek regime van de AVG. Ze zijn zo privacygevoelig dat ze extra bescherming nodig hebben. Dit zijn gegevens over iemands ras, gezondheid, politieke opvattingen, religie of seksuele gerichtheid. Ook strafrechtelijke gegevens vallen hieronder hetgeen betekent dat Toezicht & Handhaving (T&H) gegevens uitwisselen zich automatisch beperkt tot bestuurlijke T&H. In DSFL worden geen bijzondere persoonsgegevens verwerkt. Het is aan de aanbieder/eigenaar om te zorgen dat deze gegevens niet beschikbaar of benaderbaar zijn. 
+Bijzondere persoonsgegevens vallen onder een specifiek regime van de AVG. Ze zijn zo privacygevoelig dat ze extra bescherming nodig hebben. Dit zijn gegevens over iemands ras, gezondheid, politieke opvattingen, religie of seksuele gerichtheid. Ook strafrechtelijke gegevens vallen hieronder hetgeen betekent dat Toezicht & Handhaving (T&H) gegevens uitwisselen zich automatisch beperkt tot bestuurlijke T&H. In DSFL worden geen bijzondere persoonsgegevens verwerkt. Het is aan de aanbieder/eigenaar om te zorgen dat deze gegevens niet beschikbaar of benaderbaar zijn. Hoewel het BSN strict genomen geen bijzonder persoonsgegeven is maar een nationaal identificatienummer scharen we deze voor de DSFL in dezelfde categorie.
 
-Gevoelige persoonsgegevens vallen niet binnen de categorie bijzondere persoonsgegevens maar er zijn we extra risico's aan verbonden. Dit betreft allereerst het BSN
-
-Dit betekent voor DSFL: Data geclassificeerd! Door wie wordt de doelbinding bepaald, de grondslag, en risico's > toestemming aan betrokkene niet mogelijk bij machine/machine dus vooraf grondslag helder.
-Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschikken over informatie van bedrijven, onder meer in het kader van vergunningverlening, toezicht en monitoring. Hieronder vallen concurrentiegevoelige bedrijfs- en fabricagegegevens. Hier dient zorgvuldig mee omgegaan te worden. 
-
-Specifieke risico’s zullen met passende maatregelen worden beschermd. Het meest voor de hand liggend is dan encryptie van persoonsgegevens in rust en tijdens transport, pseudonimisering middels betekenisloze id's, anonimisering enz.
-
-Binnen DSFL zorgen aanbieders/eigenaars van data voor de juist classificatie en labeling van data die persoonsgegevens bevat.
+Gevoelige persoonsgegevens vallen niet binnen de categorie bijzondere persoonsgegevens maar er zijn we extra risico's aan verbonden. Dit betreft bijvoorbeeld inkomens- en of financiële gegevens maar ook in het verleden aangevraagde vergunningen. Voorafgaand aan zowel aanbieden als afnemen hiervan dienen de risico's in kaart te zijn gebracht, bij voorkeur in een DPIA.
 
 ? Kunnen er specifieke privacy policies worden gecreëerd en gestandaardiseerd waarin de doelbinding kan worden opgenomen zodat alleen afnemers die hieraan voldoen bij deze data kunnen.
+
+Gewone persoonsgegevens vallen onder de reguliere kaders van de AVG zoals NAW en contactgegevens. Dit kan bijvoorbeeld ook een inspecteur zijn die een toezichtsrapport heeft geschreven. Hiervoor gelden de reguliere AVG kaders en waarborgen.
+
+Publiek beschikbare persoonsgegevens zoals eigenaren van bedrijven in het Handelsregister kunnen bij verdere verwerking binnen de DSFL in één van de drie categorieën komen te vallen en worden de kaders voor die categorie van toepassing.
+
+Specifieke risico’s zullen met passende maatregelen worden beschermd. Het meest voor de hand liggend is dan encryptie van persoonsgegevens in rust en tijdens transport, verwijzingen op basis van betekenisloze id's, pseudonimisering, maskering, anonimisering enz.
+
+Binnen DSFL zorgen aanbieders/eigenaars van data voor de juiste classificatie en labeling van metadata en data die persoonsgegevens bevat. Hiermee kunnen afnemers ook bepalen dat zij persoonsgegevens niet ongewild alsnog verwerken. Als zij deze bewust wel verwerken hebben zij alle waarborgen van de AVG in acht genomen.
 
 ? Zijn er 2de orde privacy vraagstukken omdat veel informatie gekoppeld via geo voor bv huiseigenaren middels perceelinformatie tot privacy risico's kunnen leiden.
 
