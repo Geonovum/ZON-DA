@@ -105,7 +105,7 @@ In DSFL worden geen bijzondere persoonsgegevens verwerkt. Bijzondere persoonsgeg
 Dit betekent voor DSFL: Data geclassificeerd! Door wie wordt de doelbinding bepaald, de grondslag, en risico's > toestemming aan betrokkene niet mogelijk bij machine/machine dus vooraf grondslag helder.
 Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschikken over informatie van bedrijven, onder meer in het kader van vergunningverlening, toezicht en monitoring. Hieronder vallen concurrentiegevoelige bedrijfs- en fabricagegegevens. Hier dient zorgvuldig mee omgegaan te worden. 
 
-Specifieke risico’s zullen met passende maatregelen worden beschermd. Het meest voor de hand liggend is dan encryptie van persoonsgegevens in rust en tijdens transport, pseudonimisering middels ID's.
+Specifieke risico’s zullen met passende maatregelen worden beschermd. Het meest voor de hand liggend is dan encryptie van persoonsgegevens in rust en tijdens transport, pseudonimisering middels betekenisloze id's, anonimisering enz.
 
 ? Zijn er 2de orde privacy vraagstukken omdat veel informatie gekoppeld via geo voor bv huiseigenaren middels perceelinformatie tot privacy risico's kunnen leiden.
 
@@ -115,5 +115,5 @@ Analoog aan beveiliging in algemene zin geldt ook voor privacy dat een aanzienli
 
 Voor DSFL betekent dit een beheerorganisatie die dit voor de DSFL regelt als eisen aan de beheerorganisaties die data aanbieden en afnemen. De verwerkingsverantwoordelijkheid zal expliciet moeten zijn toegewezen met als uitgangspunt dat dit aan één entiteit kan worden toegewezen (MinIenW?).
 
-? Wat maakt een DSFL beheerorganisatie tav privacy anders dan een reguliere beheerorganisatie.
+? Wat maakt een DSFL beheerorganisatie tav privacy anders dan een reguliere beheerorganisatie. Is er een DSFL beheerorganisatie voorzien?
 
