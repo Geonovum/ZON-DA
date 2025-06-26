@@ -95,13 +95,13 @@ Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschi
 ### Services
 
 Services worden middels API's aangeboden. Hiervoor gelden de NL Design Rules als kader waarin specifiek beveiligingsrichtlijnen zijn opgenomen. Deels komen die van andere kaderstellende instanties zoals de TLS richtlijn van NCSC. Services die data aanbieden worden in drie categorieën ingedeeld in oplopende beveiliging:
-- Open services
-- Services met toegangsbeperking
-- Services met doelbinding
+- Open services (afgeschermd met API-Keys)
+- Services met toegangsbeperking (afgeschermd met Oauth2/OIDC)
+- Services met doelbinding (afgeschermd met PKIO)
 
 ### Onweerlegbaarheid
 
-Van de acties en handelingen die binnen DFL plaatsvinden zal minimaal vastlegging moeten plaatsvinden die voor verantwoording achteraf kan zorgen (tot en met juridische procedures). Zo kan ook niet worden ontkend dat deze handelingen hebben plaatsgevonden (onweerlegbaarheid). Daarnaast kunnen deze in beheerprocessen worden gebruikt. Dit betekent voorzieningen voor logging, auditing en archivering van scrijf- én leesacties en mutaties op identiteiten en policies.
+Van de acties en handelingen die binnen DFL plaatsvinden zal minimaal vastlegging moeten plaatsvinden die voor verantwoording achteraf kan zorgen (tot en met juridische procedures). Zo kan ook niet worden ontkend dat deze handelingen hebben plaatsgevonden (onweerlegbaarheid). Daarnaast kunnen deze in beheerprocessen worden gebruikt. Dit betekent voorzieningen voor logging, auditing en archivering van scrijf- én leesacties en mutaties op identiteiten en policies die in separate registraties staan.
  
 ## Privacy by design
 
