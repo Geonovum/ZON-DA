@@ -73,17 +73,14 @@ Belangrijk is dat veiligheid niet achteraf kan worden toegevoegd maar integraal 
 Security by design wordt toegepast. Dit passend bij het doel en benodigd beveiligingsniveau van DSFL (BIV 222).
 
 Daar waarvan gegevens verwerkt worden hebben een aantal rechten, zoals het recht op: 
-- inzage
-- rectificatie
-- gegevenswissing
-- beperking van de verwerking van gegevens
-- overdraagbaarheid
+-
 - bezwaar/beroep
 
 DepV, BIO BBN2
 
+Binnen DSFL zorgen aanbieders/eigenaars van data voor de juist classificatie en labeling van data die persoonsgegevens bevat.
+
 > Dit betekent voor DSFL:
-> - Er worden geen persoonsgegevens verwerkt die niet passen in de gerechtvaardigde doelen
 > - Er worden passende technische en organisatorische maatregelen getroffen om gegevens te beschermen
  
 ## Privacy by design
@@ -93,19 +90,29 @@ Privacy betreft het beperken van de inbreuk op iemands persoonlijke levenssfeer.
 Persoonsgegevens dien je alleen voor een specifiek doel te gebruiken dat bekend is gemaakt en waarvoor toestemming is verkregen en niet voor een ander doel (doelbinding). Ook dien je niet meer gegevens te verzamelen die je voor het beoogde doel echt nodig hebt (dataminimalisatie) en eventueel alternatieven te overwegen die tot hetzelfde doel leiden (proportionaliteit/subsidiariteit). Voor de overheid is de belangrijkste verwerkingsgrond de noodzaak om een wettelijke en publieke taak goed uit te voeren. Toestemming van betrokkenen als grondslag is niet haalbaar aangezien het grotendeels machine/machine communicatie betreft.
 Ergo, hoe minder persoonsgegevens gedeeld worden hoe beter. Privacy niet alleen 'by design' maar ook by default, dus de basisinstellingen zijn standaard het meeste privacybeschermend zijn. Dit zal ook voor DSFL als uitgangspunt van toepassing zijn. 
 
-<AVG: privacy – by design: standaard afscherming van persoonsgegevens en privacy als
-basisprincipe, inclusief ‘zo min mogelijk gegevens over identiteit delen’/selectieve identificatie (komt deels ook uit WOB)>
-
 ### Classificatie
 
-Er zijn twee niveau's: de partijen zelf -> DSFL en de betrokkenen (in de data) -> eigenaar
+Om te weten hoe persoonsgegevens beschermd moeten worden dienen deze eerste geclassificeerd te worden:
+- De persoonsgegevens die in de aan te bieden en af te nemen data is opgenomen. Deze vallen onder de verantwoordelijkheid van de aanbieder/eigenaar.
+- De persoonsgegevens van de partijen (burgers, medewerkers van organisaties) die interacteren met de DSFL. Hiervoor is de DSFL beheerorganisatie verantwoordelijk.
 
-In DSFL worden geen bijzondere persoonsgegevens verwerkt. Bijzondere persoonsgegevens zijn persoonsgegevens die zo gevoelig zijn dat ze extra bescherming nodig hebben, zoals gegevens over iemands ras, gezondheid, politieke opvattingen, religie of seksuele gerichtheid. Het is aan de aanbieder/eigenaar om te zorgen dat deze gegevens niet beschikbaar zijn. Dus ook strafrechtelijk niet (let op Toezicht & Handhaving, alleen bestuurlijk), geen BSN 
+Persoonsgegevens worden in een drietal categorieën indeels:
+- Bijzondere persoonsgegevens.
+- Gevoelige persoonsgegevens.
+- Gewone persoonsgegevens.
+
+Bijzondere persoonsgegevens vallen onder een specifiek regime van de AVG. Ze zijn zo privacygevoelig dat ze extra bescherming nodig hebben. Dit zijn gegevens over iemands ras, gezondheid, politieke opvattingen, religie of seksuele gerichtheid. Ook strafrechtelijke gegevens vallen hieronder hetgeen betekent dat Toezicht & Handhaving (T&H) gegevens uitwisselen zich automatisch beperkt tot bestuurlijke T&H. In DSFL worden geen bijzondere persoonsgegevens verwerkt. Het is aan de aanbieder/eigenaar om te zorgen dat deze gegevens niet beschikbaar of benaderbaar zijn. 
+
+Gevoelige persoonsgegevens vallen niet binnen de categorie bijzondere persoonsgegevens maar er zijn we extra risico's aan verbonden. Dit betreft allereerst het BSN
 
 Dit betekent voor DSFL: Data geclassificeerd! Door wie wordt de doelbinding bepaald, de grondslag, en risico's > toestemming aan betrokkene niet mogelijk bij machine/machine dus vooraf grondslag helder.
 Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschikken over informatie van bedrijven, onder meer in het kader van vergunningverlening, toezicht en monitoring. Hieronder vallen concurrentiegevoelige bedrijfs- en fabricagegegevens. Hier dient zorgvuldig mee omgegaan te worden. 
 
 Specifieke risico’s zullen met passende maatregelen worden beschermd. Het meest voor de hand liggend is dan encryptie van persoonsgegevens in rust en tijdens transport, pseudonimisering middels betekenisloze id's, anonimisering enz.
+
+Binnen DSFL zorgen aanbieders/eigenaars van data voor de juist classificatie en labeling van data die persoonsgegevens bevat.
+
+? Kunnen er specifieke privacy policies worden gecreëerd en gestandaardiseerd waarin de doelbinding kan worden opgenomen zodat alleen afnemers die hieraan voldoen bij deze data kunnen.
 
 ? Zijn er 2de orde privacy vraagstukken omdat veel informatie gekoppeld via geo voor bv huiseigenaren middels perceelinformatie tot privacy risico's kunnen leiden.
 
@@ -113,7 +120,7 @@ Specifieke risico’s zullen met passende maatregelen worden beschermd. Het mees
 
 Analoog aan beveiliging in algemene zin geldt ook voor privacy dat een aanzienlijke organisatorische en procesinrichting benodigd zijn. Processen voor privacybescherming zullen ook in reguliere beheerprocessen moeten worden ondergebracht op zowel strategisch, tactisch en operationeel niveau. AVG verplichte onderdelen als privacy beleid, privacy verklaringen, verwerkingenregister en DPIA's dienen te worden belegd.
 
-Voor DSFL betekent dit een beheerorganisatie die dit voor de DSFL regelt als eisen aan de beheerorganisaties die data aanbieden en afnemen. De verwerkingsverantwoordelijkheid zal expliciet moeten zijn toegewezen met als uitgangspunt dat dit aan één entiteit kan worden toegewezen (MinIenW?).
+Voor DSFL betekent dit een beheerorganisatie die dit voor de DSFL regelt als eisen aan de beheerorganisaties die data aanbieden en afnemen. De verwerkingsverantwoordelijkheid zal expliciet moeten zijn toegewezen met als uitgangspunt dat dit aan één entiteit kan worden toegewezen (MinIenW?). Hier kunnen dan ook de rechten van betrokkenen worden geborgd (zoals inzage, rectificatie, gegevenswissing, beperking van de verdere verwerking van gegevens)
 
-? Wat maakt een DSFL beheerorganisatie tav privacy anders dan een reguliere beheerorganisatie. Is er een DSFL beheerorganisatie voorzien?
+? Wat maakt een DSFL beheerorganisatie tav privacy anders dan een reguliere beheerorganisatie. Centrale plek om DSFL generieke gegevensleveringsovereenkomsten op te stellen? Is er een DSFL beheerorganisatie voorzien?
 
