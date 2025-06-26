@@ -58,17 +58,27 @@ Toegang verlenen of autorisatie betekent data ter beschikking stellen aan een af
 
 Toegang verlenen of access management dient buiten de applcaties te worden gebracht (externalised) om separaat te kunnen worden beheerd. De basisgedachte is het scheiden van verantwoordelijkheden (separation of concerns). Regels worden gescheiden van code in zogenaamde policies, en het beheer van policies wordt gescheiden van het handhaven ervan. Welke verantwoordelijkheden precies gescheiden moeten worden is al meer dan 20 jaar geleden bedacht als onderdeel van de XACML autorisatiestandaard. Deze standaard bevat nog veel meer, waaronder een XML-gebaseerde policy-taal. Hoewel XML goeddeels uit de gratie is gevallen, zijn de basisverantwoordelijkheden algemeen geaccepteerd in de zogenaamde PxP-architectuur. Hierin is de uitvoering (enforcement), beslissing (decision) en autorisatieregel (policy information/administration) van elkaar gescheiden.
 
+? Policies voor autorisatie technologie agnostisch beschrijven om met de technologiegolven mee te kunnen. Gebruik open standaarden.
+
 ? Verder verwijzen naar https://vng-realisatie.github.io/ftv/ en https://vng-realisatie.github.io/ftv/onderzoek/status_techniek/standaarden/ en/of https://vng-realisatie.github.io/ftv/methodiek/federatief/
+! Verschil met FTV is dat deze uitgaat van overheidsorganisaties (en dus PKIO certificaten) terwijl DSFL breed is en dus authenticatie bewijzen van een breed scala aan partijen zal ondersteunen.
 
 ## Veiligheid
 
 Veiligheid waarborgt de vertrouwde data uitwisseling tussen partijen. Het omvat organisatorische en technische maatregelen. Op basis van risico's kunnen de maatregelen worden getroffen. Hiervoor zijn geaccepteerde maatregelsets beschikbaar zoals NIS2/BIO2 en ISO27002. 
 
+Belangrijk is dat veiligheid niet achteraf kan worden toegevoegd maar integraal moet zijn mee-ontworpen. We praten dan over security en privacy 'by design'. Hierop wordt verder in gegaan.
+
 ? Policies/Contracts
 
-Belangrijk is dat veiligheid niet achteraf kan worden toegevoegd maar integraal moet zijn mee-ontworpen. We praten dan over security en privacy 'by design'.
+? 2 service niveau's -> fair use en service (SLA).
 
 ## Security by design
+
+
+
+
+
 
 Security by design wordt toegepast. Dit passend bij het doel en benodigd beveiligingsniveau van DSFL (BIV 222).
 
@@ -77,13 +87,21 @@ Daar waarvan gegevens verwerkt worden hebben een aantal rechten, zoals het recht
 - bezwaar/beroep
 
 DepV, BIO BBN2
-
+Logging auditing -> verantwoording
 Binnen DSFL zorgen aanbieders/eigenaars van data voor de juist classificatie en labeling van data die persoonsgegevens bevat.
 
 Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschikken over informatie van bedrijven, onder meer in het kader van vergunningverlening, toezicht en monitoring. Hieronder vallen concurrentiegevoelige bedrijfs- en fabricagegegevens. Hier dient zorgvuldig mee omgegaan te worden. 
 
-> Dit betekent voor DSFL:
-> - Er worden passende technische en organisatorische maatregelen getroffen om gegevens te beschermen
+### Services
+
+Services worden middels API's aangeboden. Hiervoor gelden de NL Design Rules als kader waarin specifiek beveiligingsrichtlijnen zijn opgenomen. Deels komen die van andere kaderstellende instanties zoals de TLS richtlijn van NCSC. Services die data aanbieden worden in drie categorieën ingedeeld in oplopende beveiliging:
+- Open services
+- Services met toegangsbeperking
+- Services met doelbinding
+
+### Onweerlegbaarheid
+
+Van de acties en handelingen die binnen DFL plaatsvinden zal minimaal vastlegging moeten plaatsvinden die voor verantwoording achteraf kan zorgen (tot en met juridische procedures). Zo kan ook niet worden ontkend dat deze handelingen hebben plaatsgevonden (onweerlegbaarheid). Daarnaast kunnen deze in beheerprocessen worden gebruikt. Dit betekent voorzieningen voor logging, auditing en archivering van scrijf- én leesacties en mutaties op identiteiten en policies.
  
 ## Privacy by design
 
