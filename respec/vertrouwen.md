@@ -80,18 +80,40 @@ Daar waarvan gegevens verwerkt worden hebben een aantal rechten, zoals het recht
 - overdraagbaarheid
 - bezwaar/beroep
 
+DepV, BIO BBN2
+
 > Dit betekent voor DSFL:
 > - Er worden geen persoonsgegevens verwerkt die niet passen in de gerechtvaardigde doelen
 > - Er worden passende technische en organisatorische maatregelen getroffen om gegevens te beschermen
  
 ## Privacy by design
 
+Privacy betreft het beperken van de inbreuk op iemands persoonlijke levenssfeer. Het vervult de wens om onbespied en onbewaakt te leven. Het is (in Europa) een grondrecht (art. 8 van Europees verdrag voor de rechten van mens) en een fundamentele bouwsteen voor een vrije samenleving. Privacy is met de verregaande verspreiding van digitale informatie via het internet een serieus vraagstuk en beschermingsprobleem geworden. Identiteitsfraude is geen incident meer maar een structureel criminele activiteit. Verlies van persoonsgegevens in de vorm van datalekken is aan de orde van de dag. Persoonsgegevens zijn gegevens die naar een natuurlijk persoon te herleiden zijn. Dus een gegeven of combinatie van gegevens waarmee een persoon zonder bijzondere inspanning kan worden geïdentificeerd. Op dit moment is de Algemene Verordening Gegevensbescherming (AVG) de juridische basis waarin is vastgelegd onder welke voorwaarden persoonsgegevens wél mogen worden verwerkt.
+
+Persoonsgegevens dien je alleen voor een specifiek doel te gebruiken dat bekend is gemaakt en waarvoor toestemming is verkregen en niet voor een ander doel (doelbinding). Ook dien je niet meer gegevens te verzamelen die je voor het beoogde doel echt nodig hebt (dataminimalisatie) en eventueel alternatieven te overwegen die tot hetzelfde doel leiden (proportionaliteit/subsidiariteit). Voor de overheid is de belangrijkste verwerkingsgrond de noodzaak om een wettelijke en publieke taak goed uit te voeren. Toestemming van betrokkenen als grondslag is niet haalbaar aangezien het grotendeels machine/machine communicatie betreft.
+Ergo, hoe minder persoonsgegevens gedeeld worden hoe beter. Privacy niet alleen 'by design' maar ook by default, dus de basisinstellingen zijn standaard het meeste privacybeschermend zijn. Dit zal ook voor DSFL als uitgangspunt van toepassing zijn. 
+
 <AVG: privacy – by design: standaard afscherming van persoonsgegevens en privacy als
 basisprincipe, inclusief ‘zo min mogelijk gegevens over identiteit delen’/selectieve identificatie (komt deels ook uit WOB)>
 
-In DSFL worden geen bijzondere persoonsgegevens verwerkt. Bijzondere persoonsgegevens zijn persoonsgegevens die zo gevoelig zijn dat ze extra bescherming nodig hebben, zoals gegevens over iemands ras, gezondheid, politieke opvattingen, religie of seksuele gerichtheid. 
+### Classificatie
 
+Er zijn twee niveau's: de partijen zelf -> DSFL en de betrokkenen (in de data) -> eigenaar
+
+In DSFL worden geen bijzondere persoonsgegevens verwerkt. Bijzondere persoonsgegevens zijn persoonsgegevens die zo gevoelig zijn dat ze extra bescherming nodig hebben, zoals gegevens over iemands ras, gezondheid, politieke opvattingen, religie of seksuele gerichtheid. Het is aan de aanbieder/eigenaar om te zorgen dat deze gegevens niet beschikbaar zijn. Dus ook strafrechtelijk niet (let op Toezicht & Handhaving, alleen bestuurlijk), geen BSN 
+
+Dit betekent voor DSFL: Data geclassificeerd! Door wie wordt de doelbinding bepaald, de grondslag, en risico's > toestemming aan betrokkene niet mogelijk bij machine/machine dus vooraf grondslag helder.
 Voor de uitvoering van het beleid is het noodzakelijk dat bestuursorganen beschikken over informatie van bedrijven, onder meer in het kader van vergunningverlening, toezicht en monitoring. Hieronder vallen concurrentiegevoelige bedrijfs- en fabricagegegevens. Hier dient zorgvuldig mee omgegaan te worden. 
 
-> Dit betekent voor DSFL:
-> - Er komt een verwerkingsregister en privacy verklaring.
+Specifieke risico’s zullen met passende maatregelen worden beschermd. Het meest voor de hand liggend is dan encryptie van persoonsgegevens in rust en tijdens transport, pseudonimisering middels ID's.
+
+? Zijn er 2de orde privacy vraagstukken omdat veel informatie gekoppeld via geo voor bv huiseigenaren middels perceelinformatie tot privacy risico's kunnen leiden.
+
+### Organisatie
+
+Analoog aan beveiliging in algemene zin geldt ook voor privacy dat een aanzienlijke organisatorische en procesinrichting benodigd zijn. Processen voor privacybescherming zullen ook in reguliere beheerprocessen moeten worden ondergebracht op zowel strategisch, tactisch en operationeel niveau. AVG verplichte onderdelen als privacy beleid, privacy verklaringen, verwerkingenregister en DPIA's dienen te worden belegd.
+
+Voor DSFL betekent dit een beheerorganisatie die dit voor de DSFL regelt als eisen aan de beheerorganisaties die data aanbieden en afnemen. De verwerkingsverantwoordelijkheid zal expliciet moeten zijn toegewezen met als uitgangspunt dat dit aan één entiteit kan worden toegewezen (MinIenW?).
+
+? Wat maakt een DSFL beheerorganisatie tav privacy anders dan een reguliere beheerorganisatie.
+
