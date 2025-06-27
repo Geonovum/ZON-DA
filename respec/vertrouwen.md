@@ -39,27 +39,17 @@ Toegang/authenticatie wordt geregeld via eIDAS erkende inlogmiddelen. In Nederla
 
 Dit betreft het overdragen van bevoegdheden aan andere partijen om handelingen, eventueel met rechtsgevolgen, uit te voeren. Dit kunnen zowel natuurlijke als niet natuurlijke personen zijn. De ene partij komt als het ware in de plaats van de andere partij. Dit is niet hetzelfde als autoriseren waarbij partijen in hun eigen hoedanigheid blijven handelen.
 
-Het proces omdat naast de vasstelling van identiteiten en bevoegdheden ook de uitgifte, registratie, uitoefening, intrekking en controle. Dit kan zowel binnen organisaties als over organisaties heen. Het ontwerp van de dataspace dient zodanig te zijn dat machtigingenvoorzieningen en -registers kunnen worden ingevuld met generieke voorzieningen. Hiermee wordt geaccepteerd dat niet alle vormen van machtigen beschikbaar zijn zoals ketenmachtigingen.
+Het proces omdat naast de vaststelling van identiteiten en bevoegdheden ook de uitgifte, registratie, uitoefening, intrekking en controle. Dit kan zowel binnen organisaties als over organisaties heen. Het ontwerp van de dataspace dient zodanig te zijn dat machtigingenvoorzieningen en -registers kunnen worden ingevuld met generieke voorzieningen. Er wordt geen DSFL machtigingsregister gecreëerd. Hiermee wordt geaccepteerd dat niet alle vormen van machtigen beschikbaar zijn zoals ketenmachtigingen (N.B. De eHerkenning ketenmachtiging is geen ketenmachtiging).
 
 ? FSC toevoegen als mandateringsinstrument op API niveau.
-
-Delegeren kent verschillende vormen:
-- Rechten kunnen doogeven aan personen binnen een organisatie
-- Andere organisaties kunnen toestaan taken uit te voeren namens de eigen organisatie
-
-> Dit betekent voor DSFL:
-> - Rechten kunnen gedelegeerd worden onder voorwaarden
-> - Periodiek vind er een controle plaats op gedelegeerde rechten
-
-N.B. De eHerkenning ketenmachtiging is geen ketenmachtiging.
 
 ## Toegang verlenen
 
 Toegang verlenen of autorisatie betekent data ter beschikking stellen aan een afnemende partij (wat mag jij?). Toegang is afhankelijk van de wederzijdse identificatie en authenticatie van de betreffende partijen (wie ben jij?). Alleen Open data kan toegankelijk zijn zonder de afnemer te kennen.
 
-Toegang verlenen of access management dient buiten de applcaties te worden gebracht (externalised) om separaat te kunnen worden beheerd. De basisgedachte is het scheiden van verantwoordelijkheden (separation of concerns). Regels worden gescheiden van code in zogenaamde policies, en het beheer van policies wordt gescheiden van het handhaven ervan. Welke verantwoordelijkheden precies gescheiden moeten worden is al meer dan 20 jaar geleden bedacht als onderdeel van de XACML autorisatiestandaard. Deze standaard bevat nog veel meer, waaronder een XML-gebaseerde policy-taal. Hoewel XML goeddeels uit de gratie is gevallen, zijn de basisverantwoordelijkheden algemeen geaccepteerd in de zogenaamde PxP-architectuur. Hierin is de uitvoering (enforcement), beslissing (decision) en autorisatieregel (policy information/administration) van elkaar gescheiden.
+Toegang verlenen of access management dient buiten de applicaties te worden gebracht (externalised) om separaat te kunnen worden beheerd. De basisgedachte is het scheiden van verantwoordelijkheden (separation of concerns). Regels worden gescheiden van code in zogenaamde policies, en het beheer van policies wordt gescheiden van het handhaven ervan. Welke verantwoordelijkheden precies gescheiden moeten worden is al meer dan 20 jaar geleden bedacht als onderdeel van de XACML autorisatiestandaard. Deze standaard bevat nog veel meer, waaronder een XML-gebaseerde policy-taal. Hoewel XML goeddeels uit de gratie is gevallen, zijn de basisverantwoordelijkheden algemeen geaccepteerd in de zogenaamde PxP-architectuur. Hierin is de uitvoering (enforcement), beslissing (decision) en autorisatieregel (policy information/administration) van elkaar gescheiden.
 
-? Policies voor autorisatie technologie agnostisch beschrijven om met de technologiegolven mee te kunnen. Gebruik open standaarden.
+De basis van een extern toegangsmechanisme is een technologie-agnostische policy taal, minimaal gebaseerd op open standaarden. Binnen DSFL zal er één standaard worden ondersteund.
 
 ? Verder verwijzen naar https://vng-realisatie.github.io/ftv/ en https://vng-realisatie.github.io/ftv/onderzoek/status_techniek/standaarden/ en/of https://vng-realisatie.github.io/ftv/methodiek/federatief/
 ! Verschil met FTV is dat deze uitgaat van overheidsorganisaties (en dus PKIO certificaten) terwijl DSFL breed is en dus authenticatie bewijzen van een breed scala aan partijen zal ondersteunen.
@@ -68,9 +58,12 @@ Toegang verlenen of access management dient buiten de applcaties te worden gebra
 
 Veiligheid waarborgt de vertrouwde data uitwisseling tussen partijen. Het omvat organisatorische en technische maatregelen. Op basis van risico's kunnen de maatregelen worden getroffen. Hiervoor zijn geaccepteerde maatregelsets beschikbaar zoals NIS2/BIO2 en ISO27001/2. Belangrijk is dat veiligheid niet achteraf kan worden toegevoegd maar integraal moet zijn mee-ontworpen. We praten dan over security en privacy 'by design'. Hierop wordt in de volgende paragrafen dieper op in gegaan.
 
-? Policies/Contracts
+### Contracts
 
-? 2 service niveau's -> fair use en service (SLA).
+Waar API's de enablers zijn voor beschikbaar stellen van data zijn API profielen/specificaties de technische contracten om aanbieder en afnemer op elkaar aan te laten sluiten. Hierbij  
+Organisatorisch worden serviceniveau's gedefinieerd die afnemers zekerheid bieden. Er zijn 2 (categorieën) serviceniveau's: Fair Use en SLA gebaseerd.
+- Fair Use wordt meestal gebruikt bij open data en om beschikbare resources zodanig te verdelen dat de afnemers optimaal gelijkwaardig worden behandeld.
+- SLA gebaseerd wordt gebruikt voor afnemers die zekerheid willen hebben over de mate van dienstverlening en resources meestal omdat zij de data in een kritisch bedrijfsproces integreren. SLA gebaseerde afname is niet zonder kosten.
 
 ## Security by design
 
