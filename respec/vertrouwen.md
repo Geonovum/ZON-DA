@@ -25,15 +25,17 @@ In DSFL:
 
 <Partij kan meerdere Identiteiten hebben, Identiteit heeft een eigenaar die bepaalt of die identiteit bij de Partij (en dus ook eventueel een Actor) hoort>
 
-In DSFL: meerdere Identiteitsregisters mogelijk omdat veel Partijen in verschillende rollen in het stelsel als Actor kunnen optreden. Denk hierbij aan <>. Dit wordt ‘Party Driven Actor’ (PDA) genoemd, volgens rapport TNO2024 R12345 uit 2024. Hierin wordt gedefinieerd:
+### Identiteitsregisters
+
+In DSFL zijn meerdere Identiteitsregisters mogelijk omdat veel partijen in verschillende rollen in het stelsel als actor kunnen optreden. Dit wordt ‘Party Driven Actor’ (PDA) genoemd, volgens rapport TNO2024 R12345 uit 2024. Hierin wordt gedefinieerd:
 - Welke handelingen de actor mag uitvoeren
 - Volgens welk beleid deze handelingen moeten worden uitgevoerd
 - Welke mandaten en rollen van toepassing zijn
 - Hoe het werk van de actor wordt bestuurd
 
-Toegang/authenticatie wordt geregeld via eIDAS erkende inlogmiddelen. In Nederland zijn DigiD en eHerkenning Europees erkende inlogmiddelen.
-> Dit betekent voor DSFL:
-> - DigiD en eHerkenning zijn erkende inlogmiddelen en deze worden gebruik voor toegang tot besloten (en getarifeerde) data
+### Authenticatie
+
+Voor het verifiëren van identiteiten en de toegang to resources vind zowel op EU niveau (eIDAS) als op nationaal niveau (Wet Digitale Overheid) standaardisatie plaats. Hiermee zijn eIDAS/eHerkenning/Digid erkende inlogmiddelen en kunnen ook andere WDO compliant middelen hieraan worden toegevoegd zoals iDIN. Voor services met toegangsbeperking wordt de identiteit vertaald naar autorisatie-tokens (bv op basis van OAuth2/OIDC) voor het aanspreken van de betreffende services en data.
 
 ### Delegeren, Machtigen en Mandateren
 
