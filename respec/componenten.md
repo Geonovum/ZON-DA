@@ -66,16 +66,17 @@ HW: je hebt wel een URI strategie nodig om te borgen dat je het kunt ontsluiten 
 ## Componenten volgens de DSSC referentie
 <DSSC view op componenten, per component invullen/aangeven of en hoe we die invullen>
 
-|    term                  | omschrijving / toelichting                |
-| --------                 | ----------------------------------------  |    
-| Dataproduct              |                                           |
-| Databron/datasource      |                                           |
-| Dataset/datasetserie     |                                           |
-| Dataservice              |                                           |
-| Dataprovider             |                                           |
-| Dataontvanger            |                                           |
-| Connector                |                                           |
-| Logische componeten      | contracten, certificaten, metadata, etc   |
+|    term                  | omschrijving / toelichting                                                                                                                                        |
+| --------                 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------  |    
+| Dataspace                | Bij voorkeur omvat een dataspace geen fysieke data of producten, maar wordt in een specifieke dataspace gelinked naar andere datasources                          |
+| Dataproduct              |                                                                                                                                                                   |
+| Databron/datasource      |                                                                                                                                                                    |
+| Dataset/datasetserie     |                                                                                                                                                                   |
+| Dataservice              |                                                                                                                                                                   |
+| Dataprovider             |                                                                                                                                                                   |
+| Dataontvanger            |                                                                                                                                                                   |
+| Connector                |                                                                                                                                                                   |
+| Logische componeten      | contracten, certificaten, metadata, etc                                                                                                                           |
 
 In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vinden die één of meer services kunnen realiseren.
 
