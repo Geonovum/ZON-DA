@@ -59,17 +59,23 @@ HW: je hebt wel een URI strategie nodig om te borgen dat je het kunt ontsluiten 
    
 </font>
 
+## Samenhang dataspace in relatie tot data provider en data consumers
+
+![image](https://github.com/user-attachments/assets/4472cbaa-c966-435d-b816-0a87ef937966)
+
 ## Componenten volgens de DSSC referentie
 <DSSC view op componenten, per component invullen/aangeven of en hoe we die invullen>
 
-|    term       | omschrijving |
-| --------      | ------------ |
-| Dataproduct   |              |
-| Databron      |              |
-| Dataset       |              |
-| Dataservice   |              |
-| Dataprovider  |              |
-| Dataontvanger |              |
+|    term                  | omschrijving / toelichting                |
+| --------                 | ----------------------------------------  |    
+| Dataproduct              |                                           |
+| Databron/datasource      |                                           |
+| Dataset/datasetserie     |                                           |
+| Dataservice              |                                           |
+| Dataprovider             |                                           |
+| Dataontvanger            |                                           |
+| Connector                |                                           |
+| Logische componeten      | contracten, certificaten, metadata, etc   |
 
 In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vinden die één of meer services kunnen realiseren.
 
@@ -112,7 +118,9 @@ Data.overheid.nl:
 IdV: nu er een eerste DCAT-AP-NL profiel is, is het een kwesie van updaten om in sync te blijven. Daarvoor is beheer belegd bij Geonovum en een beheerproces ingeregeld. Wel moet er samen met de werkgroep beoordeeld worden welke consequenties updates voor de verschillende domeinen hebben, en of het wenselijk is deze in het NL profiel door te voeren. Dat vergt toch enige tijd en zorgvuldigheid voor dit is doorvertaald naar een nieuwe versie van een profiel. Na vaststelling van een nieuwe versie van een profiel is deze echter nog niet geimplementeerd in dataoverheid.nl
   
 ## Dataopslag
-IdV:  hoe moet ik dit zien in het kader van federatief data delen?
+IdV:  hoe moet ik dit zien in het kader van federatief data delen?  
+Federatief delen van data middels een connector, betekent in praktische zin dat er rekening gehouden moet worden met verschillende datasources bij de providers. Iedere datasoure omvat een dataopslag component, voor zowel geo- als niet geo informatie. De verschillende opslagcomponenten met voor- en nadelen worden hieronder beschreven.
+(later tekst nog inkorten, niet alles is relevant)
 Volgens NORA gaat het om robuuste, veilige opslag van gegevens in rust, in transit (denk aan buffers) en in memory (denk aan caches). De beschikbaarheid, authenticiteit en integriteit van deze gegevens dient te allen tijde te zijn verzekerd. Als burger, bedrijf en dienstverlener kun je ervan op aan dat de gegevens (en daaruit vloeiende informatie) veilig is.
 
 Afspraak: We maken afspraken over de vereisten van gespiegelde data.  
