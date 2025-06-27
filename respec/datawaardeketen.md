@@ -1,12 +1,11 @@
 # Datawaardeketen
 
-![Samenhangende data](/respec/media/samenhangende_data.png)
+![Samenhangende data](./respec/media/samenhangende_data.png)
 
 Een plaatje kun je invoegen door het te plaatsen in de respec/media map en dan een verwijzing in markdown te doen:
 
 ```
 ![<beschrijving plaatje>](./respec/media/<naam plaatje>)
-> Vraag Arno: Moet dit niet ![<beschrijving plaatje>](./media/<naam plaatje>) of ![<beschrijving plaatje>](/respec/media/<naam plaatje>) zijn?
 ```
 Als je het plaatje geforceerd een bepaalde grootte wil geven kan het ook met een html tag:
 
