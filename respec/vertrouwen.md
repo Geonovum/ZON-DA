@@ -12,18 +12,14 @@ De derde bouwsteen ‘vertrouwde uitwisseling’ (trusted exchange) vergemakkeli
 
 (bron: verkenning dataspaces GeoNovum)
 
-## Identiteiten en actoren in de DSFL
+## Identiteiten en actoren
 
-Identiteiten nauw volgens eIDAS (“Visie op Rijksbreed IAM” van CIO-Rijk, januari 2025 is hierop gebaseerd): 
+Met een identiteit wordt een claim gesteld in de vorm van 'ik ben ...'. Identiteiten volgens eIDAS (“Visie op Rijksbreed IAM” van CIO-Rijk, januari 2025 is hierop gebaseerd) zijn onder te verdelen in: 
 - Entiteiten: Dit overkoepelende begrip omvat natuurlijke personen, organisaties en dingen (gelijk aan NORA);
 - Partijen: Deze kunnen natuurlijke personen of organisaties zijn. Partijen stellen doelen, maken beslissingen en beheren kennis;
 - Actoren: Deze kunnen natuurlijke personen of dingen (zoals computers, apparaten) zijn. Actoren voeren acties uit namens Partijen;
 
-In DSFL: 
-- Partijen zijn Overheden, Private organisaties, natuurlijke personen in verschillende rollen (Burger, Medewerker/Ambtenaar);
-- <>
-
-<Partij kan meerdere Identiteiten hebben, Identiteit heeft een eigenaar die bepaalt of die identiteit bij de Partij (en dus ook eventueel een Actor) hoort>
+In DSFL zijn partijen een breden verzameling zoals overheden, private organisaties en natuurlijke personen in verschillende rollen (burger, medewerker/ambtenaar). Een partij kan meerdere Identiteiten hebben, dit zullen we een hoedanigheid noemen. Een identiteit heeft een eigenaar die bepaalt of die identiteit bij de partij (en dus ook eventueel een Actor) hoort.
 
 ### Identiteitsregisters
 
