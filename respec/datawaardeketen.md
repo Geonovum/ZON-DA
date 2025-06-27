@@ -40,6 +40,18 @@ Originele input van René:
 
 ## Afbakening van bronnen en gebruik (Ine/Arno)
 
+De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610 ) van de DSFL. Naast deze Basisregistraties bevat de DSFL/NDFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de Overheid, maar ook door andere partijen kunnen worden geleverd en beheerd. Onder gegevens verstaan we hier niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’), zoals algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld. Zo ontstaat een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien en waarbij de Overheid de rol van ‘primus inter pares’ speelt: zij treedt op als ‘gewone’ speler zowel als Stelselverantwoordelijke.
+
+DSFL stelt eisen aan de spelers in het stelsel, maar neemt hen ook werk uit handen. Daarvoor zijn gecentraliseerde componenten voorzien die de dataspace faciliteren, bijvoorbeeld voor het vinden van data en voor het regelen van toegang. Dat betekent dat de huidige Basisregistraties aangepast moeten worden om (stapsgewijs) om te smelten  tot DSFL. De ‘centrale’ componenten kunnen betrokken worden, of deel worden van, de GDI of het FDS.
+
+Het gebruik is gericht op het delen van ruimtelijke data, datadelen heeft een contractuele grondslag. De volgende categoriën data maken onderdeel van de DSFL:
+- open publieke data
+- gesloten publieke data
+- open data van derden
+- gesloten data van derden
+
+Mochten er kosten verbonden zijn aan het gebruik van data dan wordt dat buiten het DSFL om verrekend. Er wordt niet voorzien in 'betalen naar gebruik'.
+
 ## Metadata (Ine/Niels)
 
 - Begrippen en informatie/gegevensmodellen – per stap in de waardeketen
@@ -84,4 +96,18 @@ Dit betekent:
 - Het gebruik van de standaard begrippen in het NORA raamwerk gegevenskwaliteit
 
 ## Publicatie (Arno)
+
 - Publicatie van metadata – per stap in de waardeketen
+
+Een dataspace is een ecosysteem van data- en serviceproviders en potentiële consumenten. Providers willen hun potentiële consumenten bereiken en omgekeerd relaties opbouwen die leiden tot datadeling. Om datadeling te faciliteren, zijn beschrijvingen, zoals metadata, van de data en diensten die ze aanbieden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden, vereist.
+
+De bouwsteen Publicatie en Ontdekking maakt het volgende mogelijk:
+- Providers kunnen (a) deze beschrijvingen als aanbiedingen beschikbaar stellen, waardoor ze zichtbaar worden voor alle (of een deel van) andere deelnemers aan de dataruimte die als potentiële consumenten worden beschouwd, en (b) aanbiedingen beheren in overeenstemming met hun levenscyclus (publiceren, bijwerken, verwijderen) en de toegang ertoe beheren.
+- Consumenten kunnen tussen aanbiedingen zoeken om te bepalen of de kenmerken en voorwaarden voldoen aan hun behoeften en vereisten, en vervolgens toegang aanvragen tot de aangeboden data of dienst.
+
+Hier nog op te nemen informatie vanuit de volgende bronnen:
+- [IDS-RAM over Ecosystem of Data](https://docs.internationaldataspaces.org/ids-knowledgebase/ids-ram-4/layers-of-the-reference-architecture-model/3-layers-of-the-reference-architecture-model/3_2_functionallayer#ecosystem-of-data)
+- [DSSC Blueprint over Publication and Discovery](https://dssc.eu/space/BVE2/1071256989/Publication+and+Discovery)
+- [FDS over Publicatie](https://federatief.datastelsel.nl/kennisbank/publicatie/)
+
+Reminder: Harvesten van relevante metadata duidelijk opnemen, ook dat dit geldt richting (groot)aanbieders van data als naar andere (sectorale/nationale/europese/wereldwijde) catalogi.
