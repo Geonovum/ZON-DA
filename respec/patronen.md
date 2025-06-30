@@ -125,3 +125,11 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 - Borgen van governance, financiering en juridische kaders via bestuurlijke overleggen.
 - Strategisch monitoren van maatschappelijke opgaven met robuuste data-infrastructuur als stuurmiddel.
 
+**Samenvattend**
+| Gebruikersgroep                 | Belangen/                                                  | Handelingsperspectieven                                         |
+|-------------------------------|-------------------------------------------------------------|------------------------------------------------------------------|
+| **Bronhouders**               | Beheer van geo-basisregistraties (BAG, BGT, BRK, BRO)       | Deelnemen aan gebruikersoverleggen, kwaliteitszorg, standaardisatie via API’s |
+| **Afnemers / Gebruikers**     | Gebruiksvriendelijkheid, datakwaliteit en volledigheid     | Delen van feedback via overleg, gebruik van dashboards         |
+| **Analisten / Beleidsmakers** | Strategische inzichten, analyses, 3D‑planning             | Koppelen van datasets, simulaties, visualisaties               |
+| **Ontwikkelaars**            | Integratie en ontwikkeling van geo-applicaties             | Bouwen met API’s, participeren in pilots en innovatie          |
+| **Bestuurders / Strategen**   | Governance, financiering, beleidsslagkracht               | Kaders stellen, monitoren van maatschappelijke opgaven via data |
