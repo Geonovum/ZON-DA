@@ -106,6 +106,7 @@ Volgens de IAM (Identity & Access Management) expertgroep van NORA gaat het bij 
 ## Metadata
 NGR:
 - Genereren van pseudo-geo info (als nieuwe component) voor mengen geo en niet-geo informatie? <welke eisen stellen we aan deze component, welke use case(s) willen we op korte termijn ondersteunen>
+  
   IdV:
 - of gebruik maken van de generieke metadata standaard DCAT-AP-NL, waarmee zowel geo data als overige data beschreven kan worden. Dan zijn er geen specifieke functionaliteiten nodig, maar kan  de bevraging van alle metadata hetzelde zijn.
 - niet geo data zou ik overigens niet aan het NGR toevoegen, maar in een andere catalog ontsluiten
