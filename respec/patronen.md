@@ -87,6 +87,7 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 
 ### Bronhouders
 **Wie?** Organisaties die geo-(basis)registraties beheren, zoals Kadaster (BRK), BAG‑houders (gemeenten), BGT‑houders (provincies/waterschappen) en registraties ondergrond (BRO).
+
 **Handelingsperspectief**
 - Afnemen en benutten gebruikersinzichten via gebruikersoverleggen om processen te verbeteren.  ￼
 - Opstellen van kwaliteitszorg, toezicht en bijbehorende procedures.  ￼
@@ -94,6 +95,7 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 
 ### Afnemers / Gebruikende organisaties
 **Wie?** Rijksoverheid, provincies, gemeenten, waterschappen, uitvoeringsorganisaties, bedrijven, kennisinstellingen, burgers. 
+
 **Handelingsperspectief**
 - Delen van gebruikservaringen via overleg met bronhouders in BRK, BAG, BRT‑gebruikersoverleggen.
 - Communiceren van wensen, knelpunten en functionele behoeften voor dataproducten.
@@ -101,6 +103,7 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 
 ### Analisten, beleidsmakers en planners
 **Wie?** Beleidsmedewerkers, planologen, civiele ingenieurs, overheids- en marktanalisten.
+
 **Handelingsperspectief**
 - Benutting van geaggregeerde, geïntegreerde datasets voor beleids- en ruimtelijke analyses.
 - Toegang tot koppelingen tussen verschillende registraties via IMX‑Geo voor complexe ruimtelijke vraagstukken.
@@ -108,6 +111,7 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 
 ### Applicatie- en systeemontwikkelaars
 **Wie?** (Geo-)IT‑leveranciers, softwareontwikkelaars, data‑engineers.
+
 **Handelingsperspectief**
 - Toegang tot gestandaardiseerde API’s (zoals bestuurlijke grenzen, IMX‑Geo‑orkestratie).
 - Mogelijkheid om maatwerkapplicaties en integraties te ontwikkelen op basis van open standaarden.
@@ -115,6 +119,7 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 
 ### Bestuurders & strategische stakeholders
 **Wie?** Portefeuillehouders, bestuurders, GI‑beraad-leden.
+
 **Handelingsperspectief**
 - Gebruik van het geodatafundament voor afstemming tussen beleid en uitvoering (“vraaggestuurd sturen op waardecreatie”).
 - Borgen van governance, financiering en juridische kaders via bestuurlijke overleggen.
