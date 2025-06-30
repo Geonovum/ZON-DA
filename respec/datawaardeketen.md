@@ -72,6 +72,32 @@ De vraag is hoe het concept van gegevensleveringsovereenkomsten past op datastel
 
 Er zullen ook afspraken moeten worden gemaakt over de te gebruiken protocollen en standaarden voor de uitwisseling van gegevens. Zie hiervoor ook het hoofdstuk interoperabiliteit. Er is daarbij specifieke aandacht nodig voor het zoveel mogelijk geautomatiseerd controleren van voorwaarden en autorisatieregels. Daarvoor kunnen ook specifieke middlewarecomponenten nodig zijn, zoals connectoren of oplossingen voor het controleren van autorisatieregels. Dit vraagt ook gemeenschappelijke afspraken, zoals over het verplicht gebruik van specifieke connectoren.
 
+IdV: Bij de meeste organisaties zijn de bestaande afspraken uit het GI-beraad voor het beheer en ontsluiten van ruimtelijke data voor hergebruik bekend en worden tot op zekere hoogte nageleefd.  
+De afspraken over ontsluiten van geodata lijken minder bekend bij de individuele gemeenten en waterschappen. Publicatie en hergebruik van (geo)data wordt relevanter met de opkomst van smart cities en digital twins. Het is van belang de gemeenten en waterschappen te stimuleren de afspraken na te komen. Dat geldt overigens ook voor alle andere overheden: de basis van ontsluiten van (geo)data moet op orde zijn om mee te kunnen doen in het federatief data delen in bijvoorbeeld de dataspace fysieke leefomgeving. 
+
+Winst bij alle overheden valt vooral te halen door bij opdrachtverlening aan een externe partij of uitvoerende overheidsorganisatie een dataparagraaf op te nemen, waarin verantwoordelijkheid voor de data wordt vastgelegd en afspraken worden gemaakt over het beheer en ontsluiten van de gecreëerde data. 
+
+Het ontsluiten (en bijhouden) van alle geodata is een enorme klus als dat bij een organisatie nu niet op orde is. Prioriteren is dan nodig. De prioritering voor het ontsluiten van geodata kan aan de hand van de prioritaire vraagstukken en informatiebehoeftes worden vormgegeven die uit het proces van vraagarticulatie van Zicht op Nederland naar voren komen en door de vraag van andere organisaties.
+
+Zowel voor realisatie van FDS als voor een werkende Datapace Fysieke Leefomgeving is goede metadata cruciaal. In het GI-beraad is afgesproken dat;
+•	het ontsluiten van data voor hergebruik expliciet te borgen in de aanpak voor een Dataspace Fysieke Leefomgeving (en aangezien realisatie daarvan binnen de kaders van FDS moet passen, daarmee ook mee te werken aan een goed functionerend FDS).
+
+Ontsluiten voor hergebruik betekent dat de geo-datasets die door de leden van het GI-beraad (in opdracht) worden vervaardigd:
+o	Waar mogelijk van een creative commons licentie worden voorzien,
+o	van metadata worden voorzien conform het NL profiel op ISO 19115,
+o	waarbij deze metadata in het NGR gepubliceerd worden.
+In specifieke gevallen kan hiervan worden afgeweken en werkversies, operationele data en onderzoeksdata zijn hiervan uitgesloten.
+
+•	Daar waar mogelijk te borgen dat voor nieuwe datasets het ontsluiten van data voor hergebruik direct wordt uitgevoerd (om zo de ‘reparatie-opgave’ niet groter te laten worden;
+
+•	Voor de ontsluiting van bestaande geodata als dat nog niet op orde is, prioriteren aan de hand van
+
+o	 de (mogelijke) prioritaire vraagstukken en informatiebehoeftes die uit het proces van vraagarticulatie van Zicht op Nederland naar voren komen.  
+o	de vraag van een andere organisaties die behoefte heeft aan data.
+
+•	Bij opdrachtverlening aan een externe partij of uitvoerende overheidsorganisatie een dataparagraaf op te nemen waarin verantwoordelijkheid voor de data wordt vastgelegd en afspraken worden gemaakt over het beheer en ontsluiten van de gecreëerde data. De leden van het GI Beraad worden geadviseerd om te profiteren van de ervaringen van RVO rond de dataparagraaf bij externe opdrachtverlening en de inkoopvoorwaarden van de provincies.
+
+
 Nader uit te werken: 
 - Hoe gaan de concepten GLP en GLS toepassen in het datastelsel?
 
