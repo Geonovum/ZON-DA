@@ -83,4 +83,40 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 
 <etc,....andere current issues en hoe die worden opgelost door het stelsel>
 
+## Soorten gebruikers en hun handelingsperspectieven
+
+### Bronhouders
+**Wie?** Organisaties die geo-(basis)registraties beheren, zoals Kadaster (BRK), BAG‑houders (gemeenten), BGT‑houders (provincies/waterschappen) en registraties ondergrond (BRO).
+**Handelingsperspectief**
+- Afnemen en benutten gebruikersinzichten via gebruikersoverleggen om processen te verbeteren.  ￼
+- Opstellen van kwaliteitszorg, toezicht en bijbehorende procedures.  ￼
+- Actieve betrokkenheid bij standaardisatie en API‑orkestratie (IMX‑Geo) om semantische samenhang te vergroten.
+
+### Afnemers / Gebruikende organisaties
+**Wie?** Rijksoverheid, provincies, gemeenten, waterschappen, uitvoeringsorganisaties, bedrijven, kennisinstellingen, burgers. 
+**Handelingsperspectief**
+- Delen van gebruikservaringen via overleg met bronhouders in BRK, BAG, BRT‑gebruikersoverleggen.
+- Communiceren van wensen, knelpunten en functionele behoeften voor dataproducten.
+- Gebruik van dashboards (zoals BAG-gebruikersdashboard) om inzicht te verwerven in datakwaliteit en volume.
+
+### Analisten, beleidsmakers en planners
+**Wie?** Beleidsmedewerkers, planologen, civiele ingenieurs, overheids- en marktanalisten.
+**Handelingsperspectief**
+- Benutting van geaggregeerde, geïntegreerde datasets voor beleids- en ruimtelijke analyses.
+- Toegang tot koppelingen tussen verschillende registraties via IMX‑Geo voor complexe ruimtelijke vraagstukken.
+- Gebruik van 3D‑data en digitale tweelingen voor simulaties, impactanalyses en beleidsvisualisatie.
+
+### Applicatie- en systeemontwikkelaars
+**Wie?** (Geo-)IT‑leveranciers, softwareontwikkelaars, data‑engineers.
+**Handelingsperspectief**
+- Toegang tot gestandaardiseerde API’s (zoals bestuurlijke grenzen, IMX‑Geo‑orkestratie).
+- Mogelijkheid om maatwerkapplicaties en integraties te ontwikkelen op basis van open standaarden.
+- Deelname aan pilots en projecten (zoals woningbouwmonitor, Integrale Hoogtevoorziening Nederland, 3D‑voorziening).
+
+### Bestuurders & strategische stakeholders
+**Wie?** Portefeuillehouders, bestuurders, GI‑beraad-leden.
+**Handelingsperspectief**
+- Gebruik van het geodatafundament voor afstemming tussen beleid en uitvoering (“vraaggestuurd sturen op waardecreatie”).
+- Borgen van governance, financiering en juridische kaders via bestuurlijke overleggen.
+- Strategisch monitoren van maatschappelijke opgaven met robuuste data-infrastructuur als stuurmiddel.
 
