@@ -52,6 +52,8 @@ Het gebruik is gericht op het delen van ruimtelijke data, datadelen heeft een co
 
 Mochten er kosten verbonden zijn aan het gebruik van data dan wordt dat buiten het DSFL om verrekend. Er wordt niet voorzien in 'betalen naar gebruik'.
 
+Een kenmerk van een dataspace is, dat deze rondom maatschappelijke vraagstukken/use cases wordt ingericht. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. Per maatschappelijke vraag/use case zal moeten worden bepaald welke data daarbij nodig is.
+
 ## Metadata (Ine/Niels)
 
 - Begrippen en informatie/gegevensmodellen – per stap in de waardeketen
