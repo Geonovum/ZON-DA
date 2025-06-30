@@ -34,6 +34,23 @@ Hierbij is het van belang om voor de juiste doelgroep de informatie op de juiste
 5) Aansluiten databronnen: wat moet je doen als je een bron wilt aansluiten / Wat moet een bron kunnen?
 6) Geo-enabling: ik weet niets van geo maar wil het wel gebruiken, handreiking hoe locatiecomponenten als bv adres in te zetten bij nieuwe registraties
 
+## Generiek
+Generiek wil hier zeggen dat een gebied of GEO-locatie het vertrekpunt is voor een informatie vraag. Een voorbeeld hiervan:
+Als organisatie (profit of non-profit) wil ik onderzoeken welke potentiële ontwikkeling er voor een bepaalde kavel in een bepaald gebied, bijvoorbeeld het havengebied van onze grootste zee-haven, mogelijk is. Om dit onderzoek uit te voeren zal geo-informatie met diverse andere gegevens gecombineerd moeten worden, afhankelijk van de context en de wijze waarop de analyse wordt uitgevoerd. 
+Het onderzoeksgebied (afbakening) zal door de onderzoeker aangeleverd moeten worden. Dit kan bijvoorbeeld door een gebied op een kaart te tekenen. Informatie over de betreffende kavel, of andere kavels in het gebied, wordt daarna opgehaald vanuit de basisregistratie BAG.
+
+Betreffende de fysieke leefomgeving zal in ieder geval zowel wel de huidige- als toekomstige regelgeving en de bestaande vergunningen meegenomen moeten worden. Hierbij richt het onderzoek zich op de vraag  “Wat mag er?”. Bijvoorbeeld: 
+•	Welke regels gelden er op dit moment voor het gebied als geheel en specifiek deze kavel? 
+
+•	Zijn er toekomstige wijzigingen in de de fysieke leefomgeving voorzien, bijvoorbeeld gebiedsontwikkeling? 
+
+•	Zo ja, is er sprake van participatie en burgerbetrokkenheid of lopen er juridische procedures?   
+
+•	Wat is er al vergund op deze locatie of in het relevante gebied? Lopen er al vergunningsaanvragen?
+
+Afhankelijk van de situatie kan vervolgens onderzocht worden welke economische activiteiten interessant zijn voor deze specifieke kavel (“Wat is gunstig?”). Op basis van een grote diversiteit aan gegevens, zoals de kadastrale gegevens, marktdata, sector informatie of bevolkingsdata, kan een analyse van de fysieke en economische potentie worden uitgevoerd. 
+Tot slot is het ook voor de vraag of een economische activiteit haalbaar en winstgevend kan zijn (“Wat loont?”) zinvol om diverse (financiële) gegevens te relateren aan de locatie. Bijvoorbeeld de grondwaarde, subsidieregelingen en  doorlooptijden van vergunningstrajecten.
+
 ## Atomair
 Atomair is als je eigenschappen van enkele objecten gebruikt (geen gebieden dus) om een doel te bereiken.
 Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de vergunning en welke subsidies verkregen zijn.
