@@ -76,6 +76,8 @@ Services binnen de DSFL worden middels API's aangeboden. Hiervoor gelden de NL D
 - Services met toegangsbeperking (afgeschermd met Oauth2/OIDC)
 - Services met doelbinding (afgeschermd met PKIO)
 
+Dit kan eigen data of data van derden zijn.
+
 ### Classificatie
 
 Uitgangspunt is lage classificatie gezien de verantwoording van de kosten van beveiligingsmaatregelen. Het basisprincipe voor DSFL is ‘passende beveiligingsmaatregelen voor reële risico’s' Uitangspunt is dat de BIV-classificaties niet op risico’s duiden die maatregelen hoger dan het standaardniveau BIO2 BBN2 (basis beveiligingsniveau) vereisen. Maar gezien de verwerking van bedrijfsvertrouwelijke- en persoonsgegevens ook niet lager. De overheid kent grofweg drie niveaus van vertrouwelijkheidsclassificatie: publiek, departementaal vertrouwelijk (DepV) en staatsgeheim. Binnen DSFL zullen voor een groot deel publieke gegevens beschikbaar worden gemaakt. DepV betekent dat er schade kan ontstaan en hiervoor zijn de BIO2-maatregelen bedoeld. Hieronder vallen ook concurrentiegevoelige bedrijfs- en fabricagegegevens van organisaties. Staatsgeheime informatie dient buiten het stelsel te blijven omdat de kosten van de maatregelen niet opwegen tegen de kosten en de bruikbaarheid en beheerbaarheid ernstig in de weg zullen zitten. Voor DSO is DepV toepasselijk. Eigenaren van data dienen hun informatie van adequate labeling te voorzien. 
