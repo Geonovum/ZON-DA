@@ -101,7 +101,7 @@ Ergo, hoe minder persoonsgegevens gedeeld worden hoe beter. Privacy niet alleen 
 ### Classificatie
 
 Om te weten hoe persoonsgegevens beschermd moeten worden dienen deze eerste geclassificeerd te worden:
-- De persoonsgegevens die in de aan te bieden en af te nemen data is opgenomen. Deze vallen onder de verantwoordelijkheid van de aanbieder/eigenaar.
+- De persoonsgegevens die in de aan te bieden en af te nemen data is opgenomen. Deze vallen onder de verantwoordelijkheid van de aanbieder/eigenaar en is deze in de meeste gevallen ook verwerkingsverantwoordelijke.
 - De persoonsgegevens van de partijen (burgers, medewerkers van organisaties) die interacteren met de DSFL. Hiervoor is de DSFL beheerorganisatie verantwoordelijk.
 
 Persoonsgegevens worden in een drietal categorieën ingedeeld:
