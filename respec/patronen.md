@@ -126,7 +126,7 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 - Strategisch monitoren van maatschappelijke opgaven met robuuste data-infrastructuur als stuurmiddel.
 
 **Samenvattend**
-| Gebruikersgroep                 | Belangen/                                                  | Handelingsperspectieven                                         |
+| Gebruikersgroep                 | Belangen                                                   | Handelingsperspectieven                                         |
 |-------------------------------|-------------------------------------------------------------|------------------------------------------------------------------|
 | **Bronhouders**               | Beheer van geo-basisregistraties (BAG, BGT, BRK, BRO)       | Deelnemen aan gebruikersoverleggen, kwaliteitszorg, standaardisatie via API’s |
 | **Afnemers / Gebruikers**     | Gebruiksvriendelijkheid, datakwaliteit en volledigheid     | Delen van feedback via overleg, gebruik van dashboards         |
