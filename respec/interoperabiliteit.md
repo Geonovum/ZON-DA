@@ -5,6 +5,20 @@ Voor Zicht op Nederland moeten we eerst een aantal termen die in ons domein leve
 
 Algemeen: focus op geo leggen.
 
+Uit [Handreiking EU informatie m.b.t. digitale en data-strategie](https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/):
+
+De Interoperable Europe Act (Interoperable Europa Verordening) is in maart 2024 gepubliceerd, vanaf april 2024 van kracht, en sinds juli 2024 van toepassing. Sommige bepalingen zijn vanaf januari 2025 van toepassing.
+
+De Commissie ziet het reguleren van internationale interoperabiliteit van overheidsdiensten als fundamentele voorwaarde voor het verder ontwikkelen en vervolmaken van de digitale eenheidsmarkt. Betere internationale interoperabiliteit in de publieke sector creëert innovatiekansen, maakt betere planning mogelijk bijvoorbeeld in crisissituaties, en versterkt de technologische soevereiniteit van de EU.
+
+De Verordening heeft 3 doelstellingen:
+1. Zorgen voor een consistente, mensgerichte Europese benadering van interoperabiliteit, van beleidsvorming tot beleidsuitvoering.
+2. Een governancestructuur voor interoperabiliteit opzetten die overheidsdiensten op alle niveaus en in alle sectoren, als ook particuliere belanghebbenden, in staat moet stellen samen te werken — met een duidelijke opdracht om overeenstemming te bereiken over gedeelde interoperabiliteitsoplossingen (bv. kaders, open specificaties, open normen, toepassingen of richtsnoeren);
+3. Samen een ecosysteem van interoperabiliteitsoplossingen voor de overheidssector in de EU tot stand brengen, zodat overheidsdiensten (op alle niveaus in de EU) en andere belanghebbenden kunnen bijdragen aan dergelijke oplossingen en deze kunnen hergebruiken, en zij gezamenlijk kunnen innoveren en publieke waarde kunnen creëren.
+
+> Dit betekent voor DSFL:
+> - De DSFL zal voldoen aan de voorwaarden van de Interoperable Europe Act
+
 ## Interoperabiliteit (Yvette, Walter)
 - EIF lagenmodel uitgelegd.
   - Juridisch
