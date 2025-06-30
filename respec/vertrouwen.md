@@ -129,7 +129,7 @@ Binnen DSFL zorgen aanbieders/eigenaars van data voor de juiste classificatie en
 
 Analoog aan beveiliging in algemene zin geldt ook voor privacy dat een aanzienlijke organisatorische en procesinrichting benodigd zijn. Processen voor privacybescherming zullen ook in reguliere beheerprocessen moeten worden ondergebracht op zowel strategisch, tactisch en operationeel niveau. AVG verplichte onderdelen als privacy beleid, privacy verklaringen, verwerkingenregister en DPIA's dienen te worden belegd.
 
-Voor DSFL betekent dit een beheerorganisatie die dit voor de DSFL regelt als eisen aan de beheerorganisaties die data aanbieden en afnemen. De verwerkingsverantwoordelijkheid zal expliciet moeten zijn toegewezen met als uitgangspunt dat dit aan één entiteit kan worden toegewezen (MinIenW?). Hier kunnen dan ook de rechten van betrokkenen worden geborgd (zoals inzage, rectificatie, gegevenswissing, beperking van de verdere verwerking van gegevens)
+Voor DSFL betekent dit een beheerorganisatie die dit voor de DSFL regelt als eisen aan de beheerorganisaties die data aanbieden en afnemen. De verwerkingsverantwoordelijkheid zal expliciet moeten zijn toegewezen met als uitgangspunt dat dit aan één entiteit kan worden toegewezen (MinIenW?). Van daaruit uniforme eisen aan de verwerkersovereenkomsten. Hier kunnen dan ook de rechten van betrokkenen worden geborgd (zoals inzage, rectificatie, gegevenswissing, beperking van de verdere verwerking van gegevens)
 
 ? Wat maakt een DSFL beheerorganisatie tav privacy anders dan een reguliere beheerorganisatie. Centrale plek om DSFL generieke gegevensleveringsovereenkomsten op te stellen? Is er een DSFL beheerorganisatie voorzien?
 
