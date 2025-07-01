@@ -21,6 +21,8 @@ Met een identiteit wordt een claim gesteld in de vorm van 'ik ben ...'. Identite
 
 In DSFL zijn partijen een breden verzameling zoals overheden, private organisaties en natuurlijke personen in verschillende rollen (burger, medewerker/ambtenaar). Een partij kan meerdere Identiteiten hebben, dit zullen we een hoedanigheid noemen. Een identiteit heeft een eigenaar die bepaalt of die identiteit bij de partij (en dus ook eventueel een Actor) hoort.
 
+? Is een domein-/sectorspecifieke registratie nodig binnen DSFL (bv vanuit DSO) om een FL-organisatiemodel te kunnen implementeren. Er zijn veel FL-rollen zoals bevoegd gezag, behandeldienst die FL specifiek zijn.
+
 ### Identiteitsregisters
 
 In DSFL zijn meerdere Identiteitsregisters mogelijk omdat veel partijen in verschillende rollen in het stelsel als actor kunnen optreden. Dit wordt ‘Party Driven Actor’ (PDA) genoemd, volgens rapport TNO2024 R12345 uit 2024. Hierin wordt gedefinieerd:
