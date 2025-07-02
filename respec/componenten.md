@@ -203,7 +203,7 @@ Mogelijke latency problemen, door de complexiteit
 *Data mesh*  
 Het concept van een data mesh gaat voornamelijk over een holistisch data architectuur ontwerp met een focus op het decentralizeren van data in een organisatie, in plaats van het centraliseren, m.b.v. bijv. een data lakehouse. Bij een data mesh is elk domein verantwoordelijk voor zijn eigen data, schoonmaken, analyseren en het beschikbaar stellen. Een data mesh heeft vier kenmerkende principes:
 
-Domein-georiënteerde decentralisatie: Elk domein  
+Domein-georiënteerde decentralisatie: Elk domein is verantwoordelijk voor het maken, onderhouden en delen van haar eigen “data producten”  
 Data als product: Gegevens moeten worden behandeld als een product, waarbij domeinen verantwoordelijk zijn voor de kwaliteit, bruikbaarheid en toegankelijkheid ervan. Er iseen eigenaar van de gegevens en deze worden beheert. 
 Selfservice data-infrastructuur: Stel teams in staat met tools en platforms om hun data zelfstandig te beheren en te gebruiken zonder een grote afhankelijkheid van gecentraliseerde datateams.
 Federatief IT beheer: Er bestaat een gezamenlijk gegevensbeheer tussen domeinen en een centraal gegevensteam om globale regels te definiëren, te implementeren en te controleren. 
