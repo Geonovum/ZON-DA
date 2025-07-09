@@ -8,7 +8,7 @@ Eerste braindump van componenten / voorzieningen die (mogelijk) nodig zijn in de
 Belangrijk is het principe "Afspraken voor standaarden voor voozieningen". Natuurlijk hebben we het over digitale informatie uitwisseling waarvoor technische bouwblokken nodig zijn. Deze technische bouwblokken hoeven niet één op één overeen te komen met software. Zie [DSSC Blueprint - Technical Building Blocks](https://dssc.eu/space/BVE2/1071254703/Technical+Building+Blocks) voor een toelichting.
 
 Dit resulteert in 3 categoriën van services/technische componenten:
-- Sommige services die nodig zijn voor inidividuele deelnemers om van DSFL gebruik te kunnen maken: deelnemer services
+- Sommige services die nodig zijn voor inidividuele deelnemers om van Data Space Fysieke Leefomgeving (DSFL) gebruik te kunnen maken: deelnemer services
 - Andere services die nodig zijn voor de samenwerking tussen deelnemers: federatie services
 - Laatste categorie services zijn aanvullend om waarde te kunnen verhogen bovenop het uitwisselen van data: waardecreatie services
 
@@ -41,19 +41,20 @@ Als er binnen de Nationale Geo Informatie Infrastructuur op een uniforme wijze g
 
 4. Autorisatie register. 
 Als er binnen de Nationale Geo Informatie Infrastructuur op een uniforme wijze gesloten data uitgewisseld gaat worden, dan is het nodig te weten welke partijen welke autorisaties hebben. Dit is niet anders dan in andere dataspaces.
+Het autorisatiebeheer is een aandachtspunt; er is geen component beschikbaar voor het centraal beheren van autorisaties. Als iemand inlogt met een inlogmiddel van een organisatie, moet in het register bekend zijn gemaakt welke autorisatie na de authenticatie wordt toegekend. Als we geen eigen registers maken voor machtigingen/rollen, betekent het dat we een gap hebben voor autorisatie? Uitwisseling/hergebruik van autorisaties vanuit bronhouders is niet mogelijk, oplossingsrichting is ook afhankelijk hoe het beheer van autorisaties georganiseerd gaat worden (kadaster, of ministerie, of bronhouder).
 
-5. Vocabulary Hub. 
+6. Vocabulary Hub. 
 De betekenis en onderlinge samenhang van gegevenselementen dient inzichtelijk te zijn. Hiertoe dient onder andere de NL-SBB standaard, gebaseerd op SKOS. Dit is niet anders dan in andere dataspaces.
 
-6. Logging functionaliteit. 
+7. Logging functionaliteit. 
 Bij het delen van gesloten data voor accountability. Dit is niet anders dan in andere dataspaces.
 
-7. De expertise rondom coordinaat referentie systemen. 
+8. De expertise rondom coordinaat referentie systemen. 
 De expertise rondom onze coordinaatreferentiestelsels (RD, NAP en LAT) is georganiseerd bij de Nederlandse Samenwerking Geodetische Infrastructuur (een samenwerking van het Kadaster, Rijkswaterstaat en de Dienst der Hydrografie van de Koninklijke Marine). Hier wordt bijvoorbeeld de transformatie API beheerd voor transformaties tussen coordinaatstelsels, ook naar internationale stelsels zoals ETRS'89 of WGS84. Dit is een blijvend van belang zijnde functie. 
 
-8. Idee: wegwijzer / helpdesk functie, bv om niet-geo gespecialiseerde organisaties op weg te helpen, bv met een vraag als 'hoe geo-refereer ik mijn dataset'. 
+9. Idee: wegwijzer / helpdesk functie, bv om niet-geo gespecialiseerde organisaties op weg te helpen, bv met een vraag als 'hoe geo-refereer ik mijn dataset'. 
 
-9. Idee: URI-strategie adviespunt. 
+10. Idee: URI-strategie adviespunt. 
 Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellicht nodig iets meer te gaan regelen rond UUID's. Hoewel dit in de eerdere Inventarisatie Data Ecosystemen alleen ter sprake kwam bij ZoN/NGII is dit niet anders dan in andere dataspaces.
 HW: je hebt wel een URI strategie nodig om te borgen dat je het kunt ontsluiten voor linked data.
    
@@ -209,4 +210,4 @@ Selfservice data-infrastructuur: Stel teams in staat met tools en platforms om h
 Federatief IT beheer: Er bestaat een gezamenlijk gegevensbeheer tussen domeinen en een centraal gegevensteam om globale regels te definiëren, te implementeren en te controleren. 
 
 ## Historie
-Historie wordt beheerd en (wanneer van toepassing) ontsloten bij de bron; er wordt dus niet (opnieuw) historie worden opgebouwd. 
+Historie wordt beheerd en (wanneer van toepassing) ontsloten bij de bron; er wordt dus niet (opnieuw) historie opgebouwd. 
