@@ -85,6 +85,18 @@ HW: DCAT maakt weer net een ander onderscheid, de datasetserie ontbreekt hier. B
 IdV: in DCAT3 is er wel een klasse dataset series
 ![image](https://github.com/user-attachments/assets/1a6f7259-b67a-4def-af10-b50c21d6c35f)
 
+## Componenten vanuit de EIRA 
+
+In het onderdeel Technical Interoperability van de EIRA is een set van enablers gedefinieerd. 1 daarvan is de Data Space Enabler: Definition: Data Space Enablers ABB is a Grouping that refers to components and services that support the creation and management of a dataspace.
+
+![image](https://github.com/user-attachments/assets/68e1a15b-b609-4b30-9a69-d4b2095c4cf1)
+
+Dataspace; Definition: Data space ABB is an Application Service as the virtual space that enables the creation of a single market for data by integrating, transforming and making available such data.  
+Dataspace Connector; Definition: Data Space Connector ABB is an Application Service that enables the easy and trustworthy procedure to share data and work collaboratively with other research institutions.
+Dataspace Connector Provider; Definition: Data Space Connector Provider ABB is an Application Service that enables maintenance control over the data and sets the conditions for its use in the data space ecosystem
+Dataspace Connector Consumer; Definition: Data Space Connector Consumer ABB is an Application Service that enables data gathering and accessibility over available data sources and data in terms of content, structure quality, actuality and other attributes.
+
+Er zijn ook nog een heel aantal andere enablers die optioneel onderdeel van de value service van een dataspace kunnen zijn of relevant kunnen zijn voor de aansluiting in het domein van de provider of de consumer. Het lijstje: API Enablers, Orchestration Enablers, Trust Enablers, Data Exchange Enablers, Translation Enablers, Privacy Enablers, Digital Workplace Enablers, Test Enablers, Security Enablers, Knowledge Dicovery Enablers, Analytics Enablers, Artificial Intelligence Enablers, Data Management Enablers, User Experience Management Enablers, Schedule Management Enablers.
 
 ## Interactie tussen technische componenten
 
