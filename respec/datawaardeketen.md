@@ -147,6 +147,7 @@ In [DSSC Blueprint - Publication and Discovery](https://dssc.eu/space/BVE2/10712
 Nader uit te werken:
 - Harvesten van relevante metadata duidelijk opnemen, ook dat dit geldt richting (groot)aanbieders van data als naar andere (sectorale/nationale/europese/wereldwijde) catalogi
 - In hoeverre zijn de data-services zelf-beschrijvend?
+- In hoeverre is het geospatial zoeken en vinden van gegevens onderdeel van DSFL?
 
 ## Vocabulaire (nieuw toegevoegd, Arno)
 
