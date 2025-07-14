@@ -80,7 +80,11 @@ Er wordt in de technische uitwisseling van gegevens onderscheid gemaakt tussen h
 
 Het gebruik van bepaalde standaarden heeft ook impact op de voorzieningen die deelnemers nodig hebben om deel te nemen aan het datastelsel. In algemene zin wordt in de context van data spaces gesproken over connectoren. Een connector is een technische voorziening waarmee een deelnemer aansluit op de data space. Voor het internationale Dataspace Protocol is er inmiddels een verzameling van standaard connectoren beschikbaar. Als gebruik wordt gemaakt van bijvoorbeeld de FSC standaard, dan vraagt dit weer andere connectoren (inways/outways) en voorzieningen. Als uitgebreide voorzieningen nodig zijn voor het controleren van autorisatieregels (bijvoorbeeld op basis van de AuthZEN standaard) dan is er ook een policy engine nodig om deze autorisatieregels te controleren.
 
-Uitwisseling van gegevens gaat nodig zijn over datastelsels heen. Om te voorkomen dat organisaties veel verschillende standaarden en componenten moeten kunnen toepassen is het van belang dat de datastelsels zoveel mogelijk convergeren naar dezelfde richting. Alle datastelsels volgen de Data Spaces ontwikkeling en conformeren zich zoveel als mogelijk daaraan. Dit geldt ook voor DSFL.
+Uitwisseling van gegevens gaat nodig zijn over datastelsels heen. Om te voorkomen dat organisaties veel verschillende standaarden en componenten moeten kunnen toepassen is het van belang dat de datastelsels zoveel mogelijk convergeren naar dezelfde richting. Alle datastelsels volgen de Data Spaces ontwikkeling en conformeren zich zoveel als mogelijk daaraan. Zie [DSSC - Cross-data space interoperability considerations in data space design and operation](https://dssc.eu/space/BVE2/1071252241/Cross-data+space+interoperability+considerations+in+data+space+design+and+operation) en [DSSC - Ensure Data Interoperability in Data Space](https://dssc.eu/space/DSDPV2/766181528/Ensure+Data+Interoperability+in+Data+Space) voor meer informatie hierover. Wanneer DSFL zich conformeert aan de European Data Spaces Interoperability framework (EIF), genoemd in de Data Act, dan wordt technische interoperabiliteit geboden door gebruik te maken van het Data Space Protocol (DSP).
+
+Niet alle deelnemende organisaties zullen zelf als data-aanbieder of data-afnemer fungeren maar zullen dit overlaten aan een andere organisatie. PDOK vervult nu in veel gevallen zo'n rol. In DSFL is het ook mogelijk dat organisaties zelf direct deelnemen of dit via een andere organisatie doen. Zie [DSSC - Intermediaries and Operators](https://dssc.eu/space/BVE2/1071253470/Intermediaries+and+Operators) voor meer informatie hierover.
+
+Wanneer veel datasets onderdeel worden van het datastelsel dan is het belangrijk dat de bruikbaarheid (van een dataset) voor het gewenste doel makkelijk te bepalen is. Diverse kwaliteitskenmerken zullen hiervoor onderdeel uitmaken van de metadata, zoals kwaliteit en de reikwijdte (het gebied) van de dataset. Zie [DSSC - Data, Services, and Offerings Descriptions](https://dssc.eu/space/BVE2/1071256347/Data,+Services,+and+Offerings+Descriptions) voor meer informatie hierover.
 
 Nader uit te werken:
 - Op welk niveau leggen we dit vast?
@@ -91,6 +95,8 @@ Nader uit te werken:
 - Welke connectoren hebben deelnemers nodig?
 - Hoe gaan de gegevens gevonden worden? Is er een specifieke catalogus nodig?
 - Hoe om te gaan met INSPIRE/HVD?
+- Is Linked Data onderdeel van het datastelsel?
+- Is het muteren van data mogelijk via het datastelsel?
 
 Dit betekent:
 - Gebruik van de standaar MIM en/of SHACL voor het specificeren van logische gegevensmodellen
@@ -98,4 +104,4 @@ Dit betekent:
 - Specificeren van API's middels de OpenAPI specificatie
 - Publiceren van API's op developer.overheid.nl
 - Publiceren van Datasets en Services op data.overheid.nl (DCAT)
-- Publiceren van Datasets en Services op NGR (specifiek voor geo-informatie volgens ISO 19115/19119)
+- Publiceren van Datasets en Services op NGR (specifiek voor geo-informatie volgens ISO 19115/19119), waarbij deze ook vindbaar zijn via data.overheid.nl (DCAT)
