@@ -149,6 +149,9 @@ Nader uit te werken:
 - In hoeverre zijn de data-services zelf-beschrijvend?
 - In hoeverre is het geospatial zoeken en vinden van gegevens onderdeel van DSFL?
 
+> DIt betekent voor DSFL:
+> - Er komt een DSFL catalogus met daarin informatie over de deelnemers, datasets en services
+
 ## Vocabulaire (nieuw toegevoegd, Arno)
 
 Met hetzelfde doel, het vinden en gebruiken van de data producten, beheren vocabulaireproviders een vocabulary, die wordt gebruikt om data producten te annoteren en te beschrijven (inclusief ontologieën, referentie data modellen, metadata-elementen). Vocabulaireproviders leveren deze (domein-specifieke) vocabulaires en hun verwijzingen naar het informatiemodel, dat de basis vormt voor de beschrijving van data producten.
