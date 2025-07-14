@@ -156,4 +156,7 @@ Nader uit te werken:
 
 Met hetzelfde doel, het vinden en gebruiken van de data producten, beheren vocabulaireproviders een vocabulary, die wordt gebruikt om data producten te annoteren en te beschrijven (inclusief ontologieën, referentie data modellen, metadata-elementen). Vocabulaireproviders leveren deze (domein-specifieke) vocabulaires en hun verwijzingen naar het informatiemodel, dat de basis vormt voor de beschrijving van data producten.
 
+Nader uit te werken:
+- Behoort de vocabulaire bij de bron of is het onderdeel van het datastelsel?
+
 
