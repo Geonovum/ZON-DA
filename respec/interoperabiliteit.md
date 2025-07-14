@@ -80,6 +80,8 @@ Er wordt in de technische uitwisseling van gegevens onderscheid gemaakt tussen h
 
 Het gebruik van bepaalde standaarden heeft ook impact op de voorzieningen die deelnemers nodig hebben om deel te nemen aan het datastelsel. In algemene zin wordt in de context van data spaces gesproken over connectoren. Een connector is een technische voorziening waarmee een deelnemer aansluit op de data space. Voor het internationale Dataspace Protocol is er inmiddels een verzameling van standaard connectoren beschikbaar. Als gebruik wordt gemaakt van bijvoorbeeld de FSC standaard, dan vraagt dit weer andere connectoren (inways/outways) en voorzieningen. Als uitgebreide voorzieningen nodig zijn voor het controleren van autorisatieregels (bijvoorbeeld op basis van de AuthZEN standaard) dan is er ook een policy engine nodig om deze autorisatieregels te controleren.
 
+Uitwisseling van gegevens gaat nodig zijn over datastelsels heen. Om te voorkomen dat organisaties veel verschillende standaarden en componenten moeten kunnen toepassen is het van belang dat de datastelsels zoveel mogelijk convergeren naar dezelfde richting. Alle datastelsels volgen de Data Spaces ontwikkeling en conformeren zich zoveel als mogelijk daaraan. Dit geldt ook voor DSFL.
+
 Nader uit te werken:
 - Op welk niveau leggen we dit vast?
 - Metadata versus data uitwisselen
@@ -87,9 +89,13 @@ Nader uit te werken:
 - Is er een clearing house nodig in het datastelsel?
 - Gaat het datastelsel gebruik maken van het Dataspace Protocol, AuthZEN, FSC en/of FTV en in welke omstandigheden?
 - Welke connectoren hebben deelnemers nodig?
+- Hoe gaan de gegevens gevonden worden? Is er een specifieke catalogus nodig?
+- Hoe om te gaan met INSPIRE/HVD?
 
 Dit betekent:
 - Gebruik van de standaar MIM en/of SHACL voor het specificeren van logische gegevensmodellen
 - Automatisch genereren van fysieke schema's uit logische gegevenmsmodellen
 - Specificeren van API's middels de OpenAPI specificatie
 - Publiceren van API's op developer.overheid.nl
+- Publiceren van Datasets en Services op data.overheid.nl (DCAT)
+- Publiceren van Datasets en Services op NGR (specifiek voor geo-informatie volgens ISO 19115/19119)
