@@ -116,8 +116,14 @@ De elektronische indentificatie en vertrouwensdienst voor elektronische transati
 Volgens de IAM (Identity & Access Management) expertgroep van NORA gaat het bij Autorisatie om: Het proces om te beslissen of een Entiteit op grond van een Authenticatiemiddel, Identiteitsverklaring, of een Machtiging, toegang krijgt tot een Resource. De beslissing wordt mede gebaseerd op de bij de resource behorende Autorisatieregels en omgevingsfactoren. Voorbeelden van omgevingsfactoren zijn het moment op de dag en de locatie. Vaak is er een splitsing in een functie om de autorisatie-beslissing te nemen (ook wel genoemd: PDP = Policy Decision Point) wat resulteert in een autorisatie-beslissing (soms ook toegangstoken genoemd) en een functie om deze beslissing af te dwingen op basis van de autorisatie-beslissing (ook wel genoemd: PEP = Policy Enforcement Point). De beslissingsfunctie (PDP) functie kan zowel binnen een dienst als daarbuiten worden uitgevoerd; het afdwingen van de beslissing (PEP) wordt noodzakelijkerwijs altijd binnen de dienst uitgevoerd.
 
 ## Zoeken en vinden (catalogi en directory services)
+
 ## Zoeken en vinden (data inhoud)
+
+Vocabulaire (Vocabulary Hub):
+BegrippenXL is een on-line systeem voor het definiëren en relateren van begrippen. Het maakt kennis over wat woorden precies betekenen expliciet. De taal van de organisatie wordt vastgelegd in een woordenboek. Een dergelijk woordenboek heet ook wel een thesaurus en is veel meer dan een lijst van woorden. Het biedt ruimte om vanuit allerlei perspectieven de begrippen te beschrijven en ze onderling te relateren. 
+
 ## (Gefedereerde) analyse 
+
 ## Metadata
 NGR:
 - Genereren van pseudo-geo info (als nieuwe component) voor mengen geo en niet-geo informatie? <welke eisen stellen we aan deze component, welke use case(s) willen we op korte termijn ondersteunen>
@@ -225,3 +231,14 @@ Federatief IT beheer: Er bestaat een gezamenlijk gegevensbeheer tussen domeinen 
 
 ## Historie
 Historie wordt beheerd en (wanneer van toepassing) ontsloten bij de bron; er wordt dus niet (opnieuw) historie opgebouwd. 
+
+## Connector
+[Bron: Geonovum nieuwsartikel Een duik in het DataSpace Protocol](https://www.geonovum.nl/nieuws/een-duik-in-het-dataspace-protocol)
+Om vertrouwd data te kunnen delen, heeft IDSA, de International Data Space Association, het DataSpace Protocol ontwikkeld. Het DataSpace Protocol bevindt zich in het proces om een ISO standaard te worden. Dit protocol speelt ook een rol bij het standaardisatiewerk bij CEN / CENELEC. Daarom wil Geonovum meer kennis en ervaring opdoen met dit protocol. 
+ 
+Bij vertrouwd datadelen is niet alleen standaardisatie op de data-laag - de Data Plane - nodig, het is ook belangrijk dat de ‘Control Plane’ gestandaardiseerd is. Het Control Plane is het deel van een netwerk dat bepaalt hoe gegevens het beste kunnen worden doorgestuurd. 
+In de basis bestaat het DataSpace Protocol uit 3 protocollen:
+	· Het Catalog protocol om (afhankelijk van je rechten) de catalogus van een ander in te mogen zien. Bij open data zal dat de hele catalogus zijn, maar bij vertrouwde data, komt het ook voor dat je uberhaupt niet mag weten dat de data bestaan. Het Catalog protocol handelt af dat je de metadata te zien krijgt die je mag zien
+	· Het Contract Negotiation Protocol. Zodra je weet welke dataset je wilt hebben, start de onderhandeling over het contract en het uiteindelijk tekenen van het contract. Bij vertrouwd datadelen zal er immers sprake zijn van gebruiksvoorwaarden
+	· Het Transfer Process Protocol. Nog niet de daadwerkelijke data-overdracht (dat gaat via het Transport protocol), maar de afspraken die daarvoor nodig zijn
+TNO heeft een implementatie van het dataspace protocol (welke ook gecertificeerd is door IDSA) gedaan; de TNO Security Gateway (TSG). Samen met Sogelink, provincie Friesland en Kadaster zet Geonovum nu een experiment op  om ervaring op te doen met dit dataspace protocol. De ervaringen uit het experiment worden na afloop gepubliceerd. 
