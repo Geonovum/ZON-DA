@@ -22,6 +22,7 @@ Dit resulteert in 3 categoriën van services/technische componenten:
 Hiermee wordt ingeregeld dat metadata (DCAT en ODRL) bekeken kan worden (Data Catalog Protocol), dat het contract digitaal gesloten kan worden (Contract Negotiation Protocol) en dat de toegang tot de data wordt ingeregeld (Transfer Process Protocols). Dit is niet anders dan in andere dataspaces. Interessante aspecten:
 - gaan de beschikbare connectoren (al) goed om met DCAT-AP / kun je bv. de bounding box van de dataset inzichtelijk krijgen?
 - ik heb voorbeelden gezien dat de geo-locatie van de data consumer een rol speelt in de contract negotiation, bv. een aanvrager uit Rusland mag de data niet krijgen. Dit zal via identity management worden ingeregeld vermoed ik, maar wellicht zit hier nog een geo-haakje?
+- welke functionaliteiten en data zijn relevant voor de connector en aan welke standaarden moeten die voldoen? 
 
 **Centraal**
 
