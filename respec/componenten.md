@@ -104,6 +104,10 @@ Er zijn ook nog een heel aantal andere enablers die optioneel onderdeel van de v
 ![Interactie tussen technische componenten](./respec/media/InteractionOfTechnicalComponents.png "Interactie tussen technische componenten")
 Afbeelding Interactie tussen technische componenten (bron: IDS-RAM)
 
+Overzicht van (technische) services uit de DSCC: https://dssc.eu/space/BVE2/1071254998/Services+for+Implementing+Technical+Building+Blocks 
+<img width="1178" height="876" alt="image" src="https://github.com/user-attachments/assets/39411332-a8c1-4d59-be57-b707954790dc" />
+
+
 ## Hergebruik van bestaande componenten
 <wat is er al, wie heeft het al/hergebruik, wat moet er nog ontwikkeld/bepaald/gekozen worden> 
 
