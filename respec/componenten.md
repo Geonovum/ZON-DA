@@ -71,7 +71,7 @@ HW: je hebt wel een URI strategie nodig om te borgen dat je het kunt ontsluiten 
 |    term                  | omschrijving / toelichting                                                                                                                                        |
 | --------                 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------  |    
 | Dataspace                | Bij voorkeur omvat een dataspace geen fysieke data of producten, maar wordt in een specifieke dataspace gelinked naar andere datasources                          |
-| Dataproduct              |                                                                                                                                                                   |
+| Dataproduct              | https://dssc.eu/space/bv15e/766065053/Data+Product                                              									|
 | Databron/datasource      |                                                                                                                                                                    |
 | Dataset/datasetserie     |                                                                                                                                                                   |
 | Dataservice              |                                                                                                                                                                   |
