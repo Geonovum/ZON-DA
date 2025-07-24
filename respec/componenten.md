@@ -122,14 +122,15 @@ Volgens de IAM (Identity & Access Management) expertgroep van NORA gaat het bij 
 
 ## Zoeken en vinden (catalogi en directory services)
 
-De catalogi zijn vaak deelverzamelingen en de onderliggende modellen zijn verschillende. Om data federatief te delen is het noodzakelijk dat de verschillende modellen in de connector naast elkaar staan en aanvullend zijn. Overlap meot dan worden voorkomen.  
+De catalogi zijn vaak deelverzamelingen van de data en de onderliggende modellen van deze deelverzamelingen zijn verschillend. Om data federatief te delen is het noodzakelijk dat de verschillende modellen in de connector naast elkaar staan en aanvullend zijn. Overlap moet dan zoveel mogelijk worden voorkomen en dienen elkaar aan te vullen.
+De conventiele data wereld gaat uit van datasets en datasetseries. Die wereld is deels achterhaald en er is steeds meer behoefte aan het doorzoekbaar en vindbaar maken van de bronnen, waar de datasets en series een resultaat zijn van de query aan die bronnen. Technieken als Linkeddata helpen om de data doorzoekbaar en vindbaar te maken. Het is een secuur en daardoor tijdsintensief proces om de data Linkeddata complient te maken. Dillema daarbij is of die tijdsinvestering acceptabel is. 
 
 ## Zoeken en vinden (data inhoud)
 
 Vocabulaire (Vocabulary Hub):
-BegrippenXL is een on-line systeem voor het definiëren en relateren van begrippen. Het maakt kennis over wat woorden precies betekenen expliciet. De taal van de organisatie wordt vastgelegd in een woordenboek. Een dergelijk woordenboek heet ook wel een thesaurus en is veel meer dan een lijst van woorden. Het biedt ruimte om vanuit allerlei perspectieven de begrippen te beschrijven en ze onderling te relateren. 
+BegrippenXL is een (bestaand) on-line systeem voor het definiëren en relateren van begrippen. Het maakt kennis over wat woorden precies betekenen expliciet. De taal van de organisatie wordt vastgelegd in een woordenboek. Een dergelijk woordenboek heet ook wel een thesaurus en is veel meer dan een lijst van woorden. Het biedt ruimte om vanuit allerlei perspectieven de begrippen te beschrijven en ze onderling te relateren. 
 
-Voorkomen moet worden dat alle databronnen worden gerepliceerd of worden geindexeerd in de connector om de data doorzoekbaar en vindbaar te maken. De zoekfunctie moet er op gericht zijn om de API's van de databronnen te doorzoeken. Hiermee maakt de connector altijd gebruik van de laatste versie van de data. De response van de zoekfunctie geeft een link naar de databron.  
+Voorkomen wordt dat alle databronnen gerepliceerd of geindexeerd worden in de connectorlaag om de data doorzoekbaar en vindbaar te maken. De zoekfunctie is er op gericht om de API's van de databronnen te doorzoeken. Hiermee maakt de connector altijd gebruik van de laatste versie van de data. De response van de zoekfunctie geeft een link naar de databron met als resultaat een dataset. Het combineren van datasets leidt tot nieuwe dataproducten.  
 
 ## (Gefedereerde) analyse 
 
