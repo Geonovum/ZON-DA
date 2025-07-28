@@ -64,7 +64,6 @@ Op het Europese applicatieprofiel [DCAT-AP-3.0] worden domein specifieke profiel
 
 DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi. Daarmee vervangt het niet de domeinspecifieke standaarden zoals ISO 19115. Vanuit domeinspecieke standaarden en profielen, zoals bijvoorbeeld INSPIRE, die gebaseerd is op ISO 19115, kunnen er profielen op DCAT worden ontwikkeld die ook een mapping van elementen bevat van de domein specifieke standaard naar DCAT. geoDCAT is daar een voorbeeld van.
 
-
 - Begrippen en informatie/gegevensmodellen – per stap in de waardeketen
 - Dataset metadata (ISO 1911X, DCAT) – per stap in de waardeketen
 - Data lineage – per stap in de waardeketen
