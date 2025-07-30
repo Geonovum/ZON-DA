@@ -57,7 +57,8 @@ De expertise rondom onze coordinaatreferentiestelsels (RD, NAP en LAT) is georga
 
 10. Idee: URI-strategie adviespunt. 
 Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellicht nodig iets meer te gaan regelen rond UUID's. Hoewel dit in de eerdere Inventarisatie Data Ecosystemen alleen ter sprake kwam bij ZoN/NGII is dit niet anders dan in andere dataspaces.
-HW: je hebt wel een URI strategie nodig om te borgen dat je het kunt ontsluiten voor linked data.
+
+Een URI strategie is nodig om te borgen dat je het kunt ontsluiten voor linked data. Linked Data verschilt van conventiële technieken door het gebruik van verbonden data met semantiek die gemakkelijk kan worden verwerkt. Conventiële technieken gebruiken niet-verbonden datasets zonder semantische context. Het is nog wel een keuze of LinkedData ondersteunt moet worden; is er bereidheid de extra benodigde kwaliteit erin te steken.
    
 </font>
 
