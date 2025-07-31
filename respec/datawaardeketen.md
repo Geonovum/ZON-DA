@@ -14,9 +14,71 @@ Als je het plaatje geforceerd een bepaalde grootte wil geven kan het ook met een
 ```
 (waarbij width het aantal pixels aangeeft van de breedte van het plaatje)
 
-## Waardeketen (Paul/Peter)
+## Waardeketen (Paul/Peter /Stephan)
 
-Waardeketen zoals beschreven in de visie Zicht op Nederland
+## Indeling van datasets 
+Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Vaak is het beheer niet duurzaam geregeld en gefinancierd.
+Op basis van deze kenmerken classificeren we datasets in een ringen model: 
+-	Buitenring: datasets die niet landelijk gestandaardiseerd of gedeeld zijn.
+-	Ring 2: datasets die wél gestandaardiseerd zijn, maar alleen binnen het oorspronkelijke doel worden gebruikt. Er is geen garantie op beschikbaarheid of actualisatie, zeker bij projectmatige datasets.
+-	Ring 1: gestandaardiseerd, gedeeld en financieel geborgd. Dit zijn duurzame geo-datasets zonder wettelijke grondslag, maar met breed gebruik en langdurig beheer.
+-	Kern: de basisregistraties. Deze zijn juridisch, organisatorisch en financieel geborgd. Er geldt een wettelijke verplichting tot het maken, gebruiken en terugmelden van gegevens.
+Daarnaast zijn er datasets waarvan het bestaan niet publiek bekend is – deze bevinden zich “buiten de buitenring”.
+Dit ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zie figuur).
+
+
+Figuur: Waardeketen zoals beschreven in de visie Zicht op Nederland
+
+ID…	….
+Statement:	We classificeren datasets met een ringmodel.
+Rationale:	Om vast te kunnen stellen of een dataset bruikbaar is binnen de DFL hanteren we een ringen model die datasets classificeert op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Datasets die niet gestandaardiseerd zijn en toegankelijk zijn niet bruikbaar binnen een duurzaam in te richten datawaardeketen.
+
+ID…	…
+Statement	Voor de DFL gebruiken we datasets uit de kern en de 1e ring van het ringmodel die een landelijke dekking hebben.
+Rationale	De DFL heeft maximale meerwaarde als de aangeboden data een landelijke dekking hebben zodat ze relevant zijn voor alle bestuurslagen in geheel Nederland. Daarnaast moeten ze gestandaardiseerd en duurzaam beschikbaar zijn om aangesloten processen optimaal te kunnen laten functioneren.
+
+## De datawaardeketen
+Een datawaardeketen in de context van Zicht op Nederland is een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe  
+Hierin staat data voor een feitelijke waarneming in de werkelijkheid (bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.).
+Informatie ontstaat indien er door een kennishouder waarde aan deze data wordt toegevoegd. In de context van ZoN zien we dit als een interpretatie van de gegevens naar een 2D kaartbeeld of 3D model binnen het domein waarin de gegevens zijn waargenomen. Voorbeelden zijn de bodemkaart van Nederland, gemaakt door Wageningen University & Research op basis van bodemkundige waarnemingen, of de topografische kaart van Nederland, gemaakt door het Kadaster op basis van waarnemingen aan de ruimtelijke inrichting van Nederland.
+Kennis ontstaat indien informatie uit verschillende domeinen wordt samengebracht om inzicht te krijgen in het gedrag/veranderingen van een bepaald fenomeen. Bijvoorbeeld het Nederlands Hydrologisch Instrumentarium. Hierin werken verschillende kennispartners samen om gegevens over onder andere de hydro-geologische opbouw, monitoring van de grondwaterstand, oppervlaktewater en neerslag te combineren om inzicht te krijgen in de veranderingen van het (grond)watersysteem in Nederland. Uiteindelijk worden de hiermee verkregen inzichten gebruikt voor het maken van datagedreven handelingsperspectieven.
+
+Een waardeketen is gebaseerd op algemeen bruikbare datasets, die richting het handelingsperspectief steeds specifieker worden geanalyseerd en geïnterpreteerd. De term Digital Twin is van toepassing zowel informatie producten als kennis producten. Zo is de topografische kaart van Nederland een digital twin van de bovengrondse inrichting van Nederland, en het NHI een digital twin van het Nederlandse watersysteem.
+
+Bovenop de waardecreatie in de keten zelf, worden de gebruikte data, gerealiseerde producten en toegepaste modellen over de keten heen ontsloten via portalen en API’s. Als zodanig levert deze ontsluiting ook waarde op voor gebruik in werkprocessen van derden.
+
+In de referentie architectuur Digital Twin voor de fysieke leefomgeving   is een dataproduct beschreven als een combinatie van gegevens, technologie, en (reken)modellen die ervoor zorgt dat de data eenvoudig in de werkprocessen van de gebruiker kan worden toegepast. Deze definiete omvat alles wat in de datawaardeketen wordt gedaan om informatie en wijsheid te creëren, evenals de technologie die wordt aangeboden om over de gehele waardeketen producten aan te bieden.
+
+
+Figuur: Principe van de datawaardeketen in Zicht op Nederland.
+
+ID…	…
+Statement	In de DFL richten we ketens in volgens het principe van de datawaardeketen uit Zicht op Nederland.
+Rationale	De datawaardeketen geeft inzicht in hoe verschillende databronnen in een keten worden gebruikt en verrijkt door een combinatie van kennishouders om gericht toegevoegde waarde te hebben in het verkrijgen van een handelingsperspectief en het op basis hiervan nemen van geïnformeerde datagedreven besluiten. Naarmate De  
+
+ID…	…
+Statement	De DFL ondersteunt de gehele datawaardeketen.
+Rationale	De toegevoegde waarde van een datawaardeketen bestaat alleen indien de gehele keten duurzaam is ingericht. De keten start bij de organisaties die daadwerkelijk waarnemingen verrichten en deze aanleveren. Vervolgens wordt in verschillende stappen waarde toegevoegd door kennishouders om tenslotte de gecombineerde waarde te ontsluiten richting handelingsperspectieven. Het wegvallen van een van deze schakels maakt de datawaardeketen disfunctioneel.
+
+## Wat doet de Dataspace fysieke Leefomgeving
+De inrichting van de waardeketens in de Dataspace Fysieke Leefomgeving wordt in eerste instantie functioneel bepaald: Welke handelingsperspectieven willen we ondersteunen en welke kennis, informatie en gegevens hebben we hiervoor vervolgens nodig. Dit vraagarticulatie proces, waarbij de datawaardeketen ‘in omgekeerde volgorde’ wordt doorlopen,  wordt gefaciliteerd door het GI-beraad. De Dataspace Fysieke Leefomgeviong organiseert vervolgens dat de juiste kennis, informatie en data producten beschikbaar zijn en dat de dataleveranciers hun gegevens aan de keten kunnen aanleveren. Deze keten wordt ingericht conform de definities en met de bouwblokken vanuit het Federatief Datastelsel.
+
+ID…	…
+Statement	Het GI beraad organiseert welke waardeketens worden ingericht in de Dataspace Fysieke Leefomgeving wordt ingericht.
+Rationale	De functioneel duiden van een datawaardeketen krijgt vorm via het vraagarticulatie proces van het GI-beraad. Hierdoor maken we maximaal gebruik van het GI-beraad en geven we invulling aan de rationale achter de oprichting ervan.
+
+ID…	…
+Statement	Het Federatief Datastelsel organiseert ‘hoe’ de Dataspace .Fysieke Leefomgeving wordt ingericht.
+Rationale	Voor het (technisch) inrichten van de dataspace wordt aangesloten bij het Federatief datastelsel. Hierdoor zorgen we ervoor dat de producten van de specifieke invulling van de DFL ook bruikbaar zijn voor andere ketens die volgens het federatief datastelsel zijn ingericht. Hiermee geven we invulling aan het principe ‘eenmalige inwinning – meervoudig gebruik’.
+
+Wat is de rol van bestuursorganen bij het inrichten van de Dataspace Fysieke Leefomgeving
+Vanuit het proces van vraagarticulatie wordt duidelijk welke kennis, informatie en data nodig zijn. Het is aan de betrokken bestuursorganen om te organiseren dat deze kennis, informatie en data duurzaam beschikbaar zijn. Dit omvat het organiseren van het duurzaam bijhouden van kennis en informatie producten door het maken van (wettelijke) afspraken met kennisinstellingen, het ‘promoveren’ van datasets naar de classificatie ‘Ring 1’of ‘kern’ en het organiseren van het duurzaam aanleveren van gegevens door dataleveranciers aan deze datasets.
+
+ID…	…
+Statement	Bestuursorganen zijn verantwoordelijk voor het duurzaam inrichten van de Dataspace .Fysieke Leefomgeving.
+Rationale	Bestuursorganen hebben als eerste profijt van de aangeboden data, informatie en kennis bij het uitvoeren van hun taken. Daarnaast hebben ze het bestuurlijk mandaat om het inrichten van de waardeketen duurzaam vorm te geven.
+
+Figuur: Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.
 
 - Stappen in de waardeketen
     - Verzamelen
