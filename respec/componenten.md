@@ -135,6 +135,8 @@ Voorkomen wordt dat alle databronnen gerepliceerd of geindexeerd worden in de co
 
 ## (Gefedereerde) analyse 
 
+Gebruikers willen zonder diepgaande kennis over de datastructuren, gecombineerde gegevens kunnen opvragen. Hier is eerder naar gekeken in kader van de basisregistraties (IMX), waarbij gesteld is dat ZoN verder gaat met IMX-Geo (zie: https://www.geonovum.nl/nieuws/zicht-op-nederland-gaat-verder-met-imx-geo). Binnen Zicht op Nederland zou er een project komen (of is dat er al?) om de eerdere pilot een vervolg te geven. Dit vervolgtraject behelst "verdere verkenning, ontwikkeling en beproeving van gebruiksvoorbeelden voor IMX binnen en buiten het geo-domein", zie https://www.zichtopnl.nl/datafundament/projecten/kruisbevraging/default.aspx . 
+
 ## Metadata
 NGR:
 - Genereren van pseudo-geo info (als nieuwe component) voor mengen geo en niet-geo informatie? <welke eisen stellen we aan deze component, welke use case(s) willen we op korte termijn ondersteunen>
