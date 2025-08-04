@@ -1,22 +1,9 @@
 # Datawaardeketen
 
-![Samenhangende data](./respec/media/samenhangende_data.png)
-
-Een plaatje kun je invoegen door het te plaatsen in de respec/media map en dan een verwijzing in markdown te doen:
-
-```
-![<beschrijving plaatje>](./respec/media/<naam plaatje>)
-```
-Als je het plaatje geforceerd een bepaalde grootte wil geven kan het ook met een html tag:
-
-```
-<img src="./respec/media/naam plaatje>" alt="beschrijving plaatje" width="900">
-```
-(waarbij width het aantal pixels aangeeft van de breedte van het plaatje)
-
 ## Waardeketen (Paul/Peter /Stephan)
 In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als de keten van het inwinnen van gegevens, ontsluiten en analyseren tot het gebruiken van de inzichten die hiermee verworven worden. De waardeketen is daarbij gevisualiseerd in onderstaande figuur.
-![Figuur: Datawaardeketen in Zicht op Nederland](respec/media/ZoN Visie - Waardeketen.PNG)
+
+![Figuur: Datawaardeketen in Zicht op Nederland](respec/media/ZoN_Visie_Waardeketen.png)
 
 Data moeten ingewonnen en ontsloten worden, vervolgens gecombineerd, geanalyseerd en gevisualiseerd alvorens het bruikbare informatie is. In deze waardeketen levert elke schakel op zichzelf staande producten op en voegt daarbij waarde toe aan de data. Het is niet noodzakelijk dat de hele waardeketen doorlopen wordt om tot waardevolle resultaten te komen. Ingewonnen data kunnen direct in het werkproces waarin ze ontstaan toegepast worden. Als de ontsluiting goed geregeld is, kunnen gebruikers aan de slag met data uit diverse bronnen. Door daarbij data te combineren, in een bepaalde context te plaatsen of door data te interpreteren en daarbij kennis toe te voegen, wordt de waarde vergroot. Elke schakel kent daarnaast een afslag naar hergebruik door derden die vaak weer andere doelen hebben dan het doel behorend bij de oorspronkelijke reden van inwinning. Zo neemt de waarde van data, uitgedrukt in meerwaarde voor het bedrijfsproces of de processtap van het proces waarnaar de data of informatie ontsloten wordt, op verschillende manieren toe. 
 
@@ -29,39 +16,35 @@ Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan
 Interpreteren en visualiseren
 
 Nog uit te werken:
-Informatie ontstaat zodra de data in de context is geplaats. Informatie kan worden gebruikt voor het begrijpen en voorspellen van gedrag en voor de onderbouwing van een handelingsperspectief.  
-Kennis/wijsheid = Informatie * Ervaring Vaardigheden en Attitude (Houding)
-Kennis zit verweven in de modellen en daarbij is er sprake van interpretaties. De datawaardeketen is daarmee niet alleen data gedreven maar ook kennis gedreven.
-Wat is de reikwijdte van een domein? In de plaat vakinhoudelijk, grondwater etc. 
+- Informatie ontstaat zodra de data in de context is geplaats. Informatie kan worden gebruikt voor het begrijpen en voorspellen van gedrag en voor de onderbouwing van een handelingsperspectief.  
+- Kennis/wijsheid = Informatie * Ervaring Vaardigheden en Attitude (Houding)
+- Kennis zit verweven in de modellen en daarbij is er sprake van interpretaties. De datawaardeketen is daarmee niet alleen data gedreven maar ook kennis gedreven.
+- Wat is de reikwijdte van een domein? In de plaat vakinhoudelijk, grondwater etc. 
 Van links naar rechts wordt waarde toegevoegd. Het ontstaan van data heeft zijn eigen dynamiek. Er moet bekend zijn wat de actualiteit is. 
-Term dataproduct uitleggen.
-
+- Term dataproduct uitleggen.
 
 ## Indeling van datasets 
 Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Vaak is het beheer niet duurzaam geregeld en gefinancierd.
-Op basis van deze kenmerken classificeren we datasets in een ringen model: 
--	Buitenring: datasets die niet landelijk gestandaardiseerd of gedeeld zijn.
--	Ring 2: datasets die wél gestandaardiseerd zijn, maar alleen binnen het oorspronkelijke doel worden gebruikt. Er is geen garantie op beschikbaarheid of actualisatie, zeker bij projectmatige datasets.
--	Ring 1: gestandaardiseerd, gedeeld en financieel geborgd. Dit zijn duurzame geo-datasets zonder wettelijke grondslag, maar met breed gebruik en langdurig beheer.
--	Kern: de basisregistraties. Deze zijn juridisch, organisatorisch en financieel geborgd. Er geldt een wettelijke verplichting tot het maken, gebruiken en terugmelden van gegevens.
-Daarnaast zijn er datasets waarvan het bestaan niet publiek bekend is – deze bevinden zich “buiten de buitenring”.
-Dit ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zie figuur).
+Op basis van deze kenmerken classificeren we datasets in een ringenmodel: 
 
+- Buitenring: datasets die niet landelijk gestandaardiseerd of gedeeld zijn.
+- Ring 2: datasets die wél gestandaardiseerd zijn, maar alleen binnen het oorspronkelijke doel worden gebruikt. Er is geen garantie op beschikbaarheid of actualisatie, zeker bij projectmatige datasets.
+- Ring 1: gestandaardiseerd, gedeeld en financieel geborgd. Dit zijn duurzame geo-datasets zonder wettelijke grondslag, maar met breed gebruik en langdurig beheer.
+- Kern: de basisregistraties. Deze zijn juridisch, organisatorisch en financieel geborgd. Er geldt een wettelijke verplichting tot het maken, gebruiken en terugmelden van gegevens.
 
-Figuur: Waardeketen zoals beschreven in de visie Zicht op Nederland
+Daarnaast zijn er datasets waarvan het bestaan niet publiek bekend is – deze bevinden zich “buiten de buitenring”. 
 
-ID…	….
-Statement:	We classificeren datasets met een ringmodel.
-Rationale:	Om vast te kunnen stellen of een dataset bruikbaar is binnen de DFL hanteren we een ringen model die datasets classificeert op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Datasets die niet gestandaardiseerd zijn en toegankelijk zijn niet bruikbaar binnen een duurzaam in te richten datawaardeketen.
+Het ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zie figuur).
 
-ID…	…
-Statement	Voor de DFL gebruiken we datasets uit de kern en de 1e ring van het ringmodel die een landelijke dekking hebben.
-Rationale	De DFL heeft maximale meerwaarde als de aangeboden data een landelijke dekking hebben zodat ze relevant zijn voor alle bestuurslagen in geheel Nederland. Daarnaast moeten ze gestandaardiseerd en duurzaam beschikbaar zijn om aangesloten processen optimaal te kunnen laten functioneren.
+![Figuur: Classificatie van databronnen in Ringmodel.](respec/media/ringenmodel_datasets.png)
+
+We gebruiken het ringenmodel om vast te kunnen stellen of een dataset bruikbaar is binnen de DSFL. Deze classificeert datasets op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Datasets die niet gestandaardiseerd zijn en toegankelijk zijn niet bruikbaar binnen een duurzaam in te richten datawaardeketen. Voor de DSFL gebruiken we daarom datasets uit de kern en de 1e ring van het ringmodel die een landelijke dekking hebben. Hierdoor heeft de DSFL  maximale meerwaarde. Daarnaast moeten ze gestandaardiseerd en duurzaam beschikbaar zijn om aangesloten processen optimaal te kunnen laten functioneren.
 
 ## De datawaardeketen
-Een datawaardeketen in de context van Zicht op Nederland is een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe  
-Hierin staat data voor een feitelijke waarneming in de werkelijkheid (bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.).
+In de DSFL worden ketens ingericht volgens het principe van de datawaardeketen uit Zicht op Nederland. De datawaardeketen is een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe. Hierin staat data voor een feitelijke waarneming in de werkelijkheid (bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.). Het geeft inzicht in hoe verschillende databronnen in een keten worden gebruikt en verrijkt door een combinatie van kennishouders om gericht toegevoegde waarde te hebben in het verkrijgen van een handelingsperspectief en het op basis hiervan nemen van geïnformeerde datagedreven besluiten. 
+
 Informatie ontstaat indien er door een kennishouder waarde aan deze data wordt toegevoegd. In de context van ZoN zien we dit als een interpretatie van de gegevens naar een 2D kaartbeeld of 3D model binnen het domein waarin de gegevens zijn waargenomen. Voorbeelden zijn de bodemkaart van Nederland, gemaakt door Wageningen University & Research op basis van bodemkundige waarnemingen, of de topografische kaart van Nederland, gemaakt door het Kadaster op basis van waarnemingen aan de ruimtelijke inrichting van Nederland.
+
 Kennis ontstaat indien informatie uit verschillende domeinen wordt samengebracht om inzicht te krijgen in het gedrag/veranderingen van een bepaald fenomeen. Bijvoorbeeld het Nederlands Hydrologisch Instrumentarium. Hierin werken verschillende kennispartners samen om gegevens over onder andere de hydro-geologische opbouw, monitoring van de grondwaterstand, oppervlaktewater en neerslag te combineren om inzicht te krijgen in de veranderingen van het (grond)watersysteem in Nederland. Uiteindelijk worden de hiermee verkregen inzichten gebruikt voor het maken van datagedreven handelingsperspectieven.
 
 Een waardeketen is gebaseerd op algemeen bruikbare datasets, die richting het handelingsperspectief steeds specifieker worden geanalyseerd en geïnterpreteerd. De term Digital Twin is van toepassing zowel informatie producten als kennis producten. Zo is de topografische kaart van Nederland een digital twin van de bovengrondse inrichting van Nederland, en het NHI een digital twin van het Nederlandse watersysteem.
@@ -70,42 +53,22 @@ Bovenop de waardecreatie in de keten zelf, worden de gebruikte data, gerealiseer
 
 In de referentie architectuur Digital Twin voor de fysieke leefomgeving   is een dataproduct beschreven als een combinatie van gegevens, technologie, en (reken)modellen die ervoor zorgt dat de data eenvoudig in de werkprocessen van de gebruiker kan worden toegepast. Deze definiete omvat alles wat in de datawaardeketen wordt gedaan om informatie en wijsheid te creëren, evenals de technologie die wordt aangeboden om over de gehele waardeketen producten aan te bieden.
 
+De DSFL ondersteunt de gehele datawaardeketen. De toegevoegde waarde van een datawaardeketen bestaat alleen indien de gehele keten duurzaam is ingericht. De keten start bij de organisaties die daadwerkelijk waarnemingen verrichten en deze aanleveren. Vervolgens wordt in verschillende stappen waarde toegevoegd door kennishouders om tenslotte de gecombineerde waarde te ontsluiten richting handelingsperspectieven. Het wegvallen van een van deze schakels maakt de datawaardeketen disfunctioneel.
 
-Figuur: Principe van de datawaardeketen in Zicht op Nederland.
-
-ID…	…
-Statement	In de DFL richten we ketens in volgens het principe van de datawaardeketen uit Zicht op Nederland.
-Rationale	De datawaardeketen geeft inzicht in hoe verschillende databronnen in een keten worden gebruikt en verrijkt door een combinatie van kennishouders om gericht toegevoegde waarde te hebben in het verkrijgen van een handelingsperspectief en het op basis hiervan nemen van geïnformeerde datagedreven besluiten. Naarmate De  
-
-ID…	…
-Statement	De DFL ondersteunt de gehele datawaardeketen.
-Rationale	De toegevoegde waarde van een datawaardeketen bestaat alleen indien de gehele keten duurzaam is ingericht. De keten start bij de organisaties die daadwerkelijk waarnemingen verrichten en deze aanleveren. Vervolgens wordt in verschillende stappen waarde toegevoegd door kennishouders om tenslotte de gecombineerde waarde te ontsluiten richting handelingsperspectieven. Het wegvallen van een van deze schakels maakt de datawaardeketen disfunctioneel.
+![Figuur: Principe van de datawaardeketen in Zicht op Nederland.](respec/media/Waardeketen_en_DFL.png)
 
 ## Wat doet de Dataspace fysieke Leefomgeving
-De inrichting van de waardeketens in de Dataspace Fysieke Leefomgeving wordt in eerste instantie functioneel bepaald: Welke handelingsperspectieven willen we ondersteunen en welke kennis, informatie en gegevens hebben we hiervoor vervolgens nodig. Dit vraagarticulatie proces, waarbij de datawaardeketen ‘in omgekeerde volgorde’ wordt doorlopen,  wordt gefaciliteerd door het GI-beraad. De Dataspace Fysieke Leefomgeviong organiseert vervolgens dat de juiste kennis, informatie en data producten beschikbaar zijn en dat de dataleveranciers hun gegevens aan de keten kunnen aanleveren. Deze keten wordt ingericht conform de definities en met de bouwblokken vanuit het Federatief Datastelsel.
+De inrichting van de waardeketens in de DSFL wordt in eerste instantie functioneel bepaald: Welke handelingsperspectieven willen we ondersteunen en welke kennis, informatie en gegevens hebben we hiervoor vervolgens nodig. Dit vraagarticulatie proces, waarbij de datawaardeketen ‘in omgekeerde volgorde’ wordt doorlopen,  wordt gefaciliteerd door het GI-beraad. De DSFL organiseert vervolgens dat de juiste kennis, informatie en data producten beschikbaar zijn en dat de dataleveranciers hun gegevens aan de keten kunnen aanleveren. Deze keten wordt ingericht conform de definities en met de bouwblokken vanuit het Federatief Datastelsel.
 
-ID…	…
-Statement	Het GI beraad organiseert welke waardeketens worden ingericht in de Dataspace Fysieke Leefomgeving wordt ingericht.
-Rationale	De functioneel duiden van een datawaardeketen krijgt vorm via het vraagarticulatie proces van het GI-beraad. Hierdoor maken we maximaal gebruik van het GI-beraad en geven we invulling aan de rationale achter de oprichting ervan.
+Het GI beraad bepaalt welke waardeketens worden ingericht in de DSFL. Hiervoor wordt gebruik gemaakt van het vraagarticulatie proces dat een datawaardeketen functioneel duide. Hierdoor maken we maximaal gebruik van het GI-beraad en geven we invulling aan de rationale achter de oprichting ervan.
 
-ID…	…
-Statement	Het Federatief Datastelsel organiseert ‘hoe’ de Dataspace .Fysieke Leefomgeving wordt ingericht.
-Rationale	Voor het (technisch) inrichten van de dataspace wordt aangesloten bij het Federatief datastelsel. Hierdoor zorgen we ervoor dat de producten van de specifieke invulling van de DFL ook bruikbaar zijn voor andere ketens die volgens het federatief datastelsel zijn ingericht. Hiermee geven we invulling aan het principe ‘eenmalige inwinning – meervoudig gebruik’.
+Voor het (technisch) inrichten van de dataspace wordt aangesloten bij het Federatief datastelsel. Hierdoor zorgen we ervoor dat de producten van de specifieke invulling van de DSFL ook bruikbaar zijn voor andere ketens die volgens het federatief datastelsel zijn ingericht. Hiermee geven we invulling aan het principe ‘eenmalige inwinning – meervoudig gebruik’.
 
 Wat is de rol van bestuursorganen bij het inrichten van de Dataspace Fysieke Leefomgeving
-Vanuit het proces van vraagarticulatie wordt duidelijk welke kennis, informatie en data nodig zijn. Het is aan de betrokken bestuursorganen om te organiseren dat deze kennis, informatie en data duurzaam beschikbaar zijn. Dit omvat het organiseren van het duurzaam bijhouden van kennis en informatie producten door het maken van (wettelijke) afspraken met kennisinstellingen, het ‘promoveren’ van datasets naar de classificatie ‘Ring 1’of ‘kern’ en het organiseren van het duurzaam aanleveren van gegevens door dataleveranciers aan deze datasets.
+Vanuit het proces van vraagarticulatie wordt duidelijk welke kennis, informatie en data nodig zijn. Het is aan de betrokken bestuursorganen om te organiseren dat deze kennis, informatie en data duurzaam beschikbaar zijn. Zij hebben namelijk als eerste profijt van de aangeboden data, informatie en kennis bij het uitvoeren van hun taken. Daarnaast hebben ze het bestuurlijk mandaat om het inrichten van de waardeketen duurzaam vorm te geven. Zij zullen het duurzaam bijhouden van kennis en informatie producten organiseren door het maken van (wettelijke) afspraken met kennisinstellingen, het ‘promoveren’ van datasets naar de classificatie ‘Ring 1’of ‘kern’ en het organiseren van het duurzaam aanleveren van gegevens door dataleveranciers aan deze datasets.
 
-ID…	…
-Statement	Bestuursorganen zijn verantwoordelijk voor het duurzaam inrichten van de Dataspace .Fysieke Leefomgeving.
-Rationale	Bestuursorganen hebben als eerste profijt van de aangeboden data, informatie en kennis bij het uitvoeren van hun taken. Daarnaast hebben ze het bestuurlijk mandaat om het inrichten van de waardeketen duurzaam vorm te geven.
+![Figuur:  Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.](respec/media/Dataspace_fysieke_leefomgeving.png)
 
-Figuur: Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.
-
-- Stappen in de waardeketen
-    - Verzamelen
-    - Analytics
-    - Interpretatie
-    - Actie
 - Relatie tussen waardeketen en bedrijfsprocessen
     - Datagedreven werken
     - Beheren van gegevens
@@ -139,6 +102,10 @@ Een kenmerk van een dataspace is, dat deze rondom maatschappelijke vraagstukken/
 
 > Discussiepunt: welke data maken we beschikbaar zodat makkelijker aan de vraag voldaan kan worden (zonder deze altijd al te kennen). Dit in de lijn van een keuze tussen een data warehouse, data lake of lakehouse.
 
+Het onderscheid tussen een data warehouse, data lake of lakehouse is ons inziens niet relevant. Het gaat over het uitwisselen van gegevens en niet over het beheren/opslaan van gegevens.
+
+De tekst in deze paragraaf overlapt met de tekst onder "Indeling van datasets" en zou daarmee geïntegreerd moeten worden.
+
 ## Metadata (Ine/Niels)
 
 De DCAT standaard wordt in Europa en daarbuiten steeds meer ingezet om domeinoversteigend metadata uit te wisselen. DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi.
@@ -153,7 +120,7 @@ DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatal
 - Toegankelijkheid van metadata voor alle toepassingsdomeinen – generiek doorzoekbaar maken
 
 ## Voorwaarden en afspraken (Danny/Rene/Ine)
-Een datastelsel is vooral een afsprakenstelsel. De deelnemende partijen spreken af om te voldoen aan een set van basisvoorwaarden, waardoor vervolgens gegevens sneller kunnen worden uitgewisseld. Tegelijkertijd kunnen er ook meer specifieke afspraken tussen aanbieders en afnemers worden gemaakt, als dat nodig is. Denk bijvoorbeeld aan dat bepaalde afnemers specifieke eisen kunnen stellen aan de kwaliteit van gegevens of de wijze waarop ze worden aangeboden. Basisvoorwaarden gaan bijvoorbeeld over rechten en plichten van deelnemers, financiering, de wijze van identificeren en autoriseren van deelnemers, de manier waarop gegevens moeten worden aangeboden en de metagegevens die daarbij moeten worden aangeleverd. Door dit soort afspraken onstaat er een bepaald vertrouwensniveau tussen de deelnemers. Het datastelsel is daarmee ook een vertrouwensnetwerk. Afspraken worden wel zoveel mogelijk beperkt tot wat specifiek is voor het datastelsel en het bijbehorende domein. Door maximaal gebruik te maken van overheidsbrede afspraken en standaarden worden vertalingen tussen datastelsels voorkomen. 
+Een datastelsel is vooral een afsprakenstelsel. De deelnemende partijen spreken af om te voldoen aan een set van basisvoorwaarden, waardoor vervolgens gegevens sneller kunnen worden uitgewisseld. Tegelijkertijd kunnen er ook meer specifieke afspraken tussen aanbieders en afnemers worden gemaakt, als dat nodig is. Denk bijvoorbeeld aan dat bepaalde afnemers specifieke eisen kunnen stellen aan de kwaliteit van gegevens of de wijze waarop ze worden aangeboden. Basisvoorwaarden gaan bijvoorbeeld over rechten en plichten van deelnemers, financiering, de wijze van identificeren en autoriseren van deelnemers, de manier waarop gegevens moeten worden aangeboden en de metagegevens die daarbij moeten worden aangeleverd. Door dit soort afspraken onstaat er een bepaald vertrouwensniveau tussen de deelnemers. Het datastelsel is daarmee ook een vertrouwensnetwerk. Afspraken worden wel zoveel mogelijk beperkt tot wat specifiek is voor het datastelsel en het bijbehorende domein. Door maximaal gebruik te maken van overheidsbrede afspraken en standaarden worden vertalingen tussen datastelsels voorkomen. Idealiter worden alle overheidsbrede afspraken en standaard door FDS bepaalt en kunnen de afspraken in de context van DSFL beperkt blijven tot zaken die over de gegevens zelf gaan en de governance rondom die gegevens.
 
 Een kernvraag is hoe met financiering van het datastelsel wordt omgegaan. Het lastige daarbij is dat de waarde vooral bij gebruikers liggen, terwijl de kosten vooral liggen bij de inwinning en opwaardering van gegevens. Als er dus geen andere  financieringsstromen zijn waar vanuit kan worden gegaan, dan is het nodig om afspraken te maken over het vastleggen van het gebruik en onderlinge verrekening. Hiervoor kan gebruik worden gemaakt van een derde partij die de uitwisselingen van gegevens logt en de financiële consequenties daarvan kan bepalen. Een dergelijke derde partij wordt ook wel een clearing house genoemd.
 
@@ -163,11 +130,17 @@ Er wordt ook wel onderscheid gemaakt tussen algemene afspraken en specificaties 
 
 De vraag is hoe het concept van gegevensleveringsovereenkomsten past op datastelsels. Ze kunnen als complementair worden gezien. Overeenkomsten die in de context van een datastelsel worden opgesteld hoeven dan alleen te beschrijven dat wat niet reeds onderdeel is van de basisvoorwaarden van het datastelsel of op andere wijze in het datastelsel aanwezig is. Zou zouden bijvoorbeeld metagegevens over het te hanteren gegevensmodel in het datastelsel in een stelselcatalogus beschikbaar kunnen zijn. De onderdelen van de eerder genoemde GLP en GLS documenten in het rijksbreed gegevensdelingsbeleid zouden dan ook in de context van het datastelsel moeten worden beoordeeld en geplot. Er is een kritische blik nodig op de te administreren gegevens en de criteria die daarbij gelden, om administratieve overlast te voorkomen. Het datastelsel voor de fysieke leefomgeving zou een registratie moeten bieden voor het administreren van de noodzakelijke gegevens. Hiermee ontstaat inzicht en transparantie in welke uitwisselingen tussen deelnemers verlopen.
 
+Voor de geo-basisregistraties (en andere registraties) zijn er al allerlei afspraken tussen bronhouders, aanbieders en afnemers, die niet opnieuw gemaakt hoeven te worden. Het kan waardevol zijn om te onderzoeken of alle relevante soorten afspraken daarin een plek hebben en of afspraken op een meer uniforme wijze kunnen gemaakt.
+
+Onderdeel van de afspraken zijn ook een autorisatiematrix en autorisatieregels die bepalen welke partijen toegang hebben tot welke gegevens.
+
 Er zullen ook afspraken moeten worden gemaakt over de te gebruiken protocollen en standaarden voor de uitwisseling van gegevens. Zie hiervoor ook het hoofdstuk interoperabiliteit. Er is daarbij specifieke aandacht nodig voor het zoveel mogelijk geautomatiseerd controleren van voorwaarden en autorisatieregels. Daarvoor kunnen ook specifieke middlewarecomponenten nodig zijn, zoals connectoren of oplossingen voor het controleren van autorisatieregels. Dit vraagt ook gemeenschappelijke afspraken, zoals over het verplicht gebruik van specifieke connectoren.
 
 Een ander onderwerp waarvoor het nodig is om afspraken over te maken is historie. In bepaalde gebruikscontexten is er behoefte aan specifieke vormen van historie. Bronnen moeten specifiek ontworpen zijn om specifieke vormen van historie te ondersteunen. Dit is niet iets dat achteraf eenvoudig kan worden toegevoegd aan een bron. In algemene zin zou een bron in ieder geval in ieder geval de wijzigingen in de bron zelf moeten registreren (formele historie). Het vastleggen van de historie van wijzigingen van objecten in de werkelijkheid (materiële historie) vraagt meer inspanning. Hierop moet het inwinningsproces ook zijn ingericht.
 
+## Procesafspraken over ontsluiten
 IdV: Bij de meeste organisaties zijn de bestaande afspraken uit het GI-beraad voor het beheer en ontsluiten van ruimtelijke data voor hergebruik bekend en worden tot op zekere hoogte nageleefd.  
+
 De afspraken over ontsluiten van geodata lijken minder bekend bij de individuele gemeenten en waterschappen. Publicatie en hergebruik van (geo)data wordt relevanter met de opkomst van smart cities en digital twins. Het is van belang de gemeenten en waterschappen te stimuleren de afspraken na te komen. Dat geldt overigens ook voor alle andere overheden: de basis van ontsluiten van (geo)data moet op orde zijn om mee te kunnen doen in het federatief data delen in bijvoorbeeld de dataspace fysieke leefomgeving. 
 
 Winst bij alle overheden valt vooral te halen door bij opdrachtverlening aan een externe partij of uitvoerende overheidsorganisatie een dataparagraaf op te nemen, waarin verantwoordelijkheid voor de data wordt vastgelegd en afspraken worden gemaakt over het beheer en ontsluiten van de gecreëerde data. 
@@ -192,6 +165,12 @@ o	de vraag van een andere organisaties die behoefte heeft aan data.
 
 •	Bij opdrachtverlening aan een externe partij of uitvoerende overheidsorganisatie een dataparagraaf op te nemen waarin verantwoordelijkheid voor de data wordt vastgelegd en afspraken worden gemaakt over het beheer en ontsluiten van de gecreëerde data. De leden van het GI Beraad worden geadviseerd om te profiteren van de ervaringen van RVO rond de dataparagraaf bij externe opdrachtverlening en de inkoopvoorwaarden van de provincies.
 
+Proces op hoofdlijnen:
+1. Duiden van de noodzaak voor een bepaalde gegevensset vanuit de behoefte
+2. Afstemming tussen afnemer en bronhouder over behoeften en voorwaarden voor het aanbieden
+3. Positioneren van de huidige en gewenste situatie van de gegevensset in het ringenmodel, en gewenste veranderingen op basis daarvan
+4. Bepalen of de behoefte breder is en hoe dit opgelost moet worden (met name financiering en governance)
+5. Aanbrengen gewenste verandering, kan variëren van simpelweg toegankelijk maken tot nieuwe inwinning van gegevens
 
 Nader uit te werken: 
 - Hoe gaan de concepten GLP en GLS toepassen in het datastelsel?
