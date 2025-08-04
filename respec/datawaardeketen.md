@@ -20,13 +20,22 @@ In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als de ke
 
 Data moeten ingewonnen en ontsloten worden, vervolgens gecombineerd, geanalyseerd en gevisualiseerd alvorens het bruikbare informatie is. In deze waardeketen levert elke schakel op zichzelf staande producten op en voegt daarbij waarde toe aan de data. Het is niet noodzakelijk dat de hele waardeketen doorlopen wordt om tot waardevolle resultaten te komen. Ingewonnen data kunnen direct in het werkproces waarin ze ontstaan toegepast worden. Als de ontsluiting goed geregeld is, kunnen gebruikers aan de slag met data uit diverse bronnen. Door daarbij data te combineren, in een bepaalde context te plaatsen of door data te interpreteren en daarbij kennis toe te voegen, wordt de waarde vergroot. Elke schakel kent daarnaast een afslag naar hergebruik door derden die vaak weer andere doelen hebben dan het doel behorend bij de oorspronkelijke reden van inwinning. Zo neemt de waarde van data, uitgedrukt in meerwaarde voor het bedrijfsproces of de processtap van het proces waarnaar de data of informatie ontsloten wordt, op verschillende manieren toe. 
 
-
 Inwinnen
+
 Bij het inwinnen van data, via waarnemingen en metingen, wordt niet alleen geo-data ingewonnen, maar worden ook andere data van de relevante objecten ingewonnen en geregistreerd. De waarneming of meting heeft dan betrekking op een object in de fysieke leefomgeving, waarmee er altijd een relatie is met geo-data. 
 De kenmerken van het object plus specifieke domein informatie bepaalt of het object met kenmerken in een specifieke dataset wordt opgenomen. De waarnemingen worden aan de ene kant bepaald door het domein van de waarnemingen (bijvoorbeeld beschermde bomen) en aan de andere kant waar je de waarneming voor gebruikt (bijvoorbeeld beschermen bomen met historische waarde, of beschermen van bomen die een waterloop markeren).  
 Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. De doelarchitectuur DSFL beschrijft niet in detail hoe waarnemingen leiden tot data, maar er kunnen wel eisen gesteld worden aan de waarnemingen. Het uitgangspunt is: er is een informatiemodel waarnemingen. Bijvoorbeeld "Informatiemodel Metingen" van de Waterschappen.  
 
 Interpreteren en visualiseren
+
+Nog uit te werken:
+Informatie ontstaat zodra de data in de context is geplaats. Informatie kan worden gebruikt voor het begrijpen en voorspellen van gedrag en voor de onderbouwing van een handelingsperspectief.  
+Kennis/wijsheid = Informatie * Ervaring Vaardigheden en Attitude (Houding)
+Kennis zit verweven in de modellen en daarbij is er sprake van interpretaties. De datawaardeketen is daarmee niet alleen data gedreven maar ook kennis gedreven.
+Wat is de reikwijdte van een domein? In de plaat vakinhoudelijk, grondwater etc. 
+Van links naar rechts wordt waarde toegevoegd. Het ontstaan van data heeft zijn eigen dynamiek. Er moet bekend zijn wat de actualiteit is. 
+Term dataproduct uitleggen.
+
 
 ## Indeling van datasets 
 Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Vaak is het beheer niet duurzaam geregeld en gefinancierd.
