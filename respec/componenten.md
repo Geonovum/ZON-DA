@@ -59,6 +59,8 @@ De expertise rondom onze coordinaatreferentiestelsels (RD, NAP en LAT) is georga
 Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellicht nodig iets meer te gaan regelen rond UUID's. Hoewel dit in de eerdere Inventarisatie Data Ecosystemen alleen ter sprake kwam bij ZoN/NGII is dit niet anders dan in andere dataspaces.
 
 Een URI strategie is nodig om te borgen dat je het kunt ontsluiten voor linked data. Linked Data verschilt van conventiële technieken door het gebruik van verbonden data met semantiek die gemakkelijk kan worden verwerkt. Conventiële technieken gebruiken niet-verbonden datasets zonder semantische context. Het is nog wel een keuze of LinkedData ondersteunt moet worden; is er bereidheid de extra benodigde kwaliteit erin te steken.
+
+Er is geen apart linked data access point nodig als met OGC-API’s wordt gewerkt die aan bepaalde voorwaarden voldoen; sommige OGC API’s kunnen RDF teruggeven maar dat is afhankelijk van hoe ze zijn opgebouwd. Als de OGC API RDF (JSON-LD/Turtle) teruggeeft resources op URI’s identificeert (URI’s als identifiers), dan kan het ook de functie hebben van een linked data access point. Het is dus implementatie-afhankelijk; wanneer de API alleen GeoJSON of HTML ondersteunt dan kan het niet worden gezien als een linked data access point. Eventueel kan met behulp van JSON-LD relatief eenvoudig worden gezorgd dat API ook Linked Data teruggeeft.
    
 </font>
 
