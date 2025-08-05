@@ -111,7 +111,7 @@ Samenhang:
 <Scope: andere registraties?>
 
 ## Wettelijk kader
-<Roelien vragen, kort bondig stukje>
+<Marjolein vragen, kort bondig stukje>
 
 ## Globale Architectuurbeschrijving Zicht op Nederland
 <copy/paste Architectuurbeschrijving 0.4? Of verwijzen in Inleiding?>
