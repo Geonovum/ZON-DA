@@ -1,6 +1,7 @@
 # inleiding
 
 Uit de aanbiedingsbrief aan de tweede kamer: Meerjarenvisie Zicht op Nederland, d.d. 12 februari 2024: 
+
 ```
 Op 6 oktober jl. heb ik u de contourennotitie Nota Ruimte aangeboden. Centraal
 hierin staan de te maken keuzes over de inrichting van onze fysieke leefomgeving.
@@ -24,36 +25,44 @@ een meer datagedreven aanpak van het leggen van ruimtelijke puzzels op
 uiteenlopende schaalniveaus.
 ```
 
-<>Waardeketen
+In deze aanbieding staan de elementen die kaderstellend zijn voor de architectuur voor de uitvoering van Zicht op Nederland:
+* Inhoudelijk aansluiten op de Nota Ruimte
+* De scope is de fysieke leefomgeving
+* Aansluiten op de 'opgaven in de fysieke leefomgeving'
+* Het realiseren van een complete en gezamenlijke informatiepositie (burgers, bedrijven en overheden)
+* Het (kunnen) leveren van beelden
+* Het ondersteunen van een meer datagedreven aanpak van de vraagstukken
 
+## Aansluiten op de Nota Ruimte
+
+## 'Fysieke Leefomgeving' als scope
+
+## Aansluiten op de opgaven in de fysieke leefomgeving
+
+## Een complete en gezamenlijke informatiepositie
+
+## Het kunnen leveren van beelden
+
+## Het ondersteunen vcan een datagedreven aanpak
 <>Datagedreven werken en moderne tools (modellen, Digital Twins, Large Language Models) vereisen vergaande, snelle toegang tot goed gedefinieerde data
 
-<>Bronhouders van data eisen soevereiniteit om toegang tot data te kunnen controleren/bepalen
 
-<>Daarvoor is een robuuste, uitbreidbare en toekomstvaste architectuur nodig
 
-<>EU: federatief datadelen is de toekomst, als tegenhanger tegenover traditioneel, commercieel gevoelig platformdenken
+## Een 'Dataspace Fysieke Leefomgeving' - DSFL
+Gegevens uitwisselen die gaan over de fysieke leefomgeving is een brede scope. Als je daar ook nog het ‘aansluiten op maatschappelijke vraagstukken, nu en in de toekomst’ bij optelt, wordt de potentiële scope nog breder. Een dergelijk brede scope is niet te vangen in een enkelvoudig ‘systeem’ of ‘platform’. De oplossing ligt in een stelsel van semi-autonoom optredende bronnen en afnemers, waarbij iedereen zich zodanig gedraagt dat er een samenhangend stelsel ontstaat, met een hoge mate van flexibiliteit en decentralisatie. Dit wordt 'federatief datadelen' genoemd. Federatief datadelen is de tegenhanger van het traditioneel, commercieel gevoelig platformdenken.
 
-Deze architectuur, gericht op de doelen zoals verwoord in Zicht op Nederland, noemen we de Dataspace voor de Fysieke Leefomgeving – DSFL
+Zo'n federatief stelsel van afspraken, zowel organisatorisch, semantisch als informatie-technisch, is een complex geheel. Daarvoor is een robuuste, uitbreidbare en toekomstvaste architectuur nodig. Gelukkig bestaan er, ook gepropageerd door de EU, een aantal belangrijke initiatieven om deze afspraken te ordenen en te standaardiseren. De stelsels die in deze context ontstaan worden 'dataspaces' genoemd.
 
-## Waarom een 'Dataspace Fysieke Leefomgeving'?
-<korte verwijzing/uitleg Zicht op Nederland>
+De eisen die Zicht op Nederland stelt aan de ontsluiting van d einformatie komen sterk overeen met de doelstellingen waarvoor dataspaces worden ontworpen. 
+> De architectuur die nodig is om de doelen van Zicht op Nederland te halen, wordt daarom opgebouwd als een dataspace en wordt de Dataspace Fysieke Leefomgeving genoemd - DSFL.
 
-Gegevens uitwisselen die gaan over de fysieke leefomgeving is een brede scope. Als je daar ook nog het ‘aansluiten op maatschappelijke vraagstukken, nu en in de toekomst’ bij optelt, wordt de potentiële scope nog breder. Een dergelijk brede scope is niet te vangen in een enkelvoudig ‘systeem’ of ‘platform’. 
-
-<generiek karakter, veel partijen, zowel bronnen als gebruik van data>
 <aan kunnen blijven op opkomende technologische sprongen, zoals AI, Digital Twins en Natuurlijke Taal modellen>
 <ontwikkeltempo kan per partij verschillend zijn, dat is bij ‘een systeem’ of ‘een platform’ een stuk moeilijker te organiseren>
-
 <positionering, ook t.o.v. Basisregistraties GEO>
-
 <EU, IBDS elementen toevoegen>
 <implementatie kan op verschillende tempo’s gebeuren bij de verschillende partijen, als de partijen zich allemaal aan de afgesproken architectuur en bijbehorende standaarden houden>
-
 <governance bij ‘de federatie’ leggen (GI-Beraad)>
-
 <rol VRO: regie voeren op de samenwerking en aansluiten partijen/gegevens>
-
 <standaarden kunnen geregeld worden op nog hoger niveau: NL Overheid, EU>
 
 ## Uitgangspunten en samenhang met andere initiatieven
