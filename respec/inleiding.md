@@ -53,15 +53,17 @@ Gegevens uitwisselen die gaan over de fysieke leefomgeving is een brede scope. A
 
 Zo'n federatief stelsel van afspraken, zowel organisatorisch, semantisch als informatie-technisch, is een complex geheel. Daarvoor is een robuuste, uitbreidbare en toekomstvaste architectuur nodig. Gelukkig bestaan er, ook gepropageerd door de EU, een aantal belangrijke initiatieven om deze afspraken te ordenen en te standaardiseren. De stelsels die in deze context ontstaan worden 'dataspaces' genoemd.
 
-De eisen die Zicht op Nederland stelt aan de ontsluiting van d einformatie komen sterk overeen met de doelstellingen waarvoor dataspaces worden ontworpen. Daarnaast is er op het gebied van Geo-informatie reeds een functionerend 'stelsel van Geo-basisregistraties', waarbij meerdere partijen aangesloten zijn, ieder met een bepaalde autonomie op het vlak van bijvoorbeeld governance en ontwikkeltempo. Een federatief stelsel (dataspace) is veel geschikter om gezamenlijk vooruit te komen dan het ontwikkelen van een gezemanlijk 'systeem' of 'platform'.
+De eisen die Zicht op Nederland stelt aan de ontsluiting van de informatie komen overeen met de doelstellingen waarvoor dataspaces worden ontworpen. Daarnaast is er op het gebied van Geo-informatie reeds een functionerend 'stelsel van Geo-basisregistraties' waarbij meerdere partijen aangesloten zijn, ieder met een bepaalde autonomie op het vlak van bijvoorbeeld governance en ontwikkeltempo. Een federatief stelsel (dataspace) is geschikter om gezamenlijk vooruit te komen dan het ontwikkelen van een gezemanlijk 'systeem' of 'platform'.
 > De architectuur die nodig is om de doelen van Zicht op Nederland te halen, wordt daarom ontworpen als een dataspace en wordt de Dataspace Fysieke Leefomgeving genoemd - DSFL.
 
-<positionering, ook t.o.v. Basisregistraties GEO>
-<EU, IBDS elementen toevoegen>
-<implementatie kan op verschillende tempo’s gebeuren bij de verschillende partijen, als de partijen zich allemaal aan de afgesproken architectuur en bijbehorende standaarden houden>
-<governance bij ‘de federatie’ leggen (GI-Beraad)>
-<rol VRO: regie voeren op de samenwerking en aansluiten partijen/gegevens>
-<standaarden kunnen geregeld worden op nog hoger niveau: NL Overheid, EU>
+De keuze voor federatief datadelen (en daarmee voor het doen ontstaan van DSFL) wordt versterkt door de strategie van de nederlandse overheid:
+* De Interbestuurlijke Datastrategie (IBDS)
+* De ontwikkeling van gezamenlijke afspraken over het bouwen van federatieve datastelsels onder overheidsbrede afspraken, het 'Federatief Datastelsel' (FDS)
+* De Nederlandse Datastrategie (NDS)
+
+Op het niveau van de EU zijn/worden een aantal architecturen voor dataspaces ontwikkeld. Aansluiten op deze ontwikkelingen is een beetje een bewegend doel, maar kan via stevige oplijning via FDS worden bewerkstelligd.
+
+De governance van het geheel ('de federatie') kan synchroon aan het stelsel van basisregistraties worden ingericht, dus via het GI-beraad, waarbij de regie op de samenwerking is belegd bij het Ministerie van VRO.
 
 ## Uitgangspunten en samenhang met andere initiatieven
 Zoals reeds gezegd sluit DSFL zoveel mogelijk aan op bestaande afspraken, initiatieven, standaarden en (eventueel centraal ontwikkelde) componenten. Er worden voor DSFL zo min mogelijk nieuwe dingen ontwikkeld.
