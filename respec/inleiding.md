@@ -53,10 +53,9 @@ Gegevens uitwisselen die gaan over de fysieke leefomgeving is een brede scope. A
 
 Zo'n federatief stelsel van afspraken, zowel organisatorisch, semantisch als informatie-technisch, is een complex geheel. Daarvoor is een robuuste, uitbreidbare en toekomstvaste architectuur nodig. Gelukkig bestaan er, ook gepropageerd door de EU, een aantal belangrijke initiatieven om deze afspraken te ordenen en te standaardiseren. De stelsels die in deze context ontstaan worden 'dataspaces' genoemd.
 
-De eisen die Zicht op Nederland stelt aan de ontsluiting van d einformatie komen sterk overeen met de doelstellingen waarvoor dataspaces worden ontworpen. 
+De eisen die Zicht op Nederland stelt aan de ontsluiting van d einformatie komen sterk overeen met de doelstellingen waarvoor dataspaces worden ontworpen. Daarnaast is er op het gebied van Geo-informatie reeds een functionerend 'stelsel van Geo-basisregistraties', waarbij meerdere partijen aangesloten zijn, ieder met een bepaalde autonomie op het vlak van bijvoorbeeld governance en ontwikkeltempo. Een federatief stelsel (dataspace) is veel geschikter om gezamenlijk vooruit te komen dan het ontwikkelen van een gezemanlijk 'systeem' of 'platform'.
 > De architectuur die nodig is om de doelen van Zicht op Nederland te halen, wordt daarom opgebouwd als een dataspace en wordt de Dataspace Fysieke Leefomgeving genoemd - DSFL.
 
-<ontwikkeltempo kan per partij verschillend zijn, dat is bij ‘een systeem’ of ‘een platform’ een stuk moeilijker te organiseren>
 <positionering, ook t.o.v. Basisregistraties GEO>
 <EU, IBDS elementen toevoegen>
 <implementatie kan op verschillende tempo’s gebeuren bij de verschillende partijen, als de partijen zich allemaal aan de afgesproken architectuur en bijbehorende standaarden houden>
@@ -65,7 +64,9 @@ De eisen die Zicht op Nederland stelt aan de ontsluiting van d einformatie komen
 <standaarden kunnen geregeld worden op nog hoger niveau: NL Overheid, EU>
 
 ## Uitgangspunten en samenhang met andere initiatieven
-DSFL ontstaat, wordt niet ‘gebouwd’, ontstaat door ‘bouw’ bij aangesloten stakeholders. Er worden voor DSFL zo min mogelijk nieuwe dingen ontwikkeld. DSFL sluit zo veel mogelijk aan op bestaande standaarden en voorzieningen.
+Zoals reeds gezegd sluit DSFL zoveel mogelijk aan op bestaande afspraken, initiatieven, standaarden en (eventueel centraal ontwikkelde) componenten. Er worden voor DSFL zo min mogelijk nieuwe dingen ontwikkeld.
+
+> DSFL ontstaat dus en wordt niet ‘gebouwd’; het ontstaat door ‘bouw’ bij aangesloten stakeholders. DSFL kan gezien worden als een uitbreiding of een vernieuwde versie van het Stelsel van Geo-Basisregistraties. Er hoeft geen nieuw governance-model te worden bedacht. Het bestaande GI-Beraad kan d.m.v. een gezamenlijk ontwikkel-portfolio DSFL in stappen laten ontstaan, er is geen 'big bang' scenario.
 
 Overheid, bedrijfsleven en ‘eenieder’ zowel aan de bron-kant als aan de gebruikers-kant
 Private en publieke data
