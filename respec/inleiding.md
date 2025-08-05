@@ -45,7 +45,7 @@ In deze aanbieding staan de elementen die kaderstellend zijn voor de architectuu
 
 ## Het ondersteunen vcan een datagedreven aanpak
 <>Datagedreven werken en moderne tools (modellen, Digital Twins, Large Language Models) vereisen vergaande, snelle toegang tot goed gedefinieerde data
-
+<aan kunnen blijven op opkomende technologische sprongen, zoals AI, Digital Twins en Natuurlijke Taal modellen>
 
 
 ## Een 'Dataspace Fysieke Leefomgeving' - DSFL
@@ -56,7 +56,6 @@ Zo'n federatief stelsel van afspraken, zowel organisatorisch, semantisch als inf
 De eisen die Zicht op Nederland stelt aan de ontsluiting van d einformatie komen sterk overeen met de doelstellingen waarvoor dataspaces worden ontworpen. 
 > De architectuur die nodig is om de doelen van Zicht op Nederland te halen, wordt daarom opgebouwd als een dataspace en wordt de Dataspace Fysieke Leefomgeving genoemd - DSFL.
 
-<aan kunnen blijven op opkomende technologische sprongen, zoals AI, Digital Twins en Natuurlijke Taal modellen>
 <ontwikkeltempo kan per partij verschillend zijn, dat is bij ‘een systeem’ of ‘een platform’ een stuk moeilijker te organiseren>
 <positionering, ook t.o.v. Basisregistraties GEO>
 <EU, IBDS elementen toevoegen>
