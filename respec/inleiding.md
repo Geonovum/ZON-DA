@@ -108,11 +108,13 @@ Samenhang:
 - Zicht op Nederland: Datafundament
 - Zicht op Nederland: Digital Twins
 
-<Scope: andere registraties? Wettelijk kader?>
+<Scope: andere registraties?>
+
+## Wettelijk kader
+<Roelien vragen, kort bondig stukje>
 
 ## Globale Architectuurbeschrijving Zicht op Nederland
 <copy/paste Architectuurbeschrijving 0.4? Of verwijzen in Inleiding?>
-
 
 <hier meteen een plaat erin gooien van het eindresultaat? Wel mooie stijl, dan vullen we hem in/leggen we hem uit gedurende de rest van het document, á la een detective>
 
