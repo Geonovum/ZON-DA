@@ -58,7 +58,7 @@ Eisen die datagedreven werken stelt:
 * Goed gedefinieerde data
 * Bekende (liefst hoge) kwaliteit van data
 
-Een afheleide eis is dus dat het stelsel kan blijven aansluiten op opkomende technologische sprongen. AI, Digital Twins en Natuurlijke Taal modellen werden hierboven al genoemd, maar ook andere (technische) sprongen, zoals quantum computing, moeten tijdig kunnen worden geïmplementeerd of op worden aangesloten. Deze wendbaarheid is ook een belangrijke ontwerpfactor, niet alleen technisch maar ook organisatorisch ('governance').
+Een afgeleide eis is dat het stelsel kan blijven aansluiten op opkomende technologische sprongen. AI, Digital Twins en Natuurlijke Taal modellen worden hierboven al genoemd, maar ook andere (technische) sprongen, zoals quantum computing, moeten tijdig kunnen worden geïmplementeerd of op worden aangesloten. Deze wendbaarheid is een belangrijke ontwerpfactor, niet alleen technisch maar ook organisatorisch ('governance').
 
 ## Een 'Dataspace Fysieke Leefomgeving' - DSFL
 Gegevens uitwisselen die gaan over de fysieke leefomgeving is een brede scope. Als je daar ook nog het ‘aansluiten op maatschappelijke vraagstukken, nu en in de toekomst’ bij optelt, wordt de potentiële scope nog breder. Een dergelijk brede scope is niet te vangen in een enkelvoudig ‘systeem’ of ‘platform’. De oplossing ligt in een stelsel van semi-autonoom optredende bronnen en afnemers, waarbij iedereen zich zodanig gedraagt dat er een samenhangend stelsel ontstaat, met een hoge mate van flexibiliteit en decentralisatie. Dit wordt 'federatief datadelen' genoemd. Federatief datadelen is de tegenhanger van het traditioneel, commercieel gevoelig platformdenken.
