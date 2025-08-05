@@ -7,18 +7,22 @@ Op 6 oktober jl. heb ik u de contourennotitie Nota Ruimte aangeboden. Centraal
 hierin staan de te maken keuzes over de inrichting van onze fysieke leefomgeving.
 Keuzes die ervoor moeten zorgen dat ook toekomstige generaties verzekerd zijn
 van een hoge kwaliteit van leven.
+
 Om tot gedegen en gedragen keuzes te kunnen komen, is het belangrijk om op
 zowel lokaal, regionaal als landelijk niveau te beschikken over de juiste informatie.
 Dat wil zeggen over op feiten gebaseerd beelden van alle facetten van de fysieke
 leefomgeving. In de eerste plaats omdat feiten er toe doen. Zonder een complete
 en gezamenlijke informatiepositie kunnen we de opgaven in de fysieke
-leefomgeving niet oplossen. Door ons te baseren op feiten, verkleinen we de kans
+leefomgeving niet oplossen.
+
+Door ons te baseren op feiten, verkleinen we de kans
 op vertragingen en faalkosten als gevolg van verkeerde besluiten. Daardoor kunnen
 we het tempo van de wederombouw van Nederland verhogen en de daarmee
 gepaard gaande kosten verlagen. In de tweede plaats omdat beelden, denk aan
 digitale kaarten of zelfs digitale tweelingen1, mensen bij complexe vraagstukken
 vaak meer zeggen dan woorden. Ze kunnen een grote bijdrage leveren aan
 participatie en aan betere besluitvorming bij gebiedsinrichting.
+
 Daarom is het belangrijk dat we de informatiepositie van burgers, bedrijven en
 overheden op het terrein van de fysieke leefomgeving versterken en zorgen voor
 een meer datagedreven aanpak van het leggen van ruimtelijke puzzels op
@@ -43,14 +47,16 @@ In deze aanbieding staan de elementen die kaderstellend zijn voor de architectuu
 
 ## Het kunnen leveren van beelden
 
-## Het ondersteunen vcan een datagedreven aanpak
-Bij datagedreven werken bepalen de (ruwe) data de richting waar de organisatie opgaat, niet vooraf geformuleerde verwachtingen of doelstellingen. Voor datagedreven werken worden moderne, vaak complexe tools ingezet, zoals modellen, Digital Twins, Large Language Models. Deze tools vvereisen vergaande, snelle toegang tot goed gedefinieerde data.
+## Baseren op feiten: een datagedreven aanpak
+Bij datagedreven werken bepalen de (ruwe) data de richting waar de organisatie opgaat, niet vooraf geformuleerde verwachtingen of doelstellingen. Het is duidelijk dat deze 'feiten' hoge eisen stellen aan de data.
+
+Voor datagedreven werken worden moderne, vaak complexe tools ingezet, zoals modellen, Digital Twins, Large Language Models. Deze tools vereisen vergaande, snelle toegang tot goed gedefinieerde data.
 
 Eisen die datagedreven werken stelt:
 * Snelle toegang tot data, in wisselende hoeveelheden
 * Goede vindbaarheid van data
 * Goed gedefinieerde data
-* Bekende kwaliteit van data
+* Bekende (liefst hoge) kwaliteit van data
 
 Een afheleide eis is dus dat het stelsel kan blijven aansluiten op opkomende technologische sprongen. AI, Digital Twins en Natuurlijke Taal modellen werden hierboven al genoemd, maar ook andere (technische) sprongen, zoals quantum computing, moeten tijdig kunnen worden geïmplementeerd of op worden aangesloten. Deze wendbaarheid is ook een belangrijke ontwerpfactor, niet alleen technisch maar ook organisatorisch ('governance').
 
