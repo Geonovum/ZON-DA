@@ -44,9 +44,15 @@ In deze aanbieding staan de elementen die kaderstellend zijn voor de architectuu
 ## Het kunnen leveren van beelden
 
 ## Het ondersteunen vcan een datagedreven aanpak
-<>Datagedreven werken en moderne tools (modellen, Digital Twins, Large Language Models) vereisen vergaande, snelle toegang tot goed gedefinieerde data
-<aan kunnen blijven op opkomende technologische sprongen, zoals AI, Digital Twins en Natuurlijke Taal modellen>
+Bij datagedreven werken bepalen de (ruwe) data de richting waar de organisatie opgaat, niet vooraf geformuleerde verwachtingen of doelstellingen. Voor datagedreven werken worden moderne, vaak complexe tools ingezet, zoals modellen, Digital Twins, Large Language Models. Deze tools vvereisen vergaande, snelle toegang tot goed gedefinieerde data.
 
+Eisen die datagedreven werken stelt:
+* Snelle toegang tot data, in wisselende hoeveelheden
+* Goede vindbaarheid van data
+* Goed gedefinieerde data
+* Bekende kwaliteit van data
+
+Een afheleide eis is dus dat het stelsel kan blijven aansluiten op opkomende technologische sprongen. AI, Digital Twins en Natuurlijke Taal modellen werden hierboven al genoemd, maar ook andere (technische) sprongen, zoals quantum computing, moeten tijdig kunnen worden geïmplementeerd of op worden aangesloten. Deze wendbaarheid is ook een belangrijke ontwerpfactor, niet alleen technisch maar ook organisatorisch ('governance').
 
 ## Een 'Dataspace Fysieke Leefomgeving' - DSFL
 Gegevens uitwisselen die gaan over de fysieke leefomgeving is een brede scope. Als je daar ook nog het ‘aansluiten op maatschappelijke vraagstukken, nu en in de toekomst’ bij optelt, wordt de potentiële scope nog breder. Een dergelijk brede scope is niet te vangen in een enkelvoudig ‘systeem’ of ‘platform’. De oplossing ligt in een stelsel van semi-autonoom optredende bronnen en afnemers, waarbij iedereen zich zodanig gedraagt dat er een samenhangend stelsel ontstaat, met een hoge mate van flexibiliteit en decentralisatie. Dit wordt 'federatief datadelen' genoemd. Federatief datadelen is de tegenhanger van het traditioneel, commercieel gevoelig platformdenken.
@@ -63,16 +69,20 @@ De keuze voor federatief datadelen (en daarmee voor het doen ontstaan van DSFL) 
 
 Op het niveau van de EU zijn/worden een aantal architecturen voor dataspaces ontwikkeld. Aansluiten op deze ontwikkelingen is een beetje een bewegend doel, maar kan via stevige oplijning via FDS worden bewerkstelligd.
 
-De governance van het geheel ('de federatie') kan synchroon aan het stelsel van basisregistraties worden ingericht, dus via het GI-beraad, waarbij de regie op de samenwerking is belegd bij het Ministerie van VRO.
+> De governance van het geheel ('de federatie') kan synchroon aan het stelsel van basisregistraties worden ingericht, dus via het GI-beraad, waarbij de regie op de samenwerking is belegd bij het Ministerie van VRO.
 
 ## Uitgangspunten en samenhang met andere initiatieven
 Zoals reeds gezegd sluit DSFL zoveel mogelijk aan op bestaande afspraken, initiatieven, standaarden en (eventueel centraal ontwikkelde) componenten. Er worden voor DSFL zo min mogelijk nieuwe dingen ontwikkeld.
 
 > DSFL ontstaat dus en wordt niet ‘gebouwd’; het ontstaat door ‘bouw’ bij aangesloten stakeholders. DSFL kan gezien worden als een uitbreiding of een vernieuwde versie van het Stelsel van Geo-Basisregistraties. Er hoeft geen nieuw governance-model te worden bedacht. Het bestaande GI-Beraad kan d.m.v. een gezamenlijk ontwikkel-portfolio DSFL in stappen laten ontstaan, er is geen 'big bang' scenario.
 
-Overheid, bedrijfsleven en ‘eenieder’ zowel aan de bron-kant als aan de gebruikers-kant
-Private en publieke data
-Open en toegangsbeperkte data
+
+* Overheid, bedrijfsleven en ‘eenieder’ zowel aan de bron-kant als aan de gebruikers-kant
+* Private en publieke data
+* Open en toegangsbeperkte data
+* Combineren van geo- en niet-geo informatie
+
+
 
 NGII:
 - Stelsel van (Geo-)Basisregistraties
