@@ -1,4 +1,4 @@
-# inleiding1
+# Inleiding
 
 Uit de aanbiedingsbrief aan de tweede kamer: Meerjarenvisie Zicht op Nederland, d.d. 12 februari 2024: 
 
@@ -104,16 +104,6 @@ Samenhang:
 
 <Scope: andere registraties?>
 
-## Wettelijk kader
-<Marjolein vragen, kort bondig stukje>
-
-## Globale Architectuurbeschrijving Zicht op Nederland
-<copy/paste Architectuurbeschrijving 0.4? Of verwijzen in Inleiding?>
-
-<hier meteen een plaat erin gooien van het eindresultaat? Wel mooie stijl, dan vullen we hem in/leggen we hem uit gedurende de rest van het document, á la een detective>
-
-<verbinding met datawaardeketen met plaatje>
-
 ## De referentie-architecturen: OpenDEI, FDS
 Overkoepelend: OpenDEI/DSSC, inclusief plaatje architectuurstack OpenDEI/DSSC . Ook al komen geografie en Ruimtelijke Ordening als zodanig niet voor in de lijst van voorziene dataspaces van DSSC – vanwege het feit dat daar vooral naar industrieën is gekeken en niet naar overheden op zichzelf).
 
@@ -135,6 +125,15 @@ FDS kent een aantal beperkingen in de scope waardoor DSFL een aantal eigen keuze
 
 > DSFL maakt expliciet eigen afspraken naast FDS voor de ondersteuning van de waardeketen (zowel in standaarden/richtlijnen als componenten), andere componenten voor diverse stelselfuncties en voor het regelen van granulaire toegang tot gegevens in het stelsel
 
+## Wettelijk kader
+<Marjolein vragen, kort bondig stukje>
+
+## Globale Architectuurbeschrijving Zicht op Nederland
+<copy/paste Architectuurbeschrijving 0.4? Of verwijzen in Inleiding?>
+
+<hier meteen een plaat erin gooien van het eindresultaat? Wel mooie stijl, dan vullen we hem in/leggen we hem uit gedurende de rest van het document, á la een detective>
+
+<verbinding met datawaardeketen met plaatje>
 
 
 
