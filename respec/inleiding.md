@@ -68,7 +68,7 @@ Zo'n federatief stelsel van afspraken, zowel organisatorisch, semantisch als inf
 De eisen die Zicht op Nederland stelt aan de ontsluiting van de informatie komen overeen met de doelstellingen waarvoor dataspaces worden ontworpen. Daarnaast is er op het gebied van Geo-informatie reeds een functionerend 'stelsel van Geo-basisregistraties' waarbij meerdere partijen aangesloten zijn, ieder met een bepaalde autonomie op het vlak van bijvoorbeeld governance en ontwikkeltempo. Een federatief stelsel (dataspace) is geschikter om gezamenlijk vooruit te komen dan het ontwikkelen van een gezemanlijk 'systeem' of 'platform'.
 > De architectuur die nodig is om de doelen van Zicht op Nederland te halen, wordt daarom ontworpen als een dataspace en wordt de Dataspace Fysieke Leefomgeving genoemd - DSFL.
 
-De keuze voor federatief datadelen (en daarmee voor het doen ontstaan van DSFL) wordt versterkt door de strategie van de nederlandse overheid:
+> De keuze voor federatief datadelen (en daarmee voor het doen ontstaan van DSFL) sluit aan op de strategie van de nederlandse overheid:
 * De Interbestuurlijke Datastrategie (IBDS)
 * De ontwikkeling van gezamenlijke afspraken over het bouwen van federatieve datastelsels onder overheidsbrede afspraken, het 'Federatief Datastelsel' (FDS)
 * De Nederlandse Datastrategie (NDS)
