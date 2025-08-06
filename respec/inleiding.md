@@ -66,7 +66,7 @@ Gegevens uitwisselen die gaan over de fysieke leefomgeving is een brede scope. A
 Zo'n federatief stelsel van afspraken, zowel organisatorisch, semantisch als informatie-technisch, is een complex geheel. Daarvoor is een robuuste, uitbreidbare en toekomstvaste architectuur nodig. Gelukkig bestaan er, ook gepropageerd door de EU, een aantal belangrijke initiatieven om deze afspraken te ordenen en te standaardiseren. De stelsels die in deze context ontstaan worden 'dataspaces' genoemd.
 
 De eisen die Zicht op Nederland stelt aan de ontsluiting van de informatie komen overeen met de doelstellingen waarvoor dataspaces worden ontworpen. Daarnaast is er op het gebied van Geo-informatie reeds een functionerend 'stelsel van Geo-basisregistraties' waarbij meerdere partijen aangesloten zijn, ieder met een bepaalde autonomie op het vlak van bijvoorbeeld governance en ontwikkeltempo. Een federatief stelsel (dataspace) is geschikter om gezamenlijk vooruit te komen dan het ontwikkelen van een gezemanlijk 'systeem' of 'platform'.
-> De architectuur die nodig is om de doelen van Zicht op Nederland te halen, wordt daarom ontworpen als een dataspace en wordt de Dataspace Fysieke Leefomgeving genoemd - DSFL.
+> De architectuur die nodig is om de doelen van Zicht op Nederland te halen, wordt ontworpen als een dataspace en wordt de Dataspace Fysieke Leefomgeving genoemd - DSFL.
 
 > De keuze voor federatief datadelen (en daarmee voor het doen ontstaan van DSFL) sluit aan op de strategie van de nederlandse overheid:
 * De Interbestuurlijke Datastrategie (IBDS)
@@ -82,12 +82,10 @@ Zoals reeds gezegd sluit DSFL zoveel mogelijk aan op bestaande afspraken, initia
 
 > DSFL ontstaat dus en wordt niet ‘gebouwd’; het ontstaat door ‘bouw’ bij aangesloten stakeholders. DSFL kan gezien worden als een uitbreiding of een vernieuwde versie van het Stelsel van Geo-Basisregistraties. Er hoeft geen nieuw governance-model te worden bedacht. Het bestaande GI-Beraad kan d.m.v. een gezamenlijk ontwikkel-portfolio DSFL in stappen laten ontstaan, er is geen 'big bang' scenario.
 
-
 * Overheid, bedrijfsleven en ‘eenieder’ zowel aan de bron-kant als aan de gebruikers-kant
 * Private en publieke data
 * Open en toegangsbeperkte data
 * Combineren van geo- en niet-geo informatie
-
 
 NGII:
 - Stelsel van (Geo-)Basisregistraties
@@ -95,10 +93,7 @@ NGII:
 - NGR (metadata)
 
 Samenhang:
-- EU
-- IBDS
 - DisGEO (met name de relatie met SOR) <is DisGEO vastgesteld? Zou juni 2021 gebeurd moeten zijn>
-- FDS
 - DGDOO
 - Andere dataspace-initiatieven of soortgelijk
   - DSO
