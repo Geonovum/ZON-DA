@@ -89,7 +89,6 @@ Zoals reeds gezegd sluit DSFL zoveel mogelijk aan op bestaande afspraken, initia
 * Combineren van geo- en niet-geo informatie
 
 
-
 NGII:
 - Stelsel van (Geo-)Basisregistraties
 - PDOK
@@ -123,7 +122,7 @@ Samenhang:
 ## De referentie-architecturen: OpenDEI, FDS
 Overkoepelend: OpenDEI/DSSC, inclusief plaatje architectuurstack OpenDEI/DSSC . Ook al komen geografie en Ruimtelijke Ordening als zodanig niet voor in de lijst van voorziene dataspaces van DSSC – vanwege het feit dat daar vooral naar industrieën is gekeken en niet naar overheden op zichzelf).
 
-Voor de stelselfuncties geldt de referentie-architectuur zoals FDS die gebruikt:
+> Voor de stelselfuncties in DSFL geldt de referentie-architectuur zoals FDS die gebruikt:
 <plaatje stelselfuncties FDS>
 
 Voor de indeling van de FDS stelselfuncties is gebruik gemaakt van twee Europese achitectuurraamwerken:
@@ -132,6 +131,15 @@ Voor de indeling van de FDS stelselfuncties is gebruik gemaakt van twee Europese
 
 Hierbij is het OPENDEI model toegepast voor de opdeling van de technische stelselfuncties. Voor de organisatorische stelselfuncties is een eigen structuur toegepast omdat in het OPENDEI model de organisatorische en juridische interoperabiliteitsdimensies uit het EIF niet zijn uitgewerkt. Daarbij is de opdeling in coördinerende en faciliterende organisatorische stelselfuncties ontleend aan de stelselarchitectuur van het stelsel van basisregistraties, de voorganger (en startpunt van het ontstaan) van Zicht op Nederland. 
 
-Dit document richt zich op de technische stelselfuncties. Uitgangspunt is om de organisatorische stelselfuncties zo min mogelijk te raken en in eerste instantie (dus voor de scope van deze architectuur) deze te beleggen in het huidige Stelsel van Basisregistraties.  
+> De doelarchitectuur van ZoN en daarme de architectuur van DSFL richt zich op de technische stelselfuncties. Uitgangspunt is om de organisatorische stelselfuncties zo min mogelijk te raken door deze in eerste instantie (dus voor de scope van deze architectuur) te beleggen in het huidige Stelsel van Basisregistraties.  
+
+FDS kent een aantal beperkingen in de scope waardoor DSFL een aantal eigen keuzes moet maken:
+* FDS kent geen waardeketen, waardoor features als 'combineren van geo- en niet-geo informatie' en 'aansluiten op Digital Twins' niet expliciet worden ondersteund
+* FDS levert (dus) geen ondersteunende componenten, waardoor hiervoor altijd expliciete keuzes moeten worden gemaakt binnen DSFL
+* FDS beperkt zich tot de uitwisseling van openbare gegevens tussen overheidspartijen. Het regelen van meer granulaire toegang - zowel op organisatie-/rol-/persoonsniveau als op 'niveau van openbaarheid' valt dus binnen de specifieke architectuur van DSFL
+
+> DSFL maakt expliciet eigen afspraken naast FDS voor de ondersteuning van de waardeketen (zowel in standaarden/richtlijnen als componenten), andere componenten voor diverse stelselfuncties en voor het regelen van granulaire toegang tot gegevens in het stelsel
+
+
 
 
