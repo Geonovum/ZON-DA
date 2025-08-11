@@ -17,13 +17,13 @@ Bij het inwinnen van data, via waarnemingen en metingen, wordt niet alleen geo-d
 
 De kenmerken van het object plus specifieke domein informatie bepalen of een ingewonnen object met kenmerken in een specifieke dataset wordt opgenomen. De waarnemingen worden aan de ene kant bepaald door het domein van de waarnemingen (bijvoorbeeld 'beschermde bomen') en aan de andere kant waar je de waarneming voor gebruikt (bijvoorbeeld 'beschermen bomen met historische waarde', of 'beschermen van bomen die een waterloop markeren').  
 
-_ iets meer over metingen _
+_iets meer over metingen, want dat zijn contextloze waarnemingen? (vraag RK)_
 
 Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. De doelarchitectuur DSFL beschrijft niet in detail hoe waarnemingen leiden tot data, maar er kunnen wel eisen gesteld worden aan de waarnemingen. Het uitgangspunt is: er is een informatiemodel waarnemingen. Bijvoorbeeld "Informatiemodel Metingen" van de Waterschappen.  
 
 Interpreteren en visualiseren
 
-_ Nog uit te werken: _
+_Nog uit te werken:_
 - Informatie ontstaat zodra de data in de context is geplaats. Informatie kan worden gebruikt voor het begrijpen en voorspellen van gedrag en voor de onderbouwing van een handelingsperspectief.  
 - Kennis/wijsheid = Informatie * Ervaring Vaardigheden en Attitude (Houding)
 - Kennis zit verweven in de modellen en daarbij is er sprake van interpretaties. De datawaardeketen is daarmee niet alleen data gedreven maar ook kennis gedreven.
@@ -46,7 +46,17 @@ Het ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zi
 
 ![Figuur: Classificatie van databronnen in Ringmodel.](respec/media/ringenmodel_datasets.png)
 
-We gebruiken het ringenmodel om vast te kunnen stellen of een dataset bruikbaar is binnen de DSFL. Deze classificeert datasets op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Datasets die niet gestandaardiseerd zijn en toegankelijk zijn niet bruikbaar binnen een duurzaam in te richten datawaardeketen. Voor de DSFL gebruiken we daarom datasets uit de kern en de 1e ring van het ringmodel die een landelijke dekking hebben. Hierdoor heeft de DSFL  maximale meerwaarde. Daarnaast moeten ze gestandaardiseerd en duurzaam beschikbaar zijn om aangesloten processen optimaal te kunnen laten functioneren.
+> DSFL gebruikt het ringenmodel om datasets / bronnen te classificeren op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Daarmee wordt bepaald op welke manier en in welke context een dataset bruikbaar is of kan worden binnen de DSFL.  
+
+Voor de DSFL gebruiken we daarom datasets uit de kern en de 1e ring van het ringmodel _die een landelijke dekking hebben?? (vraag RK)_. Hierdoor heeft de DSFL  maximale meerwaarde. Daarnaast moeten ze gestandaardiseerd en duurzaam beschikbaar zijn om aangesloten processen optimaal te kunnen laten functioneren.
+
+Datasets die niet gestandaardiseerd zijn en toegankelijk zijn niet bruikbaar binnen een duurzaam in te richten datawaardeketen. 
+
+> De doelarchitectuur van DSFL richt zich a priori op de ontsluiting van datasets in de ringen 'kern' en ring 1.
+
+> Het ringenmodel (en daarmee DSFL) is dynamisch: datasets/bronnen kunnen 'binnen de ringen' terecht komen door te voldoen aan een aantal technische, organisatorische en beheersmatige (governance-)eisen.
+
+Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
 ## De datawaardeketen
 In de DSFL worden ketens ingericht volgens het principe van de datawaardeketen uit Zicht op Nederland. De datawaardeketen is een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe. Hierin staat data voor een feitelijke waarneming in de werkelijkheid (bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.). Het geeft inzicht in hoe verschillende databronnen in een keten worden gebruikt en verrijkt door een combinatie van kennishouders om gericht toegevoegde waarde te hebben in het verkrijgen van een handelingsperspectief en het op basis hiervan nemen van geïnformeerde datagedreven besluiten. 
