@@ -147,12 +147,19 @@ De bestuursorganen, zitting hebbend in het GI-beraad, hebben als eerste profijt 
 _Originele input van René_
 - Koppeling met Voorzieningen/Componenten: machineleesbaar, mensleesbaar, aggregeren, vinden, identificatie/toegang, terugmelding, etc.
 
-
-
-
 ## Voorwaarden en afspraken (Danny/Rene/Ine)
-Een datastelsel is vooral een afsprakenstelsel. De deelnemende partijen spreken af om te voldoen aan een set van basisvoorwaarden, waardoor vervolgens gegevens sneller kunnen worden uitgewisseld. Tegelijkertijd kunnen er ook meer specifieke afspraken tussen aanbieders en afnemers worden gemaakt, als dat nodig is. Denk bijvoorbeeld aan dat bepaalde afnemers specifieke eisen kunnen stellen aan de kwaliteit van gegevens of de wijze waarop ze worden aangeboden. Basisvoorwaarden gaan bijvoorbeeld over rechten en plichten van deelnemers, financiering, de wijze van identificeren en autoriseren van deelnemers, de manier waarop gegevens moeten worden aangeboden en de metagegevens die daarbij moeten worden aangeleverd. Door dit soort afspraken onstaat er een bepaald vertrouwensniveau tussen de deelnemers. Het datastelsel is daarmee ook een vertrouwensnetwerk. Afspraken worden wel zoveel mogelijk beperkt tot wat specifiek is voor het datastelsel en het bijbehorende domein. Door maximaal gebruik te maken van overheidsbrede afspraken en standaarden worden vertalingen tussen datastelsels voorkomen. Idealiter worden alle overheidsbrede afspraken en standaard door FDS bepaalt en kunnen de afspraken in de context van DSFL beperkt blijven tot zaken die over de gegevens zelf gaan en de governance rondom die gegevens.
+Een datastelsel is vooral een afsprakenstelsel, waarbij de afspraken middels technische standaarden en protocollen worden uitgevoerd/geïmplementeerd. 
 
+De deelnemende partijen spreken af om te voldoen aan een set van basisvoorwaarden, waardoor vervolgens gegevens efficiënt en effectief kunnen worden uitgewisseld. Basisvoorwaarden gaan bijvoorbeeld over rechten en plichten van deelnemers, de wijze van identificeren en autoriseren van deelnemers, de manier waarop gegevens moeten worden aangeboden en de metagegevens die daarbij moeten worden aangeleverd, maar ook organisatorische zaken zoals financiering. 
+
+Tegelijkertijd kunnen er ook meer specifieke afspraken tussen aanbieders en afnemers worden gemaakt. Bepaalde afnemers kunnen specifieke eisen stellen aan de kwaliteit van gegevens of de wijze waarop ze worden aangeboden. 
+
+Door dit soort afspraken onstaat er een bepaald vertrouwensniveau tussen de deelnemers. Het datastelsel is daarmee ook een vertrouwensnetwerk. Voor algemeen geldende afspraken rondom datadelen wordt invulling gegeven aan afspraken worden gemaakt in de context van FDS. Specifieke afspraken voor het (geo-)domein in het kader van Zicht op Nederland worden ingevuld door DSFL. Het is daarom belangrijk om te weten wat FDS wel en niet regelt.
+
+> Vanuit DSFL wordt actief meegewerkt aan de ontwikkeling van FDS.
+
+> Voor de inrichting van DSFL worden specifieke afspraken gemaakt en protocollen/standaarden aangewezen voor de zaken die niet door FDS worden gedekt.
+ 
 Een kernvraag is hoe met financiering van het datastelsel wordt omgegaan. Het lastige daarbij is dat de waarde vooral bij gebruikers liggen, terwijl de kosten vooral liggen bij de inwinning en opwaardering van gegevens. Als er dus geen andere  financieringsstromen zijn waar vanuit kan worden gegaan, dan is het nodig om afspraken te maken over het vastleggen van het gebruik en onderlinge verrekening. Hiervoor kan gebruik worden gemaakt van een derde partij die de uitwisselingen van gegevens logt en de financiële consequenties daarvan kan bepalen. Een dergelijke derde partij wordt ook wel een clearing house genoemd.
 
 Het is belangrijk dat rechten, plichten en aansprakelijkheden tussen aanbieders en afnemers van gegevens goed zijn geborgd. Een gegevensleveringsovereenkomst (ook wel: GLO) is een verzameling afspraken tussen een aanbieder en een afnemer van gegevens. In een GLO leggen partijen vast welke gegevens worden gedeeld, onder welke voorwaarden, en wie verantwoordelijk is. Onderdeel van een GLO zijn ook de kwaliteitseisen die zijn afgesproken en die daarom bij de uitvoering van de overeenkomst moeten worden geborgd, gecontroleerd en gemonitord. Het is ook mogelijk om meer gedetailleerde afspraken in een GLO vast te leggen zoals de afgesproken kwaliteitsregels, het gebruikte gegevensmodel en/of de gebruikte formaten. 
