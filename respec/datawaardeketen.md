@@ -19,7 +19,11 @@ De kenmerken van het object plus specifieke domein informatie bepalen of een ing
 
 _iets meer over metingen, want dat zijn contextloze waarnemingen? (vraag RK)_
 
-Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. De doelarchitectuur DSFL beschrijft niet in detail hoe waarnemingen leiden tot data, maar er kunnen wel eisen gesteld worden aan de waarnemingen. Het uitgangspunt is: er is een informatiemodel waarnemingen. Bijvoorbeeld "Informatiemodel Metingen" van de Waterschappen.  
+Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. Deze doelarchitectuur beschrijft niet in detail hoe waarnemingen leiden tot data. Er kunnen wel eisen gesteld worden aan de waarnemingen. 
+
+> Het uitgangspunt is: er is een informatiemodel voor waarnemingen.
+
+Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.  
 
 Interpreteren en visualiseren
 
@@ -88,8 +92,9 @@ Het datadeelstelsel van Zicht op Nederland, DSFL, staat niet op zichzelf. Er zij
 
 > DSFL geeft zoveel als mogelijk invulling aan de afspraken en standaarden die worden vastgesteld in het kader van het FDS.
 
-Wat is de rol van bestuursorganen bij het inrichten van de Dataspace Fysieke Leefomgeving
-Vanuit het proces van vraagarticulatie wordt duidelijk welke kennis, informatie en data nodig zijn. Het is aan de betrokken bestuursorganen om te organiseren dat deze kennis, informatie en data duurzaam beschikbaar zijn. Zij hebben namelijk als eerste profijt van de aangeboden data, informatie en kennis bij het uitvoeren van hun taken. Daarnaast hebben ze het bestuurlijk mandaat om het inrichten van de waardeketen duurzaam vorm te geven. Zij zullen het duurzaam bijhouden van kennis en informatie producten organiseren door het maken van (wettelijke) afspraken met kennisinstellingen, het ‘promoveren’ van datasets naar de classificatie ‘Ring 1’of ‘kern’ en het organiseren van het duurzaam aanleveren van gegevens door dataleveranciers aan deze datasets.
+De bestuursorganen, zitting hebbend in het GI-beraad, hebben als eerste profijt van de aangeboden data, informatie en kennis bij het uitvoeren van hun taken. Daarnaast hebben ze het bestuurlijk mandaat om het inrichten van de waardeketen duurzaam vorm te geven. Zij organiseren het duurzaam bijhouden van kennis en informatie producten organiseren door het maken van (wettelijke) afspraken met kennisinstellingen, het ‘promoveren’ van datasets naar de classificatie ‘Ring 1’of ‘kern’ en het organiseren van het duurzaam aanleveren van gegevens door dataleveranciers aan deze datasets. Tenslotte zijn zij ook de grote inhoudelijke belanghebbenden in het proces van vraagarticulatie.
+
+> Het is aan de betrokken bestuursorganen om te organiseren dat de kennis, informatie en data duurzaam beschikbaar zijn. 
 
 ![Figuur:  Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.](respec/media/Dataspace_fysieke_leefomgeving.png)
 
@@ -99,14 +104,9 @@ Vanuit het proces van vraagarticulatie wordt duidelijk welke kennis, informatie 
     - Randvoorwaarden om waardeketen te laten werken zoals dataparagrafen in opdrachten die je uitbesteedt
     - Informatiebehoeften in de keten
 
-Originele input van René:
-- breed, moeilijk om vast omlijnde processen te onderscheiden
-- plaatje en uitleg Datawaardeketen
-- Scope “RO/beleidscyclus” uitleggen, samenhang met datawwaardeketen
-- Vanuit enterprise architectuur zeg je bijv niks over inwinnen en inwineisen en kwaliteitsniveaus, maar bijv. wel over stapelbaarheid, dus elk object een ID en elk dataproduct een geo-referentie
-- Volgen datawaardeketen: ongestructureerde data -> gestructureerde data -> geaggregeerde data -> analyse/visualisatie data. 
-- Voorzieningenarchitectuur (functionele componenten): machineleesbaar, mensleesbaar, identificatie/toegang, terugmelding etc
-- verwijzing naar “Patronen”
+_Originele input van René_
+- Koppeling met Voorzieningen/Componenten: machineleesbaar, mensleesbaar, aggregeren, vinden, identificatie/toegang, terugmelding, etc.
+
 
 ## Afbakening van bronnen en gebruik (Ine/Arno)
 
