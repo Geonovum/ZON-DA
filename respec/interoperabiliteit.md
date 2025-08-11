@@ -57,7 +57,7 @@ Er is een behoefte aan het kunnen combineren van geografische gegevens met ander
 
 Het kunnen combineren van geo- en niet-geodata vraagt ook een vorm van standaardisatie op het niveau van metagegevens. Bij voorkeur is er geen onderscheid. Voor dataset metagegevens is er al een mapping van de ISO 19115 en DCAT standaarden. Die wordt op dit moment gebruikt bij de harvesting van het Nationaal Geo Register door data.overheid.nl. Er is inmiddels een nieuwe DCAT versie, waarvoor dit nog niet is gedefinieerd en werkt. Er zal ook een vertaling van geometrie naar adresgegevens nodig zijn en vice versa. Dergelijke geocodeer functionaliteit is ook reeds beschikbaar in de PDOK Locatieserver. 
 
-Er zullen eisen moeten worden gesteld aan de metagegevens die bronnen moeten opleveren. Idealiter kunnen bronnen volstaan met een lichtgewicht, gestandaardiseerde set van metagegevens en bijbehorende standaarden zodat zij snel kunnen aansluiten. Meer geavanceerde behoeften kunnen kunnen om aanvullende metagegevens vragen.
+Er zullen eisen moeten worden gesteld aan de metagegevens die bronnen moeten opleveren. Idealiter kunnen bronnen volstaan met een lichtgewicht, gestandaardiseerde set van metagegevens en bijbehorende standaarden zodat zij snel kunnen aansluiten. Meer geavanceerde behoeften kunnen om aanvullende metagegevens vragen.
 
 Nader uit te werken:
 - Hoe gaan we ervoor zorgen dat metagegevens op één plek integraal vindbaar en beschikbaar zijn voor afnemers?
