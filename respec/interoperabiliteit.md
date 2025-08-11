@@ -118,6 +118,8 @@ Nader uit te werken:
 - Is Linked Data onderdeel van het datastelsel?
 - Is het muteren van data mogelijk via het datastelsel?
 - geo localiseren van services, het zoeken van beschikbare dataservices op basis van geo data; bijvoorbeeld per provincie een specifieke service voor het afnemen van provinciale geodata. DSFL zorgt ervoor dat je de juiste service krijgt op basis van opgegeven relevant gebied?
+- Welke coordinaatreferentiestelsels worden ondersteund? En, worden transformaties tussen coordinaatstelsels aangeboden?
+- Is het mogelijk historisch data te bevragen (tijdreizen)?
 
 Dit betekent:
 - Gebruik van de standaar MIM en/of SHACL voor het specificeren van logische gegevensmodellen
