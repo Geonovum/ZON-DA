@@ -40,7 +40,19 @@ De Verordening heeft 3 doelstellingen:
 - overige ringen
 - Databronnen (misschien verschuift deze naar 'Componenten/Voorzieningen')
 - De rol van geo-specifieke informatie-elementen
-- Combineren van Geo- en niet geo-informatie 
+- Combineren van Geo- en niet geo-informatie
+
+- architectuur
+  - 'moet' geo referenties uit wet-, regelgeving en beleid kunnen verwerken, consequentie?
+  - combineren van overheids geo data en commerciele geo data
+  - jurische beperkingen op het gebruik van commerciele geodata/kaarten zoals Google Maps, Garmin, TomTom
+  - geo specifieke begripsmodel(len), logische geo standaarden, "geo vertaal/mapping" middelen
+  - combineren van 2d, 3d en 4d geo gegevens
+  - verschillende technische standaarden combineren / datamapping
+  - op kunnen bouwen van geo(informatie)producten op basis van verschillende geo bronnen => consequenties?
+  - mobiel gebruik realtime data => latency issues bij streaming data van verschillende data providers
+- use cases
+  - toepassingsgebied van wet- en regelgeving, beleid etc.; geeft geografische grenzen aan en veroorzaakt daarmee juridische interoperabiliteit tussen gebieden
 
 ## Juridisch (Marcel, Yvette)
 
@@ -105,6 +117,7 @@ Nader uit te werken:
 - Hoe om te gaan met INSPIRE/HVD?
 - Is Linked Data onderdeel van het datastelsel?
 - Is het muteren van data mogelijk via het datastelsel?
+- geo localiseren van services, het zoeken van beschikbare dataservices op basis van geo data; bijvoorbeeld per provincie een specifieke service voor het afnemen van provinciale geodata. DSFL zorgt ervoor dat je de juiste service krijgt op basis van opgegeven relevant gebied?
 
 Dit betekent:
 - Gebruik van de standaar MIM en/of SHACL voor het specificeren van logische gegevensmodellen

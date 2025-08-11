@@ -5,7 +5,7 @@ Moeten we ruimtelijke informatie wel als exclusief beschouwen? In de context van
 Gebruik van ruimtelijke informatie is niet een doel op zich, maar gebruik van ruimtelijke informatie is een middel  om, naast vele andere soorten informatie, het doel te bereiken.
 
 ## Generieke handelingsperspectieven
-In het algemeen geldt de generieke keten:
+In het algemeen geldt de generieke keten:  OPMERKING WL: de datawaardeketen is in 2.3 al toegelicht, moeten we daarnaar verwijzen? En dan onderstaande tekst laten vervallen?
 
 Vraag -> Data inwinnen/verzamelen -> Analyse/verwerking -> Informatie -> Visualisatie/presentatie
 
@@ -68,7 +68,10 @@ Als burger wil ik nagaan of een windturbine in mijn gemeente voldoet aan de verg
 
 
 ## Datagedreven werken – hoe kom je aan data?
-<>
+Hanteer de FAIR principes: Findable (vindbaar), Accessible (toegankelijk), Interoperable (interoperabel) en Reusable (herbruikbaar).
+OPMERKING WL: wat zijn de randvoorwaarden die je aan data stelt? Is het Raamwerk geostandaarden leidend? Gaat het alleen over geodata of ook over andere databronnen.
+
+
 ## Data Analyseren
 <>
 ## Data Visualiseren
