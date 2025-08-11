@@ -31,7 +31,7 @@ _Nog uit te werken:_
 Van links naar rechts wordt waarde toegevoegd. Het ontstaan van data heeft zijn eigen dynamiek. Er moet bekend zijn wat de actualiteit is. 
 - Term dataproduct uitleggen.
 
-## Indeling van datasets 
+## Indeling van datasets: een dynamisch ringenmodel 
 Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Vaak is het beheer niet duurzaam geregeld en gefinancierd.
 Op basis van deze kenmerken classificeren we datasets in een ringenmodel: 
 
@@ -58,7 +58,7 @@ Datasets die niet gestandaardiseerd zijn en toegankelijk zijn niet bruikbaar bin
 
 Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
-## De datawaardeketen
+## De datawaardeketen _(deze overlapt met de bovenstaande paragraaf - samenvoegen? (vraag RK)_
 In de DSFL worden ketens ingericht volgens het principe van de datawaardeketen uit Zicht op Nederland. De datawaardeketen is een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe. Hierin staat data voor een feitelijke waarneming in de werkelijkheid (bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.). Het geeft inzicht in hoe verschillende databronnen in een keten worden gebruikt en verrijkt door een combinatie van kennishouders om gericht toegevoegde waarde te hebben in het verkrijgen van een handelingsperspectief en het op basis hiervan nemen van geïnformeerde datagedreven besluiten. 
 
 Informatie ontstaat indien er door een kennishouder waarde aan deze data wordt toegevoegd. In de context van ZoN zien we dit als een interpretatie van de gegevens naar een 2D kaartbeeld of 3D model binnen het domein waarin de gegevens zijn waargenomen. Voorbeelden zijn de bodemkaart van Nederland, gemaakt door Wageningen University & Research op basis van bodemkundige waarnemingen, of de topografische kaart van Nederland, gemaakt door het Kadaster op basis van waarnemingen aan de ruimtelijke inrichting van Nederland.
@@ -75,12 +75,18 @@ De DSFL ondersteunt de gehele datawaardeketen. De toegevoegde waarde van een dat
 
 ![Figuur: Principe van de datawaardeketen in Zicht op Nederland.](respec/media/Waardeketen_en_DFL.png)
 
-## Wat doet de Dataspace fysieke Leefomgeving
-De inrichting van de waardeketens in de DSFL wordt in eerste instantie functioneel bepaald: Welke handelingsperspectieven willen we ondersteunen en welke kennis, informatie en gegevens hebben we hiervoor vervolgens nodig. Dit vraagarticulatie proces, waarbij de datawaardeketen ‘in omgekeerde volgorde’ wordt doorlopen,  wordt gefaciliteerd door het GI-beraad. De DSFL organiseert vervolgens dat de juiste kennis, informatie en data producten beschikbaar zijn en dat de dataleveranciers hun gegevens aan de keten kunnen aanleveren. Deze keten wordt ingericht conform de definities en met de bouwblokken vanuit het Federatief Datastelsel.
+## Bepaling van de waardeketens: inkijk in de governance
+In de DSFL bestaan vele waardeketens. Deze waardeketens in de DSFL worden functioneel bepaald: welke handelingsperspectieven willen we ondersteunen en welke kennis, informatie en gegevens hebben we hiervoor vervolgens nodig? 
 
-Het GI beraad bepaalt welke waardeketens worden ingericht in de DSFL. Hiervoor wordt gebruik gemaakt van het vraagarticulatie proces dat een datawaardeketen functioneel duide. Hierdoor maken we maximaal gebruik van het GI-beraad en geven we invulling aan de rationale achter de oprichting ervan.
+Dit is een vraagarticulatie proces waarbij de datawaardeketen ‘in omgekeerde volgorde’ wordt doorlopen. Hierbij zijn in de regel veel partijen betrokken. Deze partijen zijn bestuurlijk bij elkaar gebracht in het GI-beraad. 
 
-Voor het (technisch) inrichten van de dataspace wordt aangesloten bij het Federatief datastelsel. Hierdoor zorgen we ervoor dat de producten van de specifieke invulling van de DSFL ook bruikbaar zijn voor andere ketens die volgens het federatief datastelsel zijn ingericht. Hiermee geven we invulling aan het principe ‘eenmalige inwinning – meervoudig gebruik’.
+> Het GI-beraad bepaalt wlke waardeketens door DSFL ondersteund worden. 
+
+De (aangewezen) beheerder van DSFL organiseert vervolgens dat de juiste kennis, informatie en data producten beschikbaar zijn en dat de dataleveranciers hun gegevens aan de keten kunnen aanleveren. Hierin speelt de doelarchitectuur van Zicht op Nederland (en daarmee de afspraken waarmee partijen aansluiten op de DSFL) een belangrijke rol.
+
+Het datadeelstelsel van Zicht op Nederland, DSFL, staat niet op zichzelf. Er zijn ook andere ketens en datadeelstelsels, voor diverse domeinen. Het is het meest efficiënt en effectief als deze verschillende datadeelstelsels op elkaar kunnen worden aangesloten. Een dataset/bron hoeft dan iet aan te sluiten op alle ketengebruikers, maar hoeft haar gegevens slechts in één stelsel kenbaar en vindbaar te maken. Andere stelsels kunnen hier dan op aansluiten, zodat op termijn er één virtueel datalandschap ontstaat waarmee gecombineerde vragen over alle domeinen heen kunnen worden beantwoord; een ideale invulling aan het principe ‘eenmalige inwinning – meervoudig gebruik’. Om dit te kunnen bewerkstelligen, sluit DSFL aan op de bredere afspraken die worden gemaakt in het kader van hetr 'Federatief Datastelsel', FDS.
+
+> DSFL geeft zoveel als mogelijk invulling aan de afspraken en standaarden die worden vastgesteld in het kader van het FDS.
 
 Wat is de rol van bestuursorganen bij het inrichten van de Dataspace Fysieke Leefomgeving
 Vanuit het proces van vraagarticulatie wordt duidelijk welke kennis, informatie en data nodig zijn. Het is aan de betrokken bestuursorganen om te organiseren dat deze kennis, informatie en data duurzaam beschikbaar zijn. Zij hebben namelijk als eerste profijt van de aangeboden data, informatie en kennis bij het uitvoeren van hun taken. Daarnaast hebben ze het bestuurlijk mandaat om het inrichten van de waardeketen duurzaam vorm te geven. Zij zullen het duurzaam bijhouden van kennis en informatie producten organiseren door het maken van (wettelijke) afspraken met kennisinstellingen, het ‘promoveren’ van datasets naar de classificatie ‘Ring 1’of ‘kern’ en het organiseren van het duurzaam aanleveren van gegevens door dataleveranciers aan deze datasets.
