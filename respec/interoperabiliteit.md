@@ -47,7 +47,7 @@ De Verordening heeft 3 doelstellingen:
   - combineren van overheids geo data en commerciele geo data
   - jurische beperkingen op het gebruik van commerciele geodata/kaarten zoals Google Maps, Garmin, TomTom
   - geo specifieke begripsmodel(len), logische geo standaarden, "geo vertaal/mapping" middelen
-  - combineren van 2d, 3d en 4d geo gegevens
+  - combineren van 2d, 3d en 4d (tijd, historie/toekomst) geo gegevens
   - verschillende technische standaarden combineren / datamapping
   - op kunnen bouwen van geo(informatie)producten op basis van verschillende geo bronnen => consequenties?
   - mobiel gebruik realtime data => latency issues bij streaming data van verschillende data providers
