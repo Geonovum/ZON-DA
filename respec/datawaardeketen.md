@@ -62,7 +62,7 @@ Datasets die niet gestandaardiseerd zijn en toegankelijk zijn niet bruikbaar bin
 
 Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
-## De datawaardeketen _(deze overlapt met de bovenstaande paragraaf - samenvoegen? (vraag RK)_
+## De datawaardeketen _(deze overlapt met de bovenstaande paragraaf én een onderstaande paragraaf - samenvoegen? (vraag RK)_
 In de DSFL worden ketens ingericht volgens het principe van de datawaardeketen uit Zicht op Nederland. De datawaardeketen is een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe. Hierin staat data voor een feitelijke waarneming in de werkelijkheid (bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.). Het geeft inzicht in hoe verschillende databronnen in een keten worden gebruikt en verrijkt door een combinatie van kennishouders om gericht toegevoegde waarde te hebben in het verkrijgen van een handelingsperspectief en het op basis hiervan nemen van geïnformeerde datagedreven besluiten. 
 
 Informatie ontstaat indien er door een kennishouder waarde aan deze data wordt toegevoegd. In de context van ZoN zien we dit als een interpretatie van de gegevens naar een 2D kaartbeeld of 3D model binnen het domein waarin de gegevens zijn waargenomen. Voorbeelden zijn de bodemkaart van Nederland, gemaakt door Wageningen University & Research op basis van bodemkundige waarnemingen, of de topografische kaart van Nederland, gemaakt door het Kadaster op basis van waarnemingen aan de ruimtelijke inrichting van Nederland.
@@ -78,6 +78,46 @@ In de referentie architectuur Digital Twin voor de fysieke leefomgeving   is een
 De DSFL ondersteunt de gehele datawaardeketen. De toegevoegde waarde van een datawaardeketen bestaat alleen indien de gehele keten duurzaam is ingericht. De keten start bij de organisaties die daadwerkelijk waarnemingen verrichten en deze aanleveren. Vervolgens wordt in verschillende stappen waarde toegevoegd door kennishouders om tenslotte de gecombineerde waarde te ontsluiten richting handelingsperspectieven. Het wegvallen van een van deze schakels maakt de datawaardeketen disfunctioneel.
 
 ![Figuur: Principe van de datawaardeketen in Zicht op Nederland.](respec/media/Waardeketen_en_DFL.png)
+
+## Afbakening van bronnen en gebruik (Ine/Arno)
+
+De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610 ) van de DSFL. Naast deze Basisregistraties bevat de DSFL/NDFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de Overheid, maar ook door andere partijen kunnen worden geleverd en beheerd. Onder gegevens verstaan we hier niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’), zoals algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld. Zo ontstaat een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien en waarbij de Overheid de rol van ‘primus inter pares’ speelt: zij treedt op als ‘gewone’ speler zowel als Stelselverantwoordelijke.
+
+DSFL stelt eisen aan de spelers in het stelsel, maar neemt hen ook werk uit handen. Daarvoor zijn gecentraliseerde componenten voorzien die de dataspace faciliteren, bijvoorbeeld voor het vinden van data en voor het regelen van toegang. Dat betekent dat de huidige Basisregistraties aangepast moeten worden om (stapsgewijs) om te smelten  tot DSFL. De ‘centrale’ componenten kunnen betrokken worden, of deel worden van, de GDI of het FDS.
+
+> Zicht op Nederland, en daarmee de scope van DSFL, is gericht op het delen van ruimtelijke data, waarbij het delen van data een contractuele grondslag heeft. 
+
+> De volgende categoriën data maken onderdeel van de DSFL:
+- open publieke data
+- gesloten publieke data
+- open data van derden
+- gesloten data van derden
+
+Uitgangspunt voor DSFL is dat de kosten die in de waardeketen van Zicht op Nederland zijn gemaakt zijn gedekt tot en met het moment van ontsluiten.
+
+> Mochten er kosten verbonden zijn aan het gebruik van data dan wordt dat buiten het DSFL om verrekend. Er wordt niet voorzien in 'betalen naar gebruik'.
+
+Een kenmerk van een dataspace is dat deze rondom maatschappelijke vraagstukken/use cases wordt ingericht. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. Per maatschappelijke vraag/use case zal moeten worden bepaald welke data daarbij nodig is.
+
+_Discussiepunt: welke data maken we beschikbaar zodat makkelijker aan de vraag voldaan kan worden (zonder deze altijd al te kennen). Dit in de lijn van een keuze tussen een data warehouse, data lake of lakehouse. Is hier in het kader van bv dhet stelsel van Basisregistraties al iets zinnigs te zeggen?_
+
+_Het onderscheid tussen een data warehouse, data lake of lakehouse is ons inziens niet relevant. Het gaat over het uitwisselen van gegevens en niet over het beheren/opslaan van gegevens?_
+
+_De tekst in deze paragraaf overlapt met de tekst onder "Indeling van datasets" en zou daarmee geïntegreerd moeten worden._
+
+## Metadata (Ine/Niels)
+
+De DCAT standaard wordt in Europa en daarbuiten steeds meer ingezet om domeinoversteigend metadata uit te wisselen. DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi.
+
+Op het Europese applicatieprofiel [DCAT-AP-3.0] worden domein specifieke profielen ontwikkeld, zoals geoDCAT-AP en healthDCAT-AP, die meestal een verdere specificatie van eigenschappen en extra specifieke eigenschappen bevatten. Deze extra eigenschappen van domein specifieke Europese profielen zijn niet opgenomen in DCAT-AP-NL, deze kunnen aanvullend op DCAT-AP-NL worden toegepast. Eventueel kan er ook een Nederlands profiel op een Europes domein specifieke profiel worden ontwikkeld.
+
+DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi. Daarmee vervangt het niet de domeinspecifieke standaarden zoals ISO 19115. Vanuit domeinspecieke standaarden en profielen, zoals bijvoorbeeld INSPIRE, die gebaseerd is op ISO 19115, kunnen er profielen op DCAT worden ontwikkeld die ook een mapping van elementen bevat van de domein specifieke standaard naar DCAT. geoDCAT is daar een voorbeeld van.
+
+- Begrippen en informatie/gegevensmodellen – per stap in de waardeketen
+- Dataset metadata (ISO 1911X, DCAT) – per stap in de waardeketen
+- Data lineage – per stap in de waardeketen
+- Toegankelijkheid van metadata voor alle toepassingsdomeinen – generiek doorzoekbaar maken
+
 
 ## Bepaling van de waardeketens: inkijk in de governance
 In de DSFL bestaan vele waardeketens. Deze waardeketens in de DSFL worden functioneel bepaald: welke handelingsperspectieven willen we ondersteunen en welke kennis, informatie en gegevens hebben we hiervoor vervolgens nodig? 
@@ -108,40 +148,7 @@ _Originele input van René_
 - Koppeling met Voorzieningen/Componenten: machineleesbaar, mensleesbaar, aggregeren, vinden, identificatie/toegang, terugmelding, etc.
 
 
-## Afbakening van bronnen en gebruik (Ine/Arno)
 
-De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610 ) van de DSFL. Naast deze Basisregistraties bevat de DSFL/NDFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de Overheid, maar ook door andere partijen kunnen worden geleverd en beheerd. Onder gegevens verstaan we hier niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’), zoals algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld. Zo ontstaat een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien en waarbij de Overheid de rol van ‘primus inter pares’ speelt: zij treedt op als ‘gewone’ speler zowel als Stelselverantwoordelijke.
-
-DSFL stelt eisen aan de spelers in het stelsel, maar neemt hen ook werk uit handen. Daarvoor zijn gecentraliseerde componenten voorzien die de dataspace faciliteren, bijvoorbeeld voor het vinden van data en voor het regelen van toegang. Dat betekent dat de huidige Basisregistraties aangepast moeten worden om (stapsgewijs) om te smelten  tot DSFL. De ‘centrale’ componenten kunnen betrokken worden, of deel worden van, de GDI of het FDS.
-
-Het gebruik is gericht op het delen van ruimtelijke data, datadelen heeft een contractuele grondslag. De volgende categoriën data maken onderdeel van de DSFL:
-- open publieke data
-- gesloten publieke data
-- open data van derden
-- gesloten data van derden
-
-Mochten er kosten verbonden zijn aan het gebruik van data dan wordt dat buiten het DSFL om verrekend. Er wordt niet voorzien in 'betalen naar gebruik'.
-
-Een kenmerk van een dataspace is, dat deze rondom maatschappelijke vraagstukken/use cases wordt ingericht. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. Per maatschappelijke vraag/use case zal moeten worden bepaald welke data daarbij nodig is.
-
-> Discussiepunt: welke data maken we beschikbaar zodat makkelijker aan de vraag voldaan kan worden (zonder deze altijd al te kennen). Dit in de lijn van een keuze tussen een data warehouse, data lake of lakehouse.
-
-Het onderscheid tussen een data warehouse, data lake of lakehouse is ons inziens niet relevant. Het gaat over het uitwisselen van gegevens en niet over het beheren/opslaan van gegevens.
-
-De tekst in deze paragraaf overlapt met de tekst onder "Indeling van datasets" en zou daarmee geïntegreerd moeten worden.
-
-## Metadata (Ine/Niels)
-
-De DCAT standaard wordt in Europa en daarbuiten steeds meer ingezet om domeinoversteigend metadata uit te wisselen. DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi.
-
-Op het Europese applicatieprofiel [DCAT-AP-3.0] worden domein specifieke profielen ontwikkeld, zoals geoDCAT-AP en healthDCAT-AP, die meestal een verdere specificatie van eigenschappen en extra specifieke eigenschappen bevatten. Deze extra eigenschappen van domein specifieke Europese profielen zijn niet opgenomen in DCAT-AP-NL, deze kunnen aanvullend op DCAT-AP-NL worden toegepast. Eventueel kan er ook een Nederlands profiel op een Europes domein specifieke profiel worden ontwikkeld.
-
-DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi. Daarmee vervangt het niet de domeinspecifieke standaarden zoals ISO 19115. Vanuit domeinspecieke standaarden en profielen, zoals bijvoorbeeld INSPIRE, die gebaseerd is op ISO 19115, kunnen er profielen op DCAT worden ontwikkeld die ook een mapping van elementen bevat van de domein specifieke standaard naar DCAT. geoDCAT is daar een voorbeeld van.
-
-- Begrippen en informatie/gegevensmodellen – per stap in de waardeketen
-- Dataset metadata (ISO 1911X, DCAT) – per stap in de waardeketen
-- Data lineage – per stap in de waardeketen
-- Toegankelijkheid van metadata voor alle toepassingsdomeinen – generiek doorzoekbaar maken
 
 ## Voorwaarden en afspraken (Danny/Rene/Ine)
 Een datastelsel is vooral een afsprakenstelsel. De deelnemende partijen spreken af om te voldoen aan een set van basisvoorwaarden, waardoor vervolgens gegevens sneller kunnen worden uitgewisseld. Tegelijkertijd kunnen er ook meer specifieke afspraken tussen aanbieders en afnemers worden gemaakt, als dat nodig is. Denk bijvoorbeeld aan dat bepaalde afnemers specifieke eisen kunnen stellen aan de kwaliteit van gegevens of de wijze waarop ze worden aangeboden. Basisvoorwaarden gaan bijvoorbeeld over rechten en plichten van deelnemers, financiering, de wijze van identificeren en autoriseren van deelnemers, de manier waarop gegevens moeten worden aangeboden en de metagegevens die daarbij moeten worden aangeleverd. Door dit soort afspraken onstaat er een bepaald vertrouwensniveau tussen de deelnemers. Het datastelsel is daarmee ook een vertrouwensnetwerk. Afspraken worden wel zoveel mogelijk beperkt tot wat specifiek is voor het datastelsel en het bijbehorende domein. Door maximaal gebruik te maken van overheidsbrede afspraken en standaarden worden vertalingen tussen datastelsels voorkomen. Idealiter worden alle overheidsbrede afspraken en standaard door FDS bepaalt en kunnen de afspraken in de context van DSFL beperkt blijven tot zaken die over de gegevens zelf gaan en de governance rondom die gegevens.
