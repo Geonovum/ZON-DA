@@ -117,6 +117,7 @@ Nader uit te werken:
 - Hoe om te gaan met INSPIRE/HVD?
 - Is Linked Data onderdeel van het datastelsel?
 - Is het muteren van data mogelijk via het datastelsel?
+- geo localiseren van services, het zoeken van beschikbare dataservices op basis van geo data; bijvoorbeeld per provincie een specifieke service voor het afnemen van provinciale geodata. DSFL zorgt ervoor dat je de juiste service krijgt op basis van opgegeven relevant gebied?
 
 Dit betekent:
 - Gebruik van de standaar MIM en/of SHACL voor het specificeren van logische gegevensmodellen
