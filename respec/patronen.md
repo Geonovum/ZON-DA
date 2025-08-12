@@ -28,11 +28,17 @@ Hierbij is het van belang om voor de juiste doelgroep de informatie op de juiste
 
 ## Specifieke handelingsperspectieven
 1) Mengen van geo en niet-geo data
+Zorg ervoor dat niet alleen geodata beschikbaar komt maar ook niet-geo data. Hoe krijgen we toegang tot de niet-geo data en over welke data hebben we het dan? En gaan we het niet alleen over de data hebben maar ook over de benodigde tooling, om geo en niet-geo data te combineren, hiervoor?
 2) Mengen van private en publieke data
+Hoe krijgen we toegang tot private data? Gaan we dat zelf regelen? Of is hiervoor een apart afsprakenstelsel voor (nodig)? FDS kijkt vooralsnog alleen naar publieke data, is daar een niche voor DSFL?
 3) Mengen van open en gesloten data
+Onder welke voorwaarden is er toegang tot gesloten data? Is privacy (gesloten data) een showstopper of kans? Ligt de verantwoordelijkheid bij de verstrekker of de afnemer? Wat doen we met de doelbinding?
 4) Koppelen aan andere domeinen
+Bij FDS cicurleert een lijst met ruim 200 registraties uit andere domeinen. Gaan we dit gebruiken? Gaan we die allemaal binnen de kern en ring 1 halen (zie paragraaf 2.x)
 5) Aansluiten databronnen: wat moet je doen als je een bron wilt aansluiten / Wat moet een bron kunnen?
+Niet alleen voorwaarden, maar ook kwaliteit?Atualiteit?Metadata?
 6) Geo-enabling: ik weet niets van geo maar wil het wel gebruiken, handreiking hoe locatiecomponenten als bv adres in te zetten bij nieuwe registraties
+Zorgen voor unifomering in gebruik van locatiegegevens, handreikingen maken, zorgen dat verankering van locatiegegevens in toekomstige wetgeving (en misschien al in bestaande wetgeving?) verankerd wordt.
 
 ## Generiek
 Generiek wil hier zeggen dat een gebied of GEO-locatie het vertrekpunt is voor een informatie vraag. Een voorbeeld hiervan:
