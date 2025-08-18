@@ -1,7 +1,7 @@
 # Datawaardeketen
 
 ## Waardeketen (Paul/Peter /Stephan)
-In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. De keten omvat het inwinnen van gegevens, ontsluiten en analyseren ervan en het gebruiken van de inzichten die hiermee verworven worden. (zie onderstaande figuur).
+In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. De keten omvat het inwinnen van gegevens, ontsluiten en analyseren ervan en het gebruiken van de inzichten die hiermee verworven worden. (zie onderstaande figuur). 
 Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe  
 
 ![Figuur: Datawaardeketen in Zicht op Nederland](respec/media/ZoN_Visie_Waardeketen.png)
