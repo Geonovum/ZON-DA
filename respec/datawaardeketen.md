@@ -1,21 +1,22 @@
 # Datawaardeketen
 
 ## Waardeketen (Paul/Peter /Stephan)
-In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als de keten van het inwinnen van gegevens, ontsluiten en analyseren tot het gebruiken van de inzichten die hiermee verworven worden. De waardeketen is daarbij gevisualiseerd in onderstaande figuur.
+In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. De keten omvat het inwinnen van gegevens, ontsluiten en analyseren ervan en het gebruiken van de inzichten die hiermee verworven worden. (zie onderstaande figuur).
+Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe  
 
 ![Figuur: Datawaardeketen in Zicht op Nederland](respec/media/ZoN_Visie_Waardeketen.png)
 
-Data moeten ingewonnen en ontsloten worden, vervolgens gecombineerd, geanalyseerd en gevisualiseerd alvorens het bruikbare informatie is. In deze waardeketen levert elke schakel op zichzelf staande producten op en voegt daarbij waarde toe aan de data. 
+Data omvat hier de feitelijke waarnemingen en metingen aan een object in de fysieke leefomgeving. Hierbij wordt niet alleen geo-data ingewonnen, maar ook meer beschrijvende gegevens, bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.).
 
-Het is niet noodzakelijk dat de hele waardeketen doorlopen wordt om tot waardevolle resultaten te komen. Ingewonnen data kunnen direct in het werkproces waarin ze ontstaan toegepast worden. Als de ontsluiting goed geregeld is, kunnen gebruikers aan de slag met data uit diverse bronnen. Door daarbij data te combineren, in een bepaalde context te plaatsen of door data te interpreteren en daarbij kennis toe te voegen, wordt de waarde vergroot. Elke schakel kent daarnaast een afslag naar hergebruik door derden die vaak weer andere doelen hebben dan het doel behorend bij de oorspronkelijke reden van inwinning. Zo neemt de waarde van data, uitgedrukt in meerwaarde voor het bedrijfsproces of de processtap van het proces waarnaar de data of informatie ontsloten wordt, op verschillende manieren toe.
+Informatie ontstaat indien er door een kennishouder waarde aan deze data wordt toegevoegd. In de context van ZoN zien we dit als een interpretatie van de gegevens naar een 2D kaartbeeld of 3D model binnen het domein waarin de gegevens zijn waargenomen. Voorbeelden zijn de bodemkaart van Nederland, gemaakt door Wageningen University & Research op basis van bodemkundige waarnemingen, of de topografische kaart van Nederland, gemaakt door het Kadaster op basis van waarnemingen aan de ruimtelijke inrichting van Nederland.
+
+Kennis ontstaat indien informatie uit verschillende domeinen wordt samengebracht om inzicht te krijgen in het gedrag/veranderingen van een bepaald fenomeen. Bijvoorbeeld het Nederlands Hydrologisch Instrumentarium. Hierin werken verschillende kennispartners samen om gegevens over onder andere de hydro-geologische opbouw, monitoring van de grondwaterstand, oppervlaktewater en neerslag te combineren om inzicht te krijgen in de veranderingen van het (grond)watersysteem in Nederland.
+
+Wijsheid ontstaat indien de via de datawaardeketen verkregen inzichten gebruikt worden bij het opstellen van datagedreven handelingsperspectieven. De keten is dus gestoeld op algemene datasets, die richting het handelingsperspectief steeds specifieker worden geanalyseerd en geïnterpreteerd.
+In de referentie architectuur Digital Twin voor de fysieke leefomgeving   is een dataproduct beschreven als een combinatie van gegevens, technologie, en (reken)modellen die ervoor zorgt dat de data eenvoudig in de werkprocessen van de gebruiker kan worden toegepast. Deze definiete omvat alles wat in de datawaardeketen wordt gedaan om informatie en wijsheid te creëren, evenals de technologie die wordt aangeboden om over de gehele waardeketen producten aan te bieden. Zo is bijvoorbeeld de topografische kaart van Nederland een digital twin van de bovengrondse inrichting van Nederland, en het NHI een digital twin van het Nederlandse watersysteem.
+Het is niet noodzakelijk dat de hele waardeketen doorlopen wordt om tot waardevolle resultaten te komen. Ingewonnen data kunnen direct in het werkproces waarin ze ontstaan toegepast worden. Elke schakel kent daarnaast een afslag naar hergebruik door derden die vaak weer andere doelen hebben dan het doel behorend bij de oorspronkelijke reden van inwinning. Zo neemt de waarde van data, uitgedrukt in meerwaarde voor het bedrijfsproces of de processtap van het proces waarnaar de data of informatie ontsloten wordt, op verschillende manieren toe.
 
 > Binnen het stelsel t.b.v. de fysieke leefomgeving zijn data na elke stap in de waardeketen beschikbaar voor anderen.
-
-Inwinnen: waarnemingen en metingen
-
-Bij het inwinnen van data, via waarnemingen en metingen, wordt niet alleen geo-data ingewonnen, maar worden ook andere data van de relevante objecten ingewonnen en geregistreerd. De waarneming of meting heeft dan betrekking op een object in de fysieke leefomgeving, waarmee er altijd een relatie is met geo-data. 
-
-De kenmerken van het object plus specifieke domein informatie bepalen of een ingewonnen object met kenmerken in een specifieke dataset wordt opgenomen. De waarnemingen worden aan de ene kant bepaald door het domein van de waarnemingen (bijvoorbeeld 'beschermde bomen') en aan de andere kant waar je de waarneming voor gebruikt (bijvoorbeeld 'beschermen bomen met historische waarde', of 'beschermen van bomen die een waterloop markeren').  
 
 _iets meer over metingen, want dat zijn contextloze waarnemingen? (vraag RK)_
 
@@ -27,7 +28,7 @@ Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.
 
 Interpreteren en visualiseren
 
-_Nog uit te werken:_
+_Nog uit te werken: staat nu hioerboven. Wellicht nog tekst nodig om de term 'domein'te duiden._
 - Informatie ontstaat zodra de data in de context is geplaats. Informatie kan worden gebruikt voor het begrijpen en voorspellen van gedrag en voor de onderbouwing van een handelingsperspectief.  
 - Kennis/wijsheid = Informatie * Ervaring Vaardigheden en Attitude (Houding)
 - Kennis zit verweven in de modellen en daarbij is er sprake van interpretaties. De datawaardeketen is daarmee niet alleen data gedreven maar ook kennis gedreven.
