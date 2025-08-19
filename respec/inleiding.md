@@ -19,7 +19,7 @@ Door ons te baseren op feiten, verkleinen we de kans
 op vertragingen en faalkosten als gevolg van verkeerde besluiten. Daardoor kunnen
 we het tempo van de wederombouw van Nederland verhogen en de daarmee
 gepaard gaande kosten verlagen. In de tweede plaats omdat beelden, denk aan
-digitale kaarten of zelfs digitale tweelingen1, mensen bij complexe vraagstukken
+digitale kaarten of zelfs digitale tweelingen, mensen bij complexe vraagstukken
 vaak meer zeggen dan woorden. Ze kunnen een grote bijdrage leveren aan
 participatie en aan betere besluitvorming bij gebiedsinrichting.
 
@@ -65,13 +65,13 @@ Gegevens uitwisselen die gaan over de fysieke leefomgeving is een brede scope. A
 
 Zo'n federatief stelsel van afspraken, zowel organisatorisch, semantisch als informatie-technisch, is een complex geheel. Daarvoor is een robuuste, uitbreidbare en toekomstvaste architectuur nodig. Gelukkig bestaan er, ook gepropageerd door de EU, een aantal belangrijke initiatieven om deze afspraken te ordenen en te standaardiseren. De stelsels die in deze context ontstaan worden 'dataspaces' genoemd.
 
-De eisen die Zicht op Nederland stelt aan de ontsluiting van de informatie komen overeen met de doelstellingen waarvoor dataspaces worden ontworpen. Daarnaast is er op het gebied van Geo-informatie reeds een functionerend 'stelsel van Geo-basisregistraties' waarbij meerdere partijen aangesloten zijn, ieder met een bepaalde autonomie op het vlak van bijvoorbeeld governance en ontwikkeltempo. Een federatief stelsel (dataspace) is geschikter om gezamenlijk vooruit te komen dan het ontwikkelen van een gezemanlijk 'systeem' of 'platform'.
+De eisen die Zicht op Nederland stelt aan de ontsluiting van de informatie komen overeen met de doelstellingen waarvoor dataspaces worden ontworpen. Daarnaast is er op het gebied van Geo-informatie reeds een functionerend 'stelsel van Geo-basisregistraties' waarbij meerdere partijen aangesloten zijn, ieder met een bepaalde autonomie op het vlak van bijvoorbeeld governance en ontwikkeltempo. Een federatief stelsel (dataspace) is geschikter om gezamenlijk vooruit te komen dan het ontwikkelen van een gezamenlijk 'systeem' of 'platform'.
 > De architectuur die nodig is om de doelen van Zicht op Nederland te halen, wordt ontworpen als een dataspace en wordt de Dataspace Fysieke Leefomgeving genoemd - DSFL.
 
 > De keuze voor federatief datadelen (en daarmee voor het doen ontstaan van DSFL) sluit aan op de strategie van de nederlandse overheid:
-* De Interbestuurlijke Datastrategie (IBDS)
-* De ontwikkeling van gezamenlijke afspraken over het bouwen van federatieve datastelsels onder overheidsbrede afspraken, het 'Federatief Datastelsel' (FDS)
-* De Nederlandse Datastrategie (NDS)
+>* De Interbestuurlijke Datastrategie (IBDS)
+>* De ontwikkeling van gezamenlijke afspraken over het bouwen van federatieve datastelsels onder overheidsbrede afspraken, het 'Federatief Datastelsel' (FDS)
+>* De Nederlandse Datastrategie (NDS)
 
 Op het niveau van de EU zijn/worden een aantal architecturen voor dataspaces ontwikkeld. Aansluiten op deze ontwikkelingen is een beetje een bewegend doel, maar kan via stevige oplijning via FDS worden bewerkstelligd.
 
