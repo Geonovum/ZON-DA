@@ -107,6 +107,7 @@ _Het onderscheid tussen een data warehouse, data lake of lakehouse is ons inzien
 _De tekst in deze paragraaf overlapt met de tekst onder "Indeling van datasets" en zou daarmee geïntegreerd moeten worden._
 
 **De fysieke leefomgeving, nader uitgewerkt**
+
 De fysieke leefomgeving bepaalt de werkingssfeer van de digitale tweeling waar wij het over hebben. Dat betekent dat onze digitale tweelingen over onze fysieke leefomgeving gaan. Een duidelijke afgebakende definitie van de fysieke leefomgeving is er niet. De fysieke leefomgeving is de omgeving, waarin wij als mensen leven, wonen, werken, reizen, recreëren, et cetera. Wij voeren onze activiteiten uit in de fysieke leefomgeving, die bestaat uit allerlei onderdelen: bouwwerken, infrastructuur, water, bodem en ondergrond, lucht, natuur, landbouw, landschappen en cultureel erfgoed. Deze opsomming is natuurlijk niet uitputtend. En soms wordt ook wel over de natuurlijke leefomgeving gesproken als het gaat om onderdelen als lucht, water, bodem en natuur (het milieu). En de door de mens gemaakte objecten horen bij de fysieke leefomgeving. Objecten kunnen statisch zijn, omdat ze langdurig op dezelfde plek staan. Zo vallen bouwwerken (onze woningen, kantoren en fabrieken) en infrastructuur (wegen, kanalen en kabels en leiding) onder de fysieke leefomgeving. Maar ook objecten die meer dynamisch zijn, zoals voertuigen. Maar ook de landbouwgewassen zijn meer dynamisch, omdat ze maar enkele maanden aanwezig zijn; ze komen en gaan. Het wordt hoog dynamisch als we het hebben over de veranderlijkheid van het weer, de stroming van het water of onze eigen verplaatsingen in het dagelijks leven voor het wonen, werken en recreëren. Wij als mensen maken daarmee ook deel uit van de fysieke leefomgeving. Met onze activiteiten in de fysieke leefomgeving maken wij mede diezelfde leefomgeving. Die activiteiten zorgen voor de dynamiek in de leefomgeving.
 
 Onze fysieke leefomgeving is een complex, zich continue aanpassend systeem, dat bestaat uit een aantal deelsystemen die nauw op elkaar inwerken. De fysieke leefomgeving is daarmee een connectie en samenwerking tussen deze deelsystemen. Vaak worden drie deelsystemen benoemd, die te typeren zijn enkele naar gemeenschappelijke inzichten: 
@@ -176,7 +177,9 @@ Door dit soort afspraken onstaat er een bepaald vertrouwensniveau tussen de deel
 > Vanuit DSFL wordt actief meegewerkt aan de ontwikkeling van FDS.
 
 > Voor de inrichting van DSFL worden specifieke afspraken gemaakt en protocollen/standaarden aangewezen voor de zaken die niet door FDS worden gedekt.
- 
+
+> Zowel FDS als DSFL dragen bij aan het realiseren van Dataspaces op Europees niveau. Wanneer de Dataspace protocollen/standaarden zich bewezen hebben worden deze geadopteerd in het FDS en de DSFL. 
+
 _Een kernvraag is hoe met financiering van het datastelsel wordt omgegaan. Het lastige daarbij is dat de waarde vooral bij gebruikers liggen, terwijl de kosten vooral liggen bij de inwinning en opwaardering van gegevens. Als er dus geen andere  financieringsstromen zijn waar vanuit kan worden gegaan, dan is het nodig om afspraken te maken over het vastleggen van het gebruik en onderlinge verrekening. Hiervoor kan gebruik worden gemaakt van een derde partij die de uitwisselingen van gegevens logt en de financiële consequenties daarvan kan bepalen. Een dergelijke derde partij wordt ook wel een clearing house genoemd._
 
 Het is belangrijk dat rechten, plichten en aansprakelijkheden tussen aanbieders en afnemers van gegevens goed zijn geborgd. Een gegevensleveringsovereenkomst (ook wel: GLO) is een verzameling afspraken tussen een aanbieder en een afnemer van gegevens. In een GLO leggen partijen vast welke gegevens worden gedeeld, onder welke voorwaarden, en wie verantwoordelijk is. Onderdeel van een GLO zijn ook de kwaliteitseisen die zijn afgesproken en die daarom bij de uitvoering van de overeenkomst moeten worden geborgd, gecontroleerd en gemonitord. Het is ook mogelijk om meer gedetailleerde afspraken in een GLO vast te leggen zoals de afgesproken kwaliteitsregels, het gebruikte gegevensmodel en/of de gebruikte formaten. 
@@ -202,23 +205,21 @@ Winst bij alle overheden valt vooral te halen door bij opdrachtverlening aan een
 
 Het ontsluiten (en bijhouden) van alle geodata is een enorme klus als dat bij een organisatie nu niet op orde is. Prioriteren is dan nodig. De prioritering voor het ontsluiten van geodata kan aan de hand van de prioritaire vraagstukken en informatiebehoeftes worden vormgegeven die uit het proces van vraagarticulatie van Zicht op Nederland naar voren komen en door de vraag van andere organisaties.
 
-Zowel voor realisatie van FDS als voor een werkende Datapace Fysieke Leefomgeving is goede metadata cruciaal. In het GI-beraad is afgesproken dat;
-•	het ontsluiten van data voor hergebruik expliciet te borgen in de aanpak voor een Dataspace Fysieke Leefomgeving (en aangezien realisatie daarvan binnen de kaders van FDS moet passen, daarmee ook mee te werken aan een goed functionerend FDS).
+Zowel voor realisatie van FDS als voor een werkende Datapace Fysieke Leefomgeving is goede metadata cruciaal. In het GI-beraad is afgesproken dat het ontsluiten van data voor hergebruik expliciet te borgen in de aanpak voor een Dataspace Fysieke Leefomgeving (en aangezien realisatie daarvan binnen de kaders van FDS moet passen, daarmee ook mee te werken aan een goed functionerend FDS).
 
 Ontsluiten voor hergebruik betekent dat de geo-datasets die door de leden van het GI-beraad (in opdracht) worden vervaardigd:
-o	Waar mogelijk van een creative commons licentie worden voorzien,
-o	van metadata worden voorzien conform het NL profiel op ISO 19115,
-o	waarbij deze metadata in het NGR gepubliceerd worden.
+- Waar mogelijk van een creative commons licentie worden voorzien,
+- van metadata worden voorzien conform het NL profiel op ISO 19115,
+- waarbij deze metadata in het NGR gepubliceerd worden.
 In specifieke gevallen kan hiervan worden afgeweken en werkversies, operationele data en onderzoeksdata zijn hiervan uitgesloten.
 
-•	Daar waar mogelijk te borgen dat voor nieuwe datasets het ontsluiten van data voor hergebruik direct wordt uitgevoerd (om zo de ‘reparatie-opgave’ niet groter te laten worden;
+Daar waar mogelijk te borgen dat voor nieuwe datasets het ontsluiten van data voor hergebruik direct wordt uitgevoerd (om zo de ‘reparatie-opgave’ niet groter te laten worden;
 
-•	Voor de ontsluiting van bestaande geodata als dat nog niet op orde is, prioriteren aan de hand van
+Voor de ontsluiting van bestaande geodata als dat nog niet op orde is, prioriteren aan de hand van:
+- de (mogelijke) prioritaire vraagstukken en informatiebehoeftes die uit het proces van vraagarticulatie van Zicht op Nederland naar voren komen.  
+- de vraag van een andere organisaties die behoefte heeft aan data.
 
-o	 de (mogelijke) prioritaire vraagstukken en informatiebehoeftes die uit het proces van vraagarticulatie van Zicht op Nederland naar voren komen.  
-o	de vraag van een andere organisaties die behoefte heeft aan data.
-
-•	Bij opdrachtverlening aan een externe partij of uitvoerende overheidsorganisatie een dataparagraaf op te nemen waarin verantwoordelijkheid voor de data wordt vastgelegd en afspraken worden gemaakt over het beheer en ontsluiten van de gecreëerde data. De leden van het GI Beraad worden geadviseerd om te profiteren van de ervaringen van RVO rond de dataparagraaf bij externe opdrachtverlening en de inkoopvoorwaarden van de provincies.
+Bij opdrachtverlening aan een externe partij of uitvoerende overheidsorganisatie een dataparagraaf op te nemen waarin verantwoordelijkheid voor de data wordt vastgelegd en afspraken worden gemaakt over het beheer en ontsluiten van de gecreëerde data. De leden van het GI Beraad worden geadviseerd om te profiteren van de ervaringen van RVO rond de dataparagraaf bij externe opdrachtverlening en de inkoopvoorwaarden van de provincies.
 
 Proces op hoofdlijnen:
 1. Duiden van de noodzaak voor een bepaalde gegevensset vanuit de behoefte
