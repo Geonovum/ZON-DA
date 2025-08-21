@@ -19,7 +19,7 @@ Met een identiteit wordt een claim gesteld in de vorm van 'ik ben ...'. Identite
 - Partijen: Deze kunnen natuurlijke personen of organisaties zijn. Partijen stellen doelen, maken beslissingen en beheren kennis;
 - Actoren: Deze kunnen natuurlijke personen of dingen (zoals computers, apparaten) zijn. Actoren voeren acties uit namens Partijen;
 
-In DSFL zijn partijen een brede verzameling zoals overheden, private organisaties en natuurlijke personen in verschillende rollen (burger, medewerker/ambtenaar). Een partij kan meerdere Identiteiten hebben, dit zullen we een hoedanigheid noemen. Een identiteit heeft een eigenaar die bepaalt of die identiteit bij de partij (en dus ook eventueel een Actor) hoort.
+> In DSFL zijn partijen een brede verzameling zoals overheden, private organisaties en natuurlijke personen in verschillende rollen (burger, medewerker/ambtenaar). Een partij kan meerdere Identiteiten hebben, dit zullen we een hoedanigheid noemen. Een identiteit heeft een eigenaar die bepaalt of die identiteit bij de partij (en dus ook eventueel een Actor) hoort.
 
 ? Is een domein-/sectorspecifieke registratie nodig binnen DSFL (bv vanuit DSO) om een FL-organisatiemodel te kunnen implementeren. Er zijn veel FL-rollen zoals bevoegd gezag, behandeldienst die FL specifiek zijn.
 
@@ -39,7 +39,9 @@ Voor het verifiëren van identiteiten en de toegang to resources vind zowel op E
 
 Dit betreft het overdragen van bevoegdheden aan andere partijen om handelingen, eventueel met rechtsgevolgen, uit te voeren. Dit kunnen zowel natuurlijke als niet natuurlijke personen zijn. De ene partij komt als het ware in de plaats van de andere partij. Dit is niet hetzelfde als autoriseren waarbij partijen in hun eigen hoedanigheid blijven handelen.
 
-Het proces omdat naast de vaststelling van identiteiten en bevoegdheden ook de uitgifte, registratie, uitoefening, intrekking en controle. Dit kan zowel binnen organisaties als over organisaties heen. Het ontwerp van de dataspace dient zodanig te zijn dat machtigingenvoorzieningen en -registers kunnen worden ingevuld met generieke voorzieningen. Er wordt geen DSFL machtigingsregister gecreëerd. Hiermee wordt geaccepteerd dat niet alle vormen van machtigen beschikbaar zijn zoals ketenmachtigingen (N.B. De eHerkenning ketenmachtiging is geen ketenmachtiging).
+Het proces omdat naast de vaststelling van identiteiten en bevoegdheden ook de uitgifte, registratie, uitoefening, intrekking en controle. Dit kan zowel binnen organisaties als over organisaties heen. Het ontwerp van de dataspace dient zodanig te zijn dat machtigingenvoorzieningen en -registers kunnen worden ingevuld met generieke voorzieningen. 
+
+> Er wordt geen DSFL machtigingsregister gecreëerd. Hiermee wordt geaccepteerd dat niet alle vormen van machtigen beschikbaar zijn zoals ketenmachtigingen (N.B. De eHerkenning ketenmachtiging is geen ketenmachtiging).
 
 ? FSC toevoegen als mandateringsinstrument op API niveau.
 
@@ -49,7 +51,7 @@ Toegang verlenen of autorisatie betekent data ter beschikking stellen aan een af
 
 Toegang verlenen of access management dient buiten de applicaties te worden gebracht (externalised) om separaat te kunnen worden beheerd. De basisgedachte is het scheiden van verantwoordelijkheden (separation of concerns). Regels worden gescheiden van code in zogenaamde policies, en het beheer van policies wordt gescheiden van het handhaven ervan. Welke verantwoordelijkheden precies gescheiden moeten worden is al meer dan 20 jaar geleden bedacht als onderdeel van de XACML autorisatiestandaard. Deze standaard bevat nog veel meer, waaronder een XML-gebaseerde policy-taal. Hoewel XML goeddeels uit de gratie is gevallen, zijn de basisverantwoordelijkheden algemeen geaccepteerd in de zogenaamde PxP-architectuur. Hierin is de uitvoering (enforcement), beslissing (decision) en autorisatieregel (policy information/administration) van elkaar gescheiden.
 
-De basis van een extern toegangsmechanisme is een technologie-agnostische policy taal, minimaal gebaseerd op open standaarden. Binnen DSFL zal er één standaard worden ondersteund.
+> De basis van een extern toegangsmechanisme is een technologie-agnostische policy taal, minimaal gebaseerd op open standaarden. Binnen DSFL zal er één standaard worden ondersteund.
 
 ? Verder verwijzen naar https://vng-realisatie.github.io/ftv/ en https://vng-realisatie.github.io/ftv/onderzoek/status_techniek/standaarden/ en/of https://vng-realisatie.github.io/ftv/methodiek/federatief/
 ! Verschil met FTV is dat deze uitgaat van overheidsorganisaties (en dus PKIO certificaten) terwijl DSFL breed is en dus authenticatie bewijzen van een breed scala aan partijen zal ondersteunen.
