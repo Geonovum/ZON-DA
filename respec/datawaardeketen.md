@@ -2,11 +2,11 @@
 
 ## Waardeketen (Paul/Peter /Stephan)
 In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. De keten omvat het inwinnen van gegevens, ontsluiten en analyseren ervan en het gebruiken van de inzichten die hiermee verworven worden. (zie onderstaande figuur). 
-Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe  
+Deze keten ontvouwt zich volgens het Data–Informatie-Kennis-Wijsheid principe.  
 
 ![Figuur: Datawaardeketen in Zicht op Nederland](respec/media/ZoN_Visie_Waardeketen.png)
 
-Data omvat hier de feitelijke waarnemingen en metingen aan een object in de fysieke leefomgeving. Hierbij wordt niet alleen geo-data ingewonnen, maar ook meer beschrijvende gegevens, bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.).
+Data omvat hier de feitelijke waarnemingen en metingen aan een object in de fysieke leefomgeving. Hierbij wordt niet alleen geo-data ingewonnen, maar ook meer beschrijvende gegevens, bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring, etcetera).
 
 Informatie ontstaat indien er door een kennishouder waarde aan deze data wordt toegevoegd. In de context van ZoN zien we dit als een interpretatie van de gegevens naar een 2D kaartbeeld of 3D model binnen het domein waarin de gegevens zijn waargenomen. Voorbeelden zijn de bodemkaart van Nederland, gemaakt door Wageningen University & Research op basis van bodemkundige waarnemingen, of de topografische kaart van Nederland, gemaakt door het Kadaster op basis van waarnemingen aan de ruimtelijke inrichting van Nederland.
 
@@ -16,7 +16,7 @@ Wijsheid ontstaat indien de via de datawaardeketen verkregen inzichten gebruikt 
 In de referentie architectuur Digital Twin voor de fysieke leefomgeving   is een dataproduct beschreven als een combinatie van gegevens, technologie, en (reken)modellen die ervoor zorgt dat de data eenvoudig in de werkprocessen van de gebruiker kan worden toegepast. Deze definiete omvat alles wat in de datawaardeketen wordt gedaan om informatie en wijsheid te creëren, evenals de technologie die wordt aangeboden om over de gehele waardeketen producten aan te bieden. Zo is bijvoorbeeld de topografische kaart van Nederland een digital twin van de bovengrondse inrichting van Nederland, en het NHI een digital twin van het Nederlandse watersysteem.
 Het is niet noodzakelijk dat de hele waardeketen doorlopen wordt om tot waardevolle resultaten te komen. Ingewonnen data kunnen direct in het werkproces waarin ze ontstaan toegepast worden. Elke schakel kent daarnaast een afslag naar hergebruik door derden die vaak weer andere doelen hebben dan het doel behorend bij de oorspronkelijke reden van inwinning. Zo neemt de waarde van data, uitgedrukt in meerwaarde voor het bedrijfsproces of de processtap van het proces waarnaar de data of informatie ontsloten wordt, op verschillende manieren toe.
 
-> Binnen het stelsel t.b.v. de fysieke leefomgeving zijn data na elke stap in de waardeketen beschikbaar voor anderen.
+> Binnen het stelsel m.b.t. de fysieke leefomgeving zijn data na elke stap in de waardeketen beschikbaar voor anderen.
 
 _iets meer over metingen, want dat zijn contextloze waarnemingen? (vraag RK)_
 
@@ -28,7 +28,7 @@ Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.
 
 Interpreteren en visualiseren
 
-_Nog uit te werken: staat nu hioerboven. Wellicht nog tekst nodig om de term 'domein'te duiden._
+_Nog uit te werken: staat nu hierboven. Wellicht nog tekst nodig om de term 'domein' te duiden._
 - Informatie ontstaat zodra de data in de context is geplaats. Informatie kan worden gebruikt voor het begrijpen en voorspellen van gedrag en voor de onderbouwing van een handelingsperspectief.  
 - Kennis/wijsheid = Informatie * Ervaring Vaardigheden en Attitude (Houding)
 - Kennis zit verweven in de modellen en daarbij is er sprake van interpretaties. De datawaardeketen is daarmee niet alleen data gedreven maar ook kennis gedreven.
@@ -64,7 +64,7 @@ Datasets die niet gestandaardiseerd zijn en toegankelijk zijn niet bruikbaar bin
 Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
 ## De datawaardeketen _(deze overlapt met de bovenstaande paragraaf én een onderstaande paragraaf - samenvoegen? (vraag RK)_
-In de DSFL worden ketens ingericht volgens het principe van de datawaardeketen uit Zicht op Nederland. De datawaardeketen is een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. Deze keten ontvouwt zicht volgens de Data – Informatie- Kennis -Wijsheid principe. Hierin staat data voor een feitelijke waarneming in de werkelijkheid (bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.). Het geeft inzicht in hoe verschillende databronnen in een keten worden gebruikt en verrijkt door een combinatie van kennishouders om gericht toegevoegde waarde te hebben in het verkrijgen van een handelingsperspectief en het op basis hiervan nemen van geïnformeerde datagedreven besluiten. 
+In de DSFL worden ketens ingericht volgens het principe van de datawaardeketen uit Zicht op Nederland. De datawaardeketen is een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. Deze keten ontvouwt zicht volgens het Data-Informatie-Kennis-Wijsheid principe. Hierin staat data voor een feitelijke waarneming in de werkelijkheid (bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring etc.). Het geeft inzicht in hoe verschillende databronnen in een keten worden gebruikt en verrijkt door een combinatie van kennishouders om gericht toegevoegde waarde te hebben in het verkrijgen van een handelingsperspectief en het op basis hiervan nemen van geïnformeerde datagedreven besluiten. 
 
 Informatie ontstaat indien er door een kennishouder waarde aan deze data wordt toegevoegd. In de context van ZoN zien we dit als een interpretatie van de gegevens naar een 2D kaartbeeld of 3D model binnen het domein waarin de gegevens zijn waargenomen. Voorbeelden zijn de bodemkaart van Nederland, gemaakt door Wageningen University & Research op basis van bodemkundige waarnemingen, of de topografische kaart van Nederland, gemaakt door het Kadaster op basis van waarnemingen aan de ruimtelijke inrichting van Nederland.
 
@@ -100,11 +100,23 @@ Uitgangspunt voor DSFL is dat de kosten die in de waardeketen van Zicht op Neder
 
 Een kenmerk van een dataspace is dat deze rondom maatschappelijke vraagstukken/use cases wordt ingericht. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. Per maatschappelijke vraag/use case zal moeten worden bepaald welke data daarbij nodig is.
 
-_Discussiepunt: welke data maken we beschikbaar zodat makkelijker aan de vraag voldaan kan worden (zonder deze altijd al te kennen). Dit in de lijn van een keuze tussen een data warehouse, data lake of lakehouse. Is hier in het kader van bv dhet stelsel van Basisregistraties al iets zinnigs te zeggen?_
+_Discussiepunt: welke data maken we beschikbaar zodat makkelijker aan de vraag voldaan kan worden (zonder deze altijd al te kennen). Dit in de lijn van een keuze tussen een data warehouse, data lake of lakehouse. Is hier in het kader van bv het stelsel van Basisregistraties al iets zinnigs te zeggen?_
 
 _Het onderscheid tussen een data warehouse, data lake of lakehouse is ons inziens niet relevant. Het gaat over het uitwisselen van gegevens en niet over het beheren/opslaan van gegevens?_
 
 _De tekst in deze paragraaf overlapt met de tekst onder "Indeling van datasets" en zou daarmee geïntegreerd moeten worden._
+
+**De fysieke leefomgeving, nader uitgewerkt**
+De fysieke leefomgeving bepaalt de werkingssfeer van de digitale tweeling waar wij het over hebben. Dat betekent dat onze digitale tweelingen over onze fysieke leefomgeving gaan. Een duidelijke afgebakende definitie van de fysieke leefomgeving is er niet. De fysieke leefomgeving is de omgeving, waarin wij als mensen leven, wonen, werken, reizen, recreëren, et cetera. Wij voeren onze activiteiten uit in de fysieke leefomgeving, die bestaat uit allerlei onderdelen: bouwwerken, infrastructuur, water, bodem en ondergrond, lucht, natuur, landbouw, landschappen en cultureel erfgoed. Deze opsomming is natuurlijk niet uitputtend. En soms wordt ook wel over de natuurlijke leefomgeving gesproken als het gaat om onderdelen als lucht, water, bodem en natuur (het milieu). En de door de mens gemaakte objecten horen bij de fysieke leefomgeving. Objecten kunnen statisch zijn, omdat ze langdurig op dezelfde plek staan. Zo vallen bouwwerken (onze woningen, kantoren en fabrieken) en infrastructuur (wegen, kanalen en kabels en leiding) onder de fysieke leefomgeving. Maar ook objecten die meer dynamisch zijn, zoals voertuigen. Maar ook de landbouwgewassen zijn meer dynamisch, omdat ze maar enkele maanden aanwezig zijn; ze komen en gaan. Het wordt hoog dynamisch als we het hebben over de veranderlijkheid van het weer, de stroming van het water of onze eigen verplaatsingen in het dagelijks leven voor het wonen, werken en recreëren. Wij als mensen maken daarmee ook deel uit van de fysieke leefomgeving. Met onze activiteiten in de fysieke leefomgeving maken wij mede diezelfde leefomgeving. Die activiteiten zorgen voor de dynamiek in de leefomgeving.
+
+Onze fysieke leefomgeving is een complex, zich continue aanpassend systeem, dat bestaat uit een aantal deelsystemen die nauw op elkaar inwerken. De fysieke leefomgeving is daarmee een connectie en samenwerking tussen deze deelsystemen. Vaak worden drie deelsystemen benoemd, die te typeren zijn enkele naar gemeenschappelijke inzichten: 
+- Economische deelsysteem;
+- Natuurlijke deelsysteem; en
+- Sociale deelsysteem.
+
+Het economische deelsysteem van de fysieke leefomgeving heeft betrekking op de economische activiteiten en processen in de ruimte, zoals industrie, bouw en handel, de land- en tuinbouw, transport(netwerken), waterwinning, de afvalstromen (en circulaire economie) en niet te vergeten de energiesector. In het natuursysteem vinden de natuurlijke verschijnselen en processen plaats, zoals de natuurgebieden en biodiversiteit, het water(systeem), klimaat en lucht, bodem en ondergrond. Ook wel het ‘milieu’ genoemd. Het sociale systeem, ook wel sociaal-culturele systeem, bestaat uit de sociale aspecten en interacties in de fysieke leefomgeving. Denk daarbij aan huisvesting (de woningen), het zorgsysteem (zorgcentra, ziekenhuizen, verzorgingshuizen), het onderwijs (scholen en universiteiten), de voorzieningen voor sport, cultuur en recreatie en natuurlijk de openbare ruimte. Ook ons ruimtelijk gedrag valt hieronder.
+
+Deze drie deelsystemen tonen een grote overeenkomst met het 3P-model van duurzame ontwikkeling, nl. People-Profit-Planet. De combinatie van mensen, milieu, en winst maken dient in harmonie te zijn. Wanneer dit niet zo is, zullen de andere elementen hieronder lijden. Wanneer bijvoorbeeld winst maken te veel prioriteit krijgt, zullen mens en milieu hieronder leiden, bijvoorbeeld via de uitstoot van gevaarlijke stoffen (effect op de volksgezondheid) of door achteruitgang van biodiversiteit. Het woord ‘profit’ is inmiddels vervangen door ‘prosperity’ oftewel welvaart. Naast economisch gewin dient ook de maatschappelijke winst in de afwegingen mee te worden genomen. Zo dienen ook de drie deelsystemen van de fysieke leefomgeving in evenwicht te zijn. En ook hier speelt welvaart een toenemende rol. Het concept van het ‘brede welvaart denken’ staat daarbij steeds meer centraal; “Brede welvaart gaat over de welvaart en welzijn van individuele mensen. Dat wil zeggen: de kwaliteit van leven in het hier en nu en hoe zich dat verhoudt tot latere generaties of die van mensen elders in de wereld.”8 Door brede welvaart te hanteren als uitgangspunt voor het afwegen van belangen bij ontwikkelingen en veranderingen in de fysieke leefomgeving, kunnen ook de afwegingen tussen de sociaal-culturele, natuurlijke en economische deelsystemen van de fysieke leefomgeving worden meegenomen. 
 
 ## Metadata (Ine/Niels)
 
@@ -125,15 +137,19 @@ In de DSFL bestaan vele waardeketens. Deze waardeketens in de DSFL worden functi
 
 Dit is een vraagarticulatie proces waarbij de datawaardeketen ‘in omgekeerde volgorde’ wordt doorlopen. Hierbij zijn in de regel veel partijen betrokken. Deze partijen zijn bestuurlijk bij elkaar gebracht in het GI-beraad. 
 
-> Het GI-beraad bepaalt wlke waardeketens door DSFL ondersteund worden. 
+> Het GI-beraad bepaalt welke waardeketens door DSFL ondersteund worden. 
 
 De (aangewezen) beheerder van DSFL organiseert vervolgens dat de juiste kennis, informatie en data producten beschikbaar zijn en dat de dataleveranciers hun gegevens aan de keten kunnen aanleveren. Hierin speelt de doelarchitectuur van Zicht op Nederland (en daarmee de afspraken waarmee partijen aansluiten op de DSFL) een belangrijke rol.
 
-Het datadeelstelsel van Zicht op Nederland, DSFL, staat niet op zichzelf. Er zijn ook andere ketens en datadeelstelsels, voor diverse domeinen. Het is het meest efficiënt en effectief als deze verschillende datadeelstelsels op elkaar kunnen worden aangesloten. Een dataset/bron hoeft dan iet aan te sluiten op alle ketengebruikers, maar hoeft haar gegevens slechts in één stelsel kenbaar en vindbaar te maken. Andere stelsels kunnen hier dan op aansluiten, zodat op termijn er één virtueel datalandschap ontstaat waarmee gecombineerde vragen over alle domeinen heen kunnen worden beantwoord; een ideale invulling aan het principe ‘eenmalige inwinning – meervoudig gebruik’. Om dit te kunnen bewerkstelligen, sluit DSFL aan op de bredere afspraken die worden gemaakt in het kader van hetr 'Federatief Datastelsel', FDS.
+Het datadeelstelsel van Zicht op Nederland, DSFL, staat niet op zichzelf. Er zijn ook andere ketens en datadeelstelsels, voor diverse domeinen. Het is het meest efficiënt en effectief als deze verschillende datadeelstelsels op elkaar kunnen worden aangesloten. Een dataset/bron hoeft dan iet aan te sluiten op alle ketengebruikers, maar hoeft haar gegevens slechts in één stelsel kenbaar en vindbaar te maken. Andere stelsels kunnen hier dan op aansluiten, zodat op termijn er één virtueel datalandschap ontstaat waarmee gecombineerde vragen over alle domeinen heen kunnen worden beantwoord; een ideale invulling aan het principe ‘eenmalige inwinning – meervoudig gebruik’. Om dit te kunnen bewerkstelligen, sluit DSFL aan op de bredere afspraken die worden gemaakt in het kader van het 'Federatief Datastelsel', FDS. 
 
 > DSFL geeft zoveel als mogelijk invulling aan de afspraken en standaarden die worden vastgesteld in het kader van het FDS.
 
-De bestuursorganen, zitting hebbend in het GI-beraad, hebben als eerste profijt van de aangeboden data, informatie en kennis bij het uitvoeren van hun taken. Daarnaast hebben ze het bestuurlijk mandaat om het inrichten van de waardeketen duurzaam vorm te geven. Zij organiseren het duurzaam bijhouden van kennis en informatie producten organiseren door het maken van (wettelijke) afspraken met kennisinstellingen, het ‘promoveren’ van datasets naar de classificatie ‘Ring 1’of ‘kern’ en het organiseren van het duurzaam aanleveren van gegevens door dataleveranciers aan deze datasets. Tenslotte zijn zij ook de grote inhoudelijke belanghebbenden in het proces van vraagarticulatie.
+Er wordt een 'eenheidsmarkt voor data' gecreëerd, die vorm krijgt in de vorm van een EU-brede data space (dataruimte). De EU-brede data space is waar alle aspecten uit de hiervoor genoemde Verordeningen tot praktische uitdrukking komen. Het is niet een vraag of je als data-gebruikende of data-delende deel wilt nemen aan de EU dataspace. De EU-brede dataspace is de omgeving waarin je data-gebruik en -delen plaatsvindt, binnen de randvoorwaarden en afspraken die voor die marktomgeving gelden. Met de EU data space wordt het bestaande vrije verkeer van personen, goederen en kapitaal aangevuld met het vrije verkeer van data.
+
+> DSFL levert een bijdrage aan het realiseren van Dataspaces op Europees niveau.
+
+De bestuursorganen, zitting hebbend in het GI-beraad, hebben als eerste profijt van de aangeboden data, informatie en kennis bij het uitvoeren van hun taken. Daarnaast hebben ze het bestuurlijk mandaat om het inrichten van de waardeketen duurzaam vorm te geven. Zij organiseren het duurzaam bijhouden van kennis en informatie producten organiseren door het maken van (wettelijke) afspraken met kennisinstellingen, het ‘promoveren’ van datasets naar de classificatie ‘Ring 1’ of ‘kern’ en het organiseren van het duurzaam aanleveren van gegevens door dataleveranciers aan deze datasets. Tenslotte zijn zij ook de grote inhoudelijke belanghebbenden in het proces van vraagarticulatie.
 
 > Het is aan de betrokken bestuursorganen om te organiseren dat de kennis, informatie en data duurzaam beschikbaar zijn. 
 
