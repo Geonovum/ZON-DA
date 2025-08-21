@@ -19,7 +19,7 @@ Met een identiteit wordt een claim gesteld in de vorm van 'ik ben ...'. Identite
 - Partijen: Deze kunnen natuurlijke personen of organisaties zijn. Partijen stellen doelen, maken beslissingen en beheren kennis;
 - Actoren: Deze kunnen natuurlijke personen of dingen (zoals computers, apparaten) zijn. Actoren voeren acties uit namens Partijen;
 
-In DSFL zijn partijen een breden verzameling zoals overheden, private organisaties en natuurlijke personen in verschillende rollen (burger, medewerker/ambtenaar). Een partij kan meerdere Identiteiten hebben, dit zullen we een hoedanigheid noemen. Een identiteit heeft een eigenaar die bepaalt of die identiteit bij de partij (en dus ook eventueel een Actor) hoort.
+In DSFL zijn partijen een brede verzameling zoals overheden, private organisaties en natuurlijke personen in verschillende rollen (burger, medewerker/ambtenaar). Een partij kan meerdere Identiteiten hebben, dit zullen we een hoedanigheid noemen. Een identiteit heeft een eigenaar die bepaalt of die identiteit bij de partij (en dus ook eventueel een Actor) hoort.
 
 ? Is een domein-/sectorspecifieke registratie nodig binnen DSFL (bv vanuit DSO) om een FL-organisatiemodel te kunnen implementeren. Er zijn veel FL-rollen zoals bevoegd gezag, behandeldienst die FL specifiek zijn.
 
@@ -60,8 +60,7 @@ Veiligheid waarborgt de vertrouwde data uitwisseling tussen partijen. Het omvat 
 
 ### Contracts
 
-Waar API's de enablers zijn voor beschikbaar stellen van data zijn API profielen/specificaties de technische contracten om aanbieder en afnemer op elkaar aan te laten sluiten. Hierbij  
-Organisatorisch worden serviceniveau's gedefinieerd die afnemers zekerheid bieden. Er zijn 2 (categorieën) serviceniveau's: Fair Use en SLA gebaseerd.
+Waar API's de enablers zijn voor beschikbaar stellen van data zijn API profielen/specificaties de technische contracten om aanbieder en afnemer op elkaar aan te laten sluiten. Hierbij worden serviceniveau's gedefinieerd die afnemers zekerheid bieden. Er zijn 2 (categorieën) serviceniveau's: Fair Use en SLA gebaseerd.
 - Fair Use wordt meestal gebruikt bij open data en om beschikbare resources zodanig te verdelen dat de afnemers optimaal gelijkwaardig worden behandeld.
 - SLA gebaseerd wordt gebruikt voor afnemers die zekerheid willen hebben over de mate van dienstverlening en resources meestal omdat zij de data in een kritisch bedrijfsproces integreren. SLA gebaseerde afname is niet zonder kosten.
 
@@ -82,29 +81,33 @@ Dit kan eigen data of data van derden zijn.
 
 ### Classificatie
 
-Uitgangspunt is lage classificatie gezien de verantwoording van de kosten van beveiligingsmaatregelen. Het basisprincipe voor DSFL is ‘passende beveiligingsmaatregelen voor reële risico’s' Uitangspunt is dat de BIV-classificaties niet op risico’s duiden die maatregelen hoger dan het standaardniveau BIO2 BBN2 (basis beveiligingsniveau) vereisen. Maar gezien de verwerking van bedrijfsvertrouwelijke- en persoonsgegevens ook niet lager. De overheid kent grofweg drie niveaus van vertrouwelijkheidsclassificatie: publiek, departementaal vertrouwelijk (DepV) en staatsgeheim. Binnen DSFL zullen voor een groot deel publieke gegevens beschikbaar worden gemaakt. DepV betekent dat er schade kan ontstaan en hiervoor zijn de BIO2-maatregelen bedoeld. Hieronder vallen ook concurrentiegevoelige bedrijfs- en fabricagegegevens van organisaties. Staatsgeheime informatie dient buiten het DSFL stelsel te blijven omdat de kosten van de maatregelen niet opwegen tegen de kosten en de bruikbaarheid en beheerbaarheid ernstig in de weg zullen zitten. 
+Uitgangspunt is lage classificatie gezien de verantwoording van de kosten van beveiligingsmaatregelen. Het basisprincipe voor DSFL is ‘passende beveiligingsmaatregelen voor reële risico’s'. Uitangspunt is dat de BIV-classificaties niet op risico’s duiden die maatregelen hoger dan het standaardniveau BIO2 BBN2 (basis beveiligingsniveau) vereisen. Maar gezien de verwerking van bedrijfsvertrouwelijke- en persoonsgegevens ook niet lager. De overheid kent grofweg drie niveaus van vertrouwelijkheidsclassificatie: publiek, departementaal vertrouwelijk (DepV) en staatsgeheim. Binnen DSFL zullen voor een groot deel publieke gegevens beschikbaar worden gemaakt. DepV betekent dat er schade kan ontstaan en hiervoor zijn de BIO2-maatregelen bedoeld. Hieronder vallen ook concurrentiegevoelige bedrijfs- en fabricagegegevens van organisaties. Staatsgeheime informatie dient buiten het DSFL stelsel te blijven omdat de kosten van de maatregelen niet opwegen tegen de kosten en de bruikbaarheid en beheerbaarheid ernstig in de weg zullen zitten. 
 
 Eigenaren van data dienen hun informatie van adequate labeling te voorzien. 
 
-Voor DSFL is DepV toepasselijk, daarboven wordt niet ondersteund en dergelijke data mogen eigenaren niet ter beschikking stellen.
+> Voor DSFL is DepV toepasselijk, daarboven wordt niet ondersteund en dergelijke data mogen eigenaren niet ter beschikking stellen.
 
 Voor defensie binnen DSFL betekent dit dat alleen niveau TBB 4 wordt ondersteund aangezien TBB 1 t/m 3 staatsgeheim niveau's zijn.
 
 ### Onweerlegbaarheid
 
-Van de acties en handelingen die binnen DFL plaatsvinden zal minimaal vastlegging moeten plaatsvinden die voor verantwoording achteraf kan zorgen (tot en met juridische procedures). Zo kan ook niet worden ontkend dat deze handelingen hebben plaatsgevonden (onweerlegbaarheid). Daarnaast kunnen deze in beheerprocessen worden gebruikt. Dit betekent voorzieningen voor logging, auditing en archivering van scrijf- én leesacties en mutaties op identiteiten en policies die in separate registraties staan.
+Van de acties en handelingen die binnen DSFL plaatsvinden zal minimaal vastlegging moeten plaatsvinden die voor verantwoording achteraf kan zorgen (tot en met juridische procedures). Zo kan ook niet worden ontkend dat deze handelingen hebben plaatsgevonden (onweerlegbaarheid). Daarnaast kunnen deze in beheerprocessen worden gebruikt. Dit betekent voorzieningen voor logging, auditing en archivering van scrijf- én leesacties en mutaties op identiteiten en policies die in separate registraties staan.
+
+? Vastleggen van leesacties in geval van Open Data is niet van toepassing (en zelfs niet toegestaan uit privacy overwegingen).
 
 ### Organisatie
 
 Beveiliging begint bij inrichting van een beveiligingsorganisatie en –processen op strategisch, tactisch en operationeel niveau. Alleen dan kan beveiliging op bestendige wijze worden ingericht en uitgevoerd. Indien beveiligingsprocessen in de reguliere beheerprocessen worden opgenomen hebben zij de grootste effectiviteit. Beveiliging is per definitie hiërarchisch georganiseerd. Ook kunnen de maatregelen alleen bestendig zijn als deze continu op basis van nieuwe dreigingsinschattingen worden bijgesteld en verbeterd, bij voorkeur via een plan-do-check-act cyclus.
+
 ! samenvoegen met organisatie privacy
 
 ## Privacy by design
 
 Privacy betreft het beperken van de inbreuk op iemands persoonlijke levenssfeer. Het vervult de wens om onbespied en onbewaakt te leven. Het is (in Europa) een grondrecht (art. 8 van Europees verdrag voor de rechten van mens) en een fundamentele bouwsteen voor een vrije samenleving. Privacy is met de verregaande verspreiding van digitale informatie via het internet een serieus vraagstuk en beschermingsprobleem geworden. Identiteitsfraude is geen incident meer maar een structureel criminele activiteit. Verlies van persoonsgegevens in de vorm van datalekken is aan de orde van de dag. Persoonsgegevens zijn gegevens die naar een natuurlijk persoon te herleiden zijn. Dus een gegeven of combinatie van gegevens waarmee een persoon zonder bijzondere inspanning kan worden geïdentificeerd. Op dit moment is de Algemene Verordening Gegevensbescherming (AVG) de juridische basis waarin is vastgelegd onder welke voorwaarden persoonsgegevens wél mogen worden verwerkt.
 
-Persoonsgegevens dien je alleen voor een specifiek doel te gebruiken dat bekend is gemaakt en waarvoor toestemming is verkregen en niet voor een ander doel (doelbinding). Ook dien je niet meer gegevens te verzamelen die je voor het beoogde doel echt nodig hebt (dataminimalisatie) en eventueel alternatieven te overwegen die tot hetzelfde doel leiden (proportionaliteit/subsidiariteit). Voor de overheid is de belangrijkste verwerkingsgrond de noodzaak om een wettelijke en publieke taak goed uit te voeren. Toestemming van betrokkenen als grondslag is niet haalbaar aangezien het grotendeels machine/machine communicatie betreft.
-Ergo, hoe minder persoonsgegevens gedeeld worden hoe beter. Privacy niet alleen 'by design' maar ook by default, dus de basisinstellingen zijn standaard het meeste privacybeschermend zijn. Dit zal ook voor DSFL als uitgangspunt van toepassing zijn. 
+Persoonsgegevens dien je alleen voor een specifiek doel te gebruiken dat bekend is gemaakt en waarvoor toestemming is verkregen en niet voor een ander doel (doelbinding). Ook dien je niet meer gegevens te verzamelen die je voor het beoogde doel echt nodig hebt (dataminimalisatie) en eventueel alternatieven te overwegen die tot hetzelfde doel leiden (proportionaliteit/subsidiariteit). Voor de overheid is de belangrijkste verwerkingsgrond de noodzaak om een wettelijke en publieke taak goed uit te voeren. Toestemming van betrokkenen als grondslag is niet haalbaar aangezien het grotendeels machine/machine communicatie betreft. Ergo, hoe minder persoonsgegevens gedeeld worden hoe beter. 
+
+> Privacy is niet alleen 'by design' maar ook 'by default', dus de basisinstellingen zijn standaard het meeste privacybeschermend. Dit zal ook voor DSFL als uitgangspunt van toepassing zijn. 
 
 ### Classificatie
 
@@ -127,9 +130,9 @@ Gewone persoonsgegevens vallen onder de reguliere kaders van de AVG zoals NAW en
 
 Publiek beschikbare persoonsgegevens zoals eigenaren van bedrijven in het Handelsregister kunnen bij verdere verwerking binnen de DSFL in één van de drie categorieën komen te vallen en worden de kaders voor die categorie van toepassing.
 
-Specifieke risico’s zullen met passende maatregelen worden beschermd. Het meest voor de hand liggend is dan encryptie van persoonsgegevens in rust en tijdens transport, verwijzingen op basis van betekenisloze id's, pseudonimisering, maskering, anonimisering enz.
+Specifieke risico’s zullen met passende maatregelen worden beschermd. Het meest voor de hand liggend is dan encryptie van persoonsgegevens in rust en tijdens transport, verwijzingen op basis van betekenisloze id's, pseudonimisering, maskering, anonimisering en dergelijke.
 
-Binnen DSFL zorgen aanbieders/eigenaars van data voor de juiste classificatie en labeling van metadata en data die persoonsgegevens bevat. Hiermee kunnen afnemers ook bepalen dat zij persoonsgegevens niet ongewild alsnog verwerken. Als zij deze bewust wel verwerken hebben zij alle waarborgen van de AVG in acht genomen.
+> Binnen DSFL zorgen aanbieders/eigenaars van data voor de juiste classificatie en labeling van metadata en data die persoonsgegevens bevat. Hiermee kunnen afnemers ook bepalen dat zij persoonsgegevens niet ongewild alsnog verwerken. Als zij deze bewust wel verwerken hebben zij alle waarborgen van de AVG in acht genomen.
 
 ? Zijn er 2de orde privacy vraagstukken omdat veel informatie gekoppeld via geo voor bv huiseigenaren middels perceelinformatie tot privacy risico's kunnen leiden.
 
@@ -137,7 +140,7 @@ Binnen DSFL zorgen aanbieders/eigenaars van data voor de juiste classificatie en
 
 Analoog aan beveiliging in algemene zin geldt ook voor privacy dat een aanzienlijke organisatorische en procesinrichting benodigd zijn. Processen voor privacybescherming zullen ook in reguliere beheerprocessen moeten worden ondergebracht op zowel strategisch, tactisch en operationeel niveau. AVG verplichte onderdelen als privacy beleid, privacy verklaringen, verwerkingenregister en DPIA's dienen te worden belegd.
 
-Voor DSFL betekent dit een beheerorganisatie die dit voor de DSFL regelt als eisen aan de beheerorganisaties die data aanbieden en afnemen. De verwerkingsverantwoordelijkheid zal expliciet moeten zijn toegewezen met als uitgangspunt dat dit aan één entiteit kan worden toegewezen (MinIenW?). Van daaruit uniforme eisen aan de verwerkersovereenkomsten. Hier kunnen dan ook de rechten van betrokkenen worden geborgd (zoals inzage, rectificatie, gegevenswissing, beperking van de verdere verwerking van gegevens)
+> Voor DSFL betekent dit een beheerorganisatie die dit voor de DSFL regelt als eisen aan de beheerorganisaties die data aanbieden en afnemen. De verwerkingsverantwoordelijkheid zal expliciet moeten zijn toegewezen met als uitgangspunt dat dit aan één entiteit kan worden toegewezen (MinIenW?). Van daaruit uniforme eisen aan de verwerkersovereenkomsten. Hier kunnen dan ook de rechten van betrokkenen worden geborgd (zoals inzage, rectificatie, gegevenswissing, beperking van de verdere verwerking van gegevens)
 
 ? Wat maakt een DSFL beheerorganisatie tav privacy anders dan een reguliere beheerorganisatie. Centrale plek om DSFL generieke gegevensleveringsovereenkomsten op te stellen? Is er een DSFL beheerorganisatie voorzien?
 
