@@ -86,7 +86,7 @@ Er is geen apart linked data access point nodig als met OGC-API’s wordt gewerk
 In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vinden die één of meer services kunnen realiseren.
 
 ![Voorbeeld van een realisatie van services in software componenten](./respec/media/ExampleOfTechnicalImplementation.png)
-Afbeelding Voorbeeld van een realisatie van services in software componenten (bron: DSSC knowledge base / ![HLF Workstream 14 on Data Interoperability - Final Report](https://ec.europa.eu/docsroom/documents/58914))
+Afbeelding Voorbeeld van een realisatie van services in software componenten (bron: DSSC knowledge base / [HLF Workstream 14 on Data Interoperability - Final Report](https://ec.europa.eu/docsroom/documents/58914))
 
 In bovenstaand voorstel staan 3 componenten die de benodigde services realiseren:
 1. Data Space Registry: Component van de Data Space Authority waarin de deelnemers van de data space opgenomen zijn.
@@ -272,4 +272,4 @@ In de basis bestaat het DataSpace Protocol uit 3 protocollen:
 - Het Contract Negotiation Protocol. Zodra je weet welke dataset je wilt hebben, start de onderhandeling over het contract en het uiteindelijk tekenen van het contract. Bij vertrouwd datadelen zal er immers sprake zijn van gebruiksvoorwaarden
 - Het Transfer Process Protocol. Nog niet de daadwerkelijke data-overdracht (dat gaat via het Transport protocol), maar de afspraken die daarvoor nodig zijn.
 
-TNO heeft een implementatie van het dataspace protocol (welke ook gecertificeerd is door IDSA) gedaan; de TNO Security Gateway (TSG). Sogelink, provincie Friesland, Kadaster en Geonovum heeft een experiment uitgevoerd om ervaring op te doen met dit dataspace protocol. De ervaringen uit het experiment worden gepubliceerd, zie ![Dataspace Protocol connector experiment](https://geonovum.github.io/eu-DataspaceProtocolconnectorexperiment/). 
+TNO heeft een implementatie van het dataspace protocol (welke ook gecertificeerd is door IDSA) gedaan; de TNO Security Gateway (TSG). Sogelink, provincie Friesland, Kadaster en Geonovum heeft een experiment uitgevoerd om ervaring op te doen met dit dataspace protocol. De ervaringen uit het experiment worden gepubliceerd, zie [Dataspace Protocol connector experiment](https://geonovum.github.io/eu-DataspaceProtocolconnectorexperiment/). 
