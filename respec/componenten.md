@@ -85,6 +85,21 @@ Er is geen apart linked data access point nodig als met OGC-API’s wordt gewerk
 
 In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vinden die één of meer services kunnen realiseren.
 
+![Voorbeeld van een realisatie van services in software componenten](./respec/media/ExampleOfTechnicalImplementation.png)
+Afbeelding Voorbeeld van een realisatie van services in software componenten (bron: DSSC knowledge base / ![HLF Workstream 14 on Data Interoperability - Final Report](https://ec.europa.eu/docsroom/documents/58914))
+
+In bovenstaand voorstel staan 3 componenten die de benodigde services realiseren:
+1. Data Space Registry: Component van de Data Space Authority waarin de deelnemers van de data space opgenomen zijn.
+2. Federated Services, weer onderverdeeld in:
+	1. Data intermediation services zoals catalogue services , marketplace services
+ 	2. Data sovereignty & trust services zoals identity providers, verification services, access authorisation services
+	3. Overige services zoals vocabulary hubs, sandbox environments, …
+3. Data Space Protocols: Gestandaardiseerde koppelvlakken gerealiseerd door de deelnemers om data te kunnen delen met andere deelnemers. Functionaliteiten ondersteund door Data Space Protocols zijn onder andere:
+	1. Data set publication and discovery
+	2. Contract negotiation and agreement
+	3. Data exchange
+	4. Data transaction logging
+
 HW: DCAT maakt weer net een ander onderscheid, de datasetserie ontbreekt hier. Bij RWS hanteren we het zo:
 IdV: in DCAT3 is er wel een klasse dataset series
 ![image](https://github.com/user-attachments/assets/1a6f7259-b67a-4def-af10-b50c21d6c35f)
@@ -253,7 +268,8 @@ Om vertrouwd data te kunnen delen, heeft IDSA, de International Data Space Assoc
  
 Bij vertrouwd datadelen is niet alleen standaardisatie op de data-laag - de Data Plane - nodig, het is ook belangrijk dat de ‘Control Plane’ gestandaardiseerd is. Het Control Plane is het deel van een netwerk dat bepaalt hoe gegevens het beste kunnen worden doorgestuurd. 
 In de basis bestaat het DataSpace Protocol uit 3 protocollen:
-	· Het Catalog protocol om (afhankelijk van je rechten) de catalogus van een ander in te mogen zien. Bij open data zal dat de hele catalogus zijn, maar bij vertrouwde data, komt het ook voor dat je uberhaupt niet mag weten dat de data bestaan. Het Catalog protocol handelt af dat je de metadata te zien krijgt die je mag zien
-	· Het Contract Negotiation Protocol. Zodra je weet welke dataset je wilt hebben, start de onderhandeling over het contract en het uiteindelijk tekenen van het contract. Bij vertrouwd datadelen zal er immers sprake zijn van gebruiksvoorwaarden
-	· Het Transfer Process Protocol. Nog niet de daadwerkelijke data-overdracht (dat gaat via het Transport protocol), maar de afspraken die daarvoor nodig zijn
-TNO heeft een implementatie van het dataspace protocol (welke ook gecertificeerd is door IDSA) gedaan; de TNO Security Gateway (TSG). Samen met Sogelink, provincie Friesland en Kadaster zet Geonovum nu een experiment op  om ervaring op te doen met dit dataspace protocol. De ervaringen uit het experiment worden na afloop gepubliceerd. 
+- Het Catalog protocol om (afhankelijk van je rechten) de catalogus van een ander in te mogen zien. Bij open data zal dat de hele catalogus zijn, maar bij vertrouwde data, komt het ook voor dat je uberhaupt niet mag weten dat de data bestaan. Het Catalog protocol handelt af dat je de metadata te zien krijgt die je mag zien
+- Het Contract Negotiation Protocol. Zodra je weet welke dataset je wilt hebben, start de onderhandeling over het contract en het uiteindelijk tekenen van het contract. Bij vertrouwd datadelen zal er immers sprake zijn van gebruiksvoorwaarden
+- Het Transfer Process Protocol. Nog niet de daadwerkelijke data-overdracht (dat gaat via het Transport protocol), maar de afspraken die daarvoor nodig zijn.
+
+TNO heeft een implementatie van het dataspace protocol (welke ook gecertificeerd is door IDSA) gedaan; de TNO Security Gateway (TSG). Sogelink, provincie Friesland, Kadaster en Geonovum heeft een experiment uitgevoerd om ervaring op te doen met dit dataspace protocol. De ervaringen uit het experiment worden gepubliceerd, zie ![Dataspace Protocol connector experiment](https://geonovum.github.io/eu-DataspaceProtocolconnectorexperiment/). 
