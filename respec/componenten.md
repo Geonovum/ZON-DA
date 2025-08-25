@@ -69,36 +69,30 @@ Er is geen apart linked data access point nodig als met OGC-API’s wordt gewerk
 ![image](https://github.com/user-attachments/assets/4472cbaa-c966-435d-b816-0a87ef937966)
 
 ## Componenten volgens de DSSC referentie
-<DSSC view op componenten, per component invullen/aangeven of en hoe we die invullen>
 
-|    term                  | omschrijving / toelichting                                                                                                                                        |
-| --------                 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------  |    
-| Dataspace                | Bij voorkeur omvat een dataspace geen fysieke data of producten, maar wordt in een specifieke dataspace gelinked naar andere datasources                          |
-| Dataproduct              | https://dssc.eu/space/bv15e/766065053/Data+Product                                              									|
-| Databron/datasource      |                                                                                                                                                                    |
-| Dataset/datasetserie     |                                                                                                                                                                   |
-| Dataservice              |                                                                                                                                                                   |
-| Dataprovider             |                                                                                                                                                                   |
-| Dataontvanger            |                                                                                                                                                                   |
-| Connector                |                                                                                                                                                                   |
-| Logische componeten      | contracten, certificaten, metadata, etc                                                                                                                           |
+<img src="./respec/media/InteractionOfTechnicalComponents.png>" alt="Interactie tussen technische componenten" width="900">
+Afbeelding Interactie tussen technische componenten (bron: IDS-RAM)
 
-In de [DSSC Toolbox](https://toolbox.dssc.eu/) zijn software componenten te vinden die één of meer services kunnen realiseren.
+Overzicht van (technische) services uit de DSCC: https://dssc.eu/space/BVE2/1071254998/Services+for+Implementing+Technical+Building+Blocks 
+<img width="1178" height="876" alt="image" src="https://github.com/user-attachments/assets/39411332-a8c1-4d59-be57-b707954790dc" />
 
-![Voorbeeld van een realisatie van services in software componenten](./respec/media/ExampleOfTechnicalImplementation.png)
-Afbeelding Voorbeeld van een realisatie van services in software componenten (bron: DSSC knowledge base / [HLF Workstream 14 on Data Interoperability - Final Report](https://ec.europa.eu/docsroom/documents/58914))
+In paragraaf 5.2 "Componenten volgens de DSSC referentie" is aangegeven dat er veel componenten bestaan die invulling kunnen geven aan de benodigde services. Nu zijn niet alle services nodig in het geval van de DSFL simpelweg omdat deze functionaliteit niet nodig is. In deze paragraaf benoemen we een aantal componenten en geven daarbij aan of deze nodig gaan zijn en hoe deze ingevuld kunnen worden voor DSFL. Voordat we de optionele services (en componenten) aflopen beginnen we met aan te geven wat minimaal nodig is voor een dataspace.
 
-In bovenstaand voorstel staan 3 componenten die de benodigde services realiseren:
-1. Data Space Registry: Component van de Data Space Authority waarin de deelnemers van de data space opgenomen zijn.
-2. Federated Services, weer onderverdeeld in:
-	1. Data intermediation services zoals catalogue services , marketplace services
- 	2. Data sovereignty & trust services zoals identity providers, verification services, access authorisation services
-	3. Overige services zoals vocabulary hubs, sandbox environments, …
-3. Data Space Protocols: Gestandaardiseerde koppelvlakken gerealiseerd door de deelnemers om data te kunnen delen met andere deelnemers. Functionaliteiten ondersteund door Data Space Protocols zijn onder andere:
-	1. Data set publication and discovery
-	2. Contract negotiation and agreement
-	3. Data exchange
-	4. Data transaction logging
+Voor de benodigde componenten lopen we de core componenten af uit [IDS-RAM4 System Layer](https://docs.internationaldataspaces.org/ids-knowledgebase/ids-ram-4/layers-of-the-reference-architecture-model/3-layers-of-the-reference-architecture-model/3_5_0_system_layer):
+- the Identity Provider (consisting of CA, DAPS and ParIS),
+- the IDS Connector,
+- the App Store and Data Apps,
+- the Metadata Broker,
+- the Clearing House, and
+- the Vocabulary Hub.
+
+Een minimale dataspace bestaat (volgens ISDA, zie [What is a Minimum Viable Data Space?](https://docs.internationaldataspaces.org/ids-knowledgebase/ids-reference-testbed/minimum-viable-data-space/mvds)):
+1. Twee connectoren (één bij de data aanbieder en één bij de data afnemer)
+2. Een identity provider (Dynamic Attribute Provisioning Service, Certificate Authority)
+
+> Voor de DSFL betekent dit dat elke deelnemer zelf moet zorgen voor een connector. Voor de identity provider moet nog nagegaan worden wat hiervoor handig is.
+
+** TO DO: Optionele componenten nalopen met daarbij aangegeven waarom wel of niet benodigd **  
 
 HW: DCAT maakt weer net een ander onderscheid, de datasetserie ontbreekt hier. Bij RWS hanteren we het zo:
 IdV: in DCAT3 is er wel een klasse dataset series
@@ -117,13 +111,6 @@ Dataspace Connector Consumer; Definition: Data Space Connector Consumer ABB is a
 
 Er zijn ook nog een heel aantal andere enablers die optioneel onderdeel van de value service van een dataspace kunnen zijn of relevant kunnen zijn voor de aansluiting in het domein van de provider of de consumer. Het lijstje: API Enablers, Orchestration Enablers, Trust Enablers, Data Exchange Enablers, Translation Enablers, Privacy Enablers, Digital Workplace Enablers, Test Enablers, Security Enablers, Knowledge Dicovery Enablers, Analytics Enablers, Artificial Intelligence Enablers, Data Management Enablers, User Experience Management Enablers, Schedule Management Enablers.
 
-## Interactie tussen technische componenten
-
-![Interactie tussen technische componenten](./respec/media/InteractionOfTechnicalComponents.png "Interactie tussen technische componenten")
-Afbeelding Interactie tussen technische componenten (bron: IDS-RAM)
-
-Overzicht van (technische) services uit de DSCC: https://dssc.eu/space/BVE2/1071254998/Services+for+Implementing+Technical+Building+Blocks 
-<img width="1178" height="876" alt="image" src="https://github.com/user-attachments/assets/39411332-a8c1-4d59-be57-b707954790dc" />
 
 
 ## Hergebruik van bestaande componenten
