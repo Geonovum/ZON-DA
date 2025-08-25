@@ -5,7 +5,7 @@ Eerste braindump van componenten / voorzieningen die (mogelijk) nodig zijn in de
 - Uitgaande van een federatief datastelsel / data bij de bron
 - Uitgaande van het aanbieden van (ook) gesloten data
 
-Belangrijk is het principe "Afspraken voor standaarden voor voozieningen". Natuurlijk hebben we het over digitale informatie uitwisseling waarvoor technische bouwblokken nodig zijn. Deze technische bouwblokken hoeven niet één op één overeen te komen met software. Zie [DSSC Blueprint - Technical Building Blocks](https://dssc.eu/space/BVE2/1071254703/Technical+Building+Blocks) voor een toelichting.
+Belangrijk is het principe "Afspraken voor standaarden voor voorzieningen". Natuurlijk hebben we het over digitale informatie uitwisseling waarvoor technische bouwblokken nodig zijn. Deze technische bouwblokken hoeven niet één op één overeen te komen met software. Zie [DSSC Blueprint - Technical Building Blocks](https://dssc.eu/space/BVE2/1071254703/Technical+Building+Blocks) voor een toelichting.
 
 Dit resulteert in 3 categoriën van services/technische componenten:
 - Sommige services die nodig zijn voor inidividuele deelnemers om van Data Space Fysieke Leefomgeving (DSFL) gebruik te kunnen maken: deelnemer services
