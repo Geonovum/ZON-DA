@@ -34,6 +34,8 @@ De Verordening heeft 3 doelstellingen:
 
 Kritieke succesfactor voor interoperabiliteit is dat de vrijblijvendheid eruit moet. Er moet formeel beleid komen en er moeten ook audits komen. Tegelijkertijd moeten partijen ook worden geholpen worden met bijvoorbeed voorbeeldimplementaties en een implementatiehandreiking. Het concept van de ring kan bijvoorbeeld beter worden uitgelegd. Het moet ook verder gaan dan de basisregistraties; het moet veel meer over de kernregistraties gaan. Kies er een aantal waar de aandacht vooral aan wordt besteedt.
 
+Dilemma: is muteren ook onderdeel van de DSFL? Is typisch geen onderdeel van data space concepten, maar wel in scope van de waardeketen als geheel die DSFL ondersteunt. 
+
 ## De specifieke rol van geo in interoperabiliteit (Otto, Marcel)
 - Data en datasets
 - brede definitie van data: ook algoritmes, DT-configuraties, regelgeving, vergunningen, etc. vallen hier onder
@@ -122,7 +124,6 @@ Wanneer veel datasets onderdeel worden van het datastelsel dan is het belangrijk
 Metadata
 
 Nader uit te werken:
-- Hoe om te gaan met INSPIRE/HVD?
 - Is Linked Data onderdeel van het datastelsel?
 - geo localiseren van services, het zoeken van beschikbare dataservices op basis van geo data; bijvoorbeeld per provincie een specifieke service voor het afnemen van provinciale geodata. DSFL zorgt ervoor dat je de juiste service krijgt op basis van opgegeven relevant gebied?
 - Welke coordinaatreferentiestelsels worden ondersteund? En, worden transformaties tussen coordinaatstelsels aangeboden?
