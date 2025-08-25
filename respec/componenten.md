@@ -70,7 +70,7 @@ Er is geen apart linked data access point nodig als met OGC-API’s wordt gewerk
 
 ## Componenten volgens de DSSC referentie
 
-<img src="./respec/media/InteractionOfTechnicalComponents.png>" alt="Interactie tussen technische componenten" width="900">
+<img src="./respec/media/InteractionOfTechnicalComponents.png" alt="Interactie tussen technische componenten" width="900">
 Afbeelding Interactie tussen technische componenten (bron: IDS-RAM)
 
 Overzicht van (technische) services uit de DSCC: https://dssc.eu/space/BVE2/1071254998/Services+for+Implementing+Technical+Building+Blocks 
@@ -79,21 +79,46 @@ Overzicht van (technische) services uit de DSCC: https://dssc.eu/space/BVE2/1071
 In paragraaf 5.2 "Componenten volgens de DSSC referentie" is aangegeven dat er veel componenten bestaan die invulling kunnen geven aan de benodigde services. Nu zijn niet alle services nodig in het geval van de DSFL simpelweg omdat deze functionaliteit niet nodig is. In deze paragraaf benoemen we een aantal componenten en geven daarbij aan of deze nodig gaan zijn en hoe deze ingevuld kunnen worden voor DSFL. Voordat we de optionele services (en componenten) aflopen beginnen we met aan te geven wat minimaal nodig is voor een dataspace.
 
 Voor de benodigde componenten lopen we de core componenten af uit [IDS-RAM4 System Layer](https://docs.internationaldataspaces.org/ids-knowledgebase/ids-ram-4/layers-of-the-reference-architecture-model/3-layers-of-the-reference-architecture-model/3_5_0_system_layer):
-- the Identity Provider (consisting of CA, DAPS and ParIS),
-- the IDS Connector,
-- the App Store and Data Apps,
-- the Metadata Broker,
-- the Clearing House, and
-- the Vocabulary Hub.
+- Identity Provider;
+- Dataspace Connector;
+- App Store en Data Apps;
+- Metadata Broker;
+- Clearing House;
+- Vocabulary Hub.
+
+**Identity Provider en Dataspace Connector**
 
 Een minimale dataspace bestaat (volgens ISDA, zie [What is a Minimum Viable Data Space?](https://docs.internationaldataspaces.org/ids-knowledgebase/ids-reference-testbed/minimum-viable-data-space/mvds)):
-1. Twee connectoren (één bij de data aanbieder en één bij de data afnemer)
-2. Een identity provider (Dynamic Attribute Provisioning Service, Certificate Authority)
+1. Twee connectoren (één bij de data aanbieder en één bij de data afnemer);
+2. Een identity provider (die o.a. informatie bevat over de deelnemers en digitale certificaten levert voor vertrouwde uitwisseling van data).
 
-> Voor de DSFL betekent dit dat elke deelnemer zelf moet zorgen voor een connector. Voor de identity provider moet nog nagegaan worden wat hiervoor handig is.
+> Voor de DSFL betekent dit dat elke deelnemer zelf moet zorgen voor een connector. Voor de identity provider moet nog nagegaan worden wat hiervoor handig is, meestal verzorgt de governance organisatie deze voorziening.
 
-** TO DO: Optionele componenten nalopen met daarbij aangegeven waarom wel of niet benodigd **  
+**App Store en Data Apps**
 
+De App Store en Data Apps zijn optioneel. Een eerste versie van de DSFL zal nog geen herbruikbare Apps bevatten. Na enige tijd is het goed mogelijk deze toe te voegen.
+
+> De DSFL zal bij de start geen App Store / Data Apps bevatten.
+
+**Metadata Broker**
+
+De vindbaarheid van data en deze dan kunnen gebruiken wanneer dat toegestaan wordt door de aanbieder is essentieel voor de DSFL. Het component Metadata Broker is hiervoor onmisbaar. Deze geeft informatie over de aangesloten connectoren: de aangeboden interfaces, de eigenaar ervan en de metadata van de aangeboden datasets.
+
+> DSFL zal een Metadata Broker nodig hebben. 
+
+**Clearing House**
+
+Het component Clearing House vormt de basis voor vastlegging van de transacties die de toegang tot en/of gebruik van data door verschillende gebruikers vastleggen(‘loggingsfunctie’). Op basis hiervan kunnen deelnemers verantwoording en betaling/facturering met elkaar doen. Het is een optioneel component die afhankelijk van het vertrouwen die de deeelnemers in elkaar hebben EN de wens/noodzaak om de uitwisseling van data met elkaar te verrekenen.
+
+> Binnen DSFL is er sprake van zo vrij als mogelijk delen van data. Er is voldoende vertrouwen in de deelnemers en er is geen verrekening van toepassing bij het gebruik van de data. Hierdoor zal er niet een Clearing House component gerealiseerd worden.
+
+**Vocabulary Hub**
+
+De Vocabulary Hub is het platform waar gemeenschappelijk vocabulaires gepubliceerd en onderhouden worden. Het doel is het aanbrengen van de semantische samenhang en afstemming via het vastleggen van de semantiek in de dataspace. Hiervoor worden de verschillende begrippen afkomstig van vnl. data modellen (informatiemodellen) van de dataspace vastgelegd en beschikbaar gesteld via federatieve diensten. De vindbaarheid van data wordt vergroot door eenduidige begrippen te hanteren.
+
+> De semantiek en vindbaarheid van data zoals opgenomen in DSFL is van groot belang. Een Vocabulary Hub wordt opgenomen om hieraan bij te dragen.
+
+Arno: Bovenstaande is gewijzigd door mij. Onderstaande opmerkingen zijn wellicht achterhaald?!
 HW: DCAT maakt weer net een ander onderscheid, de datasetserie ontbreekt hier. Bij RWS hanteren we het zo:
 IdV: in DCAT3 is er wel een klasse dataset series
 ![image](https://github.com/user-attachments/assets/1a6f7259-b67a-4def-af10-b50c21d6c35f)
