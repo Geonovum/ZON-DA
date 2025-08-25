@@ -58,7 +58,18 @@ Kritieke succesfactor voor interoperabiliteit is dat de vrijblijvendheid eruit m
 
 ## Juridisch (Marcel, Yvette)
 
+De juridische uitdagingen bij het delen van gegevens zijn groot. Dat gaat vaak vooral over persoonsgegevens, maar ook het koppelen van gegevens aan de BAG lijkt toenemend door partijen als gevoelig te worden gezien.
+
+Zie ook: https://jenvgegevens.pleio.nl/news/view/2ae0db25-f82c-41ab-9720-5f6a45688530/waarom-betere-gegevensdeling-nu-nodig-is-zomerupdate-van-de-taskforce-gegevensdeling
+
 ## Organisatorisch (Yvette, Rene)
+Er is een organisatie nodig die het DSFL organiseert; een regisseur die de samenhang van het geheel organiseert. Deze regisseur moet afspraken maken met de deelnemers, deelnemers toelaat en ze toetst op de voorwaarden. Binnen organisaties moeten ook aanspreekpunten aangewezen worden.
+
+De waardepropositie van het DSFL moet ook duidelijk zijn voor partijen. Het aansluiten op DSFL kost deelnemers in eerste instantie per definitie een investering om te kunnen voldoen aan de voorwaarden. De waarde ligt voor een deel in standaardisatie. Het is belangrijk om een goed gesprek te voeren samen met (potentiële) deelnemers en samen te bepalen waar de waarde voor verschillende betrokkenen ligt. Hergebruik van gegevens is een belangrijk deel van de waarde. Tegelijkertijd is dat ook een algemene plicht voor overheden; om gegevens die al kenbaar zijn te hergebruiken.
+
+De vrijblijvendheid moet er tegelijkertijd uit. Er moet formeel beleid komen en er moeten ook audits komen. Het zou onderdeel moeten zijn van de taakstelling van bronhouders. Tegelijkertijd moeten partijen ook worden geholpen worden met bijvoorbeed voorbeeldimplementaties en een implementatiehandreiking. Het concept van de ring kan bijvoorbeeld beter worden uitgelegd. Het moet ook verder gaan dan de basisregistraties; het moet veel meer over de kernregistraties gaan. Kies er een aantal waar de aandacht vooral aan wordt besteedt.
+
+Dilemma: moet paragraaf voorwaarden en afspraken in hoofdstuk over datawaardeketen hier ingevoegd worden?
 
 ## Semantisch (Danny, Walter)
 Op semantisch niveau is het belangrijk dat gegevens betekenis hebben voor gebruikers van de gegevens die worden uitgewisseld. Dat gaat in eerste instantie over het helder definiëren van begrippen, zodat er een gemeenschappelijke betekenis wordt gegeven aan bepaalde termen. Vervolgens dient het domein van gesprek te worden gedefinieerd in een conceptueel informatiemodel dat de betekenis verder formaliseert, zodat het duidelijk genoeg is voor de vertaling naar informatievoorziening en gegevensuitwisseling. Voor het definiëren van begrippen is inmiddels de [Nederlandse standaard voor het beschrijven van begrippen](https://docs.geostandaarden.nl/nl-sbb/nl-sbb/) (NL-SBB) beschikbaar. Voor het definiëren van conceptuele informatiemodellen kan gebruik worden gemaakt van het [Metamodel voor Informatiemodellering](https://docs.geostandaarden.nl/mim/mim/) (MIM) of de Linked Data standaarden [RDFS](https://www.w3.org/TR/rdf-schema/) en [OWL](https://www.w3.org/TR/owl2-overview/).
@@ -72,6 +83,8 @@ Er is een behoefte aan het kunnen combineren van geografische gegevens met ander
 Het kunnen combineren van geo- en niet-geodata vraagt ook een vorm van standaardisatie op het niveau van metagegevens. Bij voorkeur is er geen onderscheid. Voor dataset metagegevens is er al een mapping van de ISO 19115 en DCAT standaarden. Die wordt op dit moment gebruikt bij de harvesting van het Nationaal Geo Register door data.overheid.nl. Er is inmiddels een nieuwe DCAT versie, waarvoor dit nog niet is gedefinieerd en werkt. Er zal ook een vertaling van geometrie naar adresgegevens nodig zijn en vice versa. Dergelijke geocodeer functionaliteit is ook reeds beschikbaar in de PDOK Locatieserver. 
 
 Er zullen eisen moeten worden gesteld aan de metagegevens die bronnen moeten opleveren. Idealiter kunnen bronnen volstaan met een lichtgewicht, gestandaardiseerde set van metagegevens en bijbehorende standaarden zodat zij snel kunnen aansluiten. Meer geavanceerde behoeften kunnen om aanvullende metagegevens vragen.
+
+Een aantal datasets moeten voldoen aan INSPIRE en/of zijn High Value Datasets en zullen dus moeten voldoen aan bijbehorende eisen. Dit soort eisen opleggen aan andere datasets is onwenselijk (is een vorm van goldplating). Het zou wel kunnen dat er gemeenschappelijke afspraken zijn die stellen dat aspecten van INSPIRE bijvoorbeeld breder omarmd worden en onderdeel zijn van het DSFL.
 
 Nader uit te werken:
 - Hoe gaan we ervoor zorgen dat metagegevens op één plek integraal vindbaar en beschikbaar zijn voor afnemers?
@@ -109,19 +122,10 @@ Wanneer veel datasets onderdeel worden van het datastelsel dan is het belangrijk
 Metadata
 
 Nader uit te werken:
-- Op welk niveau leggen we dit vast?
-- Metadata versus data uitwisselen
-- Impact van behoefte aan combineren van gegevens
-- Is er een clearing house nodig in het datastelsel?
-- Gaat het datastelsel gebruik maken van het Dataspace Protocol, AuthZEN, FSC en/of FTV en in welke omstandigheden?
-- Welke connectoren hebben deelnemers nodig?
-- Hoe gaan de gegevens gevonden worden? Is er een specifieke catalogus nodig?
 - Hoe om te gaan met INSPIRE/HVD?
 - Is Linked Data onderdeel van het datastelsel?
-- Is het muteren van data mogelijk via het datastelsel?
 - geo localiseren van services, het zoeken van beschikbare dataservices op basis van geo data; bijvoorbeeld per provincie een specifieke service voor het afnemen van provinciale geodata. DSFL zorgt ervoor dat je de juiste service krijgt op basis van opgegeven relevant gebied?
 - Welke coordinaatreferentiestelsels worden ondersteund? En, worden transformaties tussen coordinaatstelsels aangeboden?
-- Is het mogelijk historisch data te bevragen (tijdreizen)?
 
 Dit betekent:
 - Gebruik van de standaar MIM en/of SHACL voor het specificeren van logische gegevensmodellen
