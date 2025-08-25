@@ -32,6 +32,8 @@ De Verordening heeft 3 doelstellingen:
   - Operationele context
 - Interoperabiliteitsprofielen (Walter)
 
+Kritieke succesfactor voor interoperabiliteit is dat de vrijblijvendheid eruit moet. Er moet formeel beleid komen en er moeten ook audits komen. Tegelijkertijd moeten partijen ook worden geholpen worden met bijvoorbeed voorbeeldimplementaties en een implementatiehandreiking. Het concept van de ring kan bijvoorbeeld beter worden uitgelegd. Het moet ook verder gaan dan de basisregistraties; het moet veel meer over de kernregistraties gaan. Kies er een aantal waar de aandacht vooral aan wordt besteedt.
+
 ## De specifieke rol van geo in interoperabiliteit (Otto, Marcel)
 - Data en datasets
 - brede definitie van data: ook algoritmes, DT-configuraties, regelgeving, vergunningen, etc. vallen hier onder
