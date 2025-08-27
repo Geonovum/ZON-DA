@@ -39,9 +39,9 @@ Dilemma: is muteren ook onderdeel van de DSFL? Is typisch geen onderdeel van dat
 ## De specifieke rol van geo in interoperabiliteit (Otto, Marcel)
 - Data en datasets
 - brede definitie van data: ook algoritmes, DT-configuraties, regelgeving, vergunningen, etc. vallen hier onder
-- “Ringen” van data gezien vanuit Zicht op Nederland
-- Ring 0: basisregistraties geo
-- overige ringen
+- “Ringen” van data gezien vanuit Zicht op Nederland -> staat beschreven in datawaardeketen, geput uit spoor 2 2024
+- Ring 0: basisregistraties geo ->  staat beschreven in datawaardeketen, geput uit spoor 2 2024
+- overige ringen -> staat beschreven in datawaardeketen, geput uit spoor 2 2024
 - Databronnen (misschien verschuift deze naar 'Componenten/Voorzieningen')
 - De rol van geo-specifieke informatie-elementen
 - Combineren van Geo- en niet geo-informatie
