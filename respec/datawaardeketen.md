@@ -162,9 +162,6 @@ De bestuursorganen, zitting hebbend in het GI-beraad, hebben als eerste profijt 
     - Randvoorwaarden om waardeketen te laten werken zoals dataparagrafen in opdrachten die je uitbesteedt
     - Informatiebehoeften in de keten
 
-_Originele input van René_
-- Koppeling met Voorzieningen/Componenten: machineleesbaar, mensleesbaar, aggregeren, vinden, identificatie/toegang, terugmelding, etc.
-
 ## Voorwaarden en afspraken (Danny/Rene/Ine)
 Een datastelsel is vooral een afsprakenstelsel, waarbij de afspraken middels technische standaarden en protocollen worden uitgevoerd/geïmplementeerd. 
 
@@ -179,8 +176,6 @@ Door dit soort afspraken onstaat er een bepaald vertrouwensniveau tussen de deel
 > Voor de inrichting van DSFL worden specifieke afspraken gemaakt en protocollen/standaarden aangewezen voor de zaken die niet door FDS worden gedekt.
 
 > Zowel FDS als DSFL dragen bij aan het realiseren van Dataspaces op Europees niveau. Wanneer de Dataspace protocollen/standaarden zich bewezen hebben worden deze geadopteerd in het FDS en de DSFL. 
-
-_Een kernvraag is hoe met financiering van het datastelsel wordt omgegaan. Het lastige daarbij is dat de waarde vooral bij gebruikers liggen, terwijl de kosten vooral liggen bij de inwinning en opwaardering van gegevens. Als er dus geen andere  financieringsstromen zijn waar vanuit kan worden gegaan, dan is het nodig om afspraken te maken over het vastleggen van het gebruik en onderlinge verrekening. Hiervoor kan gebruik worden gemaakt van een derde partij die de uitwisselingen van gegevens logt en de financiële consequenties daarvan kan bepalen. Een dergelijke derde partij wordt ook wel een clearing house genoemd._
 
 Het is belangrijk dat rechten, plichten en aansprakelijkheden tussen aanbieders en afnemers van gegevens goed zijn geborgd. Een gegevensleveringsovereenkomst (ook wel: GLO) is een verzameling afspraken tussen een aanbieder en een afnemer van gegevens. In een GLO leggen partijen vast welke gegevens worden gedeeld, onder welke voorwaarden, en wie verantwoordelijk is. Onderdeel van een GLO zijn ook de kwaliteitseisen die zijn afgesproken en die daarom bij de uitvoering van de overeenkomst moeten worden geborgd, gecontroleerd en gemonitord. Het is ook mogelijk om meer gedetailleerde afspraken in een GLO vast te leggen zoals de afgesproken kwaliteitsregels, het gebruikte gegevensmodel en/of de gebruikte formaten. 
 
@@ -228,10 +223,7 @@ Proces op hoofdlijnen:
 4. Bepalen of de behoefte breder is en hoe dit opgelost moet worden (met name financiering en governance)
 5. Aanbrengen gewenste verandering, kan variëren van simpelweg toegankelijk maken tot nieuwe inwinning van gegevens
 
-Nader uit te werken: 
-- Hoe gaan de concepten GLP en GLS toepassen in het datastelsel?
-
-Dit betekent:
+Omvormen tot grijze blokken in lopende tekst:
 - Basisvoorwaarden worden beperkt tot wat specifiek is voor het datastelsel en bijbehorende domein 
 - Deelnemers conformeren aan de basisvoorwaarden die worden gesteld door het datastelsel en hierop wordt getoetst bij toelating
 - Er vinden technische controles plaats bij het uitwisselen van gegevens om te bepalen of afnemers voldoen aan voorwaarden zoals autorisatieregels
@@ -253,6 +245,8 @@ Dit betekent:
 
 ## Publicatie (Arno)
 
+Ine gaat dit samenvoegen met paragraaf over metadata
+
 - Publicatie van metadata – per stap in de waardeketen
 
 Een dataspace is een ecosysteem van data- en serviceproviders en potentiële consumenten. Providers willen hun potentiële consumenten bereiken en omgekeerd relaties opbouwen die leiden tot datadeling. Om datadeling te faciliteren, zijn beschrijvingen, zoals metadata, van de data en diensten die ze aanbieden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden, vereist.
@@ -272,6 +266,8 @@ Nader uit te werken:
 > - Er komt een DSFL catalogus met daarin informatie over de deelnemers, datasets en services
 
 ## Vocabulaire (nieuw toegevoegd, Arno)
+
+Ine gaat dit samenvoegen met paragraaf over metadata
 
 Met hetzelfde doel, het vinden en gebruiken van de data producten, beheren vocabulaireproviders een vocabulary, die wordt gebruikt om data producten te annoteren en te beschrijven (inclusief ontologieën, referentie data modellen, metadata-elementen). Vocabulaireproviders leveren deze (domein-specifieke) vocabulaires en hun verwijzingen naar het informatiemodel, dat de basis vormt voor de beschrijving van data producten.
 
