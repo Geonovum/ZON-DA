@@ -29,12 +29,6 @@ Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.
 Interpreteren en visualiseren
 
 _Nog uit te werken: staat nu hierboven. Wellicht nog tekst nodig om de term 'domein' te duiden._
-- Informatie ontstaat zodra de data in de context is geplaats. Informatie kan worden gebruikt voor het begrijpen en voorspellen van gedrag en voor de onderbouwing van een handelingsperspectief.  
-- Kennis/wijsheid = Informatie * Ervaring Vaardigheden en Attitude (Houding)
-- Kennis zit verweven in de modellen en daarbij is er sprake van interpretaties. De datawaardeketen is daarmee niet alleen data gedreven maar ook kennis gedreven.
-- Wat is de reikwijdte van een domein? In de plaat vakinhoudelijk, grondwater etc. 
-Van links naar rechts wordt waarde toegevoegd. Het ontstaan van data heeft zijn eigen dynamiek. Er moet bekend zijn wat de actualiteit is. 
-- Term dataproduct uitleggen.
 
 ## Indeling van datasets: een dynamisch ringenmodel 
 Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Vaak is het beheer niet duurzaam geregeld en gefinancierd.
@@ -100,9 +94,7 @@ Uitgangspunt voor DSFL is dat de kosten die in de waardeketen van Zicht op Neder
 
 Een kenmerk van een dataspace is dat deze rondom maatschappelijke vraagstukken/use cases wordt ingericht. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. Per maatschappelijke vraag/use case zal moeten worden bepaald welke data daarbij nodig is.
 
-_Discussiepunt: welke data maken we beschikbaar zodat makkelijker aan de vraag voldaan kan worden (zonder deze altijd al te kennen). Dit in de lijn van een keuze tussen een data warehouse, data lake of lakehouse. Is hier in het kader van bv het stelsel van Basisregistraties al iets zinnigs te zeggen?_
-
-_Het onderscheid tussen een data warehouse, data lake of lakehouse is ons inziens niet relevant. Het gaat over het uitwisselen van gegevens en niet over het beheren/opslaan van gegevens?_
+_Discussiepunt: welke data maken we beschikbaar zodat makkelijker aan de vraag voldaan kan worden (zonder deze altijd al te kennen). Is hier in het kader van bv het stelsel van Basisregistraties al iets zinnigs te zeggen?_
 
 _De tekst in deze paragraaf overlapt met de tekst onder "Indeling van datasets" en zou daarmee geïntegreerd moeten worden._
 
@@ -167,6 +159,8 @@ Een datastelsel is vooral een afsprakenstelsel, waarbij de afspraken middels tec
 
 De deelnemende partijen spreken af om te voldoen aan een set van basisvoorwaarden, waardoor vervolgens gegevens efficiënt en effectief kunnen worden uitgewisseld. Basisvoorwaarden gaan bijvoorbeeld over rechten en plichten van deelnemers, de wijze van identificeren en autoriseren van deelnemers, de manier waarop gegevens moeten worden aangeboden en de metagegevens die daarbij moeten worden aangeleverd, maar ook organisatorische zaken zoals financiering. 
 
+> Deelnemers conformeren aan de basisvoorwaarden die worden gesteld door het datastelsel en hierop wordt getoetst bij toelating.
+
 Tegelijkertijd kunnen er ook meer specifieke afspraken tussen aanbieders en afnemers worden gemaakt. Bepaalde afnemers kunnen specifieke eisen stellen aan de kwaliteit van gegevens of de wijze waarop ze worden aangeboden. 
 
 Door dit soort afspraken onstaat er een bepaald vertrouwensniveau tussen de deelnemers. Het datastelsel is daarmee ook een vertrouwensnetwerk. Voor algemeen geldende afspraken rondom datadelen wordt invulling gegeven aan afspraken worden gemaakt in de context van FDS. Specifieke afspraken voor het (geo-)domein in het kader van Zicht op Nederland worden ingevuld door DSFL. Het is daarom belangrijk om te weten wat FDS wel en niet regelt.
@@ -186,6 +180,8 @@ De vraag is hoe het concept van gegevensleveringsovereenkomsten past op datastel
 Voor de geo-basisregistraties (en andere registraties) zijn er al allerlei afspraken tussen bronhouders, aanbieders en afnemers, die niet opnieuw gemaakt hoeven te worden. Het kan waardevol zijn om te onderzoeken of alle relevante soorten afspraken daarin een plek hebben en of afspraken op een meer uniforme wijze kunnen gemaakt.
 
 Onderdeel van de afspraken zijn ook een autorisatiematrix en autorisatieregels die bepalen welke partijen toegang hebben tot welke gegevens.
+
+> Er vinden technische controles plaats bij het uitwisselen van gegevens om te bepalen of afnemers voldoen aan voorwaarden zoals autorisatieregels
 
 Er zullen ook afspraken moeten worden gemaakt over de te gebruiken protocollen en standaarden voor de uitwisseling van gegevens. Zie hiervoor ook het hoofdstuk interoperabiliteit. Er is daarbij specifieke aandacht nodig voor het zoveel mogelijk geautomatiseerd controleren van voorwaarden en autorisatieregels. Daarvoor kunnen ook specifieke middlewarecomponenten nodig zijn, zoals connectoren of oplossingen voor het controleren van autorisatieregels. Dit vraagt ook gemeenschappelijke afspraken, zoals over het verplicht gebruik van specifieke connectoren.
 
@@ -223,13 +219,10 @@ Proces op hoofdlijnen:
 4. Bepalen of de behoefte breder is en hoe dit opgelost moet worden (met name financiering en governance)
 5. Aanbrengen gewenste verandering, kan variëren van simpelweg toegankelijk maken tot nieuwe inwinning van gegevens
 
-Omvormen tot grijze blokken in lopende tekst:
-- Basisvoorwaarden worden beperkt tot wat specifiek is voor het datastelsel en bijbehorende domein 
-- Deelnemers conformeren aan de basisvoorwaarden die worden gesteld door het datastelsel en hierop wordt getoetst bij toelating
-- Er vinden technische controles plaats bij het uitwisselen van gegevens om te bepalen of afnemers voldoen aan voorwaarden zoals autorisatieregels
-
 ## Gegevenskwaliteit (Danny)
-De kwaliteit van gegevens is een belangrijke bepalende factor voor de bruikbaarheid ervan. In de context van een datastelsel is dat niet anders. Het inzichtelijk maken en verbeteren van de  kwaliteit van de gegevens die beschikbaar zijn in het datastelsel verdient daarom expliciete aandacht. Dit is in de basis een verantwoordelijkheid van bronhouders, maar ook afnemers hebben een verantwoordelijkheid. De eisen die worden gesteld aan de kwaliteit van gegevens zijn nu eenmaal afhankelijk van het gebruik. Er is dan ook expliciete afstemming over kwaliteitseisen nodig tussen bronhouders en afnemers. Afnemers zouden ook twijfels over de juistheid van gegevens expliciet moeten terugmelden aan bronhouders.
+De kwaliteit van gegevens is een belangrijke bepalende factor voor de bruikbaarheid ervan. In de context van een datastelsel is dat niet anders. Het inzichtelijk maken en verbeteren van de kwaliteit van de gegevens die beschikbaar zijn in het datastelsel verdient daarom expliciete aandacht. Dit is in de basis een verantwoordelijkheid van bronhouders, maar ook afnemers hebben een verantwoordelijkheid. De eisen die worden gesteld aan de kwaliteit van gegevens zijn nu eenmaal afhankelijk van het gebruik. Er is dan ook expliciete afstemming over kwaliteitseisen nodig tussen bronhouders en afnemers. Afnemers zouden ook twijfels over de juistheid van gegevens expliciet moeten terugmelden aan bronhouders.
+
+> De kwaliteit van gegevens wordt expliciet gemaakt in de metagegegevens
 
 In de waardeketen verandert de rol van kwaliteit. Daar waar de waarnemingen nog ver af staan van specifiek gebruik, zullen informatieproducten juist heel specifiek gericht zijn op een bepaald gebruik. Dat betekent dat aan een informatieproduct veel meer specifieke eisen zullen worden gesteld dan aan een registratie van waarnemingen. Tegelijkertijd is de kwaliteit waarmee de waarnemingen zijn gemeten sterk bepalend voor de kwaliteit in de rest van de keten. De uitdaging is dus vooral om afstemming in de gehele keten te organiseren. Daarnaast is essentieel dat er in alle schakels van de keten aandacht is voor het continu  verbeteren van de kwaliteit van gegevens. Gegevenskwaliteit is nu eenmaal niet een eenmalige inspanning.
 
@@ -239,9 +232,7 @@ Er is in de context van NORA een [stappenplan](https://www.noraonline.nl/wiki/St
 
 In een datastelsel ligt de nadruk op het uitwisselen van gegevens. Daarbij is het vooral belangrijk dat er informatie en metagegevens beschikbaar zijn over kwaliteit. Dat betekent dat in de metagegevens van de dataset die beschikbaar wordt gesteld ook informatie over gegevenskwaliteit is opgenomen. Hiervoor zijn in een aantal standaarden voorgedefinieerde eigenschappen opgenomen. Daarnaast kan in de beschrijvende tekst informatie over de gewenste en gemeten gegevenskwaliteit worden opgenomen. Binnen de Nederlandse overheid is er een raamwerk met een standaard begrippenkader beschikbaar voor gegevenskwaliteit: het [NORA raamwerk gegevenskwaliteit](https://www.noraonline.nl/wiki/Raamwerk_gegevenskwaliteit). Deze biedt standaard begrippen, maar ook standaard formuleringen om uitdrukking te geven aan de kwaliteit van gegevens. Dit raamwerk is liefst ook de basis voor het definiëren en meten van gegevenskwaliteit, zodat kwaliteit vanaf het begin op een uniforme manier wordt beschouwd.
 
-Dit betekent:
-- Het expliciet maken van de kwaliteit van gegevens die beschikbaar worden gesteld in de metagegegevens
-- Het gebruik van de standaard begrippen in het NORA raamwerk gegevenskwaliteit
+> De kwaliteit van gegevens wordt uitgedrukt in termen van de standaard begrippen in het NORA raamwerk gegevenskwaliteit
 
 ## Publicatie (Arno)
 
@@ -262,8 +253,7 @@ Nader uit te werken:
 - In hoeverre zijn de data-services zelf-beschrijvend?
 - In hoeverre is het geospatial zoeken en vinden van gegevens onderdeel van DSFL?
 
-> DIt betekent voor DSFL:
-> - Er komt een DSFL catalogus met daarin informatie over de deelnemers, datasets en services
+> Er komt een DSFL catalogus met daarin informatie over de deelnemers, datasets en services
 
 ## Vocabulaire (nieuw toegevoegd, Arno)
 
