@@ -4,7 +4,8 @@
 In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. De keten omvat het inwinnen van gegevens, ontsluiten en analyseren ervan en het gebruiken van de inzichten die hiermee verworven worden. (zie onderstaande figuur). 
 Deze keten ontvouwt zich volgens het Data–Informatie-Kennis-Wijsheid principe.  
 
-![Figuur: Principe van de datawaardeketen in Zicht op Nederland.](respec/media/Datawaardeketen_ZoN_architectuur.svg)
+<figure><img src='respec/media/Datawaardeketen_ZoN_architectuur.svg' alt='Principe van de datawaardeketen in Zicht op Nederland.' style='width: 100%;'></img><figcaption>Principe van de datawaardeketen in Zicht op Nederland.<i></i></figcaption></figure>
+
 
 Data omvat hier de feitelijke waarnemingen en metingen aan een object in de fysieke leefomgeving. Hierbij wordt niet alleen geo-data ingewonnen, maar ook meer beschrijvende gegevens, bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring, etcetera).
 
@@ -43,7 +44,7 @@ Daarnaast zijn er datasets waarvan het bestaan niet publiek bekend is – deze b
 
 Het ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zie figuur).
 
-![Figuur: Classificatie van databronnen in Ringmodel.](respec/media/ringenmodel_datasets.png)
+<figure><img src='respec/media/ringenmodel_datasets.png' alt='Classificatie van databronnen in Ringmodel.' style='width: 100%;'></img><figcaption>Classificatie van databronnen in Ringmodel.<i></i></figcaption></figure>
 
 > DSFL gebruikt het ringenmodel om datasets / bronnen te classificeren op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Daarmee wordt bepaald op welke manier en in welke context een dataset bruikbaar is of kan worden binnen de DSFL.  
 
@@ -129,7 +130,8 @@ De bestuursorganen, zitting hebbend in het GI-beraad, hebben als eerste profijt 
 
 > Het is aan de betrokken bestuursorganen om te organiseren dat de kennis, informatie en data duurzaam beschikbaar zijn. 
 
-![Figuur:  Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.](respec/media/DFL_architectuur_ZoN.svg)
+<figure><img src='respec/media/DFL_architectuur_ZoN.svg' alt='Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.' style='width: 100%;'></img><figcaption>Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.<i></i></figcaption></figure>
+
 
 - Relatie tussen waardeketen en bedrijfsprocessen
     - Datagedreven werken
