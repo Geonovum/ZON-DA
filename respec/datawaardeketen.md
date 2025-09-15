@@ -4,7 +4,7 @@
 In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. De keten omvat het inwinnen van gegevens, ontsluiten en analyseren ervan en het gebruiken van de inzichten die hiermee verworven worden. (zie onderstaande figuur). 
 Deze keten ontvouwt zich volgens het Data–Informatie-Kennis-Wijsheid principe.  
 
-![Figuur: Principe van de datawaardeketen in Zicht op Nederland.](respec/media/Waardeketen_en_DFL.png)
+![Figuur: Principe van de datawaardeketen in Zicht op Nederland.](respec/media/ZoN_Visie_Waardeketen.svg)
 
 Data omvat hier de feitelijke waarnemingen en metingen aan een object in de fysieke leefomgeving. Hierbij wordt niet alleen geo-data ingewonnen, maar ook meer beschrijvende gegevens, bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring, etcetera).
 
@@ -129,7 +129,7 @@ De bestuursorganen, zitting hebbend in het GI-beraad, hebben als eerste profijt 
 
 > Het is aan de betrokken bestuursorganen om te organiseren dat de kennis, informatie en data duurzaam beschikbaar zijn. 
 
-![Figuur:  Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.](respec/media/Dataspace_fysieke_leefomgeving.png)
+![Figuur:  Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.](respec/media/DFL_architectuur_ZoN.svg)
 
 - Relatie tussen waardeketen en bedrijfsprocessen
     - Datagedreven werken
