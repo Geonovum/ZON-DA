@@ -49,15 +49,17 @@ Security
   - Technische interoperabiliteit (van security aspecten)
 
 (Meta-)data
-  - DCAT-NL, verder nog specifieke profielen?
-  - Geo-specifieke meta?
+  - DCAT-AP-NL, verder nog specifieke profielen?
+  - Geo-specifieke meta - Nederlands profiel op ISO19115/19119
 
 Uitwisseling van data 
 - API’s en bijbehorende URI’s (REST/https)
 
 Datamodellering
+- MIM
 
 Geo-specifieke standaarden
+- OGC API's (zie ook Forum Standaardisatie/pas-toe-leg-uit)
 
 App Store 
 - zijn daar al standaarden voor?
