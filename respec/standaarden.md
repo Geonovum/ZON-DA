@@ -56,7 +56,7 @@ Uitwisseling van data
 - API’s en bijbehorende URI’s (REST/https)
 
 Datamodellering
-- MIM
+- <a>MIM</a>
 
 Geo-specifieke standaarden
 - OGC API's (zie ook Forum Standaardisatie/pas-toe-leg-uit)

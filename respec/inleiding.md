@@ -87,10 +87,10 @@ Zoals reeds gezegd sluit DSFL zoveel mogelijk aan op bestaande afspraken, initia
 * Open en toegangsbeperkte data
 * Combineren van geo- en niet-geo informatie
 
-NGII:
+<a>NGII</a>:
 - Stelsel van (Geo-)Basisregistraties
-- PDOK
-- NGR (metadata)
+- <a>PDOK</a>
+- <a>NGR</a> (metadata)
 
 Samenhang:
 - DisGEO (met name de relatie met SOR) <is DisGEO vastgesteld? Zou juni 2021 gebeurd moeten zijn>
