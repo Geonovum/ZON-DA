@@ -1,0 +1,3 @@
+# Globale architectuurbeschrijving
+
+<>
