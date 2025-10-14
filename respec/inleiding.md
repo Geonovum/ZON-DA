@@ -37,16 +37,6 @@ In deze aanbieding staan de elementen die kaderstellend zijn voor de architectuu
 * Het (kunnen) leveren van beelden
 * Het ondersteunen van een meer datagedreven aanpak van de vraagstukken
 
-## Aansluiten op de Nota Ruimte
-
-## 'Fysieke Leefomgeving' als scope
-
-## Aansluiten op de opgaven in de fysieke leefomgeving
-
-## Een complete en gezamenlijke informatiepositie
-
-## Het kunnen leveren van beelden
-
 ## Baseren op feiten: een datagedreven aanpak
 Bij datagedreven werken bepalen de (ruwe) data de richting waar de organisatie opgaat, niet vooraf geformuleerde verwachtingen of doelstellingen. Het is duidelijk dat deze 'feiten' hoge eisen stellen aan de data.
 
