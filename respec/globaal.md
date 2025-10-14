@@ -19,7 +19,32 @@ De doelarchitectuur beschrijft het ‘gemeenschappelijk ecosysteem’, ingericht
 
 De ‘datagedreven aanpak’ wordt ingevuld door aansluiting (op de architectuur van) Digital Twins en het ZoN-datafundament - die beide ook onderdeel zijn van Zicht op Nederland. 
 
-<img width="2489" height="145" alt="image" src="https://github.com/user-attachments/assets/a35114df-5ebc-4a1d-9c7b-6be283986fc5" />
+## Wat regelt DSFL?
+
+DSFL is het ecosysteem waarin gegevens over de fysieke leefomgeving (in brede zin) kunnen worden gecombineerd om te kunnen worden gebruikt tot gebiedsinformatie voor vrijwel elk denkbare opgave die gaat over de inrichting en het gebruik van de fysieke leefomgeving. De volgende functionaliteit wordt ondersteund/geleverd:
+- geo-data uniform vindbaar en verwijsbaar maken, zodat gebiedsinformatie kan ontstaan uit verschillende gegevensbronnen;
+- geo-basisregistraties (‘ring 0’ uit het Datafundament) en wettelijk aangewezen registraties (‘ring 1’) uniform benaderbaar en ‘optelbaar’ maken (‘Stelsel Basisregistraties 2.0’) door middel van duidelijke afspraken over het invullen van (geo-)uitwisselstandaarden (API's) en publiceren van metadata in een daartoe aangewezen voorziening;
+- vertalen / benaderbaar maken van geografische data-elementen naar niet-geo gebruikers en andersom (niet-geo data bruikbaar maken voor afbeelding op geografische data, zoals kaarten). Dit vereist waarschijnlijk een nieuwe voorziening die bijvoorbeeld vertalingen van adressen, lokatie-beschrijvingen en verschillende coørdinatenstelsels kan maken;
+- reguleren van gebruik op basis van typen gebruikers/deelnemers en ‘gebruikscontracten’. Dit bindt een aantal doelstellingen en principes rondom privacy/security, doelbinding en juridische borging;
+- aansluiten (of aan kunnen sluiten) op stelsels in andere domeinen. Dit gebeurt met name door conformeren aan bredere principes en standaarden (FDS, iShare, EU dataspaces);
+- een voorziening waarmee dynamisch beelden (kaarten) kunnen worden gegenereerd voor enkele geselecteerde doelgroepen/vraagstukken.
+
+## DSFL in vogelvlucht
+
+DFSL bestaat uit een groot aantal databronnen die allemaal via gestandaardiseerde methoden en technieken gegevens publiceren en ontsluiten voor gebruikers, zoals de huidige voorzieningen in het stelsel Geo-Basisregistraties. Doordat zij hun werkwijze en gebruikte technieken baseren op dezelfde afspraken en standaarden, ontstaan er mogelijkheden om de data te vinden, de kwaliteit te beoordelen, combineren, op dezelfde 'kaart' te projecteren en te leveren aan systemen waarmee grote en brede analyses kunnen worden gedaan, zoals Digital Twins en externe AI modellen. 
+
+Databronnen publiceren hun data (via metadata) in een catalogus, waardoor de data (semantisch) vindbaar is, maar waarin ook aanwijzingen staan over het format, de kwaliteit en enkele andere zaken waarmee het gebruik en de interpretatie van de gegevens worden geholpen. Daarnaast kan er metadata worden vastgelegd over doelbinding, privacy, security, beperkte toegang, kosten en andere voorwaarden voor gebruik. Dit publiceren gebeurt geautomatiseerd, dus de catalogus bevat zelf een API interface voor het onderhoud van deze metadata.
+
+De gebruiker (en dat kan een mens of een organisatie zijn) kan de catalogus bevragen via een door de catalogus aangeboden scherm, waarna er een aantal links worden teruggegeven waarmee de gebruiker verder kan. In het overgrote deel van de gevallen zal de gebruiker echter een applicatie gebruiken met een specifiek doel. Daarom is geautomatiseerde bevraging van de catalogus belangrijk. Hierbij komen zaken als format, coördinatenstelsel, kwaliteit, etc. in het geautomatiseerde antwoord terug en kan direct door de applicatie worden verwerkt. De applicatie van de gebruiker kan dus geautomatiseerd allerlei benodigde bronnen bevragen, de resultaten (laten) vertalen, combineren, berekeningen maken en eventueel ook verbeelden. Voor het vertalen van coördinaten of plaatsaanduidingen biedt DSFL een centrale voorziening. Ook voor het dynamisch verbeelden kan een centrale voorziening worden aangeboden, zeker voor bepaalde doelgroepen en/of bepaalde vraagstukken.
+
+Daar waar nodig of gewenst dienen aanbieders en gebruikers van gegevens en diensten zich te identificeren bij de voorziening die zij willen gebruiken. Zij identificeren zich bij een register dat, na verificatie van de identiteit, een 'token' meegeeft dat aan iedereen doorgegeven kan worden. Dit token bevat geen identificatie, maar is een tijdelijke sleutel van het register dat het uitgegeven heeft. Met deze sleutel kan dan bij datzelfde register de identiteit en andere, voor deze sleutel geautoriseerde gegevens van de partij, gecontroleerd worden. De sleutel heeft een beperkte geldigheid (in tijd, of 'per sessie'). Door dit te standaardiseren op bewezen international (web-)standaarden kan er gebruik gemaakt worden van meerdere identiteitsregisters. Zo kan iedere doelgroep een 'eigen' register hebben. Te denken valt aan DigiD voor Nederlandse burgers, KvK voor Nederlandse bedrijven, etc. Voor sommige doelgroepen moeten deze registers nog gebouwd of aangewezen worden, of wellicht aangepast aan de afgesproken standaarden.
+
+DSFL stelt eisen aan aanbieders en gebruikers van gegevens en diensten. Zij moeten zich allemaal gedragen volgens een aantal gestandaardiseerde patronen, waarbij gebruik moet worden gemaakt van afgesproken standaarden voor het vraag- en antwoordspel. Dit kan technisch allemaal best ingewikkeld worden voor een aanbieder. Daarom wordt voorzien dat er een universele 'connector' wordt gebruikt die deze patronen helpt af te handelen. Het is mooi als gebruik gemaakt kan worden van reeds bestaande of anderszins standaard connectorem. Daarom is de DSFL architectuur zoveel mogelijk geënt op bestaande afspraken en voorzieningen (FDS, EU Dataspaces, W3C web-standaarden).
+
+
+
+
+
 
 
 
