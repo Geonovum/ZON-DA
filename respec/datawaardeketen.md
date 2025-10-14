@@ -17,15 +17,19 @@ Wijsheid ontstaat indien de via de datawaardeketen verkregen inzichten gebruikt 
 In de referentie architectuur Digital Twin voor de fysieke leefomgeving   is een dataproduct beschreven als een combinatie van gegevens, technologie, en (reken)modellen die ervoor zorgt dat de data eenvoudig in de werkprocessen van de gebruiker kan worden toegepast. Deze definiete omvat alles wat in de datawaardeketen wordt gedaan om informatie en wijsheid te creëren, evenals de technologie die wordt aangeboden om over de gehele waardeketen producten aan te bieden. Zo is bijvoorbeeld de topografische kaart van Nederland een digital twin van de bovengrondse inrichting van Nederland, en het NHI een digital twin van het Nederlandse watersysteem.
 Het is niet noodzakelijk dat de hele waardeketen doorlopen wordt om tot waardevolle resultaten te komen. Ingewonnen data kunnen direct in het werkproces waarin ze ontstaan toegepast worden. Elke schakel kent daarnaast een afslag naar hergebruik door derden die vaak weer andere doelen hebben dan het doel behorend bij de oorspronkelijke reden van inwinning. Zo neemt de waarde van data, uitgedrukt in meerwaarde voor het bedrijfsproces of de processtap van het proces waarnaar de data of informatie ontsloten wordt, op verschillende manieren toe.
 
-> Binnen het stelsel m.b.t. de fysieke leefomgeving zijn data na elke stap in de waardeketen beschikbaar voor anderen.
+> Binnen het stelsel m.b.t. de fysieke leefomgeving kan data na elke stap in de waardeketen beschikbaar komen voor gebruik door anderen.
 
-_iets meer over metingen, want dat zijn contextloze waarnemingen? (vraag RK)_
+Dit principe heeft een gevolg, namelijk dat het wel duidelijk moet zijn wat de waarde/kwaliteit van de data is.
 
-Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. Deze doelarchitectuur beschrijft niet in detail hoe waarnemingen leiden tot data. Er kunnen wel eisen gesteld worden aan de waarnemingen. 
+> Voor elk gegevens moet bekend zijn wat de waarde/kwaliteit in de waardeketen is.
+
+Deze waarde/kwaliteit is een metagegeven van de data.
+
+Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. Deze doelarchitectuur beschrijft niet in detail hoe waarnemingen leiden tot data. Er kunnen wel eisen gesteld worden aan de waarnemingen. Daarom is er voor waarnemingen een datamodel nodig.
 
 > Het uitgangspunt is: er is een informatiemodel voor waarnemingen.
 
-Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.  
+Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.
 
 Interpreteren en visualiseren
 
@@ -35,10 +39,10 @@ _Nog uit te werken: staat nu hierboven. Wellicht nog tekst nodig om de term 'dom
 Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Vaak is het beheer niet duurzaam geregeld en gefinancierd.
 Op basis van deze kenmerken classificeren we datasets in een ringenmodel: 
 
-- Buitenring: datasets die niet landelijk gestandaardiseerd of gedeeld zijn.
-- Ring 2: datasets die wél gestandaardiseerd zijn, maar alleen binnen het oorspronkelijke doel worden gebruikt. Er is geen garantie op beschikbaarheid of actualisatie, zeker bij projectmatige datasets.
-- Ring 1: gestandaardiseerd, gedeeld en financieel geborgd. Dit zijn duurzame geo-datasets zonder wettelijke grondslag, maar met breed gebruik en langdurig beheer.
-- Kern: de basisregistraties. Deze zijn juridisch, organisatorisch en financieel geborgd. Er geldt een wettelijke verplichting tot het maken, gebruiken en terugmelden van gegevens.
+- Buitenring: datasets die niet landelijk gestandaardiseerd of gedeeld zijn;
+- Ring 2: datasets die wél gestandaardiseerd zijn, maar alleen binnen het oorspronkelijke doel worden gebruikt. Er is geen garantie op beschikbaarheid of actualisatie, zeker bij projectmatige datasets;
+- Ring 1: gestandaardiseerd, gedeeld en financieel geborgd. Dit zijn duurzame geo-datasets zonder wettelijke grondslag, maar met breed gebruik en langdurig beheer;
+- Kern ('Ring 0'): de basisregistraties. Deze zijn juridisch, organisatorisch en financieel geborgd. Er geldt een wettelijke verplichting tot het maken, gebruiken en terugmelden van gegevens.
 
 Daarnaast zijn er datasets waarvan het bestaan niet publiek bekend is – deze bevinden zich “buiten de buitenring”. 
 
