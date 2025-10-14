@@ -1,6 +1,6 @@
 # Globale architectuurbeschrijving
 
-De architectuur van Zicht op Nederland richt zich op het behalen van de belabgrijkste doelen die zijn beschreven in de <> en meer specifiek beschreven in het programma Zicht op Nederland:
+De architectuur van Zicht op Nederland richt zich op het behalen van de belangrijkste doelen die zijn beschreven in de <> en meer specifiek beschreven in het programma Zicht op Nederland:
 - **scope:** opbouwen van een gemeenschappelijk ecosysteem voor gebiedsinformatie;
   - passend binnen de nationale en Europese digitale infrastructuur;
   - overeenkomstig nationale en Europse wet-, regelgeving en kaderstelling;
@@ -28,6 +28,13 @@ DSFL is het ecosysteem waarin gegevens over de fysieke leefomgeving (in brede zi
 - reguleren van gebruik op basis van typen gebruikers/deelnemers en ‘gebruikscontracten’. Dit bindt een aantal doelstellingen en principes rondom privacy/security, doelbinding en juridische borging;
 - aansluiten (of aan kunnen sluiten) op stelsels in andere domeinen. Dit gebeurt met name door conformeren aan bredere principes en standaarden (FDS, iShare, EU dataspaces);
 - een voorziening waarmee dynamisch beelden (kaarten) kunnen worden gegenereerd voor enkele geselecteerde doelgroepen/vraagstukken.
+
+DSFL is de doorontwikkeling van de NGII, in ieder geval die registraties die gegevens bevatten over de fysieke leefomgeving. DSFL kan echter ook gegevens uit andere bronnen ontsluiten en daarnaast ook nog eens naadloos aansluiten op dataspaces van andere domeinen – lokaal, nationaal, internationaal en privaat/publiek. Hierdoor wordt DSFL onderdeel van een groot, universeel bevraagbaar gegevens- en informatielandschap.
+
+De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610 ) van de DSFL/NDFL. Naast deze Basisregistraties bevat de DSFL/NDFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de Overheid, maar ook door andere partijen kunnen worden geleverd en beheerd. Onder gegevens verstaan we hier niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’), zoals algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld. Zo ontstaat een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels kan groeien en waarbij de Overheid de rol van ‘primus inter pares’ speelt: zij treedt op als ‘gewone’ speler zowel als Stelselverantwoordelijke.
+
+Databronnen kunnen snel aangesloten worden. Data in die databronnen kunnen direct gevonden en ontsloten worden.  Het maakt niet uit of een databron privaat of publiek is. Als een bron voldoet aan de technische voorwaarden en de voorwaarden van de ‘governance’, kan hij als volwaardige bron meedoen in DSFL/NDFL.
+
 
 ## DSFL in vogelvlucht
 
