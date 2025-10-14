@@ -65,6 +65,8 @@ Gegevens uitwisselen die gaan over de fysieke leefomgeving is een brede scope. A
 
 Zo'n federatief stelsel van afspraken, zowel organisatorisch, semantisch als informatie-technisch, is een complex geheel. Daarvoor is een robuuste, uitbreidbare en toekomstvaste architectuur nodig. Gelukkig bestaan er, ook gepropageerd door de EU, een aantal belangrijke initiatieven om deze afspraken te ordenen en te standaardiseren. De stelsels die in deze context ontstaan worden 'dataspaces' genoemd.
 
+Het aantal potentiële databronnen in DSFL is groot en afkomstig van een groot aantal publieke en private partijen. Dat gegeven maakt een decentrale oplossing voor de DSFL een voor de hand liggende, zo niet noodzakelijke keuze (of je zou alle bronnen moeten nationaliseren). De kunst is om deze bronnen in samenhang te kunnen ontsluiten. Daarom moeten de aangesloten zich houden aan strikte regels om de samenhang en kwaliteit van de dienstverlening binnen DSFL/NDFL te kunnen garanderen. Een aantal ondersteunende zaken voor de aangesloten partijen worden in de dataspace uit handen genomen door centrale componenten. De Overheid is stelselverantwoordelijke voor de DSFL/NDFL, en daarmee facilitator, regelgever en handhaver. Tevens is de Overheid opdrachtgever voor het beheer van de centrale componenten. 
+
 De eisen die Zicht op Nederland stelt aan de ontsluiting van de informatie komen overeen met de doelstellingen waarvoor dataspaces worden ontworpen. Daarnaast is er op het gebied van Geo-informatie reeds een functionerend 'stelsel van Geo-basisregistraties' waarbij meerdere partijen aangesloten zijn, ieder met een bepaalde autonomie op het vlak van bijvoorbeeld governance en ontwikkeltempo. Een federatief stelsel (dataspace) is geschikter om gezamenlijk vooruit te komen dan het ontwikkelen van een gezamenlijk 'systeem' of 'platform'.
 > De architectuur die nodig is om de doelen van Zicht op Nederland te halen, wordt ontworpen als een dataspace en wordt de Dataspace Fysieke Leefomgeving genoemd - DSFL.
 
@@ -78,6 +80,8 @@ Op het niveau van de EU zijn/worden een aantal architecturen voor dataspaces ont
 > De governance van het geheel ('de federatie') kan synchroon aan het stelsel van basisregistraties worden ingericht, dus via het GI-beraad, waarbij de regie op de samenwerking is belegd bij het Ministerie van VRO.
 
 ## Uitgangspunten en samenhang met andere initiatieven
+DSFL bestaat uit een ‘federatie’ van spelers die gegevens delen over de fysieke leefomgeving. Er bestaan ook andere domeinen, zoals het Sociaal domein en het Zorgdomein. In samenspel met in FDS ontwikkelde principes kan DSFL federeren met elk ander domein dat ook deze regels en standaarden hanteert. Dit is een belabgrijk onderdeel van de Interbestuurlijke DataStrategie (IBDS). Er ontstaat een ‘gefedereerd stelsel van gefedereerde stelsels’, waarin elk stelsel zijn eigen specialisme dekt. Voor de 'eindgebruiker' is dit een uniform bevraagbaar landschap met in theorie letterlijk oneindige mogelijkheden. 
+
 Zoals reeds gezegd sluit DSFL zoveel mogelijk aan op bestaande afspraken, initiatieven, standaarden en (eventueel centraal ontwikkelde) componenten. Er worden voor DSFL zo min mogelijk nieuwe dingen ontwikkeld.
 
 > DSFL ontstaat dus en wordt niet ‘gebouwd’; het ontstaat door ‘bouw’ bij aangesloten stakeholders. DSFL kan gezien worden als een uitbreiding of een vernieuwde versie van het Stelsel van Geo-Basisregistraties. Er hoeft geen nieuw governance-model te worden bedacht. Het bestaande GI-Beraad kan d.m.v. een gezamenlijk ontwikkel-portfolio DSFL in stappen laten ontstaan, er is geen 'big bang' scenario.
@@ -128,10 +132,6 @@ FDS kent een aantal beperkingen in de scope waardoor DSFL een aantal eigen keuze
 ## Wettelijk kader
 <Marjolein vragen, kort bondig stukje>
 
-## Globale Architectuurbeschrijving Zicht op Nederland
-<copy/paste Architectuurbeschrijving 0.4? Of verwijzen in Inleiding?>
-
-<hier meteen een plaat erin gooien van het eindresultaat? Wel mooie stijl, dan vullen we hem in/leggen we hem uit gedurende de rest van het document, á la een detective>
 
 <verbinding met datawaardeketen met plaatje>
 
