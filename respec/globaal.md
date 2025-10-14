@@ -2,14 +2,14 @@
 
 De architectuur van Zicht op Nederland richt zich op het behalen van de belabgrijkste doelen die zijn beschreven in de <> en meer specifiek beschreven in het programma Zicht op Nederland:
 - **scope:** opbouwen van een gemeenschappelijk ecosysteem voor gebiedsinformatie;
-- - passend binnen de nationale en Europese digitale infrastructuur;
-- - overeenkomstig nationale en Europse wet-, regelgeving en kaderstelling;
+  - passend binnen de nationale en Europese digitale infrastructuur;
+  - overeenkomstig nationale en Europse wet-, regelgeving en kaderstelling;
 
 - **schaal:** "van rijk tot wijk";
 - **werkprocessen**: alle fasen van de levenscyclus van een gebied (ondersteund door de datawaardeketen);
 
 - **producten:** afspraken, standaarden en voorzieningen ter versterking van de datawaardeketen
-- kennis en data-expertise
+  - kennis en data-expertise
 
 De Doelarchitectuur ZoN beschrijft de verbinding tussen de ‘maatschappelijke opgave’ (vraagarticulatie), de uitwisseling van data (datafundament) en data-objecten (rekenmodellen), de aanbieders (basisregistraties, bronhouders) en afnemers (overheden, bedrijfsleven, eenieder, applicaties, digital twins). Dit gebeurt volgens het model van de Datawaardeketen.
 
