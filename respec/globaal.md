@@ -2,11 +2,11 @@
 
 De architectuur van Zicht op Nederland richt zich op het behalen van de belabgrijkste doelen die zijn beschreven in de <> en meer specifiek beschreven in het programma Zicht op Nederland:
 - **scope:** opbouwen van een gemeenschappelijk ecosysteem voor gebiedsinformatie;
-- passend binnen de nationale en Europese digitale infrastructuur;
-- overeenkomstig nationale en Europse wet-, regelgeving en kaderstelling;
+- - passend binnen de nationale en Europese digitale infrastructuur;
+- - overeenkomstig nationale en Europse wet-, regelgeving en kaderstelling;
 
 - **schaal:** "van rijk tot wijk";
-- werkprocessen: alle fasen van de levenscyclus van een gebied (ondersteund door de datawaardeketen);
+- **werkprocessen**: alle fasen van de levenscyclus van een gebied (ondersteund door de datawaardeketen);
 
 - **producten:** afspraken, standaarden en voorzieningen ter versterking van de datawaardeketen
 - kennis en data-expertise
