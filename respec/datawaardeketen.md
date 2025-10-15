@@ -54,10 +54,11 @@ DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastge
 
 ## Datasets en databronnen: een dynamisch ringenmodel 
 Voor het begrippen 'dataset' en 'databron' grijpen we terug op de definitie van data.overheid.nl:
-```**Dataset:** een beschrijving van een verzameling van data van een data-eigenaar. Dit kan bijvoorbeeld één tabel met data zijn of een verzameling van tabellen met samenhangende data, bijvoorbeeld alle tabellen per jaar over de periode 2005-2016.  
-**Databron:** een verwijzing naar de daadwerkelijke vindplaats van data die in de dataset wordt benoemd. Een dataset bevat één of meer databronnen. In het voorbeeld is er één databron in de vorm van één tabel met data of meerdere  databronnen overeenkomend met het aantal tabellen per jaar.```
+**Dataset:** een beschrijving van een verzameling van data van een data-eigenaar. Dit kan bijvoorbeeld één tabel met data zijn of een verzameling van tabellen met samenhangende data, bijvoorbeeld alle tabellen per jaar over de periode 2005-2016.  
+**Databron:** een verwijzing naar de daadwerkelijke vindplaats van data die in de dataset wordt benoemd. Een dataset bevat één of meer databronnen. In het voorbeeld is er één databron in de vorm van één tabel met data of meerdere  databronnen overeenkomend met het aantal tabellen per jaar.
 
-Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Het gaat dan om de vraag of het beheer duurzaam geregeld en gefinancierd is.
+In het kader van Zicht op Nederland zijn de (geo-)Basisregistraties de belangrijkste databronnen voor het leveren van basis datasets.
+Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets bij een veelheid van databronnen. Sommige datasets zijn inhoudelijk aanvullend op die in de basisregistraties, andere overlappen deels hiermee. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance: is beheer duurzaam geregeld en gefinancierd.
 
 Op basis van deze kenmerken classificeren we datasets in een ringenmodel: 
 - Buitenring: datasets die niet landelijk gestandaardiseerd of gedeeld zijn;
@@ -71,13 +72,13 @@ Het ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zi
 
 <figure><img src='respec/media/ringenmodel_datasets.png' alt='Classificatie van databronnen in Ringmodel.' style='width: 100%;'></img><figcaption>Classificatie van databronnen in Ringmodel.<i></i></figcaption></figure>
 
-> DSFL gebruikt het ringenmodel om datasets / bronnen te classificeren op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Daarmee wordt bepaald op welke manier en in welke context een dataset bruikbaar is of kan worden binnen de DSFL.  
+> DSFL gebruikt het ringenmodel om datasets en/of -bronnen te classificeren op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Daarmee wordt bepaald op welke manier en in welke context een dataset bruikbaar is of kan worden binnen de DSFL.  
 
 De ontwikkeling van DSFL richt zich primair op datasets uit de kern ('ring 0') en de ring 1 van het ringenmodel. Hierdoor heeft de DSFL maximale meerwaarde en kan deze meerwaarde snel worden gemunt. 
 
 > De doelarchitectuur van DSFL richt zich a priori op de ontsluiting van datasets in de ringen 'kern' ('ring 0') en ring 1.
 
-> Het ringenmodel (en daarmee DSFL) is dynamisch: datasets/bronnen kunnen 'binnen de ringen' terecht komen door te voldoen aan een aantal technische, organisatorische en beheersmatige (governance-)eisen.
+> Het ringenmodel (en daarmee DSFL) is dynamisch: datasets/-bronnen kunnen 'binnen de ringen' terecht komen door te voldoen aan een aantal technische, organisatorische en beheersmatige (governance-)eisen.
 
 Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
