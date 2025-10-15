@@ -35,6 +35,21 @@ Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.
 Interpreteren en visualiseren
 _Nog uit te werken: staat nu hierboven. Wellicht nog tekst nodig om de term 'domein' te duiden._
 
+## De begrippen 'gegevens' en 'data' in de context van DSFL
+Om meteen met de deur in huis te vallen:
+> De termen 'gegevens' en 'data' worden in deze Doelarchitectuur gebruikt als synoniem.
+
+> Zicht op Nederland, en daarmee de scope van DSFL, is gericht op het delen van data in een ruimtelijke ('geo-')context.
+Veel data in DSFL zal geografische data zijn, maar dat hoeft niet. Voor bepaalde maatschappelijke opgaven kan het nodig zijn om data die niet per se geografisch is opgeslagen (zoals projectmetingen) toch af te beelden op geografische ondergronden.
+
+Om deze combinatie van geografische en niet-geografische data mogelijk te maken bevat DSFL een aantal hulpcomponenten. Zie hiervoor het hoofdstuk Componenten.
+
+In DSFL worden niet alleen de klassieke data uitgewisseld. In het kader van datagedreven werken zijn er ook meer en meer informatie-producten en andere digitale objecten die worden uitgewisseld ('digital assets' of 'digital artefacts'). Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld, of interne parameters van AI-modellen. Het vinden en uitwisselen van deze digitale objecten kan leiden tot specifieke extra afspraken binnen DSFL. Voorbeeld hiervan is het inrichten van een 'App Store' waarin Digital Twins en relevante algoritmen kunnen worden gevonden (en 'gedownload'). 
+
+> Onder 'gegevens' of 'data' in het kader van DSFL worden verstaan niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’).
+
+DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien. 
+
 ## Indeling van datasets: een dynamisch ringenmodel 
 Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Het gaat dan om de vraag of het beheer duurzaam geregeld en gefinancierd is.
 
@@ -60,17 +75,10 @@ De ontwikkeling van DSFL richt zich primair op datasets uit de kern ('ring 0') e
 
 Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
-## Afbakening van bronnen en gebruik (Ine/Arno)
-De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610 ) van de DSFL. Naast deze Basisregistraties bevat de DSFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de overheid maar ook door andere partijen kunnen worden geleverd en beheerd. 
+## Afbakening van gegevens, bronnen en gebruik (Ine/Arno)
+De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610) van de DSFL. Naast deze Basisregistraties bevat de DSFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de overheid maar ook door andere partijen kunnen worden geleverd en beheerd. 
 
-> Onder gegevens in het kader van DSFL worden verstaan niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’).
-
-Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld. Zo ontstaat een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien. De overheid speelt de rol van ‘primus inter pares': zij treedt in het data-ecosysteem op als ‘gewone’ speler. Daarbij zal zij ook een ander rol spelen als stelselverantwoordelijke - zie hiervoor het hoofdstuk Governance. <>
-
-DSFL stelt eisen aan de spelers in het stelsel, maar neemt hen ook werk uit handen. Daarvoor zijn gecentraliseerde componenten voorzien die de dataspace faciliteren, bijvoorbeeld voor het vinden van data en voor het regelen van toegang. Dat betekent dat de huidige Basisregistraties aangepast moeten worden om (stapsgewijs) om te smelten  tot DSFL. De ‘centrale’ componenten kunnen betrokken worden, of deel worden van, de GDI of het FDS.
-
-> Zicht op Nederland, en daarmee de scope van DSFL, is gericht op het delen van data in een ruimtelijke ('geo-')context.
-Veel data in DSFL zal geografische data zijn, maar dat hoeft niet. Voor bepaalde maatschappelijke opgaven kan het nodig zijn om data die niet per se geografisch is opgeslagen (zoals projectmetingen) toch af te beelden op geografische ondergronden. Om dit mogelijk te maken bevat DSFL een aantal hulpcomponenten. <>
+<>DSFL stelt eisen aan de spelers in het stelsel, maar neemt hen ook werk uit handen. Daarvoor zijn gecentraliseerde componenten voorzien die de dataspace faciliteren, bijvoorbeeld voor het vinden van data en voor het regelen van toegang. Dat betekent dat de huidige Basisregistraties aangepast moeten worden om (stapsgewijs) om te smelten  tot DSFL. De ‘centrale’ componenten kunnen betrokken worden, of deel worden van, de GDI of het FDS.
 
 > Het delen van data binnen DSFL heeft een contractuele grondslag, zowel voor levering als gebruik.
 Deze grondslag kan minimaal zijn, zoals in het geval van 'open data'. Het is wel een belangrijk beginsel, omdat hiermee principieel wordt geregeld dat gebruik van gegevens gebonden wordt aan een onderliggende afspraak - en daarmee de weg vrij maakt om gebruik van data te analyseren. Tevens worden hiermee patronen mogelijk zoals betalen voor bepaald gebruik of het controleren op doelbinding.
@@ -81,15 +89,17 @@ Deze grondslag kan minimaal zijn, zoals in het geval van 'open data'. Het is wel
 - open data van derden
 - gesloten data van derden
 
-Uitgangspunt voor DSFL is dat de kosten die in de waardeketen van Zicht op Nederland zijn gemaakt zijn gedekt tot en met het moment van ontsluiten.
+<>gratis vs betaalde data
 
-> Mochten er kosten verbonden zijn aan het gebruik van data dan wordt dat buiten het DSFL om verrekend. Er wordt niet voorzien in 'betalen naar gebruik'.
+Een kenmerk van een dataspace is dat deze rondom maatschappelijke vraagstukken/use cases wordt ingericht. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. 
 
-Een kenmerk van een dataspace is dat deze rondom maatschappelijke vraagstukken/use cases wordt ingericht. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. Per maatschappelijke vraag/use case zal moeten worden bepaald welke data daarbij nodig is.
+> Per maatschappelijke vraag/use case zal moeten worden bepaald welke data daarbij nodig is.
 
 _Discussiepunt: welke data maken we beschikbaar zodat makkelijker aan de vraag voldaan kan worden (zonder deze altijd al te kennen). Is hier in het kader van bv het stelsel van Basisregistraties al iets zinnigs te zeggen?_
 
 _De tekst in deze paragraaf overlapt met de tekst onder "Indeling van datasets" en zou daarmee geïntegreerd moeten worden._
+
+Bij 'afbakening' hoort ook een set regels en een bepaalde Governance. De overheid speelt de rol van ‘primus inter pares': zij treedt in het data-ecosysteem op als ‘gewone’ speler. Daarbij zal zij ook een ander rol spelen als stelselverantwoordelijke - zie hiervoor het hoofdstuk Governance. <>
 
 **De fysieke leefomgeving, nader uitgewerkt**
 
