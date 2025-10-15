@@ -95,6 +95,8 @@ Voor de afbakening van de gegevens in DSFL geldt dat deze wordt gevormd door het
 
 Er worden dus a priori geen bronnen uitgesloten. De categorisering in ringen (zie de vorige paragraaf) is echter wel van toepassing: deze bepaalt aan welke eisen een databron moet voldoen om als volwaardige partij in het stelsel te functioneren. Deze Doelarchitectuur beschrijft waar deze eisen over gaan.
 
+Het gebruik van de data in DSFL heeft ten principale wel een afbakening, namelijk een doelbinding. Deze doelbinding bestaat wettelijk al lang, maar impliciet gebruikt. In de DSFL (of beter gezegd: in het principe van 'dataspaces' in het algemeen) wordt deze doelbinding echter expliciet gemaakt door middel van een contract bij het uitwisselen van de gegevens.
+
 > Het delen van data binnen DSFL heeft een contractuele grondslag, zowel voor levering als gebruik.
 Deze grondslag kan minimaal zijn, zoals in het geval van 'open data'. Het is wel een belangrijk beginsel, omdat hiermee principieel wordt geregeld dat gebruik van gegevens gebonden wordt aan een onderliggende afspraak - en daarmee de weg vrij maakt om gebruik van data te analyseren. Tevens worden hiermee patronen mogelijk zoals betalen voor bepaald gebruik of het controleren op doelbinding.
 
