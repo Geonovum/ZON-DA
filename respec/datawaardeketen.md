@@ -83,7 +83,9 @@ De ontwikkeling van DSFL richt zich primair op datasets uit de kern ('ring 0') e
 Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
 ## Afbakening van gegevens, bronnen en gebruik (Ine/Arno)
-De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610) van de DSFL. Naast deze Basisregistraties bevat de DSFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de overheid maar ook door andere partijen kunnen worden geleverd en beheerd. 
+De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610) van de DSFL. Naast deze Basisregistraties bevat de DSFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de overheid maar ook door andere partijen kunnen worden geleverd en beheerd.
+
+Voor de afbakening van de gegevens in DSFL geldt dat deze wordt gevormd door het gebruik, niet door het aanbod. Aangaande het gebruik staat in de kaders (geparafraseerd): 'data die nodig zijn voor het oplossen van de maatschappelijke opgaven'. Dat is een brede definitie, waarbij op voorhand geen keuze kan worden gemaakt tussen bijvoorbeeld open en gesloten data en data die van overheidspartijen afkomstig is of bijvoorbeeld van een commerciële partij.
 
 > De volgende categoriën data maken onderdeel van de DSFL:
 - open publieke data
@@ -91,12 +93,10 @@ De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuel
 - open data van derden
 - gesloten data van derden
 
-<>DSFL stelt eisen aan de spelers in het stelsel, maar neemt hen ook werk uit handen. Daarvoor zijn gecentraliseerde componenten voorzien die de dataspace faciliteren, bijvoorbeeld voor het vinden van data en voor het regelen van toegang. Dat betekent dat de huidige Basisregistraties aangepast moeten worden om (stapsgewijs) om te smelten  tot DSFL. De ‘centrale’ componenten kunnen betrokken worden, of deel worden van, de GDI of het FDS.
+Er worden dus a priori geen bronnen uitgesloten. De categorisering in ringen (zie de vorige paragraaf) is echter wel van toepassing: deze bepaalt aan welke eisen een databron moet voldoen om als volwaardige partij in het stelsel te functioneren. Deze Doelarchitectuur beschrijft waar deze eisen over gaan.
 
 > Het delen van data binnen DSFL heeft een contractuele grondslag, zowel voor levering als gebruik.
 Deze grondslag kan minimaal zijn, zoals in het geval van 'open data'. Het is wel een belangrijk beginsel, omdat hiermee principieel wordt geregeld dat gebruik van gegevens gebonden wordt aan een onderliggende afspraak - en daarmee de weg vrij maakt om gebruik van data te analyseren. Tevens worden hiermee patronen mogelijk zoals betalen voor bepaald gebruik of het controleren op doelbinding.
-
-
 
 <>gratis vs betaalde data
 
