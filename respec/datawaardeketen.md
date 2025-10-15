@@ -25,6 +25,7 @@ Dit principe heeft een gevolg, namelijk dat het wel duidelijk moet zijn wat de w
 
 Deze waarde/kwaliteit is een metagegeven van de data.
 
+Inwinnen
 Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. Deze doelarchitectuur beschrijft niet in detail hoe waarnemingen leiden tot data. Er kunnen wel eisen gesteld worden aan de waarnemingen. Daarom is er voor waarnemingen een datamodel nodig.
 
 > Het uitgangspunt is: er is een informatiemodel voor waarnemingen.
@@ -32,13 +33,12 @@ Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan
 Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.
 
 Interpreteren en visualiseren
-
 _Nog uit te werken: staat nu hierboven. Wellicht nog tekst nodig om de term 'domein' te duiden._
 
 ## Indeling van datasets: een dynamisch ringenmodel 
-Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Vaak is het beheer niet duurzaam geregeld en gefinancierd.
-Op basis van deze kenmerken classificeren we datasets in een ringenmodel: 
+Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Het gaat dan om de vraag of het beheer duurzaam geregeld en gefinancierd is.
 
+Op basis van deze kenmerken classificeren we datasets in een ringenmodel: 
 - Buitenring: datasets die niet landelijk gestandaardiseerd of gedeeld zijn;
 - Ring 2: datasets die wél gestandaardiseerd zijn, maar alleen binnen het oorspronkelijke doel worden gebruikt. Er is geen garantie op beschikbaarheid of actualisatie, zeker bij projectmatige datasets;
 - Ring 1: gestandaardiseerd, gedeeld en financieel geborgd. Dit zijn duurzame geo-datasets zonder wettelijke grondslag, maar met breed gebruik en langdurig beheer;
@@ -52,19 +52,20 @@ Het ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zi
 
 > DSFL gebruikt het ringenmodel om datasets / bronnen te classificeren op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Daarmee wordt bepaald op welke manier en in welke context een dataset bruikbaar is of kan worden binnen de DSFL.  
 
-Voor de DSFL gebruiken we daarom datasets uit de kern en de 1e ring van het ringmodel _die een landelijke dekking hebben?? (vraag RK)_. Hierdoor heeft de DSFL  maximale meerwaarde. Daarnaast moeten ze gestandaardiseerd en duurzaam beschikbaar zijn om aangesloten processen optimaal te kunnen laten functioneren.
+De ontwikkeling van DSFL richt zich primair op datasets uit de kern ('ring 0') en de ring 1 van het ringenmodel. Hierdoor heeft de DSFL maximale meerwaarde en kan deze meerwaarde snel worden gemunt. 
 
-Datasets die niet gestandaardiseerd zijn en toegankelijk zijn niet bruikbaar binnen een duurzaam in te richten datawaardeketen. 
-
-> De doelarchitectuur van DSFL richt zich a priori op de ontsluiting van datasets in de ringen 'kern' en ring 1.
+> De doelarchitectuur van DSFL richt zich a priori op de ontsluiting van datasets in de ringen 'kern' ('ring 0') en ring 1.
 
 > Het ringenmodel (en daarmee DSFL) is dynamisch: datasets/bronnen kunnen 'binnen de ringen' terecht komen door te voldoen aan een aantal technische, organisatorische en beheersmatige (governance-)eisen.
 
 Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
 ## Afbakening van bronnen en gebruik (Ine/Arno)
+De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610 ) van de DSFL. Naast deze Basisregistraties bevat de DSFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de overheid maar ook door andere partijen kunnen worden geleverd en beheerd. 
 
-De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610 ) van de DSFL. Naast deze Basisregistraties bevat de DSFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de Overheid, maar ook door andere partijen kunnen worden geleverd en beheerd. Onder gegevens verstaan we hier niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’). Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld. Zo ontstaat een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien en waarbij de Overheid de rol van ‘primus inter pares’ speelt: zij treedt op als ‘gewone’ speler zowel als Stelselverantwoordelijke.
+> Onder gegevens in het kader van DSFL worden verstaan niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’).
+
+Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld. Zo ontstaat een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien. De overheid speelt de rol van ‘primus inter pares': zij treedt in het data-ecosysteem op als ‘gewone’ speler. Daarbij zal zij ook een ander rol spelen als stelselverantwoordelijke - zie hiervoor het hoofdstuk Governance. <>
 
 DSFL stelt eisen aan de spelers in het stelsel, maar neemt hen ook werk uit handen. Daarvoor zijn gecentraliseerde componenten voorzien die de dataspace faciliteren, bijvoorbeeld voor het vinden van data en voor het regelen van toegang. Dat betekent dat de huidige Basisregistraties aangepast moeten worden om (stapsgewijs) om te smelten  tot DSFL. De ‘centrale’ componenten kunnen betrokken worden, of deel worden van, de GDI of het FDS.
 
