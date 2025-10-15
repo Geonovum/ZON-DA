@@ -52,7 +52,11 @@ Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen wo
 
 DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien. 
 
-## Indeling van datasets: een dynamisch ringenmodel 
+## Datasets en databronnen: een dynamisch ringenmodel 
+Voor het begrippen 'dataset' en 'databron' grijpen we terug op de definitie van data.overheid.nl:
+```**Dataset:** een beschrijving van een verzameling van data van een data-eigenaar. Dit kan bijvoorbeeld één tabel met data zijn of een verzameling van tabellen met samenhangende data, bijvoorbeeld alle tabellen per jaar over de periode 2005-2016.  
+**Databron:** een verwijzing naar de daadwerkelijke vindplaats van data die in de dataset wordt benoemd. Een dataset bevat één of meer databronnen. In het voorbeeld is er één databron in de vorm van één tabel met data of meerdere  databronnen overeenkomend met het aantal tabellen per jaar.```
+
 Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets. Sommige zijn inhoudelijk aanvullend op de basisregistraties, terwijl andere deels hiermee overlappen. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance. Het gaat dan om de vraag of het beheer duurzaam geregeld en gefinancierd is.
 
 Op basis van deze kenmerken classificeren we datasets in een ringenmodel: 
