@@ -69,7 +69,11 @@ Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen wo
 
 DSFL stelt eisen aan de spelers in het stelsel, maar neemt hen ook werk uit handen. Daarvoor zijn gecentraliseerde componenten voorzien die de dataspace faciliteren, bijvoorbeeld voor het vinden van data en voor het regelen van toegang. Dat betekent dat de huidige Basisregistraties aangepast moeten worden om (stapsgewijs) om te smelten  tot DSFL. De ‘centrale’ componenten kunnen betrokken worden, of deel worden van, de GDI of het FDS.
 
-> Zicht op Nederland, en daarmee de scope van DSFL, is gericht op het delen van ruimtelijke data, waarbij het delen van data een contractuele grondslag heeft. 
+> Zicht op Nederland, en daarmee de scope van DSFL, is gericht op het delen van data in een ruimtelijke ('geo-')context.
+Veel data in DSFL zal geografische data zijn, maar dat hoeft niet. Voor bepaalde maatschappelijke opgaven kan het nodig zijn om data die niet per se geografisch is opgeslagen (zoals projectmetingen) toch af te beelden op geografische ondergronden. Om dit mogelijk te maken bevat DSFL een aantal hulpcomponenten. <>
+
+> Het delen van data binnen DSFL heeft een contractuele grondslag, zowel voor levering als gebruik.
+Deze grondslag kan minimaal zijn, zoals in het geval van 'open data'. Het is wel een belangrijk beginsel, omdat hiermee principieel wordt geregeld dat gebruik van gegevens gebonden wordt aan een onderliggende afspraak - en daarmee de weg vrij maakt om gebruik van data te analyseren. Tevens worden hiermee patronen mogelijk zoals betalen voor bepaald gebruik of het controleren op doelbinding.
 
 > De volgende categoriën data maken onderdeel van de DSFL:
 - open publieke data
