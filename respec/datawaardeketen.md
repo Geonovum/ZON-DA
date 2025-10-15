@@ -1,6 +1,23 @@
 # Datawaardeketen
 
-## Waardeketen (Paul/Peter /Stephan)
+## De begrippen 'gegevens' en 'data' in de context van DSFL
+Om meteen met de deur in huis te vallen:
+> De termen 'gegevens' en 'data' worden in deze Doelarchitectuur gebruikt als synoniem.
+
+> Zicht op Nederland, en daarmee de scope van DSFL, is gericht op het delen van data in een ruimtelijke ('geo-')context.
+Veel data in DSFL zal geografische data zijn, maar dat hoeft niet. Voor bepaalde maatschappelijke opgaven kan het nodig zijn om data die niet per se geografisch is opgeslagen (zoals projectmetingen) toch af te beelden op geografische ondergronden.
+
+Om deze combinatie van geografische en niet-geografische data mogelijk te maken bevat DSFL een aantal hulpcomponenten. Zie hiervoor het hoofdstuk Componenten.
+
+In DSFL worden niet alleen de klassieke data uitgewisseld. In het kader van datagedreven werken zijn er ook meer en meer informatie-producten die binnen de datawaardeketen uitgewisseld worden. 
+
+> Onder 'gegevens' of 'data' in het kader van DSFL worden verstaan niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’).
+
+Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld, of interne parameters van AI-modellen. Het vinden en uitwisselen van deze digitale objecten kan leiden tot specifieke extra afspraken binnen DSFL. Denk hierbij bijvoorbeeld aan het inrichten van een 'App Store' waarin Digital Twins en relevante algoritmen kunnen worden gevonden (en 'gedownload'). 
+
+DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien. 
+
+## De waardeketen (Paul/Peter /Stephan)
 In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. De keten omvat het inwinnen van gegevens, ontsluiten en analyseren ervan en het gebruiken van de inzichten die hiermee verworven worden. (zie onderstaande figuur). 
 Deze keten ontvouwt zich volgens het Data–Informatie-Kennis-Wijsheid principe.  
 
@@ -35,22 +52,6 @@ Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.
 Interpreteren en visualiseren
 _Nog uit te werken: staat nu hierboven. Wellicht nog tekst nodig om de term 'domein' te duiden._
 
-## De begrippen 'gegevens' en 'data' in de context van DSFL
-Om meteen met de deur in huis te vallen:
-> De termen 'gegevens' en 'data' worden in deze Doelarchitectuur gebruikt als synoniem.
-
-> Zicht op Nederland, en daarmee de scope van DSFL, is gericht op het delen van data in een ruimtelijke ('geo-')context.
-Veel data in DSFL zal geografische data zijn, maar dat hoeft niet. Voor bepaalde maatschappelijke opgaven kan het nodig zijn om data die niet per se geografisch is opgeslagen (zoals projectmetingen) toch af te beelden op geografische ondergronden.
-
-Om deze combinatie van geografische en niet-geografische data mogelijk te maken bevat DSFL een aantal hulpcomponenten. Zie hiervoor het hoofdstuk Componenten.
-
-In DSFL worden niet alleen de klassieke data uitgewisseld. In het kader van datagedreven werken zijn er ook meer en meer informatie-producten die binnen de datawaardeketen uitgewisseld worden. 
-
-> Onder 'gegevens' of 'data' in het kader van DSFL worden verstaan niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’).
-
-Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld, of interne parameters van AI-modellen. Het vinden en uitwisselen van deze digitale objecten kan leiden tot specifieke extra afspraken binnen DSFL. Denk hierbij bijvoorbeeld aan het inrichten van een 'App Store' waarin Digital Twins en relevante algoritmen kunnen worden gevonden (en 'gedownload'). 
-
-DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien. 
 
 ## Datasets en databronnen: een dynamisch ringenmodel 
 Voor het begrippen 'dataset' en 'databron' grijpen we terug op de definitie van data.overheid.nl:
@@ -102,18 +103,15 @@ Deze grondslag kan minimaal zijn, zoals in het geval van 'open data'. Het is wel
 
 <>gratis vs betaalde data
 
-Een kenmerk van een dataspace is dat deze rondom maatschappelijke vraagstukken/use cases wordt ingericht. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. 
+Een kenmerk van een dataspace is dat deze rondom use cases wordt ingericht. In het geval van DSFL zijn dit de maatschappelijke vraagstukken. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. 
 
-> Per maatschappelijke vraag/use case zal moeten worden bepaald welke data daarbij nodig is.
+> Per maatschappelijke vraag/use case wordt bepaald welke data daarbij nodig is.
 
-_Discussiepunt: welke data maken we beschikbaar zodat makkelijker aan de vraag voldaan kan worden (zonder deze altijd al te kennen). Is hier in het kader van bv het stelsel van Basisregistraties al iets zinnigs te zeggen?_
+De 'basis-set' van beschikbare data wordt gevormd door de datasets in de kern ('ring 0') van het ringenmodel. Deze vallen onder de wet op de Basisregistraties. <>
 
-_De tekst in deze paragraaf overlapt met de tekst onder "Indeling van datasets" en zou daarmee geïntegreerd moeten worden._
-
-Bij 'afbakening' hoort ook een set regels en een bepaalde Governance. De overheid speelt de rol van ‘primus inter pares': zij treedt in het data-ecosysteem op als ‘gewone’ speler. Daarbij zal zij ook een ander rol spelen als stelselverantwoordelijke - zie hiervoor het hoofdstuk Governance. <>
+Bij de term 'afbakening' hoort ook een set regels en een bepaalde Governance. De overheid speelt de rol van ‘primus inter pares': zij treedt in het data-ecosysteem op als ‘gewone’ speler. Daarbij speelt zij ook een andere rol spelen: als stelselverantwoordelijke. Zie hiervoor het hoofdstuk Governance. <>
 
 **De fysieke leefomgeving, nader uitgewerkt**
-
 De fysieke leefomgeving bepaalt de werkingssfeer van de digitale tweeling waar wij het over hebben. Dat betekent dat onze digitale tweelingen over onze fysieke leefomgeving gaan. Een duidelijke afgebakende definitie van de fysieke leefomgeving is er niet. De fysieke leefomgeving is de omgeving, waarin wij als mensen leven, wonen, werken, reizen, recreëren, et cetera. Wij voeren onze activiteiten uit in de fysieke leefomgeving, die bestaat uit allerlei onderdelen: bouwwerken, infrastructuur, water, bodem en ondergrond, lucht, natuur, landbouw, landschappen en cultureel erfgoed. Deze opsomming is natuurlijk niet uitputtend. En soms wordt ook wel over de natuurlijke leefomgeving gesproken als het gaat om onderdelen als lucht, water, bodem en natuur (het milieu). En de door de mens gemaakte objecten horen bij de fysieke leefomgeving. Objecten kunnen statisch zijn, omdat ze langdurig op dezelfde plek staan. Zo vallen bouwwerken (onze woningen, kantoren en fabrieken) en infrastructuur (wegen, kanalen en kabels en leiding) onder de fysieke leefomgeving. Maar ook objecten die meer dynamisch zijn, zoals voertuigen. Maar ook de landbouwgewassen zijn meer dynamisch, omdat ze maar enkele maanden aanwezig zijn; ze komen en gaan. Het wordt hoog dynamisch als we het hebben over de veranderlijkheid van het weer, de stroming van het water of onze eigen verplaatsingen in het dagelijks leven voor het wonen, werken en recreëren. Wij als mensen maken daarmee ook deel uit van de fysieke leefomgeving. Met onze activiteiten in de fysieke leefomgeving maken wij mede diezelfde leefomgeving. Die activiteiten zorgen voor de dynamiek in de leefomgeving.
 
 Onze fysieke leefomgeving is een complex, zich continue aanpassend systeem, dat bestaat uit een aantal deelsystemen die nauw op elkaar inwerken. De fysieke leefomgeving is daarmee een connectie en samenwerking tussen deze deelsystemen. Vaak worden drie deelsystemen benoemd, die te typeren zijn enkele naar gemeenschappelijke inzichten: 
