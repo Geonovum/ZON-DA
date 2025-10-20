@@ -18,7 +18,7 @@ Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen wo
 
 DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien. 
 
-## De waardeketen (Paul/Peter /Stephan)
+## De waardeketen (Paul/Peter /Stephan) <>aanvullen/afmaken keten
 
 In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. De keten omvat het inwinnen van gegevens, ontsluiten en analyseren ervan en het gebruiken van de inzichten die hiermee verworven worden. (zie onderstaande figuur). 
 Deze keten ontvouwt zich volgens het Data–Informatie-Kennis-Handelingsperspectief principe.  
@@ -87,7 +87,7 @@ De ontwikkeling van DSFL richt zich primair op datasets uit de kern ('ring 0') e
 
 Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
-## Metadata (Ine/Niels)
+## Metadata (Ine/Niels) <> aanvullen/uitleg/consequenties
 
 De DCAT standaard wordt in Europa en daarbuiten steeds meer ingezet om domeinoversteigend metadata uit te wisselen. DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi.
 
@@ -129,8 +129,6 @@ Een kenmerk van een dataspace is dat deze rondom use cases wordt ingericht. In h
 De 'basis-set' van beschikbare data wordt gevormd door de datasets in de kern ('ring 0') van het ringenmodel. Deze vallen onder de wet op de Basisregistraties. <>
 
 Bij de term 'afbakening' hoort ook een set regels en een bepaalde Governance. De overheid speelt de rol van ‘primus inter pares': zij treedt in het data-ecosysteem op als ‘gewone’ speler. Daarbij speelt zij ook een andere rol spelen: als stelselverantwoordelijke. Zie hiervoor het hoofdstuk Governance.
-
-
 
 ## Bepaling van de waardeketens: inkijk in de governance (<>--> naar Governance)
 In de DSFL bestaan vele waardeketens. Deze waardeketens in de DSFL worden functioneel bepaald: welke handelingsperspectieven willen we ondersteunen en welke kennis, informatie en gegevens hebben we hiervoor vervolgens nodig? 
@@ -195,7 +193,7 @@ Er zullen ook afspraken moeten worden gemaakt over de te gebruiken protocollen e
 
 Een ander onderwerp waarvoor het nodig is om afspraken over te maken is historie. In bepaalde gebruikscontexten is er behoefte aan specifieke vormen van historie. Bronnen moeten specifiek ontworpen zijn om specifieke vormen van historie te ondersteunen. Dit is niet iets dat achteraf eenvoudig kan worden toegevoegd aan een bron. In algemene zin zou een bron in ieder geval in ieder geval de wijzigingen in de bron zelf moeten registreren (formele historie). Het vastleggen van de historie van wijzigingen van objecten in de werkelijkheid (materiële historie) vraagt meer inspanning. Hierop moet het inwinningsproces ook zijn ingericht.
 
-## Procesafspraken over ontsluiten
+## Afspraken over ontsluiten
 IdV: Bij de meeste organisaties zijn de bestaande afspraken uit het GI-beraad voor het beheer en ontsluiten van ruimtelijke data voor hergebruik bekend en worden tot op zekere hoogte nageleefd.  
 
 De afspraken over ontsluiten van geodata lijken minder bekend bij de individuele gemeenten en waterschappen. Publicatie en hergebruik van (geo)data wordt relevanter met de opkomst van smart cities en digital twins. Het is van belang de gemeenten en waterschappen te stimuleren de afspraken na te komen. Dat geldt overigens ook voor alle andere overheden: de basis van ontsluiten van (geo)data moet op orde zijn om mee te kunnen doen in het federatief data delen in bijvoorbeeld de dataspace fysieke leefomgeving. 
