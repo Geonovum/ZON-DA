@@ -87,6 +87,19 @@ De ontwikkeling van DSFL richt zich primair op datasets uit de kern ('ring 0') e
 
 Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
 
+## Metadata (Ine/Niels)
+
+De DCAT standaard wordt in Europa en daarbuiten steeds meer ingezet om domeinoversteigend metadata uit te wisselen. DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi.
+
+Op het Europese applicatieprofiel [DCAT-AP-3.0] worden domein specifieke profielen ontwikkeld, zoals geoDCAT-AP en healthDCAT-AP, die meestal een verdere specificatie van eigenschappen en extra specifieke eigenschappen bevatten. Deze extra eigenschappen van domein specifieke Europese profielen zijn niet opgenomen in DCAT-AP-NL, deze kunnen aanvullend op DCAT-AP-NL worden toegepast. Eventueel kan er ook een Nederlands profiel op een Europes domein specifieke profiel worden ontwikkeld.
+
+DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi. Daarmee vervangt het niet de domeinspecifieke standaarden zoals ISO 19115. Vanuit domeinspecieke standaarden en profielen, zoals bijvoorbeeld INSPIRE, die gebaseerd is op ISO 19115, kunnen er profielen op DCAT worden ontwikkeld die ook een mapping van elementen bevat van de domein specifieke standaard naar DCAT. geoDCAT is daar een voorbeeld van.
+
+- Begrippen en informatie/gegevensmodellen – per stap in de waardeketen
+- Dataset metadata (ISO 1911X, DCAT) – per stap in de waardeketen
+- Data lineage – per stap in de waardeketen
+- Toegankelijkheid van metadata voor alle toepassingsdomeinen – generiek doorzoekbaar maken
+
 ## Afbakening van gegevens, bronnen en gebruik (Ine/Arno)
 
 De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610) van de DSFL. Naast deze Basisregistraties bevat de DSFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de overheid maar ook door andere partijen kunnen worden geleverd en beheerd.
@@ -117,31 +130,6 @@ De 'basis-set' van beschikbare data wordt gevormd door de datasets in de kern ('
 
 Bij de term 'afbakening' hoort ook een set regels en een bepaalde Governance. De overheid speelt de rol van ‘primus inter pares': zij treedt in het data-ecosysteem op als ‘gewone’ speler. Daarbij speelt zij ook een andere rol spelen: als stelselverantwoordelijke. Zie hiervoor het hoofdstuk Governance.
 
-**De fysieke leefomgeving, nader uitgewerkt**
-
-De fysieke leefomgeving bepaalt de werkingssfeer van de digitale tweeling waar wij het over hebben. Dat betekent dat onze digitale tweelingen over onze fysieke leefomgeving gaan. Een duidelijke afgebakende definitie van de fysieke leefomgeving is er niet. De fysieke leefomgeving is de omgeving, waarin wij als mensen leven, wonen, werken, reizen, recreëren, et cetera. Wij voeren onze activiteiten uit in de fysieke leefomgeving, die bestaat uit allerlei onderdelen: bouwwerken, infrastructuur, water, bodem en ondergrond, lucht, natuur, landbouw, landschappen en cultureel erfgoed. Deze opsomming is natuurlijk niet uitputtend. En soms wordt ook wel over de natuurlijke leefomgeving gesproken als het gaat om onderdelen als lucht, water, bodem en natuur (het milieu). En de door de mens gemaakte objecten horen bij de fysieke leefomgeving. Objecten kunnen statisch zijn, omdat ze langdurig op dezelfde plek staan. Zo vallen bouwwerken (onze woningen, kantoren en fabrieken) en infrastructuur (wegen, kanalen en kabels en leiding) onder de fysieke leefomgeving. Maar ook objecten die meer dynamisch zijn, zoals voertuigen. Maar ook de landbouwgewassen zijn meer dynamisch, omdat ze maar enkele maanden aanwezig zijn; ze komen en gaan. Het wordt hoog dynamisch als we het hebben over de veranderlijkheid van het weer, de stroming van het water of onze eigen verplaatsingen in het dagelijks leven voor het wonen, werken en recreëren. Wij als mensen maken daarmee ook deel uit van de fysieke leefomgeving. Met onze activiteiten in de fysieke leefomgeving maken wij mede diezelfde leefomgeving. Die activiteiten zorgen voor de dynamiek in de leefomgeving.
-
-Onze fysieke leefomgeving is een complex, zich continue aanpassend systeem, dat bestaat uit een aantal deelsystemen die nauw op elkaar inwerken. De fysieke leefomgeving is daarmee een connectie en samenwerking tussen deze deelsystemen. Vaak worden drie deelsystemen benoemd, die te typeren zijn enkele naar gemeenschappelijke inzichten: 
-- Economische deelsysteem;
-- Natuurlijke deelsysteem; en
-- Sociale deelsysteem.
-
-Het economische deelsysteem van de fysieke leefomgeving heeft betrekking op de economische activiteiten en processen in de ruimte, zoals industrie, bouw en handel, de land- en tuinbouw, transport(netwerken), waterwinning, de afvalstromen (en circulaire economie) en niet te vergeten de energiesector. In het natuursysteem vinden de natuurlijke verschijnselen en processen plaats, zoals de natuurgebieden en biodiversiteit, het water(systeem), klimaat en lucht, bodem en ondergrond. Ook wel het ‘milieu’ genoemd. Het sociale systeem, ook wel sociaal-culturele systeem, bestaat uit de sociale aspecten en interacties in de fysieke leefomgeving. Denk daarbij aan huisvesting (de woningen), het zorgsysteem (zorgcentra, ziekenhuizen, verzorgingshuizen), het onderwijs (scholen en universiteiten), de voorzieningen voor sport, cultuur en recreatie en natuurlijk de openbare ruimte. Ook ons ruimtelijk gedrag valt hieronder.
-
-Deze drie deelsystemen tonen een grote overeenkomst met het 3P-model van duurzame ontwikkeling, nl. People-Profit-Planet. De combinatie van mensen, milieu, en winst maken dient in harmonie te zijn. Wanneer dit niet zo is, zullen de andere elementen hieronder lijden. Wanneer bijvoorbeeld winst maken te veel prioriteit krijgt, zullen mens en milieu hieronder leiden, bijvoorbeeld via de uitstoot van gevaarlijke stoffen (effect op de volksgezondheid) of door achteruitgang van biodiversiteit. Het woord ‘profit’ is inmiddels vervangen door ‘prosperity’ oftewel welvaart. Naast economisch gewin dient ook de maatschappelijke winst in de afwegingen mee te worden genomen. Zo dienen ook de drie deelsystemen van de fysieke leefomgeving in evenwicht te zijn. En ook hier speelt welvaart een toenemende rol. Het concept van het ‘brede welvaart denken’ staat daarbij steeds meer centraal; “Brede welvaart gaat over de welvaart en welzijn van individuele mensen. Dat wil zeggen: de kwaliteit van leven in het hier en nu en hoe zich dat verhoudt tot latere generaties of die van mensen elders in de wereld.”. Door brede welvaart te hanteren als uitgangspunt voor het afwegen van belangen bij ontwikkelingen en veranderingen in de fysieke leefomgeving, kunnen ook de afwegingen tussen de sociaal-culturele, natuurlijke en economische deelsystemen van de fysieke leefomgeving worden meegenomen. 
-
-## Metadata (Ine/Niels)
-
-De DCAT standaard wordt in Europa en daarbuiten steeds meer ingezet om domeinoversteigend metadata uit te wisselen. DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi.
-
-Op het Europese applicatieprofiel [DCAT-AP-3.0] worden domein specifieke profielen ontwikkeld, zoals geoDCAT-AP en healthDCAT-AP, die meestal een verdere specificatie van eigenschappen en extra specifieke eigenschappen bevatten. Deze extra eigenschappen van domein specifieke Europese profielen zijn niet opgenomen in DCAT-AP-NL, deze kunnen aanvullend op DCAT-AP-NL worden toegepast. Eventueel kan er ook een Nederlands profiel op een Europes domein specifieke profiel worden ontwikkeld.
-
-DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi. Daarmee vervangt het niet de domeinspecifieke standaarden zoals ISO 19115. Vanuit domeinspecieke standaarden en profielen, zoals bijvoorbeeld INSPIRE, die gebaseerd is op ISO 19115, kunnen er profielen op DCAT worden ontwikkeld die ook een mapping van elementen bevat van de domein specifieke standaard naar DCAT. geoDCAT is daar een voorbeeld van.
-
-- Begrippen en informatie/gegevensmodellen – per stap in de waardeketen
-- Dataset metadata (ISO 1911X, DCAT) – per stap in de waardeketen
-- Data lineage – per stap in de waardeketen
-- Toegankelijkheid van metadata voor alle toepassingsdomeinen – generiek doorzoekbaar maken
 
 
 ## Bepaling van de waardeketens: inkijk in de governance (<>--> naar Governance)
