@@ -127,7 +127,7 @@ Deze grondslag kan minimaal zijn, zoals in het geval van 'open data'. Het is wel
 
 Een kenmerk van een dataspace is dat deze rondom use cases wordt ingericht. In het geval van DSFL zijn dit de maatschappelijke vraagstukken. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. 
 
-> Per maatschappelijke vraag/use case wordt bepaald welke data daarbij nodig is.
+> Per maatschappelijke vraag/use case wordt bepaald welke data nodig is.
 
 De 'basis-set' van beschikbare data wordt gevormd door de datasets in de kern ('ring 0') van het ringenmodel. Deze vallen onder de wet op de Basisregistraties. <>
 
