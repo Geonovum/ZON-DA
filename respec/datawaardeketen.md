@@ -188,7 +188,7 @@ Hiervoor zijn in een aantal standaarden voorgedefinieerde eigenschappen opgenome
 
 > In de DSFL wordt de kwaliteit van gegevens wordt uitgedrukt in termen van de standaard begrippen in het NORA raamwerk gegevenskwaliteit
 
-## Publicatie (Arno) <>
+## Publicatie van (meta-)data (Arno) <>
 
 Een dataspace is een ecosysteem waarin data- en serviceproviders en potentiële consumenten/gebruikers samen worden gebracht. Aangezien in DSFL men niet per definitie 'op elkaar aangewezen is' voor een vastgesteld probleem of proces, dient een succesvolle 'matchmaking' plaats te vinden tussen vraag en aanbod. Er worden in feite relaties opgebouwd die leiden tot datadeling. Om matchmaking te faciliteren, zijn beschrijvingen vereist van de beschikbare gegevens: metadata van de data en diensten die worden aangeboden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden. De consument/gebruiker kan zo de juiste gegevens voor de juiste vraag identificeren en wordt doorgeleid naar de aanbieder. Deze stap wordt de 'Publicatie' van gegevens genoemd.
 
@@ -199,9 +199,9 @@ Binnen de context van DSFL geldt dat de plaats waar de data wordt gepubliceerd e
 - Consumenten kunnen tussen aanbiedingen zoeken om te bepalen of de kenmerken en voorwaarden voldoen aan hun behoeften en vereisten, en vervolgens toegang aanvragen tot de aangeboden data of dienst.
 
 Het publiceren van data in DSFL bestaat voor een dataprovider uit de volgende stappen:
-- Waar mogelijk van een gebruiksvoorwaarde licentie voorzien (creative commons kan als default worden genomen) - dit is ook metadata van een dataset;
-- van overige metadata worden voorzien conform het NL profiel op ISO 19115;
-- waarbij deze metadata gepubliceerd worden in de DSFL metadata-component.
+- metadata over kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), etc. vaststellen 
+- metadata formeren conform het NL profiel op ISO 19115;
+- metadata opslaan in de DSFL metadata-component.
 
 In specifieke gevallen kan hiervan worden afgeweken. Voorbeelden waar kan worden afgeweken zijn Werkversies, operationele data en onderzoeksdata.
 
