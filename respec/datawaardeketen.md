@@ -21,7 +21,7 @@ Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen wo
 
 DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien.
 
-## De betekenis van metadata in DSFL
+## Het begrip 'metadata' in de context van DSFL
 
 Een dataspace is een ecosysteem waarin data- en serviceproviders en potentiële consumenten/gebruikers samen worden gebracht. Aangezien in DSFL men niet per definitie 'op elkaar aangewezen is' voor een vastgesteld probleem of proces, dient een succesvolle 'matchmaking' plaats te vinden tussen vraag en aanbod. Er worden in feite relaties opgebouwd die leiden tot datadeling. Om matchmaking te faciliteren, zijn beschrijvingen vereist van de beschikbare gegevens: metadata van de data en diensten die worden aangeboden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden. De consument/gebruiker kan zo de juiste gegevens voor de juiste vraag identificeren en wordt doorgeleid naar de aanbieder.
 
@@ -153,9 +153,9 @@ Hiervoor zijn in een aantal standaarden voorgedefinieerde eigenschappen opgenome
 
 > In de DSFL wordt de kwaliteit van gegevens uitgedrukt in termen van de standaard begrippen in het NORA raamwerk gegevenskwaliteit
 
-## Publicatie van data (Arno) <>
+## Publicatie van beschikbare data
 
-Om de 'matchmaking' tussen gegevensaanbieder en -afnemer/gebruiker plaats te kunnen laten vinden <>
+Na elke stap in de datawaardeketen kunnen data beschikbaar komen die voor (her-)gebruik in aanmerking komen. Deze data dient echter kenbaar gemaakt te worden Om deze 'matchmaking' tussen gegevensaanbieder en -afnemer/gebruiker plaats te kunnen laten vinden <>
 <>Deze stap wordt de 'Publicatie' van gegevens genoemd.
 
 In de federatieve gedachte is de aanbieder van data niet altijd dezelfde als de eigenaar van de data. Het publiceren is wel een operationele, intensieve activiteit die wel (geautomatiseerd) bij de gegevensaanbieder wordt uitgevoerd. De gegevenseigenaar bepaalt echter wel wat en in hoeverre bepaalde gegevens gepubliceerd mogen worden.
