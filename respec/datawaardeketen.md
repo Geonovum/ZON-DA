@@ -192,24 +192,22 @@ Hiervoor zijn in een aantal standaarden voorgedefinieerde eigenschappen opgenome
 
 ## Publicatie (Arno) <>
 
-Ine gaat dit samenvoegen met paragraaf over metadata
+Een dataspace is een ecosysteem waarin data- en serviceproviders en potentiële consumenten/gebruikers samen worden gebracht. Aangezien in DSFL men niet per definitie 'op elkaar aangewezen is' voor een vastgesteld probleem of proces, dient een succesvolle 'matchmaking' plaats te vinden tussen vraag en aanbod. Er worden in feite relaties opgebouwd die leiden tot datadeling. Om matchmaking te faciliteren, zijn beschrijvingen vereist van de beschikbare gegevens: metadata van de data en diensten die worden aangeboden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden. De consument/gebruiker kan zo de juiste gegevens voor de juiste vraag identificeren en wordt doorgeleid naar de aanbieder. Deze stap wordt de 'Publicatie' van gegevens genoemd.
 
-- Publicatie van metadata – per stap in de waardeketen
+> DSFL bevat een metadata-catalogus met daarin informatie over de binnen DFSL bestaande datasets en services
 
-Een dataspace is een ecosysteem van data- en serviceproviders en potentiële consumenten. Providers willen hun potentiële consumenten bereiken en omgekeerd relaties opbouwen die leiden tot datadeling. Om datadeling te faciliteren, zijn beschrijvingen, zoals metadata, van de data en diensten die ze aanbieden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden, vereist.
-
-De bouwsteen Publicatie en Ontdekking maakt het volgende mogelijk:
-- Providers kunnen (a) deze beschrijvingen als aanbiedingen beschikbaar stellen, waardoor ze zichtbaar worden voor alle (of een deel van) andere deelnemers aan de dataruimte die als potentiële consumenten worden beschouwd, en (b) aanbiedingen beheren in overeenstemming met hun levenscyclus (publiceren, bijwerken, verwijderen) en de toegang ertoe beheren.
+Binnen de context van DSFL geldt dat de plaats waar de data wordt gepubliceerd een (voor de DSFL) centrale component is, die minimaal de volgende functionaliteit bevat:
+- Providers kunnen (a) deze beschrijvingen als aanbiedingen beschikbaar stellen, waardoor ze zichtbaar worden voor alle (of een deel van) andere deelnemers aan de dataruimte die als potentiële consumenten worden beschouwd, en (b) aanbiedingen beheren in overeenstemming met hun levenscyclus (publiceren, bijwerken, verwijderen) en de toegang ertoe beheren;
 - Consumenten kunnen tussen aanbiedingen zoeken om te bepalen of de kenmerken en voorwaarden voldoen aan hun behoeften en vereisten, en vervolgens toegang aanvragen tot de aangeboden data of dienst.
 
 In [DSSC Blueprint - Publication and Discovery](https://dssc.eu/space/BVE2/1071256989/Publication+and+Discovery) is meer informatie te vinden.
 
-Nader uit te werken:
-- Harvesten van relevante metadata duidelijk opnemen, ook dat dit geldt richting (groot)aanbieders van data als naar andere (sectorale/nationale/europese/wereldwijde) catalogi
+<> Nader uit te werken:
+-  <> Harvesten (moeten we dat wel willen? Dat is toch niet federatief?) van relevante metadata duidelijk opnemen, ook dat dit geldt richting (groot)aanbieders van data als naar andere (sectorale/nationale/europese/wereldwijde) catalogi
 - In hoeverre zijn de data-services zelf-beschrijvend?
-- In hoeverre is het geospatial zoeken en vinden van gegevens onderdeel van DSFL?
+- Is de geo-vertaal functionaliteit onderdeel van deze 'component'?
 
-> Er komt een DSFL catalogus met daarin informatie over de deelnemers, datasets en services
+
 
 ## Vocabulaire (nieuw toegevoegd, Arno)
 
