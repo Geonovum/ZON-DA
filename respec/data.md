@@ -1,4 +1,6 @@
-## De begrippen 'gegevens' en 'data' in de context van DSFL
+# Gegevens, data en metadata in DSFL
+
+## 'Gegevens' en 'data' in de context van DSFL
 
 Om meteen met de deur in huis te vallen:
 > De termen 'gegevens' en 'data' worden in deze Doelarchitectuur gebruikt als synoniem.
@@ -16,12 +18,30 @@ Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen wo
 
 DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien.
 
-## Het begrip 'metadata' in de context van DSFL
+
+
+## 'Metadata' in de context van DSFL
 
 Een dataspace is een ecosysteem waarin data- en serviceproviders en potentiële consumenten/gebruikers samen worden gebracht. Aangezien in DSFL men niet per definitie 'op elkaar aangewezen is' voor een vastgesteld probleem of proces, dient een succesvolle 'matchmaking' plaats te vinden tussen vraag en aanbod. Er worden in feite relaties opgebouwd die leiden tot datadeling. Om matchmaking te faciliteren, zijn beschrijvingen vereist van de beschikbare gegevens: metadata van de data en diensten die worden aangeboden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden. De consument/gebruiker kan zo de juiste gegevens voor de juiste vraag identificeren en wordt doorgeleid naar de aanbieder.
 
 <>
 
+
+> DSFL bevat een metadata-catalogus voor het publiceren en terugvinden van informatie over de binnen DFSL bestaande datasets en diensten
+
+Het publiceren van data in DSFL bestaat voor een dataprovider uit de volgende stappen:
+- metadata over kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), etc. vaststellen 
+- metadata formeren conform het NL profiel op ISO 19115;
+- metadata opslaan in de DSFL metadata-component.
+
+In specifieke gevallen kan hiervan worden afgeweken. Voorbeelden waar kan worden afgeweken zijn Werkversies, operationele data en onderzoeksdata.
+
+In [DSSC Blueprint - Publication and Discovery](https://dssc.eu/space/BVE2/1071256989/Publication+and+Discovery) is meer informatie te vinden.
+
+<> Nader uit te werken:
+-  <> Harvesten (moeten we dat wel willen? Dat is toch niet federatief?) van relevante metadata duidelijk opnemen, ook dat dit geldt richting (groot)aanbieders van data als naar andere (sectorale/nationale/europese/wereldwijde) catalogi
+- In hoeverre zijn de data-services zelf-beschrijvend?
+- Is de geo-vertaal functionaliteit onderdeel van deze 'component'?
 
 
 
