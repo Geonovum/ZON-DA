@@ -192,11 +192,15 @@ Hiervoor zijn in een aantal standaarden voorgedefinieerde eigenschappen opgenome
 
 Een dataspace is een ecosysteem waarin data- en serviceproviders en potentiële consumenten/gebruikers samen worden gebracht. Aangezien in DSFL men niet per definitie 'op elkaar aangewezen is' voor een vastgesteld probleem of proces, dient een succesvolle 'matchmaking' plaats te vinden tussen vraag en aanbod. Er worden in feite relaties opgebouwd die leiden tot datadeling. Om matchmaking te faciliteren, zijn beschrijvingen vereist van de beschikbare gegevens: metadata van de data en diensten die worden aangeboden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden. De consument/gebruiker kan zo de juiste gegevens voor de juiste vraag identificeren en wordt doorgeleid naar de aanbieder. Deze stap wordt de 'Publicatie' van gegevens genoemd.
 
-> DSFL bevat een metadata-catalogus met daarin informatie over de binnen DFSL bestaande datasets en services
+In de federatieve gedachte is de aanbieder van data niet altijd dezelfde als de eigenaar van de data. Het publiceren is wel een operationele, intensieve activiteit die wel (geautomatiseerd) bij de gegevensaanbieder wordt uitgevoerd. De gegevenseigenaar bepaalt echter wel wat en in hoeverre bepaalde gegevens gepubliceerd mogen worden.
+
+> Om herbruikbaarheid van gegevens te faciliteren en te stimuleren, worden in DSFL beschikbare gegevens door de gegevensaanbieder volgens aanwijzingen van de gegevenseigenaar bekendgemaakt ('gepubliceerd')
 
 Binnen de context van DSFL geldt dat de plaats waar de data wordt gepubliceerd een (voor de DSFL) centrale component is, die minimaal de volgende functionaliteit bevat:
 - Providers kunnen (a) deze beschrijvingen als aanbiedingen beschikbaar stellen, waardoor ze zichtbaar worden voor alle (of een deel van) andere deelnemers aan de dataruimte die als potentiële consumenten worden beschouwd, en (b) aanbiedingen beheren in overeenstemming met hun levenscyclus (publiceren, bijwerken, verwijderen) en de toegang ertoe beheren;
 - Consumenten kunnen tussen aanbiedingen zoeken om te bepalen of de kenmerken en voorwaarden voldoen aan hun behoeften en vereisten, en vervolgens toegang aanvragen tot de aangeboden data of dienst.
+
+> DSFL bevat een metadata-catalogus voor het publiceren en terugvinden van informatie over de binnen DFSL bestaande datasets en diensten
 
 Het publiceren van data in DSFL bestaat voor een dataprovider uit de volgende stappen:
 - metadata over kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), etc. vaststellen 
