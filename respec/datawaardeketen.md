@@ -118,21 +118,6 @@ Binnen de context van DSFL geldt dat de plaats waar de data wordt gepubliceerd e
 - Providers kunnen (a) deze beschrijvingen als aanbiedingen beschikbaar stellen, waardoor ze zichtbaar worden voor alle (of een deel van) andere deelnemers aan de dataruimte die als potentiële consumenten worden beschouwd, en (b) aanbiedingen beheren in overeenstemming met hun levenscyclus (publiceren, bijwerken, verwijderen) en de toegang ertoe beheren;
 - Consumenten kunnen tussen aanbiedingen zoeken om te bepalen of de kenmerken en voorwaarden voldoen aan hun behoeften en vereisten, en vervolgens toegang aanvragen tot de aangeboden data of dienst.
 
-> DSFL bevat een metadata-catalogus voor het publiceren en terugvinden van informatie over de binnen DFSL bestaande datasets en diensten
-
-Het publiceren van data in DSFL bestaat voor een dataprovider uit de volgende stappen:
-- metadata over kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), etc. vaststellen 
-- metadata formeren conform het NL profiel op ISO 19115;
-- metadata opslaan in de DSFL metadata-component.
-
-In specifieke gevallen kan hiervan worden afgeweken. Voorbeelden waar kan worden afgeweken zijn Werkversies, operationele data en onderzoeksdata.
-
-In [DSSC Blueprint - Publication and Discovery](https://dssc.eu/space/BVE2/1071256989/Publication+and+Discovery) is meer informatie te vinden.
-
-<> Nader uit te werken:
--  <> Harvesten (moeten we dat wel willen? Dat is toch niet federatief?) van relevante metadata duidelijk opnemen, ook dat dit geldt richting (groot)aanbieders van data als naar andere (sectorale/nationale/europese/wereldwijde) catalogi
-- In hoeverre zijn de data-services zelf-beschrijvend?
-- Is de geo-vertaal functionaliteit onderdeel van deze 'component'?
 
 
 ## Vocabulaire (nieuw toegevoegd, Arno)
