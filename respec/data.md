@@ -18,7 +18,67 @@ Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen wo
 
 DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien.
 
+## Datasets en databronnen: een dynamisch ringenmodel 
 
+Voor het begrippen 'dataset' en 'databron' grijpen we terug op de definitie van data.overheid.nl:
+
+**Dataset:** een beschrijving van een verzameling van data van een data-eigenaar. Dit kan bijvoorbeeld één tabel met data zijn of een verzameling van tabellen met samenhangende data, bijvoorbeeld alle tabellen per jaar over de periode 2005-2016.  
+**Databron:** een verwijzing naar de daadwerkelijke vindplaats van data die in de dataset wordt benoemd. Een dataset bevat één of meer databronnen. In het voorbeeld is er één databron in de vorm van één tabel met data of meerdere  databronnen overeenkomend met het aantal tabellen per jaar.
+
+In het kader van Zicht op Nederland zijn de (geo-)Basisregistraties de belangrijkste databronnen voor het leveren van basis datasets.
+Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets bij een veelheid van databronnen. Sommige datasets zijn inhoudelijk aanvullend op die in de basisregistraties, andere overlappen deels hiermee. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance: is beheer duurzaam geregeld en gefinancierd.
+
+Op basis van deze kenmerken classificeren we datasets in een ringenmodel: 
+- Buitenring: datasets die niet landelijk gestandaardiseerd of gedeeld zijn;
+- Ring 2: datasets die wél gestandaardiseerd zijn, maar alleen binnen het oorspronkelijke doel worden gebruikt. Er is geen garantie op beschikbaarheid of actualisatie, zeker bij projectmatige datasets;
+- Ring 1: gestandaardiseerd, gedeeld en financieel geborgd. Dit zijn duurzame geo-datasets zonder wettelijke grondslag, maar met breed gebruik en langdurig beheer;
+- Kern ('Ring 0'): de basisregistraties. Deze zijn juridisch, organisatorisch en financieel geborgd. Er geldt een wettelijke verplichting tot het maken, gebruiken en terugmelden van gegevens.
+
+Daarnaast zijn er datasets waarvan het bestaan niet publiek bekend is – deze bevinden zich “buiten de buitenring”. 
+
+Het ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zie figuur).
+
+<figure><img src='respec/media/ringenmodel_datasets.png' alt='Classificatie van databronnen in Ringmodel.' style='width: 100%;'></img><figcaption>Classificatie van databronnen in Ringmodel.<i></i></figcaption></figure>
+
+> DSFL gebruikt het ringenmodel om datasets en/of -bronnen te classificeren op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Daarmee wordt bepaald op welke manier en in welke context een dataset bruikbaar is of kan worden binnen de DSFL.  
+
+De ontwikkeling van DSFL richt zich primair op datasets uit de kern ('ring 0') en de ring 1 van het ringenmodel. Hierdoor heeft de DSFL maximale meerwaarde en kan deze meerwaarde snel worden gemunt. 
+
+> De doelarchitectuur van DSFL richt zich a priori op de ontsluiting van datasets in de ringen 'kern' ('ring 0') en ring 1.
+
+> Het ringenmodel (en daarmee DSFL) is dynamisch: datasets/-bronnen kunnen 'binnen de ringen' terecht komen door te voldoen aan een aantal technische, organisatorische en beheersmatige (governance-)eisen.
+
+Hierdoor ontstaat een DSFL dat zich kan blijven aanpassen aan de maatschappelijke vraagstukken, één van de belangrijke eisen die aan het stelsel zijn gesteld.
+
+## Afbakening van gegevens, bronnen en gebruik (Ine/Arno)
+
+De huidige (geo-)Basisregistraties voeren de registraties van fysieke en virtuele objecten (volgens NEN3610) van de DSFL. Naast deze Basisregistraties bevat de DSFL allerlei gegevens over deze/gekoppeld aan gebieden, die niet alleen door de overheid maar ook door andere partijen kunnen worden geleverd en beheerd.
+
+Voor de afbakening van de gegevens in DSFL geldt dat deze wordt gevormd door het gebruik, niet door het aanbod. Aangaande het gebruik staat in de kaders (geparafraseerd): 'data die nodig zijn voor het oplossen van de maatschappelijke opgaven'. Dat is een brede definitie, waarbij op voorhand geen keuze kan worden gemaakt tussen bijvoorbeeld open en gesloten data en data die van overheidspartijen afkomstig is of bijvoorbeeld van een commerciële partij.
+
+> De volgende categoriën data maken onderdeel van de DSFL:
+- open publieke data
+- gesloten publieke data
+- open data van derden
+- gesloten data van derden
+
+Er worden dus a priori geen bronnen uitgesloten. De categorisering in ringen (zie de vorige paragraaf) is echter wel van toepassing: deze bepaalt aan welke eisen een databron moet voldoen om als volwaardige partij in het stelsel te functioneren. Deze Doelarchitectuur beschrijft waar deze eisen over gaan.
+
+Het gebruik van de data in DSFL heeft ten principale wel een afbakening, namelijk een doelbinding. Deze doelbinding bestaat wettelijk al lang, maar impliciet gebruikt. In de DSFL (of beter gezegd: in het principe van 'dataspaces' in het algemeen) wordt deze doelbinding echter expliciet gemaakt door middel van een contract bij het uitwisselen van de gegevens.
+
+> Het delen van data binnen DSFL heeft een contractuele grondslag, zowel voor levering als gebruik.
+
+Deze grondslag kan minimaal zijn, zoals in het geval van 'open data'. Het is wel een belangrijk beginsel, omdat hiermee principieel wordt geregeld dat gebruik van gegevens gebonden wordt aan een onderliggende afspraak - en daarmee de weg vrij maakt om gebruik van data te analyseren. Tevens worden hiermee patronen mogelijk zoals betalen voor bepaald gebruik of het controleren op doelbinding.
+
+<>gratis vs betaalde data
+
+Een kenmerk van een dataspace is dat deze rondom use cases wordt ingericht. In het geval van DSFL zijn dit de maatschappelijke vraagstukken. Hierbij worden alle stakeholders betrokken, zodat de vragende partijen ook in contact zijn met de aanbiedende partijen en vraag en aanbod op elkaar kunnen worden afgestemd. Dit heeft als consequentie dat niet alle data over de fysieke leefomgeving op voorhand in de dataspace fysieke leefomgeving beschikbaar moet worden gesteld. 
+
+> Per maatschappelijke vraag/use case wordt bepaald welke data nodig is.
+
+De 'basis-set' van beschikbare data wordt gevormd door de datasets in de kern ('ring 0') van het ringenmodel. Deze vallen onder de wet op de Basisregistraties. <>
+
+Bij de term 'afbakening' hoort ook een set regels en een bepaalde Governance. De overheid speelt de rol van ‘primus inter pares': zij treedt in het data-ecosysteem op als ‘gewone’ speler. Daarbij speelt zij ook een andere rol spelen: als stelselverantwoordelijke. Zie hiervoor het hoofdstuk Governance.
 
 ## 'Metadata' in de context van DSFL
 
