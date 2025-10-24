@@ -19,7 +19,10 @@ In DSFL worden niet alleen de klassieke data uitgewisseld. In het kader van data
 
 Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld, of interne parameters van AI-modellen. Het vinden en uitwisselen van deze digitale objecten kan leiden tot specifieke extra afspraken binnen DSFL. Denk hierbij bijvoorbeeld aan het inrichten van een 'App Store' waarin Digital Twins en relevante algoritmen kunnen worden gevonden (en 'gedownload'). 
 
-DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien. 
+DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien.
+
+## De betekenis van metadata in DSFL
+<>
 
 ## De waardeketen (Paul/Peter /Stephan) <>aanvullen/afmaken keten
 
@@ -144,11 +147,6 @@ Het ontsluiten (en bijhouden) van alle geodata is een enorme klus als dat bij ee
 
 Zowel voor realisatie van FDS als voor een werkende Datapace Fysieke Leefomgeving is goede metadata cruciaal. In het GI-beraad is afgesproken dat het ontsluiten van data voor hergebruik expliciet te borgen in de aanpak voor een Dataspace Fysieke Leefomgeving (en aangezien realisatie daarvan binnen de kaders van FDS moet passen, daarmee ook mee te werken aan een goed functionerend FDS).
 
-Ontsluiten voor hergebruik betekent dat de geo-datasets die door de leden van het GI-beraad (in opdracht) worden vervaardigd:
-- Waar mogelijk van een creative commons licentie worden voorzien,
-- van metadata worden voorzien conform het NL profiel op ISO 19115,
-- waarbij deze metadata in het NGR gepubliceerd worden.
-In specifieke gevallen kan hiervan worden afgeweken en werkversies, operationele data en onderzoeksdata zijn hiervan uitgesloten.
 
 Daar waar mogelijk te borgen dat voor nieuwe datasets het ontsluiten van data voor hergebruik direct wordt uitgevoerd (om zo de ‘reparatie-opgave’ niet groter te laten worden;
 
@@ -199,6 +197,13 @@ Een dataspace is een ecosysteem waarin data- en serviceproviders en potentiële 
 Binnen de context van DSFL geldt dat de plaats waar de data wordt gepubliceerd een (voor de DSFL) centrale component is, die minimaal de volgende functionaliteit bevat:
 - Providers kunnen (a) deze beschrijvingen als aanbiedingen beschikbaar stellen, waardoor ze zichtbaar worden voor alle (of een deel van) andere deelnemers aan de dataruimte die als potentiële consumenten worden beschouwd, en (b) aanbiedingen beheren in overeenstemming met hun levenscyclus (publiceren, bijwerken, verwijderen) en de toegang ertoe beheren;
 - Consumenten kunnen tussen aanbiedingen zoeken om te bepalen of de kenmerken en voorwaarden voldoen aan hun behoeften en vereisten, en vervolgens toegang aanvragen tot de aangeboden data of dienst.
+
+Het publiceren van data in DSFL bestaat voor een dataprovider uit de volgende stappen:
+- Waar mogelijk van een gebruiksvoorwaarde licentie voorzien (creative commons kan als default worden genomen) - dit is ook metadata van een dataset;
+- van overige metadata worden voorzien conform het NL profiel op ISO 19115;
+- waarbij deze metadata gepubliceerd worden in de DSFL metadata-component.
+
+In specifieke gevallen kan hiervan worden afgeweken. Voorbeelden waar kan worden afgeweken zijn Werkversies, operationele data en onderzoeksdata.
 
 In [DSSC Blueprint - Publication and Discovery](https://dssc.eu/space/BVE2/1071256989/Publication+and+Discovery) is meer informatie te vinden.
 
