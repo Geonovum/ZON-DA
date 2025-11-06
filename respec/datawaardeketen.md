@@ -65,6 +65,8 @@ Met hetzelfde doel, het vinden en gebruiken van de data producten, beheren vocab
 
 Nader uit te werken:
 - Behoort de vocabulaire bij de bron of is het onderdeel van het datastelsel?
+Antwoord: (Niels) Een vocabulaire hoort bij een dataproduct (en daarmee bij het stelsel).
+Stel je hebt een bron van gebouwen met een bijbehorend vocabulaire wat een definitie van gebouwen geeft. Vervolgens biedt je in de dataspace een dataproduct aan met een subset van gebouwen, bijvoorbeeld alleen appartementen (met als 'value added' informatie het service level in het appartementen complex, zwembad, portier whatever). Daarmee heb je een nieuw vocabulaire nodig bij dit dataproduct waarbij de definitie van appartement een nauwere definitie is dan gebouw uit de bron.
 
 ## Uitwisselen van metadata (moet dit naar interoperabiliteit?)
 
