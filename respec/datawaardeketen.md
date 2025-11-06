@@ -92,9 +92,9 @@ DSFL bevat afspraken, standaarden en voorzieningen voor het kunnen uitvoeren van
 
 ## Overige afspraken over ontsluiten <>
 
-IdV: Bij de meeste organisaties zijn de bestaande afspraken uit het GI-beraad voor het beheer en ontsluiten van ruimtelijke data voor hergebruik bekend en worden tot op zekere hoogte nageleefd.  
+DSFL gaat, technisch gezien, over de koppeling en het (her-)gebruik van geodata en data in een geografische context.
 
-De afspraken over ontsluiten van geodata lijken minder bekend bij de individuele gemeenten en waterschappen. Publicatie en hergebruik van (geo)data wordt relevanter met de opkomst van smart cities en digital twins. Het is van belang de gemeenten en waterschappen te stimuleren de afspraken na te komen. Dat geldt overigens ook voor alle andere overheden: de basis van ontsluiten van (geo)data moet op orde zijn om mee te kunnen doen in het federatief data delen in bijvoorbeeld de dataspace fysieke leefomgeving. 
+Publicatie en hergebruik van (geo-)data wordt relevanter met de opkomst van concepten als smart cities en digital twins. Het is van belang dat alle partijen, en zeker de partijen in ring 0 en 1, hun (geo-)data zodanig kunnen ontsluiten dat zij mee kunnen doen in het federatief data delen.
 
 Winst bij alle overheden valt vooral te halen door bij opdrachtverlening aan een externe partij of uitvoerende overheidsorganisatie een dataparagraaf op te nemen, waarin verantwoordelijkheid voor de data wordt vastgelegd en afspraken worden gemaakt over het beheer en ontsluiten van de gecreëerde data. 
 
