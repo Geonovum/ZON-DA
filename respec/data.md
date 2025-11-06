@@ -84,24 +84,30 @@ Bij de term 'afbakening' hoort ook een set regels en een bepaalde Governance. De
 
 Een dataspace is een ecosysteem waarin aan de ene kant data- en serviceproviders en aan de andere kant potentiële consumenten/gebruikers samen worden gebracht. Aangezien in DSFL men niet per definitie 'op elkaar aangewezen is' voor een vastgesteld probleem of proces, dient een succesvolle 'matchmaking' plaats te vinden tussen vraag en aanbod. Er worden in feite relaties opgebouwd die leiden tot datadeling. Om matchmaking te faciliteren, zijn beschrijvingen vereist van de beschikbare gegevens: metadata van de data en diensten die worden aangeboden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden. De consument/gebruiker kan zo de juiste gegevens voor de juiste vraag identificeren en wordt doorgeleid naar de aanbieder.
 
-<>
-
-
-> DSFL bevat een metadata-catalogus voor het publiceren en terugvinden van informatie over de binnen DFSL bestaande datasets en diensten
+> DSFL bevat minimaal één metadata-catalogus voor het publiceren en terugvinden van informatie over de binnen DFSL bestaande datasets en diensten
 
 Het publiceren van data in DSFL bestaat voor een dataprovider uit de volgende stappen:
-- metadata over kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), etc. vaststellen 
+- metadata vaststellen over kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), de geografische component (werkingsgebied), etc.
 - metadata formeren conform het NL profiel op ISO 19115;
-- metadata opslaan in de DSFL metadata-component.
+- metadata opslaan in een DSFL metadata-catalogus. 
 
 In specifieke gevallen kan hiervan worden afgeweken. Voorbeelden waar kan worden afgeweken zijn Werkversies, operationele data en onderzoeksdata.
 
 In [DSSC Blueprint - Publication and Discovery](https://dssc.eu/space/BVE2/1071256989/Publication+and+Discovery) is meer informatie te vinden.
 
-<> Nader uit te werken:
--  <> Harvesten (moeten we dat wel willen? Dat is toch niet federatief?) van relevante metadata duidelijk opnemen, ook dat dit geldt richting (groot)aanbieders van data als naar andere (sectorale/nationale/europese/wereldwijde) catalogi
-- In hoeverre zijn de data-services zelf-beschrijvend?
-- Is de geo-vertaal functionaliteit onderdeel van deze 'component'?
+## De metadata in DSFL: van ruwe meetdata tot App Store
+
+In de DSFL wordt een brede definitie gebruikt van het begrip 'data' (zie <>). Een direct gevolg van deze brede definitie is dat ook metadata een breed assortiment aan digitale objecten en diensten kunnen beschrijven. 
+
+> Per datasoort/digitaal object wordt in DSFL bepaald welke metadata worden vastgelegd.
+
+Hierdoor ontstaan brede mogelijkheden voor het vinden en ontsluiten van digitale objecten in DSFL: van ruwe meetdata tot en met algoritmen. Op het gebied van Digital Twins openen zich de mogelijkheden om parameters, configuraties, algoritmes of zelfs complete Digital Twins kunnen worden uitgewisseld in DSFL. In dat laatste geval, uitwisselen van algoritmen of complete applicaties, spreken we als incarnatie van de metadata-catalogus van een 'App Store'. Het ondersteunen van zo'n App Store is een expliciete eis aan DSFL vanwege de nauwe verbintenis met het gebruik van Digital Twins. Het is niet moeilijk om dit concept door te trekken naar andere 'slimme' afnemers (en aanbieders), zoals een App Store voor Geografische AI modellen. Zie voor de App Store het hoofdstuk 'Componenten'.
+
+Geo-specifiek is het kunnen vertalen van en naar geografische context, zodat er over verschillende geografische assen, schalen en aanduidingen heen data gevonden kan worden. Om dit te ondersteunen, dienen alle data die in DSFL beschikbaar komen/zijn in de metadata een minimale beschrijving van geografie of het geografische werkgebied te bevatten. 
+
+> In DSFL is een beschrijving van de geografische context van data of een dataset verplicht.
+
+Dit kan zeer licht ingevuld worden, bijvorbeeld door alleen aan te geven dat het meetstation van deze data op een bepaald adres staat. De data van dit meetstation kan dan in de geografische zoekmachine (zie 'Componenten') van DSFL teruggevonden worden als het aangegeven adres zich bevindt binnen de zoekregio van een 'gebruikersvraag'. 
 
 
 
