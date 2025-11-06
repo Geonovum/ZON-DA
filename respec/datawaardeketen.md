@@ -69,7 +69,7 @@ Burgers, bedrijfsleven en de overheid zelf stellen constant ruimtelijke vragen:
 
 ## Vocabulaire (nieuw toegevoegd, Arno)
 
-Ine gaat dit samenvoegen met paragraaf over metadata
+Ine gaat dit samenvoegen met paragraaf over metadata <>noot van RK: metadata is een apart hoofdstuk geworden
 
 Arno: Uit overleg 1-9-2025 nog de opmerking dat er overlap is met par. 3.5 Semantisch (Danny, Walter) EN dat vocabulaires/waardelijsten een belangrijk onderdeel zijn van DSFL, dit voegt waarde/kennis toe aan data!
 
