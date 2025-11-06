@@ -56,12 +56,14 @@ Binnen de context van DSFL geldt dat de plaats waar de data wordt gepubliceerd e
 
 ## Zoeken en vinden
 Burgers, bedrijfsleven en de overheid zelf stellen constant ruimtelijke vragen: 
-•	Waar in de buurt van dit koop- of huurhuis zijn de openbare voorzieningen? Waar kan ik het meest dichtbij mijn afval wegbrengen? 
-•	Mag ik hier bouwen? Is de bodem hier verontreinigd? 
-•	Welke gebieden worden met overstroming bedreigd? 
-•	Waar is de woonomgevingbeleving het laagst? 
-•	Waar spreekt overheidsbeleid zich zelf tegen vanuit verschillende wettelijke bepalingen? 
-•	Waar in een wijk is ruimte om een nieuwe school te plaatsen? En staat die niet te dichtbij coffeeshops en cafés? 
+- Waar in de buurt van dit koop- of huurhuis zijn de openbare voorzieningen?
+- Waar kan ik het meest dichtbij mijn afval wegbrengen?
+- Mag ik hier bouwen?
+- Is de bodem hier verontreinigd?
+- Welke gebieden worden met overstroming bedreigd?
+- Waar is de woonomgevingbeleving het laagst?
+- Waar spreekt overheidsbeleid zich zelf tegen vanuit verschillende wettelijke bepalingen?
+- Waar in een wijk is ruimte om een nieuwe school te plaatsen? En staat die niet te dichtbij coffeeshops en cafés? 
 
 <>
 
