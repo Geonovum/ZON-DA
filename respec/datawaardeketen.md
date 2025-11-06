@@ -42,20 +42,17 @@ _Nog uit te werken: staat nu hierboven. Wellicht nog tekst nodig om de term 'dom
 
 
 
-
 ## Publicatie van beschikbare data
 
-Na elke stap in de datawaardeketen kunnen data beschikbaar komen die voor (her-)gebruik in aanmerking komen. Deze data dient echter kenbaar gemaakt te worden Om deze 'matchmaking' tussen gegevensaanbieder en -afnemer/gebruiker plaats te kunnen laten vinden <>
-<>Deze stap wordt de 'Publicatie' van gegevens genoemd.
+Na elke stap in de datawaardeketen kunnen data beschikbaar komen die voor (her-)gebruik in aanmerking komen. Deze data dient echter kenbaar gemaakt te worden Om deze 'matchmaking' tussen gegevensaanbieder en -afnemer/gebruiker plaats te kunnen laten vinden. Deze stap wordt de 'Publicatie' van gegevens genoemd.
 
-In de federatieve gedachte is de aanbieder van data niet altijd dezelfde als de eigenaar van de data. Het publiceren is wel een operationele, intensieve activiteit die wel (geautomatiseerd) bij de gegevensaanbieder wordt uitgevoerd. De gegevenseigenaar bepaalt echter wel wat en in hoeverre bepaalde gegevens gepubliceerd mogen worden.
+In de federatieve gedachte is de aanbieder van data niet altijd dezelfde als de eigenaar van de data. Het publiceren is wel een operationele, intensieve activiteit die wel (geautomatiseerd) bij de gegevensaanbieder wordt uitgevoerd. De gegevenseigenaar bepaalt echter wel wat en in hoeverre bepaalde gegevens in welke stap van de waardeketen gepubliceerd mogen worden.
 
 > Om herbruikbaarheid van gegevens te faciliteren en te stimuleren, worden in DSFL beschikbare gegevens door de gegevensaanbieder volgens aanwijzingen van de gegevenseigenaar bekendgemaakt ('gepubliceerd')
 
 Binnen de context van DSFL geldt dat de plaats waar de data wordt gepubliceerd een (voor de DSFL) centrale component is, die minimaal de volgende functionaliteit bevat:
 - Providers kunnen (a) deze beschrijvingen als aanbiedingen beschikbaar stellen, waardoor ze zichtbaar worden voor alle (of een deel van) andere deelnemers aan de dataruimte die als potentiële consumenten worden beschouwd, en (b) aanbiedingen beheren in overeenstemming met hun levenscyclus (publiceren, bijwerken, verwijderen) en de toegang ertoe beheren;
 - Consumenten kunnen tussen aanbiedingen zoeken om te bepalen of de kenmerken en voorwaarden voldoen aan hun behoeften en vereisten, en vervolgens toegang aanvragen tot de aangeboden data of dienst.
-
 
 
 ## Vocabulaire (nieuw toegevoegd, Arno)
@@ -82,7 +79,18 @@ DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatal
 - Data lineage – per stap in de waardeketen
 - Toegankelijkheid van metadata voor alle toepassingsdomeinen – generiek doorzoekbaar maken
 
-## Overige fspraken over ontsluiten <>
+
+## Data lineage
+
+DFSFL implementeert het principe van federatief datadelen voor alle partijen en processen die zich bewegen/voordoen in de fysieke leefomgeving. Dat is nogal een brede scope: er zijn potentieel veel partijen en veel data aan de orde. Daarom is het belangrijk dat de eigenaar van data te allen tijde het gebruik en de verwerking van 'zijn' data in de hele datawaardeketen kan volgen, al is het alleen al om eventuele problemen en fouten te kunnen ondervangen. 
+
+Deze controle-mogelijkheid heet 'data lineage'.
+
+DSFL heeft voor het kunnen uitvoeren van data lineage een aantal afspraken, standaarden en voorzieningen nodig. 
+
+<>
+
+## Overige afspraken over ontsluiten <>
 
 IdV: Bij de meeste organisaties zijn de bestaande afspraken uit het GI-beraad voor het beheer en ontsluiten van ruimtelijke data voor hergebruik bekend en worden tot op zekere hoogte nageleefd.  
 
