@@ -86,9 +86,9 @@ DFSFL implementeert het principe van federatief datadelen voor alle partijen en 
 
 Deze controle-mogelijkheid heet 'data lineage'.
 
-DSFL heeft voor het kunnen uitvoeren van data lineage een aantal afspraken, standaarden en voorzieningen nodig. 
+DSFL bevat afspraken, standaarden en voorzieningen voor het kunnen uitvoeren van data lineage. 
 
-<>
+<>welke? Niels?
 
 ## Overige afspraken over ontsluiten <>
 
