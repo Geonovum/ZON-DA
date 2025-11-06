@@ -83,7 +83,7 @@ Stel je hebt een bron van gebouwen met een bijbehorend vocabulaire wat een defin
 
 ## Data lineage
 
-DFSFL implementeert het principe van federatief datadelen voor alle partijen en processen die zich bewegen/voordoen in de fysieke leefomgeving. Dat is nogal een brede scope: er zijn potentieel veel partijen en veel data aan de orde. Daarom is het belangrijk dat de eigenaar van data te allen tijde het gebruik en de verwerking van 'zijn' data in de hele datawaardeketen kan volgen, al is het alleen al om eventuele problemen en fouten te kunnen ondervangen. 
+DFFL implementeert het principe van federatief datadelen voor alle partijen en processen die zich bewegen/voordoen in de fysieke leefomgeving. Dat is nogal een brede scope: er zijn potentieel veel partijen en veel data aan de orde. Daarom is het belangrijk dat de eigenaar van data te allen tijde het gebruik en de verwerking van 'zijn' data in de hele datawaardeketen kan volgen, al is het alleen al om eventuele problemen en fouten te kunnen ondervangen. 
 
 Deze controle-mogelijkheid heet 'data lineage'.
 
