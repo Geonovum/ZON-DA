@@ -90,7 +90,7 @@ Voor de benodigde componenten lopen we de core componenten af uit [IDS-RAM4 Syst
 
 **Identity Provider en Dataspace Connector**
 
-Een minimale dataspace bestaat (volgens ISDA, zie [What is a Minimum Viable Data Space?](https://docs.internationaldataspaces.org/ids-knowledgebase/ids-reference-testbed/minimum-viable-data-space/mvds)):
+Een minimale dataspace bestaat (volgens IDSA, zie [What is a Minimum Viable Data Space?](https://docs.internationaldataspaces.org/ids-knowledgebase/ids-reference-testbed/minimum-viable-data-space/mvds)):
 1. Twee connectoren (één bij de data aanbieder en één bij de data afnemer);
 2. Een identity provider (die o.a. informatie bevat over de deelnemers en digitale certificaten levert voor vertrouwde uitwisseling van data).
 
@@ -98,9 +98,9 @@ Een minimale dataspace bestaat (volgens ISDA, zie [What is a Minimum Viable Data
 
 **App Store en Data Apps**
 
-De App Store en Data Apps zijn optioneel. Een eerste versie van de DSFL zal nog geen herbruikbare Apps bevatten. Na enige tijd is het goed mogelijk deze toe te voegen.
+De App Store en Data Apps zijn optioneel. in het IDSA model. Om datagedreven werken aan maatschappelijke opgaven in de fysieke leefomgeving mogelijk te maken wordt binnen Zicht op Nederland ingezet op de ontwikkeling van aan elkaar verbonden Digital Twins. Deze Digital Twins gebruiken (ook) metadata om hun onderlinge verbanden en scope van gebruik te publiceren.  
 
-> De DSFL zal bij de start geen App Store / Data Apps bevatten.
+> De doelarchitectuur van DSFL ondersteunt (over de as van de metadata) het aansluiten van App Stores. In het kader van Zicht op Nederland is dit met name een App Store voor het uitwisselen van data, algoritmen en complete modellen van Digital Twins.
 
 **Metadata Broker**
 
@@ -146,9 +146,10 @@ Er zijn ook nog een heel aantal andere enablers die optioneel onderdeel van de v
 <>
 
 ### App Store voor Digital Twins
-<>
 
+In het kader van Zicht op Nederland ondersteunt de doelarchitectuur DSFL de ontwikkeling van een Store voor het uitwisselen van data, algoritmen en complete modellen van Digital Twins. Deze App Store is dan ook een component in de DSFL.
 
+Deze App Store is <>
 
 ## Hergebruik van bestaande componenten
 <wat is er al, wie heeft het al/hergebruik, wat moet er nog ontwikkeld/bepaald/gekozen worden> 
