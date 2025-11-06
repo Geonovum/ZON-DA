@@ -139,6 +139,16 @@ Dataspace Connector Consumer; Definition: Data Space Connector Consumer ABB is a
 Er zijn ook nog een heel aantal andere enablers die optioneel onderdeel van de value service van een dataspace kunnen zijn of relevant kunnen zijn voor de aansluiting in het domein van de provider of de consumer. Het lijstje: API Enablers, Orchestration Enablers, Trust Enablers, Data Exchange Enablers, Translation Enablers, Privacy Enablers, Digital Workplace Enablers, Test Enablers, Security Enablers, Knowledge Dicovery Enablers, Analytics Enablers, Artificial Intelligence Enablers, Data Management Enablers, User Experience Management Enablers, Schedule Management Enablers.
 
 
+## Specifieke componenten van DSFL
+<>
+
+### Geo-zoekcomponent
+<>
+
+### App Store voor Digital Twins
+<>
+
+
 
 ## Hergebruik van bestaande componenten
 <wat is er al, wie heeft het al/hergebruik, wat moet er nog ontwikkeld/bepaald/gekozen worden> 
