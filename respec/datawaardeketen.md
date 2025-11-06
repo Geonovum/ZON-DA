@@ -54,6 +54,16 @@ Binnen de context van DSFL geldt dat de plaats waar de data wordt gepubliceerd e
 - Providers kunnen (a) deze beschrijvingen als aanbiedingen beschikbaar stellen, waardoor ze zichtbaar worden voor alle (of een deel van) andere deelnemers aan de dataruimte die als potentiële consumenten worden beschouwd, en (b) aanbiedingen beheren in overeenstemming met hun levenscyclus (publiceren, bijwerken, verwijderen) en de toegang ertoe beheren;
 - Consumenten kunnen tussen aanbiedingen zoeken om te bepalen of de kenmerken en voorwaarden voldoen aan hun behoeften en vereisten, en vervolgens toegang aanvragen tot de aangeboden data of dienst.
 
+## Zoeken en vinden
+Burgers, bedrijfsleven en de overheid zelf stellen constant ruimtelijke vragen: 
+•	Waar in de buurt van dit koop- of huurhuis zijn de openbare voorzieningen? Waar kan ik het meest dichtbij mijn afval wegbrengen? 
+•	Mag ik hier bouwen? Is de bodem hier verontreinigd? 
+•	Welke gebieden worden met overstroming bedreigd? 
+•	Waar is de woonomgevingbeleving het laagst? 
+•	Waar spreekt overheidsbeleid zich zelf tegen vanuit verschillende wettelijke bepalingen? 
+•	Waar in een wijk is ruimte om een nieuwe school te plaatsen? En staat die niet te dichtbij coffeeshops en cafés? 
+
+<>
 
 ## Vocabulaire (nieuw toegevoegd, Arno)
 
