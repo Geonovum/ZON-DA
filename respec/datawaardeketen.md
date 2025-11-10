@@ -39,7 +39,7 @@ Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan
 > Het uitgangspunt is: er is een informatiemodel voor waarnemingen.
 
 Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen. 
-Deze randvoorwaarden volgen uit de Observations and Measurements <a>OMS3</a> standaard die gevolgd wordt.
+Deze randvoorwaarden volgen uit de Observations and Measurements (<a>OMS3</a>) standaard die gevolgd wordt.
 
 Merk op dat de term 'inwinnen' ook gebruikt wordt voor registraties zoals de BGT, in dit geval spreken we niet noodzakelijk over waarneming of metingen, maar geldt natuurlijk ook dat er eisen gesteld worden aan de kwaliteit van de ingewonnen data.
 
