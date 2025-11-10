@@ -34,11 +34,14 @@ Dit principe heeft een gevolg, namelijk dat het wel duidelijk moet zijn wat de w
 Deze waarde/kwaliteit is een metagegeven van de data.
 
 Inwinnen
-Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. Deze doelarchitectuur beschrijft niet in detail hoe waarnemingen leiden tot data. Er kunnen wel eisen gesteld worden aan de waarnemingen. Daarom is er voor waarnemingen een datamodel nodig.
+Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. Deze doelarchitectuur beschrijft niet in detail hoe waarnemingen leiden tot data. Er kunnen wel eisen gesteld worden aan de waarnemingen. Daarom is er voor waarnemingen een datamodel nodig. 
 
 > Het uitgangspunt is: er is een informatiemodel voor waarnemingen.
 
-Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen.
+Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen. 
+Deze randvoorwaarden volgen uit de Observations and Measurements (<a>OMS3</a>) standaard die gevolgd wordt.
+
+Merk op dat de term 'inwinnen' ook gebruikt wordt voor registraties zoals de BGT, in dit geval spreken we niet noodzakelijk over waarneming of metingen, maar geldt natuurlijk ook dat er eisen gesteld worden aan de kwaliteit van de ingewonnen data.
 
 Interpreteren en visualiseren
 _Nog uit te werken: staat nu hierboven. Wellicht nog tekst nodig om de term 'domein' te duiden._
@@ -76,23 +79,25 @@ Ine gaat dit samenvoegen met paragraaf over metadata <>noot van RK: metadata is 
 
 Arno: Uit overleg 1-9-2025 nog de opmerking dat er overlap is met par. 3.5 Semantisch (Danny, Walter) EN dat vocabulaires/waardelijsten een belangrijk onderdeel zijn van DSFL, dit voegt waarde/kennis toe aan data!
 
-Met hetzelfde doel, het vinden en gebruiken van de data producten, beheren vocabulaireproviders een vocabulary, die wordt gebruikt om data producten te annoteren en te beschrijven (inclusief ontologieën, referentie data modellen, metadata-elementen). Vocabulaireproviders leveren deze (domein-specifieke) vocabulaires en hun verwijzingen naar het informatiemodel, dat de basis vormt voor de beschrijving van data producten.
+Met hetzelfde doel, het vinden en gebruiken van de data producten, beheren vocabulaireproviders een vocabulary, die wordt gebruikt om data producten te annoteren en te beschrijven (inclusief ontologieën, referentie data modellen, metadata-elementen). Vocabulaireproviders leveren deze (domein-specifieke) vocabulaires en hun verwijzingen naar het informatiemodel, dat de basis vormt voor de beschrijving van data producten. 
 
 Nader uit te werken:
 - Behoort de vocabulaire bij de bron of is het onderdeel van het datastelsel?
 Antwoord: (Niels) Een vocabulaire hoort bij een dataproduct (en daarmee bij het stelsel).
-Stel je hebt een bron van gebouwen met een bijbehorend vocabulaire wat een definitie van gebouwen geeft. Vervolgens biedt je in de dataspace een dataproduct aan met een subset van gebouwen, bijvoorbeeld alleen appartementen (met als 'value added' informatie het service level in het appartementen complex, zwembad, portier whatever). Daarmee heb je een nieuw vocabulaire nodig bij dit dataproduct waarbij de definitie van appartement een nauwere definitie is dan gebouw uit de bron.
+Stel je hebt een bron van gebouwen met een bijbehorend vocabulaire wat een definitie van gebouwen geeft. Vervolgens biedt je in de dataspace een dataproduct aan met een subset van gebouwen, bijvoorbeeld alleen appartementen (met als 'value added' informatie het service level in het appartementen complex, zwembad, portier whatever). Daarmee heb je een nieuw vocabulaire nodig bij dit dataproduct waarbij de definitie van appartement een nauwere definitie is dan gebouw uit de bron. 
+
+-> Dat gezegd hebbende, is het natuurlijk van belang om zoveel mogelijk 'convergentie' in termen en definities na te streven. Dus daar waar een term uit een andere (bovenliggende) bron hergebruikt kan worden moet deze niet opnieuw worden gedefinieerd, maar moet er verwezen worden naar het andere vocabulaire.
 
 
 ## Data lineage
 
-DFFL implementeert het principe van federatief datadelen voor alle partijen en processen die zich bewegen/voordoen in de fysieke leefomgeving. Dat is nogal een brede scope: er zijn potentieel veel partijen en veel data aan de orde. Daarom is het belangrijk dat de eigenaar van data te allen tijde het gebruik en de verwerking van 'zijn' data in de hele datawaardeketen kan volgen, al is het alleen al om eventuele problemen en fouten te kunnen ondervangen. 
+DSFL implementeert het principe van federatief datadelen voor alle partijen en processen die zich bewegen/voordoen in de fysieke leefomgeving. Dat is nogal een brede scope: er zijn potentieel veel partijen en veel data aan de orde. ~~Daarom is het belangrijk dat de eigenaar van data te allen tijde het gebruik en de verwerking van 'zijn' data in de hele datawaardeketen kan volgen, al is het alleen al om eventuele problemen en fouten te kunnen ondervangen.~~ (een Eigenaar zal nooit altijd alle downstream verwerkingen kunnen volgen, en kan daar dus ook niet verantwoordelijk voor gehouden worden.) Het is de verantwoordelijkheid van een eigenaar van een dataproduct om te documenteren wat de brongegevens zijn en het moet mogelijk zijn voor afnemers om de lineage van het dataproduct te bevragen. 
 
 Deze controle-mogelijkheid heet 'data lineage'.
 
 DSFL bevat afspraken, standaarden en voorzieningen voor het kunnen uitvoeren van data lineage. 
 
-<>welke? Niels?
+<>welke? Niels? -> De NORA kent (binnenkort) een handreiking datalineage met uitleg hoe data lineagepatronen ingericht kunnen worden.
 
 ## Overige afspraken over ontsluiten <>
 
