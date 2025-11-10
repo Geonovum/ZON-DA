@@ -1,12 +1,15 @@
 ## Datawaardeketen
 De doelarchitectuur van DSFL is gebaseerd op de datawaardeketen, zoals die is gemodelleerd in Zicht op Nederland. DSFL wordt zodanig ontworpen dat deze datawaardeketen kan worden opgebouwd - voor een deel generiek, voor een deel vraaggestuurd.
 
+Een datawaardeketen in de context van Zicht op Nederland is een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren.
+
 Dit hoofdstuk beschrijft de datawaardeketen en de implicaites voor (het ontwerp van) de DSFL.
 
 
 ## De waardeketen (Paul/Peter /Stephan) <>aanvullen/afmaken keten
 
 In de Meerjarenvisie Zicht op Nederland is de waardeketen gedefinieerd als een opeenvolging van activiteiten die stap voor stap waarde toevoegen aan data om de bruikbaarheid ervan in een besluitvormingsproces te maximaliseren. De keten omvat het inwinnen van gegevens, ontsluiten en analyseren ervan en het gebruiken van de inzichten die hiermee verworven worden. (zie onderstaande figuur). 
+
 Deze keten ontvouwt zich volgens het Data–Informatie-Kennis-Handelingsperspectief principe.  
 
 <figure><img src='media/Datawaardeketen_ZoN_architectuur.svg' alt='Principe van de datawaardeketen in Zicht op Nederland.' style='width: 100%;'></img><figcaption>Principe van de datawaardeketen in Zicht op Nederland.<i></i></figcaption></figure>
