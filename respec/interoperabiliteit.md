@@ -1,9 +1,10 @@
 # Interoperabiliteit
-<scope van dit document: technische interoperabiliteit en semantische operabiliteit zoals in het OpenDEI/DSSC model>
+Interoperabiliteit gaat over het vermogen van het stelsel om de deelnemende partijen data met elkaar te laten delen en/of uit te wisselen (definitie die FDS ook gebruikt). Het FDS noemt interoperabiliteit als 1 van de 4 bekwaamheden binnen de functionele requirements aan het stelsel. 
 
-Voor Zicht op Nederland moeten we eerst een aantal termen die in ons domein leven goed definiëren en daarmee een plaats geven in het model. Tevens speelt geo-informatie een belangrijke rol. Geo-informatie heeft een aantal specifieke rollen en kenmerken die in de architectuur van Zicht op Nederland een aparte vermelding en specifieke oplossingen waard zijn.
+> Dit betekent voor DSFL:
+> - De DSFL zal voldoen aan de voorwaarden van het FDS als het gaat om interoperabiliteit
 
-Algemeen: focus op geo leggen.
+Het FDS benoemt binnen Interoperabiliteit drie bouwblokken: datamodellen, dataservices en traceerbaarheid. Dit komt overeen met de bouwblokken van het DSSC op het gebied van data interoperabiliteit: data models, data exchange en provenance and traceability. Deze bouwblokken gaan over de technisch-inhoudelijke kant van datadelen. Het is belangrijk te benoemen dat voor het bereiken van interoperabiliteit, naast technisch-inhoudelijke zaken, ook zaken aan de governance kant moeten worden geregeld. Dit wordt benoemd in de Interoperable Europe Act en het European Interoperability Framework.
 
 Uit [Handreiking EU informatie m.b.t. digitale en data-strategie](https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/):
 
@@ -18,6 +19,8 @@ De Verordening heeft 3 doelstellingen:
 
 > Dit betekent voor DSFL:
 > - De DSFL zal voldoen aan de voorwaarden van de Interoperable Europe Act
+
+Na het benoemen van de juridische en organisatie aspecten van interoperabiliteit in de volgende paragrafen richt de scope van dit document  zich verder op de technische interoperabiliteit en semantische operabiliteit zoals in het FDS/OpenDEI/DSSC model wordt benoemd. Specifiek voor de DSFL gaat het dan ook om geo-specifieke zaken.
 
 ## Interoperabiliteit (Yvette, Walter)
 - EIF lagenmodel uitgelegd.
