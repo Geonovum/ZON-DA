@@ -21,9 +21,15 @@ De ‘datagedreven aanpak’ wordt ingevuld door aansluiting (op de architectuur
 
 ## Wat regelt DSFL?
 
-DSFL is het ecosysteem waarin gegevens over de fysieke leefomgeving (in brede zin) kunnen worden gecombineerd om te kunnen worden gebruikt tot gebiedsinformatie voor vrijwel elk denkbare opgave die gaat over de inrichting en het gebruik van de fysieke leefomgeving. De volgende functionaliteit wordt ondersteund/geleverd:
+
+DSFL is het ecosysteem waarin gegevens over de fysieke leefomgeving (in brede zin) kunnen worden gecombineerd om te kunnen worden gebruikt tot gebiedsinformatie voor vrijwel elk denkbare opgave, beleidscyclus of operationele cyclus die gaat over de inrichting en het gebruik van de fysieke leefomgeving. 
+
+[ZoN propositie beleidscycli plaatje 2025.pdf](https://github.com/user-attachments/files/23504209/ZoN.propositie.beleidscycli.plaatje.2025.pdf)
+
+
+De volgende functionaliteit wordt ondersteund/geleverd:
 - geo-data uniform vindbaar en verwijsbaar maken, zodat gebiedsinformatie kan ontstaan uit verschillende gegevensbronnen;
-- geo-basisregistraties (‘ring 0’ uit het Datafundament) en wettelijk aangewezen registraties (‘ring 1’) uniform benaderbaar en ‘optelbaar’ maken (‘Stelsel Basisregistraties 2.0’) door middel van duidelijke afspraken over het invullen van (geo-)uitwisselstandaarden (API's) en publiceren van metadata in een daartoe aangewezen voorziening;
+- geo-basisregistraties (‘kern’ uit het Datafundament, zie hiervoor het hoofdstuk 'Data') en wettelijk aangewezen registraties (‘ring 1’) uniform benaderbaar en ‘optelbaar’ maken (‘Stelsel Basisregistraties 2.0’) door middel van duidelijke afspraken over het invullen van (geo-)uitwisselstandaarden (API's) en publiceren van metadata in een daartoe aangewezen voorziening;
 - vertalen / benaderbaar maken van geografische data-elementen naar niet-geo gebruikers en andersom (niet-geo data bruikbaar maken voor afbeelding op geografische data, zoals kaarten). Dit vereist waarschijnlijk een nieuwe voorziening die bijvoorbeeld vertalingen van adressen, lokatie-beschrijvingen en verschillende coørdinatenstelsels kan maken;
 - reguleren van gebruik op basis van typen gebruikers/deelnemers en ‘gebruikscontracten’. Dit bindt een aantal doelstellingen en principes rondom privacy/security, doelbinding en juridische borging;
 - aansluiten (of aan kunnen sluiten) op stelsels in andere domeinen. Dit gebeurt met name door conformeren aan bredere principes en standaarden (FDS, iShare, EU dataspaces);
