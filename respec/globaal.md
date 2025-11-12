@@ -24,7 +24,7 @@ De ‘datagedreven aanpak’ wordt ingevuld door aansluiting (op de architectuur
 
 DSFL is het ecosysteem waarin gegevens over de fysieke leefomgeving (in brede zin) kunnen worden gecombineerd om te kunnen worden gebruikt tot gebiedsinformatie voor vrijwel elk denkbare opgave, beleidscyclus of operationele cyclus die gaat over de inrichting en het gebruik van de fysieke leefomgeving. 
 
-[ZoN propositie beleidscycli plaatje 2025.pdf](https://github.com/user-attachments/files/23504209/ZoN.propositie.beleidscycli.plaatje.2025.pdf)
+
 
 
 De volgende functionaliteit wordt ondersteund/geleverd:
