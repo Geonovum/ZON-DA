@@ -56,7 +56,7 @@ Daarnaast zijn er datasets waarvan het bestaan niet publiek bekend is – deze b
 
 Het ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zie figuur).
 
-<figure><img src='respec/media/ringenmodel_datasets.png' alt='Classificatie van databronnen in Ringmodel.' style='width: 100%;'></img><figcaption>Classificatie van databronnen in Ringmodel.<i></i></figcaption></figure>
+<figure><img src='media/ringenmodel_datasets.png' alt='Classificatie van databronnen in Ringmodel.' style='width: 100%;'></img><figcaption>Classificatie van databronnen in Ringmodel.<i></i></figcaption></figure>
 
 > DSFL gebruikt het ringenmodel om datasets en/of -bronnen te classificeren op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Daarmee wordt bepaald op welke manier en in welke context een dataset bruikbaar is of kan worden binnen de DSFL.  
 
@@ -145,7 +145,7 @@ In de waardeketen verandert per stap de rol van kwaliteit. Daar waar de waarnemi
 
 Er is in de context van NORA een [stappenplan](https://www.noraonline.nl/wiki/Stappenplan_gegevenskwaliteit) ontwikkeld voor het verbeteren van de kwaliteit van gegevens dat bronhouders een handreiking biedt (zie volgende figuur). Het geeft aan welke stappen voor een specifieke gegevensverzameling zou moeten worden gezet. De basis is dat er voldoende algemene afspraken en inrichting aanwezig zijn in de vorm van bijvoorbeeld strategie, beleid, governance, architectuur, processen en systemen. Voor het verbeteren van de kwaliteit van een specifieke gegevensverzameling is vervolgens nodig om de context te bepalen, de gegevens te beschrijven in de vorm van metagegevens, de kwaliteitsregels en -eisen te beschrijven, de kwaliteit te meten, afwijkingen en andere signalen zoals terugmeldingen af te handelen en verbetermaatregelen uit te voeren. In de context van de basisregistraties zijn al allerlei kwaliteitsdashboards en rapportages beschikbaar om dit soort processen te ondersteunen. Het verbeteren van de kwaliteit van gegevens staat relatief los van het datastelsel. Het is vooral een randvoorwaarde voor de waardeketen zelf. 
 
-![Stappenplan gegevenskwaliteit](./respec/media/stappenplan_gegevenskwaliteit.png)
+![Stappenplan gegevenskwaliteit](./media/stappenplan_gegevenskwaliteit.png)
 
 In een datastelsel ligt de nadruk op het uitwisselen van gegevens. Daarbij is het vooral belangrijk dat er informatie en metagegevens beschikbaar zijn over kwaliteit. 
 
