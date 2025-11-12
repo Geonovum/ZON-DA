@@ -1,31 +1,49 @@
-# Gegevens, data en metadata in DSFL
+# Een semantische kluwen
+Voor het begrippen 'dataset' en 'databron' grijpen we terug op de definitie van data.overheid.nl:
 
-## 'Gegevens' en 'data' in de context van DSFL
+**Dataset:** een beschrijving van een verzameling van data van een data-eigenaar. Dit kan bijvoorbeeld één tabel met data zijn of een verzameling van tabellen met samenhangende data, bijvoorbeeld alle tabellen per jaar over de periode 2005-2016.  
+**Databron:** een verwijzing naar de daadwerkelijke vindplaats van data die in de dataset wordt benoemd. 
+
+In de GDI wordt gesproken over 'bronnen ' en 'registraties': een **bron** is “een registratie die is aangewezen als de plaats waarin gegevens worden beheerd.” Een **registratie** wordt in de GDI gedefinieerd als “een gegevensverzameling waarin gegevens worden vastgelegd."
+
+Dit is een semantische kluwen. Vandaar dat gegevens, data, datasets, bronnen en databronnen in het kader van Zicht op Nederland moeten worden geduid.
+
+Dit geldt in mindere mate voor het begrip 'metadata'. 
+
+
+## 'Gegevens', 'data', 'datasets' en '(data-)bronnen' in de context van DSFL
 
 Om meteen met de deur in huis te vallen:
-> De termen 'gegevens' en 'data' worden in deze Doelarchitectuur gebruikt als synoniem.
+> De termen **gegevens** en **data** worden in deze Doelarchitectuur gebruikt als synoniem en mogen dus door elkaar gebruikt worden.
+
+> De term **dataset** wordt gebruikt voor een bundeling van data, ongeacht over welke as deze bindeling plaatsvindt.
+
+> De termen **bron** en **databron** (en gevoeglijk ook **gegevensbron**) worden gebruikt voor de aanwijzing van de plaats waar data wordt geregistreerd (vastgelegd) en beheerd.
 
 > Zicht op Nederland, en daarmee de scope van DSFL, is gericht op het delen van data in een ruimtelijke ('geo-')context.
+
+## Welke data zijn in scope van DSFL?
+
+De scope van de data 'in' DSFL is beschreven in het beleidsplan Zicht op Nederland en de Tweede Kamerbrief van de Minister van VRO uit februari 2024:
+
+> Voor de DSFL zijn alle data in scope die nodig zijn voor het integraal beantwoorden voor maatschappelijke opgaven in de fysieke leefomgeving (en de ruimtelijke ordening).
+
 Veel data in DSFL zal geografische data zijn, maar dat hoeft niet. Voor bepaalde maatschappelijke opgaven kan het nodig zijn om data die niet per se geografisch is opgeslagen (zoals projectmetingen) toch af te beelden op geografische ondergronden.
 
 Om deze combinatie van geografische en niet-geografische data mogelijk te maken bevat DSFL een aantal hulpcomponenten. Zie hiervoor het hoofdstuk Componenten.
 
 In DSFL worden niet alleen de klassieke data uitgewisseld. In het kader van datagedreven werken zijn er ook meer en meer informatie-producten die binnen de datawaardeketen uitgewisseld worden. 
 
-> Onder 'gegevens' of 'data' in het kader van DSFL worden verstaan niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’).
+> Onder gegevens of **data in het kader van DSFL** worden verstaan niet alleen klassieke data, maar ook daarvan afgeleide informatie-producten en andere digitale objecten (‘digital assets’ of ‘digital artefacts’).
 
 Voorbeelden hiervan zijn algoritmen die door modellen en Digital Twins kunnen worden uitgewisseld, of interne parameters van AI-modellen. Het vinden en uitwisselen van deze digitale objecten kan leiden tot specifieke extra afspraken binnen DSFL. Denk hierbij bijvoorbeeld aan het inrichten van een 'App Store' waarin Digital Twins en relevante algoritmen kunnen worden gevonden (en 'gedownload'). 
 
 DSFL is daarmee een heterogeen, dynamisch gegevenslandschap dat binnen de vastgestelde regels (zie Governance) kan groeien.
 
-## Datasets en databronnen: een dynamisch ringenmodel 
+## Datafundament van Zicht op Nederland: een dynamisch ringenmodel 
 
-Voor het begrippen 'dataset' en 'databron' grijpen we terug op de definitie van data.overheid.nl:
+In het kader van Zicht op Nederland zijn de (geo-)Basisregistraties de belangrijkste bronnen voor het leveren van basis datasets.
 
-**Dataset:** een beschrijving van een verzameling van data van een data-eigenaar. Dit kan bijvoorbeeld één tabel met data zijn of een verzameling van tabellen met samenhangende data, bijvoorbeeld alle tabellen per jaar over de periode 2005-2016.  
-**Databron:** een verwijzing naar de daadwerkelijke vindplaats van data die in de dataset wordt benoemd. Een dataset bevat één of meer databronnen. In het voorbeeld is er één databron in de vorm van één tabel met data of meerdere  databronnen overeenkomend met het aantal tabellen per jaar.
-
-In het kader van Zicht op Nederland zijn de (geo-)Basisregistraties de belangrijkste databronnen voor het leveren van basis datasets.
 Naast de basisregistraties bestaan er diverse andere – vaak domein specifieke - datasets bij een veelheid van databronnen. Sommige datasets zijn inhoudelijk aanvullend op die in de basisregistraties, andere overlappen deels hiermee. De kwaliteit (juistheid, volledigheid, actualiteit) is variabel. Ook de mate van toegankelijkheid en bruikbaarheid varieert: sommige datasets zijn publiek beschikbaar en gestandaardiseerd, andere niet. Daarnaast verschilt de governance: is beheer duurzaam geregeld en gefinancierd.
 
 Op basis van deze kenmerken classificeren we datasets in een ringenmodel: 
@@ -87,21 +105,22 @@ Een dataspace is een ecosysteem waarin aan de ene kant data- en serviceproviders
 > DSFL bevat minimaal één metadata-catalogus voor het publiceren en terugvinden van informatie over de binnen DFSL bestaande datasets en diensten
 
 Het publiceren van data in DSFL bestaat voor een dataprovider uit de volgende stappen:
-- metadata vaststellen over kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), de geografische component (werkingsgebied), etc.
-- metadata formeren conform het NL profiel op ISO 19115;
+- metadata vaststellen over o.a. kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), de geografische component (werkingsgebied);9
+- metadata formeren conform het NL profiel op ISO 19115. Deze ISO standaard is belangrijk in de Geo-wereld. In FDS is DCAT als standaard opgenomen;voorgeschreven, en wel specifiek het Nederlands profiel op DCAT (DCAT-AP-NL). Er zal een mapping nodig zijn op DCAT-AP-NL zodat metadata daarmee ook conform DCAT kan worden uitgeleverd
 - metadata opslaan in een DSFL metadata-catalogus. 
 
-In specifieke gevallen kan hiervan worden afgeweken. Voorbeelden waar kan worden afgeweken zijn Werkversies, operationele data en onderzoeksdata.
 
 In [DSSC Blueprint - Publication and Discovery](https://dssc.eu/space/BVE2/1071256989/Publication+and+Discovery) is meer informatie te vinden.
 
 ## De metadata in DSFL: van ruwe meetdata tot App Store
 
-In de DSFL wordt een brede definitie gebruikt van het begrip 'data' (zie <>). Een direct gevolg van deze brede definitie is dat ook metadata een breed assortiment aan digitale objecten en diensten kunnen beschrijven. 
+In de DSFL wordt een brede definitie gebruikt van het begrip 'data'. Een direct gevolg van deze brede definitie is dat ook metadata een breed assortiment aan digitale objecten en diensten kunnen beschrijven. 
 
 > Per datasoort/digitaal object wordt in DSFL bepaald welke metadata worden vastgelegd.
 
-Hierdoor ontstaan brede mogelijkheden voor het vinden en ontsluiten van digitale objecten in DSFL: van ruwe meetdata tot en met algoritmen. Op het gebied van Digital Twins openen zich de mogelijkheden om parameters, configuraties, algoritmes of zelfs complete Digital Twins kunnen worden uitgewisseld in DSFL. In dat laatste geval, uitwisselen van algoritmen of complete applicaties, spreken we als incarnatie van de metadata-catalogus van een 'App Store'. Het ondersteunen van zo'n App Store is een expliciete eis aan DSFL vanwege de nauwe verbintenis met het gebruik van Digital Twins. Het is niet moeilijk om dit concept door te trekken naar andere 'slimme' afnemers (en aanbieders), zoals een App Store voor Geografische AI modellen. Zie voor de App Store het hoofdstuk 'Componenten'.
+Hierdoor ontstaan brede mogelijkheden voor het vinden en ontsluiten van digitale objecten in DSFL: van ruwe meetdata tot en met algoritmen. 
+
+In Zicht op Nederland is een speciale plek ingeruimd voor Digital Twins. Op het gebied van Digital Twins openen zich mogelijkheden om parameters, configuraties, algoritmes of zelfs complete Digital Twins uit te wisselen in DSFL. In dat laatste geval, uitwisselen van algoritmen of complete applicaties, ontstaat daardoor een speciale incarnatie van de metadata-catalogus: deze noemen we een 'App Store'. Het ondersteunen van zo'n App Store is een expliciete eis aan DSFL vanwege de nauwe verbintenis met het gebruik van Digital Twins. Het is niet moeilijk om dit concept door te trekken naar andere 'slimme' afnemers (en aanbieders), zoals een App Store voor Geografische AI modellen. Zie voor de App Store het hoofdstuk 'Componenten'.
 
 Geo-specifiek is het kunnen vertalen van en naar geografische context, zodat er over verschillende geografische assen, schalen en aanduidingen heen data gevonden kan worden. Om dit te ondersteunen, dienen alle data die in DSFL beschikbaar komen/zijn in de metadata een minimale beschrijving van geografie of het geografische werkgebied te bevatten. 
 
