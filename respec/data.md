@@ -1,4 +1,4 @@
-# Een semantische kluwen
+# Data als drager in DSFL
 Voor het begrippen 'dataset' en 'databron' grijpen we terug op de definitie van data.overheid.nl:
 
 **Dataset:** een beschrijving van een verzameling van data van een data-eigenaar. Dit kan bijvoorbeeld één tabel met data zijn of een verzameling van tabellen met samenhangende data, bijvoorbeeld alle tabellen per jaar over de periode 2005-2016.  
