@@ -56,7 +56,7 @@ Daarnaast zijn er datasets waarvan het bestaan niet publiek bekend is – deze b
 
 Het ringenmodel toont daarmee schematisch een data-ecosysteem in zijn geheel (zie figuur).
 
-<figure><img src='media/ringenmodel_datasets.png' alt='Classificatie van databronnen in Ringmodel.' style='width: 100%;'></img><figcaption>Classificatie van databronnen in Ringmodel.<i></i></figcaption></figure>
+<figure><img src='media/ringenmodel_datasets.png' alt='Classificatie van databronnen in Ringmodel.' style='width: 75%;'></img><figcaption>Classificatie van databronnen in Ringmodel.<i></i></figcaption></figure>
 
 > DSFL gebruikt het ringenmodel om datasets en/of -bronnen te classificeren op basis van toegepaste standaardisatie, beschikbaarheid voor gebruik, duurzame borging en gebruiksplicht. Daarmee wordt bepaald op welke manier en in welke context een dataset bruikbaar is of kan worden binnen de DSFL.  
 
