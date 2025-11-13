@@ -105,8 +105,8 @@ Een dataspace is een ecosysteem waarin aan de ene kant data- en serviceproviders
 > DSFL bevat minimaal één metadata-catalogus voor het publiceren en terugvinden van informatie over de binnen DFSL bestaande datasets en diensten
 
 Het publiceren van data in DSFL bestaat voor een dataprovider uit de volgende stappen:
-- metadata vaststellen over o.a. kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), de geografische component (werkingsgebied);9
-- metadata formeren conform het NL profiel op ISO 19115. Deze ISO standaard is belangrijk in de Geo-wereld. In FDS is DCAT als standaard opgenomen;voorgeschreven, en wel specifiek het Nederlands profiel op DCAT (DCAT-AP-NL). Er zal een mapping nodig zijn op DCAT-AP-NL zodat metadata daarmee ook conform DCAT kan worden uitgeleverd
+- metadata vaststellen over o.a. kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), de geografische component (werkingsgebied);
+- metadata formeren conform het NL profiel op ISO 19115. Deze ISO standaard is belangrijk in de Geo-wereld. In FDS is DCAT als standaard opgenomen;voorgeschreven, en wel specifiek het Nederlands profiel op DCAT (DCAT-AP-NL). Er zal een mapping nodig zijn op DCAT-AP-NL zodat metadata daarmee ook conform DCAT kan worden uitgeleverd;
 - metadata opslaan in een DSFL metadata-catalogus. 
 
 
