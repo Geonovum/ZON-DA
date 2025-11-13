@@ -72,7 +72,7 @@ Er is geen apart linked data access point nodig als met OGC-API’s wordt gewerk
 
 ## Componenten volgens de DSSC referentie
 
-<img src="./respec/media/InteractionOfTechnicalComponents.png" alt="Interactie tussen technische componenten" width="900">
+<img src="./media/InteractionOfTechnicalComponents.png" alt="Interactie tussen technische componenten" width="900">
 Afbeelding Interactie tussen technische componenten (bron: IDS-RAM)
 
 Overzicht van (technische) services uit de DSCC: https://dssc.eu/space/BVE2/1071254998/Services+for+Implementing+Technical+Building+Blocks 
