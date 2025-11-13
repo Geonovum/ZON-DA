@@ -15,40 +15,40 @@ Deze keten ontvouwt zich volgens het Data–Informatie-Kennis-Handelingsperspect
 <figure><img src='media/Datawaardeketen_ZoN_architectuur.svg' alt='Principe van de datawaardeketen in Zicht op Nederland.' style='width: 100%;'></img><figcaption>Principe van de datawaardeketen in Zicht op Nederland.<i></i></figcaption></figure>
 
 
-Data omvat hier de feitelijke waarnemingen en metingen aan een object in de fysieke leefomgeving. Hierbij wordt niet alleen geo-data ingewonnen, maar ook meer beschrijvende gegevens, bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring, etcetera).
+**Data** omvat hier de feitelijke waarnemingen en metingen aan een object in de fysieke leefomgeving. Hierbij wordt niet alleen geo-data ingewonnen, maar ook meer beschrijvende gegevens, bijvoorbeeld de dimensies van een gebouw, de kenmerken van een voertuig, de beschrijving van grondlagen in een boring, etcetera).
 
-Informatie ontstaat indien er door een kennishouder waarde aan deze data wordt toegevoegd. In de context van ZoN zien we dit als een interpretatie van de gegevens naar een 2D kaartbeeld of 3D model binnen het domein waarin de gegevens zijn waargenomen. Voorbeelden zijn de bodemkaart van Nederland, gemaakt door Wageningen University & Research op basis van bodemkundige waarnemingen, of de topografische kaart van Nederland, gemaakt door het Kadaster op basis van waarnemingen aan de ruimtelijke inrichting van Nederland.
+**Informatie** ontstaat indien er door een kennishouder waarde aan deze data wordt toegevoegd. In de context van ZoN zien we dit als een interpretatie van de gegevens naar een 2D kaartbeeld of 3D model binnen het domein waarin de gegevens zijn waargenomen. Voorbeelden zijn de bodemkaart van Nederland, gemaakt door Wageningen University & Research op basis van bodemkundige waarnemingen, of de topografische kaart van Nederland, gemaakt door het Kadaster op basis van waarnemingen aan de ruimtelijke inrichting van Nederland.
 
-Kennis ontstaat indien informatie uit verschillende domeinen wordt samengebracht om inzicht te krijgen in het gedrag/veranderingen van een bepaald fenomeen. Bijvoorbeeld het Nederlands Hydrologisch Instrumentarium. Hierin werken verschillende kennispartners samen om gegevens over onder andere de hydro-geologische opbouw, monitoring van de grondwaterstand, oppervlaktewater en neerslag te combineren om inzicht te krijgen in de veranderingen van het (grond)watersysteem in Nederland.
+**Kennis** ontstaat indien informatie uit verschillende domeinen wordt samengebracht om inzicht te krijgen in het gedrag/veranderingen van een bepaald fenomeen. Bijvoorbeeld het Nederlands Hydrologisch Instrumentarium. Hierin werken verschillende kennispartners samen om gegevens over onder andere de hydro-geologische opbouw, monitoring van de grondwaterstand, oppervlaktewater en neerslag te combineren om inzicht te krijgen in de veranderingen van het (grond)watersysteem in Nederland.
 
-Wijsheid ontstaat indien de via de datawaardeketen verkregen inzichten gebruikt worden bij het opstellen van datagedreven handelingsperspectieven. De keten is dus gestoeld op algemene datasets, die richting het handelingsperspectief steeds specifieker worden geanalyseerd en geïnterpreteerd.
+**Wijsheid** ontstaat indien de via de datawaardeketen verkregen inzichten gebruikt worden bij het opstellen van datagedreven handelingsperspectieven. De keten is dus gestoeld op algemene datasets, die richting het handelingsperspectief steeds specifieker worden geanalyseerd en geïnterpreteerd.
+
 In de referentie architectuur Digital Twin voor de fysieke leefomgeving   is een dataproduct beschreven als een combinatie van gegevens, technologie, en (reken)modellen die ervoor zorgt dat de data eenvoudig in de werkprocessen van de gebruiker kan worden toegepast. Deze definiete omvat alles wat in de datawaardeketen wordt gedaan om informatie en wijsheid te creëren, evenals de technologie die wordt aangeboden om over de gehele waardeketen producten aan te bieden. Zo is bijvoorbeeld de topografische kaart van Nederland een digital twin van de bovengrondse inrichting van Nederland, en het NHI een digital twin van het Nederlandse watersysteem.
-Het is niet noodzakelijk dat de hele waardeketen doorlopen wordt om tot waardevolle resultaten te komen. Ingewonnen data kunnen direct in het werkproces waarin ze ontstaan toegepast worden. Elke schakel kent daarnaast een afslag naar hergebruik door derden die vaak weer andere doelen hebben dan het doel behorend bij de oorspronkelijke reden van inwinning. Zo neemt de waarde van data, uitgedrukt in meerwaarde voor het bedrijfsproces of de processtap van het proces waarnaar de data of informatie ontsloten wordt, op verschillende manieren toe.
 
-> Binnen het stelsel m.b.t. de fysieke leefomgeving kan data na elke stap in de waardeketen beschikbaar komen voor gebruik door anderen.
+Het is niet noodzakelijk dat de hele waardeketen doorlopen wordt om tot waardevolle resultaten te komen. Ingewonnen data kunnen direct toegepast worden in het werkproces waarin ze ontstaan. Elke schakel kent daarnaast een afslag naar hergebruik door derden die vaak weer andere doelen hebben dan het doel behorend bij de oorspronkelijke reden van inwinning. Zo neemt de waarde van data op verschillende manieren toe. De waarde wordt dan uitgedrukt in meerwaarde voor het bedrijfsproces of de processtap van het proces waarnaar de data of informatie ontsloten wordt.
+
+> Binnen het stelsel m.b.t. de fysieke leefomgeving kan het resultaat als digitaal object na elke stap in de waardeketen beschikbaar komen voor gebruik door anderen.
 
 Dit principe heeft een gevolg, namelijk dat het wel duidelijk moet zijn wat de waarde/kwaliteit van de data is.
 
-> Voor elk gegevens moet bekend zijn wat de waarde/kwaliteit in de waardeketen is.
+> Voor elk digitaal object moet bekend zijn wat de waarde/kwaliteit in de waardeketen is. Deze waarde/kwaliteit is een metagegeven van de data.
 
-Deze waarde/kwaliteit is een metagegeven van de data.
-
-Inwinnen
+## Inwinnen
 Voor het inwinnen van zinvolle data is het nodig dat er eisen gesteld worden aan de kwaliteit van de waarnemingen en metingen. Deze doelarchitectuur beschrijft niet in detail hoe waarnemingen leiden tot data. Er kunnen wel eisen gesteld worden aan de waarnemingen. Daarom is er voor waarnemingen een datamodel nodig. 
 
-> Het uitgangspunt is: er is een informatiemodel voor waarnemingen.
+> Het uitgangspunt is: elke waarneming wordt beschreven door een informatiemodel.
 
-Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen. 
-Deze randvoorwaarden volgen uit de Observations and Measurements (<a>OMS3</a>) standaard die gevolgd wordt.
+Een voorbeeld hiervan is het "Informatiemodel Metingen" van de Waterschappen. Aangezien in principe iedereen kan waarnemen zullen er meerdere informatiemodellen voor zijn. 
 
-Merk op dat de term 'inwinnen' ook gebruikt wordt voor registraties zoals de BGT, in dit geval spreken we niet noodzakelijk over waarneming of metingen, maar geldt natuurlijk ook dat er eisen gesteld worden aan de kwaliteit van de ingewonnen data.
+> Voor de invulling van de modellen voor Waarnemingen wordt gekeken naar de Observations and Measurements (<a>OMS3</a>) standaard.
 
-Interpreteren en visualiseren
-_Nog uit te werken: staat nu hierboven. Wellicht nog tekst nodig om de term 'domein' te duiden._
+Merk op dat de term 'inwinnen' ook gebruikt wordt voor registraties zoals de BGT. In dit geval spreken we niet noodzakelijk over waarneming of metingen, maar geldt natuurlijk ook dat er eisen gesteld worden aan de kwaliteit van de ingewonnen data.
+
+## Interpreteren en visualiseren
+<>
 
 
-
-## Publicatie van beschikbare data
+## Publiceren
 
 Na elke stap in de datawaardeketen kunnen data beschikbaar komen die voor (her-)gebruik in aanmerking komen. Deze data dient echter kenbaar gemaakt te worden Om deze 'matchmaking' tussen gegevensaanbieder en -afnemer/gebruiker plaats te kunnen laten vinden. Deze stap wordt de 'Publicatie' van gegevens genoemd.
 
@@ -60,7 +60,7 @@ Binnen de context van DSFL geldt dat de plaats waar de data wordt gepubliceerd e
 - Providers kunnen (a) deze beschrijvingen als aanbiedingen beschikbaar stellen, waardoor ze zichtbaar worden voor alle (of een deel van) andere deelnemers aan de dataruimte die als potentiële consumenten worden beschouwd, en (b) aanbiedingen beheren in overeenstemming met hun levenscyclus (publiceren, bijwerken, verwijderen) en de toegang ertoe beheren;
 - Consumenten kunnen tussen aanbiedingen zoeken om te bepalen of de kenmerken en voorwaarden voldoen aan hun behoeften en vereisten, en vervolgens toegang aanvragen tot de aangeboden data of dienst.
 
-## Zoeken en vinden
+## Zoeken en vinden in geografische/ruimtelijke context
 Burgers, bedrijfsleven en de overheid zelf stellen constant ruimtelijke vragen: 
 - Waar in de buurt van dit koop- of huurhuis zijn de openbare voorzieningen?
 - Waar kan ik het meest dichtbij mijn afval wegbrengen?
@@ -71,7 +71,24 @@ Burgers, bedrijfsleven en de overheid zelf stellen constant ruimtelijke vragen:
 - Waar spreekt overheidsbeleid zich zelf tegen vanuit verschillende wettelijke bepalingen?
 - Waar in een wijk is ruimte om een nieuwe school te plaatsen? En staat die niet te dichtbij coffeeshops en cafés? 
 
-<>
+Om de antwoorden hierop te formuleren moeten gegevens in relatie tot elkaar worden gevonden (en ontsloten).
+
+In administratieve systemen hebben de verschillende objecten expliciete onderlinge relaties (sleutels). Bij geo-informatie zijn deze sleutels ter principale niet nodig om de gegevens te relateren. Het ruimtelijke aspect in de afzonderlijke objecten of lagen is al voldoende om de verbinding tussen de gegevens te leggen. De expliciete onderlinge relaties worden noch gelegd, noch beheerd. De relaties zijn bij geo-informatie impliciet. Dat brengt met zich mee dat vooraf niet nagedacht hoeft te worden met welke andere gegevens een gegeven gecombineerd moet worden, zolang de ruimtelijke aspecten van de objecten zelf maar is vastgelegd. 
+
+Hierin zit echter wel een belangrijke crux: de geografische aanduidingen in de verschillende bronnen of verwerkingssatppen in de datawaardeketen hoeven niet altijd één op één overeen te komen. Geografische relaties kunnen complex zijn. 
+
+## Geo-referentiesystemen 
+Een geo-object onderscheidt zich van andere informatieobjecten door zijn plaatsaanduiding. Dit kan de feitelijke geometrie zijn van het object of een locatieaanduiding. Dit zijn twee wezenlijk verschillende manieren om het object gerelateerd wordt aan het aardoppervlak, oftewel ruimtelijke referentiesystemen. Wij spreken hier van directe en indirecte geo-informatie. 
+
+Bij **directe geo-informatie** is de locatie van het object exact bekend. Van het object worden de geometrische kenmerken vastgelegd: de beschrijving van de ruimtelijke vorm (de ruimtelijke afbakening) en de locatie. Van een reëel object (spoorbrug, rivier) is de vorm te meten, van een virtueel object (milieuzones, gemeente) is de vorm op een of andere wijze vastgesteld. Het object is ‘gegeorefereerd’, dat wil zeggen direct gerelateerd aan de positie op de aarde. 
+ 
+Er zijn meerdere manieren om de ruimtelijke vorm en locatie van een object vast te leggen. De bekendste zijn coördinaten: x- en y-coördinaten en voor de hoogte z-coördinaten. Voor het gebruik van coördinaten zijn meerdere meetkundige referenties in gebruik. De meest bekende voor Nederland is het Rijksdriehoekstelsel voor de x- en y-coördinaten en het Normaal Amsterdams Peil (NAP) voor de hoogte. In autonavigatiesystemen en satellietnavigatie voor de oriëntatie op de Noordzee worden andere meetkundige referenties gebruikt. Deze referenties zijn onderling te transformeren. 
+  
+Bij **indirecte geo-informatie** wordt de locatie van een object administratief aangeduid met een kenmerk, zoals een adres of plaatsnaam, waarvan (elders) de locatie wel exact bekend is. Bij het object zelf is geen geometrie opgenomen. Indirecte geo-informatie heet ook wel geografische identificatie. 
+
+> De DSFL bevat hulpfuncties die geografische informatie in hun ruimtelijke relatie voor alle partijen vindbaar en combineerbaar maakt, ongeacht hun geo-referentiesystemen.
+
+Hiermee wordt het mogelijk om objecten met postcodes, plaatsnamen, geografische polygonen, coördinaten (in verschillende coördinatenstelsels), schaal etc. zoveel mogelijk met elkaar te combineren.
 
 ## Vocabulaire (nieuw toegevoegd, Arno)
 
@@ -99,7 +116,7 @@ DSFL bevat afspraken, standaarden en voorzieningen voor het kunnen uitvoeren van
 
 <>welke? Niels? -> De NORA kent (binnenkort) een handreiking datalineage met uitleg hoe data lineagepatronen ingericht kunnen worden.
 
-## Overige afspraken over ontsluiten <>
+## Overige afspraken over ontsluiten
 
 DSFL gaat, technisch gezien, over de koppeling en het (her-)gebruik van geodata en data in een geografische context.
 
