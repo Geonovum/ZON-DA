@@ -14,13 +14,15 @@ Dit resulteert in 3 categoriën van services/technische componenten:
 - Andere services die nodig zijn voor de samenwerking tussen deelnemers: federatie services
 - Laatste categorie services zijn aanvullend om waarde te kunnen verhogen bovenop het uitwisselen van data: waardecreatie services
 
-> Voor de DSFL betekent dit:
-> - Het DSFL levert geen deelnemer services maar vertrouwd op al aanwezige (referentie) implementaties
-> - Het DSFL biedt voorzieningen die invulling geven aan de federatie services
-> - In de eerste versie van het DSFL zal nog niet actief invulling gegeven worden aan waardecreatie services maar op termijn moeten deze toegevoegd kunnen worden
+> DSFL levert geen deelnemer services maar vertrouwt op al aanwezige (referentie) implementaties;
+> DSFL bevat voorzieningen die invulling geven aan de federatie services;
+> DSFL levert hulpvoorzieningen voor specifieke waarde-creatie in de (geografische) keten.
 
 **Bij elke dataprovider en bij elke data consumer:**
-1. Een connector conform het dataspace protocol. 
+Elke databron (en elke afnemer) wordt geacht enkele patronen te gebruiken die nodig zijn om 'mee te kunnen doen' in DSFL. Deze patronen kunnen voor (groepen) bronnen en afnemers verschillend zijn. Voor 'government-to-government' uitwisselingvan grote hoeveelheden objecten met een hoge vertrouwensgrens zullen zwaardere eisen gelden (xowel voor bron als afnemer) dan voor een burger die enkele open data wil combineren op een kaart. Juist het feit dat dit onderscheid gemaakt kan worden is een sterk punt van DSFL.
+
+Voor de databronnen in de 'kern' en 'ring 1' van het ringenmodel geldt dat zij dienen te voldoen aan het <>
+
 Hiermee wordt ingeregeld dat metadata (DCAT en ODRL) bekeken kan worden (Data Catalog Protocol), dat het contract digitaal gesloten kan worden (Contract Negotiation Protocol) en dat de toegang tot de data wordt ingeregeld (Transfer Process Protocols). Dit is niet anders dan in andere dataspaces. Interessante aspecten:
 - gaan de beschikbare connectoren (al) goed om met DCAT-AP / kun je bv. de bounding box van de dataset inzichtelijk krijgen?
 - ik heb voorbeelden gezien dat de geo-locatie van de data consumer een rol speelt in de contract negotiation, bv. een aanvrager uit Rusland mag de data niet krijgen. Dit zal via identity management worden ingeregeld vermoed ik, maar wellicht zit hier nog een geo-haakje?
