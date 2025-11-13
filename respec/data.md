@@ -102,13 +102,12 @@ Bij de term 'afbakening' hoort ook een set regels en een bepaalde Governance. De
 
 Een dataspace is een ecosysteem waarin aan de ene kant data- en serviceproviders en aan de andere kant potentiële consumenten/gebruikers samen worden gebracht. Aangezien in DSFL men niet per definitie 'op elkaar aangewezen is' voor een vastgesteld probleem of proces, dient een succesvolle 'matchmaking' plaats te vinden tussen vraag en aanbod. Er worden in feite relaties opgebouwd die leiden tot datadeling. Om matchmaking te faciliteren, zijn beschrijvingen vereist van de beschikbare gegevens: metadata van de data en diensten die worden aangeboden, inclusief informatie over de voorwaarden waaronder ze worden aangeboden. De consument/gebruiker kan zo de juiste gegevens voor de juiste vraag identificeren en wordt doorgeleid naar de aanbieder.
 
-> DSFL bevat minimaal één metadata-catalogus voor het publiceren en terugvinden van informatie over de binnen DFSL bestaande datasets en diensten
+> DSFL bevat minimaal één metadata-catalogus voor het publiceren en terugvinden van informatie over de binnen DFSL bestaande datasets, data en diensten
 
 Het publiceren van data in DSFL bestaat voor een dataprovider uit de volgende stappen:
 - metadata vaststellen over o.a. kwaliteit, de link naar de dienst (URI), de API beschrijving, de gebruikervoorwaarden (creative commons kan als default worden genomen), de geografische component (werkingsgebied);
 - metadata formeren conform het NL profiel op ISO 19115. Deze ISO standaard is belangrijk in de Geo-wereld. In FDS is DCAT als standaard opgenomen;voorgeschreven, en wel specifiek het Nederlands profiel op DCAT (DCAT-AP-NL). Er zal een mapping nodig zijn op DCAT-AP-NL zodat metadata daarmee ook conform DCAT kan worden uitgeleverd;
 - metadata opslaan in een DSFL metadata-catalogus. 
-
 
 In [DSSC Blueprint - Publication and Discovery](https://dssc.eu/space/BVE2/1071256989/Publication+and+Discovery) is meer informatie te vinden.
 
@@ -119,6 +118,10 @@ In de DSFL wordt een brede definitie gebruikt van het begrip 'data'. Een direct 
 > Per datasoort/digitaal object wordt in DSFL bepaald welke metadata worden vastgelegd.
 
 Hierdoor ontstaan brede mogelijkheden voor het vinden en ontsluiten van digitale objecten in DSFL: van ruwe meetdata tot en met algoritmen. 
+
+Voor het detailniveau van metadata is er in het kader van Zicht op Nederland een brede scope nodig. 
+
+> Metadata kan op verschillende detailniveaus worden vastgelegd, bijvoorbeeld ook op attribuutniveau.
 
 In Zicht op Nederland is een speciale plek ingeruimd voor Digital Twins. Op het gebied van Digital Twins openen zich mogelijkheden om parameters, configuraties, algoritmes of zelfs complete Digital Twins uit te wisselen in DSFL. In dat laatste geval, uitwisselen van algoritmen of complete applicaties, ontstaat daardoor een speciale incarnatie van de metadata-catalogus: deze noemen we een 'App Store'. Het ondersteunen van zo'n App Store is een expliciete eis aan DSFL vanwege de nauwe verbintenis met het gebruik van Digital Twins. Het is niet moeilijk om dit concept door te trekken naar andere 'slimme' afnemers (en aanbieders), zoals een App Store voor Geografische AI modellen. Zie voor de App Store het hoofdstuk 'Componenten'.
 
