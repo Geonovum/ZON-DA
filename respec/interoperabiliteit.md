@@ -2,7 +2,7 @@
 Interoperabiliteit gaat over het vermogen van het stelsel om de deelnemende partijen data met elkaar te laten delen en/of uit te wisselen (definitie die FDS ook gebruikt). Het FDS noemt interoperabiliteit als 1 van de 4 bekwaamheden binnen de functionele requirements aan het stelsel. 
 
 > Dit betekent voor DSFL:
-> - De DSFL zal voldoen aan de voorwaarden van het FDS als het gaat om interoperabiliteit
+> De DSFL neemt FDS voorwaarden als uitgangspunt als het gaat om interoperabiliteit
 
 Het FDS benoemt binnen Interoperabiliteit drie bouwblokken: datamodellen, dataservices en traceerbaarheid. Dit komt overeen met de bouwblokken van het DSSC op het gebied van data interoperabiliteit: data models, data exchange en provenance and traceability. Deze bouwblokken gaan over de technisch-inhoudelijke kant van datadelen. Het is belangrijk te benoemen dat voor het bereiken van interoperabiliteit, naast technisch-inhoudelijke zaken, ook zaken aan de governance kant moeten worden geregeld. Dit wordt benoemd in de Interoperable Europe Act en het European Interoperability Framework.
 
@@ -74,7 +74,6 @@ De waardepropositie van het DSFL moet ook duidelijk zijn voor partijen. Het aans
 
 De vrijblijvendheid moet er tegelijkertijd uit. Er moet formeel beleid komen en er moeten ook audits komen. Het zou onderdeel moeten zijn van de taakstelling van bronhouders. Tegelijkertijd moeten partijen ook worden geholpen worden met bijvoorbeed voorbeeldimplementaties en een implementatiehandreiking. Het concept van de ring kan bijvoorbeeld beter worden uitgelegd. Het moet ook verder gaan dan de basisregistraties; het moet veel meer over de kernregistraties gaan. Kies er een aantal waar de aandacht vooral aan wordt besteedt.
 
-Dilemma: moet paragraaf voorwaarden en afspraken in hoofdstuk over datawaardeketen hier ingevoegd worden?
 
 ## Semantisch (Danny, Walter)
 Op semantisch niveau is het belangrijk dat gegevens betekenis hebben voor gebruikers van de gegevens die worden uitgewisseld. Dat gaat in eerste instantie over het helder definiëren van begrippen, zodat er een gemeenschappelijke betekenis wordt gegeven aan bepaalde termen. Vervolgens dient het domein van gesprek te worden gedefinieerd in een conceptueel informatiemodel dat de betekenis verder formaliseert, zodat het duidelijk genoeg is voor de vertaling naar informatievoorziening en gegevensuitwisseling. Voor het definiëren van begrippen is inmiddels de [Nederlandse standaard voor het beschrijven van begrippen](https://docs.geostandaarden.nl/nl-sbb/nl-sbb/) (NL-SBB) beschikbaar. Voor het definiëren van conceptuele informatiemodellen kan gebruik worden gemaakt van het [Metamodel voor Informatiemodellering](https://docs.geostandaarden.nl/mim/mim/) (MIM) of de Linked Data standaarden [RDFS](https://www.w3.org/TR/rdf-schema/) en [OWL](https://www.w3.org/TR/owl2-overview/).
