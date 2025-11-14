@@ -1,5 +1,9 @@
 # Glossary
 
+<dfn>DCAT-AP-NL</dfn> [DCAT-AP-NL 3.0](https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/)
+
+<dfn>NL-SBB</dfn> [NL-SBB - Standaard voor het beschrijven van begrippen](https://docs.geostandaarden.nl/nl-sbb/nl-sbb/)
+
 <dfn>NGII</dfn> [Nationale Geo-Informatie Infrastructuur](https://zichtopnl.nl/datafundament/visie+zicht+op+nederland/ngii/default.aspx)
 
 <dfn>NGR</dfn> [Nationaal Geo Register](https://nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/home)

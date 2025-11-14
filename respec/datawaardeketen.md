@@ -104,17 +104,24 @@ Antwoord: (Niels) Een vocabulaire hoort bij een dataproduct (en daarmee bij het 
 Stel je hebt een bron van gebouwen met een bijbehorend vocabulaire wat een definitie van gebouwen geeft. Vervolgens biedt je in de dataspace een dataproduct aan met een subset van gebouwen, bijvoorbeeld alleen appartementen (met als 'value added' informatie het service level in het appartementen complex, zwembad, portier whatever). Daarmee heb je een nieuw vocabulaire nodig bij dit dataproduct waarbij de definitie van appartement een nauwere definitie is dan gebouw uit de bron. 
 
 -> Dat gezegd hebbende, is het natuurlijk van belang om zoveel mogelijk 'convergentie' in termen en definities na te streven. Dus daar waar een term uit een andere (bovenliggende) bron hergebruikt kan worden moet deze niet opnieuw worden gedefinieerd, maar moet er verwezen worden naar het andere vocabulaire.
-
+> Vocabulaires worden opgesteld conform de <a>NL-SBB</a> standaard
 
 ## Data lineage
 
-DSFL implementeert het principe van federatief datadelen voor alle partijen en processen die zich bewegen/voordoen in de fysieke leefomgeving. Dat is nogal een brede scope: er zijn potentieel veel partijen en veel data aan de orde. ~~Daarom is het belangrijk dat de eigenaar van data te allen tijde het gebruik en de verwerking van 'zijn' data in de hele datawaardeketen kan volgen, al is het alleen al om eventuele problemen en fouten te kunnen ondervangen.~~ (een Eigenaar zal nooit altijd alle downstream verwerkingen kunnen volgen, en kan daar dus ook niet verantwoordelijk voor gehouden worden.) Het is de verantwoordelijkheid van een eigenaar van een dataproduct om te documenteren wat de brongegevens zijn en het moet mogelijk zijn voor afnemers om de lineage van het dataproduct te bevragen. 
+DSFL implementeert het principe van federatief datadelen voor alle partijen en processen die zich bewegen/voordoen in de fysieke leefomgeving. Dat is nogal een brede scope: er zijn potentieel veel partijen en veel data aan de orde. ~~Daarom is het belangrijk dat de eigenaar van data te allen tijde het gebruik en de verwerking van 'zijn' data in de hele datawaardeketen kan volgen, al is het alleen al om eventuele problemen en fouten te kunnen ondervangen.~~ (Een eigenaar zal nooit altijd alle downstream verwerkingen kunnen volgen, en kan daar dus ook niet verantwoordelijk voor gehouden worden.) Het is de verantwoordelijkheid van een eigenaar van een dataproduct om te documenteren wat de brongegevens zijn en het moet mogelijk zijn voor afnemers om de lineage van het dataproduct te bevragen. 
 
 Deze controle-mogelijkheid heet 'data lineage'.
 
+Een handreiking over dit onderwerp is gepubliceerd op de NORA Wiki: https://www.noraonline.nl/wiki/Handreiking_Datalineage
+
 DSFL bevat afspraken, standaarden en voorzieningen voor het kunnen uitvoeren van data lineage. 
 
-<>welke? Niels? -> De NORA kent (binnenkort) een handreiking datalineage met uitleg hoe data lineagepatronen ingericht kunnen worden.
+Lineage kent in de basis 2 vormen:
+- 'vertikale lineage', de verwijzing van begrippen naar conceptuele-, logische- en technische modellen en de instantiaties daarvan.
+> Voor vertikale lineage volgt DSFL de <a>MIM</a> standaard.
+
+- 'horizontale lineage', de keten van een dataproduct naar het volgende dataproduct, met daarbij de verwerking die plaatsvindt tussen de dataproducten.
+> voor horizontale lineage wordt aanbevolen de patronen uit de [Handreiking Datalineage](https://www.noraonline.nl/wiki/Patronen_Handreiking_Datalineage) te volgen
 
 ## Overige afspraken over ontsluiten
 
