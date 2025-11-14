@@ -177,21 +177,23 @@ BegrippenXL is een (bestaand) on-line systeem voor het definiëren en relateren 
 
 Voorkomen wordt dat alle databronnen gerepliceerd of geindexeerd worden in de connectorlaag om de data doorzoekbaar en vindbaar te maken. De zoekfunctie is er op gericht om de API's van de databronnen te doorzoeken. Hiermee maakt de connector altijd gebruik van de laatste versie van de data. De response van de zoekfunctie geeft een link naar de databron met als resultaat een dataset. Het combineren van datasets leidt tot nieuwe dataproducten.  
 
+> Voor vocabulaires maakt DSFL gebruik van de <a>NL-SBB</a> standaard
+
 ## (Gefedereerde) analyse 
 
 Gebruikers willen zonder diepgaande kennis over de datastructuren, gecombineerde gegevens kunnen opvragen. Hier is eerder naar gekeken in kader van de basisregistraties (IMX), waarbij gesteld is dat ZoN verder gaat met IMX-Geo (zie: https://www.geonovum.nl/nieuws/zicht-op-nederland-gaat-verder-met-imx-geo). Binnen Zicht op Nederland zou er een project komen (of is dat er al?) om de eerdere pilot een vervolg te geven. Dit vervolgtraject behelst "verdere verkenning, ontwikkeling en beproeving van gebruiksvoorbeelden voor IMX binnen en buiten het geo-domein", zie https://www.zichtopnl.nl/datafundament/projecten/kruisbevraging/default.aspx . 
 
 ## Metadata
-NGR:
+<a>NGR</a>:
 - Genereren van pseudo-geo info (als nieuwe component) voor mengen geo en niet-geo informatie? <welke eisen stellen we aan deze component, welke use case(s) willen we op korte termijn ondersteunen>
   
   IdV:
-- of gebruik maken van de generieke metadata standaard DCAT-AP-NL, waarmee zowel geo data als overige data beschreven kan worden. Dan zijn er geen specifieke functionaliteiten nodig, maar kan  de bevraging van alle metadata hetzelde zijn.
+- of gebruik maken van de generieke metadata standaard <a>DCAT-AP-NL</a>, waarmee zowel geo data als overige data beschreven kan worden. Dan zijn er geen specifieke functionaliteiten nodig, maar kan  de bevraging van alle metadata hetzelde zijn.
 - niet geo data zou ik overigens niet aan het NGR toevoegen, maar in een andere catalog ontsluiten
-- NGR is in vergevorderd stadium om de bestaande ISO 19115 metadata ook conform DCAT-AP-NL te ontsluiten.
+- NGR is in vergevorderd stadium om de bestaande ISO 19115 metadata ook conform <a>DCAT-AP-NL</a> te ontsluiten.
 
-PDOK:
-- (Geo-?)metadata/caching/viewer/ontsluiting wettelijke rapportages: PDOK
+<a>PDOK</a>:
+- (Geo-?)metadata/caching/viewer/ontsluiting wettelijke rapportages: <a>PDOK</a>
 
 Data.overheid.nl:
 - Duurt meer dan een jaar wanneer internationale DCAT standaard wijzigt om dat vervolgens te vertalen in nederlandse profiel o.a. tbv data.overheid.nl; hoe zorgen we dat gebruikte standaarden in sync blijven.
