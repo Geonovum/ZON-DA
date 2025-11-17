@@ -143,6 +143,14 @@ Wanneer veel datasets onderdeel worden van het datastelsel dan is het belangrijk
 
 Metadata
 
+Dit betekent:
+- Gebruik van de standaar MIM en/of SHACL voor het specificeren van logische gegevensmodellen
+- Automatisch genereren van fysieke schema's uit logische gegevenmsmodellen
+- Specificeren van API's middels de OpenAPI specificatie
+- Publiceren van API's op developer.overheid.nl
+- Publiceren van Datasets en Services op data.overheid.nl (DCAT)
+- Publiceren van Datasets en Services op NGR (specifiek voor geo-informatie volgens ISO 19115/19119), waarbij deze ook vindbaar zijn via data.overheid.nl (DCAT)
+
 ## De specifieke rol van geo in interoperabiliteit (Otto, Marcel)
 - Data en datasets
 - brede definitie van data: ook algoritmes, DT-configuraties, regelgeving, vergunningen, etc. vallen hier onder
@@ -170,13 +178,7 @@ Metadata
 - geo localiseren van services, het zoeken van beschikbare dataservices op basis van geo data; bijvoorbeeld per provincie een specifieke service voor het afnemen van provinciale geodata. DSFL zorgt ervoor dat je de juiste service krijgt op basis van opgegeven relevant gebied?
 - Welke coordinaatreferentiestelsels worden ondersteund? En, worden transformaties tussen coordinaatstelsels aangeboden?
 
-Dit betekent:
-- Gebruik van de standaar MIM en/of SHACL voor het specificeren van logische gegevensmodellen
-- Automatisch genereren van fysieke schema's uit logische gegevenmsmodellen
-- Specificeren van API's middels de OpenAPI specificatie
-- Publiceren van API's op developer.overheid.nl
-- Publiceren van Datasets en Services op data.overheid.nl (DCAT)
-- Publiceren van Datasets en Services op NGR (specifiek voor geo-informatie volgens ISO 19115/19119), waarbij deze ook vindbaar zijn via data.overheid.nl (DCAT)
+
 
 
 Checken of we alles hebben:
