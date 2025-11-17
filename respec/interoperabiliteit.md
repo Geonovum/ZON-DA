@@ -53,7 +53,7 @@ De juridische uitdagingen bij het delen van gegevens zijn groot. Dat gaat vaak v
 Zie ook: https://jenvgegevens.pleio.nl/news/view/2ae0db25-f82c-41ab-9720-5f6a45688530/waarom-betere-gegevensdeling-nu-nodig-is-zomerupdate-van-de-taskforce-gegevensdeling
 
 
-## Organisatorische interoperabiliteit (Yvette, Rene)
+## Organisatorische interoperabiliteit
 NORA defineert organisatorische interoperabiliteit als overheidsorganisaties die eenvoudig met elkaar kunnen samenwerken en krachtige ketens en netwerken kunnen vormen. Dat is niet vanzelfsprekend omdat overheidsdiensten in het verleden los van elkaar zijn ontworpen, op basis van de behoeftes en inzichten van dat moment. 
 
 Het EIF beschrijft dat organisatirische interoperabiliteit te maken heeft met de manier waarop overheidsdiensten hun bedrijfsprocessen, verantwoordelijkheden en verwachtingen op elkaar afstemmen om hun onderling overeengekomen en voor alle partijen gunstige doelstellingen te verwezenlijken. In de praktijk betekent organisatorische interoperabiliteit dat bedrijfsprocessen en de bijbehorende gegevensuitwisseling, gedocumenteerd en geïntegreerd of afgestemd moeten worden. In het kader van organisatorische interoperabiliteit dient eveneens te worden voldaan aan de vereisten van de gebruikersgemeenschap door diensten beschikbaar, gemakkelijk identificeerbaar, toegankelijk en gebruikersgericht te maken.
