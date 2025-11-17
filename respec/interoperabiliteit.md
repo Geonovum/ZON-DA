@@ -1,5 +1,7 @@
 # Inleiding
-Interoperabiliteit gaat over het vermogen van het stelsel om de deelnemende partijen data met elkaar te laten delen en/of uit te wisselen (definitie die FDS ook gebruikt). Het FDS noemt interoperabiliteit als 1 van de 4 bekwaamheden binnen de functionele requirements aan het stelsel (naast interoperabiliteit zijn dit vertrouwen, datawaarde en stelsel-governance). De DSFL volgt deze indeling van FDS, zoals ook te zien is in de hoofdstukindeling van deze doelarchitectuur.
+Interoperabiliteit gaat over het vermogen van het stelsel om de deelnemende partijen data met elkaar te laten delen en/of uit te wisselen (definitie die FDS ook gebruikt). Het European Interoperable Framework voegt er in haar definitie de doelstelling aan toe: interoperabiliteit houdt in dat organisaties in staat zijn om samen te werken aan doelstellingen die voor alle partijen voordelig zijn, hetgeen betekent het delen van informatie en kennis tussen deze organisaties, via de bedrijfsprocessen die zij ondersteunen, door middel van gegevensuitwisseling tussen hun ICT-systemen.
+
+Het FDS noemt interoperabiliteit als 1 van de 4 bekwaamheden binnen de functionele requirements aan het stelsel (naast interoperabiliteit zijn dit vertrouwen, datawaarde en stelsel-governance). De DSFL volgt deze indeling van FDS, zoals ook te zien is in de hoofdstukindeling van deze doelarchitectuur.
 
 > Dit betekent voor DSFL voor wat betreft interoperabiliteit:
 > De DSFL neemt FDS voorwaarden als uitgangspunt als het gaat om interoperabiliteit
@@ -16,7 +18,7 @@ De Interoperable Europe Act (Interoperable Europa Verordening) is in maart 2024 
 
 De Commissie ziet het reguleren van internationale interoperabiliteit van overheidsdiensten als fundamentele voorwaarde voor het verder ontwikkelen en vervolmaken van de digitale eenheidsmarkt. Betere internationale interoperabiliteit in de publieke sector creëert innovatiekansen, maakt betere planning mogelijk bijvoorbeeld in crisissituaties, en versterkt de technologische soevereiniteit van de EU.
 
-Uitwerking is te vinden in het European Interoperable Framework met 4 interoperabiliteits lagen: juridisch, organisatorisch, semantisch en technisch. Hier wordt in de volgende paragrafen op ingegaan.
+Uitwerking is te vinden in het European Interoperable Framework (EIF) met 4 niveaus van interoperabiliteits lagen: wettelijk, organisatorisch, semantisch en technisch; een transversale component van de 4 niveaus: governance van geintegreerde openbare diensten; en een achtergrondniveau: governance van interoperabiliteit. Hier wordt in de volgende paragrafen op ingegaan. EIF vormt een gemeenschappelijke kern voor NIF’s (Nationale Interoperabiliteit Frameworks) van de EU lidstaten. NORA is de Nederlandse NIF. 
 
 ### European Data Strategy
 Naast deze Interoperable Europe Act met als scope de overheidsdiensten beschrijft de Europese Commissie in haar Data Strategie uit 2020 haar streven naar een eenheidsmarkt voor de beschikbaarheid en het gebruik van data. De strategie is daarbij gericht op het wereldwijd concurrentievermogen van Europa en op datasoevereiniteit. Technisch wordt naar een pan-Europese dataspace (dataruimte) gestreefd om te zorgen dat er meer data beschikbaar komt voor socio-economisch gebruik, terwijl bedrijven en individuen die data genereren er wel zeggenschap over blijven houden. Die pan-Europese dataspace wordt opgebouwd met meerdere sectorale data spaces waarbinnen afspraken worden gemaakt over de omgang met data. Samen vormt dit de Europese binnenmarkt voor data (EU Single Market for Data). In de Commissieperiode 2024-2029 wordt dit verder versterkt en verdiept tot een Europese Data Unie.
@@ -28,22 +30,53 @@ Daarnaast financiert de Europese Commissie het Data Space Support Centre waar on
 > Dit betekent voor DSFL:
 > - De DSFL zal voldoen aan de voorwaarden van de Interoperable Europe Act en de voorwaarden voortvloeiend uit de Europese Datastrategie
 
-## Juridische interoperabiliteit (Marcel, Yvette)
+## Governance van interoperabiliteit
+Het European Interoperability Framework schrijft hierover: Er is politieke steun nodig voor sectoroverschrijdende en/of grensoverschrijdende interoperabiliteitsinspanningen om samenwerking tussen overheidsdiensten te bevorderen. Voor een doeltreffende samenwerking moeten alle belanghebbenden dezelfde visie delen, het eens zijn over de doelstellingen en tijdskaders en hun prioriteiten op elkaar afstemmen. Interoperabiliteit tussen overheidsdiensten op verschillende bestuursniveaus kan alleen succesvol zijn als alle betrokken overheidsdiensten voldoende prioriteit en middelen toekennen aan hun respectieve interoperabiliteitsinspanningen. De governance van interoperabiliteit is de sleutel tot een holistische benadering, aangezien het alle instrumenten samenbrengt die nodig zijn voor de toepassing ervan.
 
+## Governance van geintegreerde openbare diensten
+Het European Interoperability Framework schrijft hierover: wanneer van verschillende overheidsdiensten wordt gevraagd dat zij samenwerken om te voldoen aan de gebruikersbehoeften en om op integrale wijze openbare diensten te verlenen, ontstaat de behoefte aan coördinatie en governance door de overheden met een mandaat voor het plannen, tenuitvoerleggen en exploiteren van de  diensten. Deze diensten dienen te worden bestuurd teneinde de integratie, rimpelloze uitvoering, het hergebruik van diensten en gegevens en het ontwikkelen van nieuwe diensten en "bouwstenen" te waarborgen. 
+
+Deze governance moet alle niveaus bestrijken: wettelijk, organisatorisch, semantisch en technisch. Het verzekeren van interoperabiliteit bij het voorbereiden van rechtsinstrumenten, bedrijfsprocessen van organisaties, informatie-uitwisseling, diensten en elementen die de verlening van een Europese openbare dienst ondersteunen, is een continue opdracht, aangezien de interoperabiliteit geregeld wordt verstoord door veranderingen in de omgeving, met name in de wetgeving, de behoeften van ondernemingen of burgers, de organisatiestructuur van overheidsdiensten, de bedrijfsprocessen en de ontwikkeling van nieuwe technologieën. 
+
+Dit vraagt onder andere om organisatiestructuren, taken en verantwoordelijkheden voor het verlenen en exploiteren van openbare diensten, overeenkomsten betreffende het dienstverleningsniveau, het opzetten en beheren van interoperabiliteitsovereenkomsten, veranderingsbeheerprocessen en plannen voor de bedrijfscontinuïteit en de kwaliteit van gegevens.
+
+## Juridische (wettelijke) interoperabiliteit
+NORA en het EIF definieren juridische / wettelijke interoperabiliteit als de mate waarin de juridische kaders voor alle betrokken entiteiten met elkaar in overeenstemming zijn. Het gaat erom ervoor te zorgen dat organisaties die onder verschillende wettelijke kaders, beleidsmaatregelen en strategieën opereren, kunnen samenwerken.
+
+Het EIF formuleert als eerste stap voor het realiseren van wettelijke interoperabiliteit  het uitvoeren van "interoperabiliteitschecks" door het screenen van bestaande wetgeving teneinde belemmeringen voor interoperabiliteit in kaart te brengen: sectorale of geografische beperkingen met betrekking tot het gebruik en opslaan van gegevens, verschillende en vage modellen voor gegevenslicenties, te restrictieve verplichtingen voor het gebruik van specifieke digitale technologieën of aanbiedingsvormen voor het verlenen van openbare diensten, tegenstrijdige vereisten voor dezelfde of vergelijkbare bedrijfsprocessen, verouderde beveiliging en gegevensbeschermingsbehoeften, enz.
+
+* Commissie gegevensgebruik
+
+### Check of onderstaande al benoemd is
 De juridische uitdagingen bij het delen van gegevens zijn groot. Dat gaat vaak vooral over persoonsgegevens, maar ook het koppelen van gegevens aan de BAG lijkt toenemend door partijen als gevoelig te worden gezien.
 
 Zie ook: https://jenvgegevens.pleio.nl/news/view/2ae0db25-f82c-41ab-9720-5f6a45688530/waarom-betere-gegevensdeling-nu-nodig-is-zomerupdate-van-de-taskforce-gegevensdeling
 
 
 ## Organisatorische interoperabiliteit (Yvette, Rene)
+NORA defineert organisatorische interoperabiliteit als overheidsorganisaties die eenvoudig met elkaar kunnen samenwerken en krachtige ketens en netwerken kunnen vormen. Dat is niet vanzelfsprekend omdat overheidsdiensten in het verleden los van elkaar zijn ontworpen, op basis van de behoeftes en inzichten van dat moment. 
+
+Het EIF beschrijft dat organisatirische interoperabiliteit te maken heeft met de manier waarop overheidsdiensten hun bedrijfsprocessen, verantwoordelijkheden en verwachtingen op elkaar afstemmen om hun onderling overeengekomen en voor alle partijen gunstige doelstellingen te verwezenlijken. In de praktijk betekent organisatorische interoperabiliteit dat bedrijfsprocessen en de bijbehorende gegevensuitwisseling, gedocumenteerd en geïntegreerd of afgestemd moeten worden. In het kader van organisatorische interoperabiliteit dient eveneens te worden voldaan aan de vereisten van de gebruikersgemeenschap door diensten beschikbaar, gemakkelijk identificeerbaar, toegankelijk en gebruikersgericht te maken.
+
+Om de samenwerking tussen overheidsorganisaties te faciliteren heeft NORA het basisconcept Dienstverlening opgesteld als een fundering die zorgt dat de diensten van die overheidsorganisaties voldoen aan uniforme uitgangspunten, zodat ze goed op elkaar aansluiten. 
+
+* primair & secundair gebruik
+
+### Check of onderstaande al benoemd is
 Er is een organisatie nodig die het DSFL organiseert; een regisseur die de samenhang van het geheel organiseert. Deze regisseur moet afspraken maken met de deelnemers, deelnemers toelaat en ze toetst op de voorwaarden. Binnen organisaties moeten ook aanspreekpunten aangewezen worden.
 
 De waardepropositie van het DSFL moet ook duidelijk zijn voor partijen. Het aansluiten op DSFL kost deelnemers in eerste instantie per definitie een investering om te kunnen voldoen aan de voorwaarden. De waarde ligt voor een deel in standaardisatie. Het is belangrijk om een goed gesprek te voeren samen met (potentiële) deelnemers en samen te bepalen waar de waarde voor verschillende betrokkenen ligt. Hergebruik van gegevens is een belangrijk deel van de waarde. Tegelijkertijd is dat ook een algemene plicht voor overheden; om gegevens die al kenbaar zijn te hergebruiken.
 
 De vrijblijvendheid moet er tegelijkertijd uit. Er moet formeel beleid komen en er moeten ook audits komen. Het zou onderdeel moeten zijn van de taakstelling van bronhouders. Tegelijkertijd moeten partijen ook worden geholpen worden met bijvoorbeed voorbeeldimplementaties en een implementatiehandreiking. Het concept van de ring kan bijvoorbeeld beter worden uitgelegd. Het moet ook verder gaan dan de basisregistraties; het moet veel meer over de kernregistraties gaan. Kies er een aantal waar de aandacht vooral aan wordt besteedt.
 
-
 ## Semantische interoperabiliteit (Danny, Walter)
+
+Het EIF zegt hierover: semantische interoperabiliteit zorgt ervoor dat de precieze bestandsindeling en betekenis van uitgewisselde gegevens en informatie wordt behouden en begrepen gedurende de gehele uitwisselingsprocedure tussen partijen, met andere woorden "datgene wat wordt verstuurd, is datgene wat wordt begrepen". In het EIF omvat semantische interoperabiliteit zowel semantische als syntactische aspecten:
+
+- het semantische aspect heeft betrekking op de betekenis van gegevenselementen en hun onderlinge relatie. Dit omvat de ontwikkeling van lexicons en schemata ter beschrijving van de gegevensuitwisseling en zorgt ervoor dat de met elkaar communicerende partijen de gegevenselementen op dezelfde manier interpreteren;
+
+- het syntactische aspect heeft betrekking op de exacte vormgeving van de uit te wisselen informatie wat grammatica en format betreft.
+
 Op semantisch niveau is het belangrijk dat gegevens betekenis hebben voor gebruikers van de gegevens die worden uitgewisseld. Dat gaat in eerste instantie over het helder definiëren van begrippen, zodat er een gemeenschappelijke betekenis wordt gegeven aan bepaalde termen. Vervolgens dient het domein van gesprek te worden gedefinieerd in een conceptueel informatiemodel dat de betekenis verder formaliseert, zodat het duidelijk genoeg is voor de vertaling naar informatievoorziening en gegevensuitwisseling. Voor het definiëren van begrippen is inmiddels de [Nederlandse standaard voor het beschrijven van begrippen](https://docs.geostandaarden.nl/nl-sbb/nl-sbb/) (NL-SBB) beschikbaar. Voor het definiëren van conceptuele informatiemodellen kan gebruik worden gemaakt van het [Metamodel voor Informatiemodellering](https://docs.geostandaarden.nl/mim/mim/) (MIM) of de Linked Data standaarden [RDFS](https://www.w3.org/TR/rdf-schema/) en [OWL](https://www.w3.org/TR/owl2-overview/).
 
 In bredere zin is het belangrijk dat gegevens worden voorzien van betekenisvolle metagegevens zodat afnemers begrijpen wat ze betreffen en of ze bruikbaar zijn voor een bepaald gebruiksdoel. In eerste instantie gaat dat over verzamelingen van gegevens (datasets) die expliciet worden gepubliceerd in een gegevenscatalogus zoals het Nationaal Geo Register en data.overheid.nl. Hiervoor zijn standaarden beschikbaar zoals [DCAT](https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/) en [ISO 19115](https://docs.geostandaarden.nl/md/mdprofiel-iso19115/), waarmee relevante eigenschappen kunnen vastgelegd. Dat gaat over beschrijvende metagegevens zoals titel, samenvatting en trefwoorden. Er zouden ook metagegevens moeten worden opgenomen over de kwaliteit van de gegevens, zodat gebruikers beter kunnen inschatten of de gegevens betrouwbaar genoeg zijn voor hun toepassing.
@@ -86,6 +119,8 @@ DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatal
 
 
 ## Technische interoperabiliteit (Danny, Otto, Arno)
+Het EIF beschrijft dat technische interoperabiliteit betrekking heeft op de applicaties en infrastructuren die systemen en diensten aaneenkoppelen. Aspecten van technische interoperabiliteit zijn bijvoorbeeld specificaties van interfaces, interconnectiediensten, gegevensintegratiediensten, presentatie en uitwisseling van gegevens en protocollen voor een veilige communicatie.
+
 Op technisch niveau vindt de daadwerkelijke uitwisseling van gegevens plaats, maar daarvoor zijn ook technische afspraken en metagegevens nodig. Dat gaat bijvoorbeeld over logische gegevensmodellen en fysieke datamodellen, maar ook over informatie over de precieze locatie van gegevens en de opbouw van API's. De eerder genoemde standaard MIM kan gebruikt worden voor het definiëren van logische gegevensmodellen. Ze worden vertaald naar XML- of JSON Schema's, bij voorkeur geautomatiseerd. Linked Data gebaseerde modellen maken gebruik van de [SHACL](https://www.w3.org/TR/shacl/) standaard, die de RDFS/OWL specificaties verdiepen en duidelijk maken in welke gegevensstructuur gegevens beschikbaar zijn.
 
 De locatie van gegevens en de beschikbare formaten worden beschreven in standaarden zoals DCAT en ISO 19115/19119. Daarnaast moeten er specificiaties voor API's worden opgesteld. Hiervoor is de [OpenAPI](https://www.openapis.org/) specificatie beschikbaar. Het resultaat wordt gepubliceerd op developer.overheid.nl zodat ontwikkelaars snel voor hen relevante API's kunnen vinden en gebruiken. Het is in meer algemene zin de plek waar ontwikkelaars binnen de overheid informatie kunnen vinden over hoe er binnen de Nederlandse overheid software wordt ontwikkeld.
