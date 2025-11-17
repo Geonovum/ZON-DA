@@ -1,4 +1,4 @@
-# Inleiding
+# Interoperabiliteit
 Interoperabiliteit gaat over het vermogen van het stelsel om de deelnemende partijen data met elkaar te laten delen en/of uit te wisselen (definitie die FDS ook gebruikt). Het European Interoperable Framework voegt er in haar definitie de doelstelling aan toe: interoperabiliteit houdt in dat organisaties in staat zijn om samen te werken aan doelstellingen die voor alle partijen voordelig zijn, hetgeen betekent het delen van informatie en kennis tussen deze organisaties, via de bedrijfsprocessen die zij ondersteunen, door middel van gegevensuitwisseling tussen hun ICT-systemen.
 
 Het FDS noemt interoperabiliteit als 1 van de 4 bekwaamheden binnen de functionele requirements aan het stelsel (naast interoperabiliteit zijn dit vertrouwen, datawaarde en stelsel-governance). De DSFL volgt deze indeling van FDS, zoals ook te zien is in de hoofdstukindeling van deze doelarchitectuur.
