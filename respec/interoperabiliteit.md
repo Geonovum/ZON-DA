@@ -1,73 +1,41 @@
-# Interoperabiliteit
-Interoperabiliteit gaat over het vermogen van het stelsel om de deelnemende partijen data met elkaar te laten delen en/of uit te wisselen (definitie die FDS ook gebruikt). Het FDS noemt interoperabiliteit als 1 van de 4 bekwaamheden binnen de functionele requirements aan het stelsel. 
+# Inleiding
+Interoperabiliteit gaat over het vermogen van het stelsel om de deelnemende partijen data met elkaar te laten delen en/of uit te wisselen (definitie die FDS ook gebruikt). Het FDS noemt interoperabiliteit als 1 van de 4 bekwaamheden binnen de functionele requirements aan het stelsel (naast interoperabiliteit zijn dit vertrouwen, datawaarde en stelsel-governance). De DSFL volgt deze indeling van FDS, zoals ook te zien is in de hoofdstukindeling van deze doelarchitectuur.
 
-> Dit betekent voor DSFL:
+> Dit betekent voor DSFL voor wat betreft interoperabiliteit:
 > De DSFL neemt FDS voorwaarden als uitgangspunt als het gaat om interoperabiliteit
 
-Het FDS benoemt binnen Interoperabiliteit drie bouwblokken: datamodellen, dataservices en traceerbaarheid. Dit komt overeen met de bouwblokken van het DSSC op het gebied van data interoperabiliteit: data models, data exchange en provenance and traceability. Deze bouwblokken gaan over de technisch-inhoudelijke kant van datadelen. Het is belangrijk te benoemen dat voor het bereiken van interoperabiliteit, naast technisch-inhoudelijke zaken, ook zaken aan de governance kant moeten worden geregeld. Dit wordt benoemd in de Interoperable Europe Act en het European Interoperability Framework.
+Het FDS benoemt binnen Interoperabiliteit drie bouwblokken: datamodellen, dataservices en traceerbaarheid. Dit komt overeen met de bouwblokken van het DSSC op het gebied van data interoperabiliteit: data models, data exchange en provenance and traceability. Deze bouwblokken gaan over de technisch-inhoudelijke kant van datadelen. Het is belangrijk te benoemen dat voor het bereiken van interoperabiliteit, naast technisch-inhoudelijke zaken, ook zaken aan de governance kant moeten worden geregeld. Dit wordt benoemd in zowel het DSSC model als in de Interoperable Europe Act en het European Interoperability Framework. Hoewel deze governance aspecten cruciaal zijn, richt deze doelarchitectuur zich met name op de technische en semantische interoperabiliteit.
 
+Dit hoofdstuk beschrijft in de volgende paragrafen de europese regelgeving op het gebied van interoperabiliteit, de verschillende lagen van interoperabiliteit en de zaken die specifiek voor DSFL zijn. 
+
+## Europese regelgeving op het gebied van interoperabiliteit
 Uit [Handreiking EU informatie m.b.t. digitale en data-strategie](https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/):
 
+### Interoperable Europe
 De Interoperable Europe Act (Interoperable Europa Verordening) is in maart 2024 gepubliceerd, vanaf april 2024 van kracht, en sinds juli 2024 van toepassing. Sommige bepalingen zijn vanaf januari 2025 van toepassing.
 
 De Commissie ziet het reguleren van internationale interoperabiliteit van overheidsdiensten als fundamentele voorwaarde voor het verder ontwikkelen en vervolmaken van de digitale eenheidsmarkt. Betere internationale interoperabiliteit in de publieke sector creëert innovatiekansen, maakt betere planning mogelijk bijvoorbeeld in crisissituaties, en versterkt de technologische soevereiniteit van de EU.
 
-De Verordening heeft 3 doelstellingen:
-1. Zorgen voor een consistente, mensgerichte Europese benadering van interoperabiliteit, van beleidsvorming tot beleidsuitvoering.
-2. Een governancestructuur voor interoperabiliteit opzetten die overheidsdiensten op alle niveaus en in alle sectoren, als ook particuliere belanghebbenden, in staat moet stellen samen te werken — met een duidelijke opdracht om overeenstemming te bereiken over gedeelde interoperabiliteitsoplossingen (bv. kaders, open specificaties, open normen, toepassingen of richtsnoeren);
-3. Samen een ecosysteem van interoperabiliteitsoplossingen voor de overheidssector in de EU tot stand brengen, zodat overheidsdiensten (op alle niveaus in de EU) en andere belanghebbenden kunnen bijdragen aan dergelijke oplossingen en deze kunnen hergebruiken, en zij gezamenlijk kunnen innoveren en publieke waarde kunnen creëren.
+Uitwerking is te vinden in het European Interoperable Framework met 4 interoperabiliteits lagen: juridisch, organisatorisch, semantisch en technisch. Hier wordt in de volgende paragrafen op ingegaan.
+
+### European Data Strategy
+Naast deze Interoperable Europe Act met als scope de overheidsdiensten beschrijft de Europese Commissie in haar Data Strategie uit 2020 haar streven naar een eenheidsmarkt voor de beschikbaarheid en het gebruik van data. De strategie is daarbij gericht op het wereldwijd concurrentievermogen van Europa en op datasoevereiniteit. Technisch wordt naar een pan-Europese dataspace (dataruimte) gestreefd om te zorgen dat er meer data beschikbaar komt voor socio-economisch gebruik, terwijl bedrijven en individuen die data genereren er wel zeggenschap over blijven houden. Die pan-Europese dataspace wordt opgebouwd met meerdere sectorale data spaces waarbinnen afspraken worden gemaakt over de omgang met data. Samen vormt dit de Europese binnenmarkt voor data (EU Single Market for Data). In de Commissieperiode 2024-2029 wordt dit verder versterkt en verdiept tot een Europese Data Unie.
+
+Uitwerking is te vinden in o.a. de Data Act met artikel 33 die een reeks essentiële vereisten om interoperabiliteit mogelijk te maken tussen data spaces en data verwerkende diensten. Zo moeten data inhoud, structuur, licenties, verzamelmethode, kwaliteit en onzekerheden gedocumenteerd zijn, evenals data structuren, formaten, classificaties, API beschrijvingen etc. De EC kan verdere regels stellen t.a.v. interoperabiliteit, ook voor bepaalde sectoren. De EC kan standaarden vereisen, en (internationale) standaarden adopteren en verplicht stellen, niet alleen t.a.v. data maar ook bijvoorbeeld t.a.v. architectuur, technische standaarden en federatie van clouddiensten t.b.v. de Europese dataspace(s). De regels streven interoperabiliteit en portabiliteit na op zowel transport, syntactisch, semantisch, beleid en gedragsniveau. De Europese Commissie hefet inmiddels de eerste standaardisatieverzoeken bij de standaardisatieorganisaties CEN/CENELC en ETSI neergelegd.
+
+Daarnaast financiert de Europese Commissie het Data Space Support Centre waar onder andere de Blueprint richting geeft in het vormgeven van (vertrouwd) datadelen. In deze Blueprintzijn de 4 lagen van interoperabiliteit terug te vinden, al worden ze anders ingedeeld. In de onderstaande paragrafen over de 4 lagen van interoperabiliteit zal steeds genoemd worden welke delen uit de Blueprint daar verband mee houden. 
 
 > Dit betekent voor DSFL:
-> - De DSFL zal voldoen aan de voorwaarden van de Interoperable Europe Act
+> - De DSFL zal voldoen aan de voorwaarden van de Interoperable Europe Act en de voorwaarden voortvloeiend uit de Europese Datastrategie
 
-Na het benoemen van de juridische en organisatie aspecten van interoperabiliteit in de volgende paragrafen richt de scope van dit document  zich verder op de technische interoperabiliteit en semantische operabiliteit zoals in het FDS/OpenDEI/DSSC model wordt benoemd. Specifiek voor de DSFL gaat het dan ook om geo-specifieke zaken.
-
-## Interoperabiliteit (Yvette, Walter)
-- EIF lagenmodel uitgelegd.
-  - Juridisch
-  - Organisatorisch
-  - Semantisch
-  - Technisch
-- Locatie als aparte laag
-- Relatie met DSSC blueprint.
-- Wat is interoperabiliteit en hoe verhoudt zich dat tot metadata
-- Behoefte aan interoperabiliteit / noodzaak tot data services
-  - Operationele context
-- Interoperabiliteitsprofielen (Walter)
-
-Kritieke succesfactor voor interoperabiliteit is dat de vrijblijvendheid eruit moet. Er moet formeel beleid komen en er moeten ook audits komen. Tegelijkertijd moeten partijen ook worden geholpen worden met bijvoorbeed voorbeeldimplementaties en een implementatiehandreiking. Het concept van de ring kan bijvoorbeeld beter worden uitgelegd. Het moet ook verder gaan dan de basisregistraties; het moet veel meer over de kernregistraties gaan. Kies er een aantal waar de aandacht vooral aan wordt besteedt.
-
-Dilemma: is muteren ook onderdeel van de DSFL? Is typisch geen onderdeel van data space concepten, maar wel in scope van de waardeketen als geheel die DSFL ondersteunt. 
-
-## De specifieke rol van geo in interoperabiliteit (Otto, Marcel)
-- Data en datasets
-- brede definitie van data: ook algoritmes, DT-configuraties, regelgeving, vergunningen, etc. vallen hier onder
-- “Ringen” van data gezien vanuit Zicht op Nederland -> staat beschreven in datawaardeketen, geput uit spoor 2 2024
-- Ring 0: basisregistraties geo ->  staat beschreven in datawaardeketen, geput uit spoor 2 2024
-- overige ringen -> staat beschreven in datawaardeketen, geput uit spoor 2 2024
-- Databronnen (misschien verschuift deze naar 'Componenten/Voorzieningen')
-- De rol van geo-specifieke informatie-elementen
-- Combineren van Geo- en niet geo-informatie
-
-- architectuur
-  - 'moet' geo referenties uit wet-, regelgeving en beleid kunnen verwerken, consequentie?
-  - combineren van overheids geo data en commerciele geo data
-  - jurische beperkingen op het gebruik van commerciele geodata/kaarten zoals Google Maps, Garmin, TomTom
-  - geo specifieke begripsmodel(len), logische geo standaarden, "geo vertaal/mapping" middelen
-  - combineren van 2d, 3d en 4d (tijd, historie/toekomst) geo gegevens
-  - verschillende technische standaarden combineren / datamapping
-  - op kunnen bouwen van geo(informatie)producten op basis van verschillende geo bronnen => consequenties?
-  - mobiel gebruik realtime data => latency issues bij streaming data van verschillende data providers
-- use cases
-  - toepassingsgebied van wet- en regelgeving, beleid etc.; geeft geografische grenzen aan en veroorzaakt daarmee juridische interoperabiliteit tussen gebieden
-
-## Juridisch (Marcel, Yvette)
+## Juridische interoperabiliteit (Marcel, Yvette)
 
 De juridische uitdagingen bij het delen van gegevens zijn groot. Dat gaat vaak vooral over persoonsgegevens, maar ook het koppelen van gegevens aan de BAG lijkt toenemend door partijen als gevoelig te worden gezien.
 
 Zie ook: https://jenvgegevens.pleio.nl/news/view/2ae0db25-f82c-41ab-9720-5f6a45688530/waarom-betere-gegevensdeling-nu-nodig-is-zomerupdate-van-de-taskforce-gegevensdeling
 
-## Organisatorisch (Yvette, Rene)
+
+## Organisatorische interoperabiliteit (Yvette, Rene)
 Er is een organisatie nodig die het DSFL organiseert; een regisseur die de samenhang van het geheel organiseert. Deze regisseur moet afspraken maken met de deelnemers, deelnemers toelaat en ze toetst op de voorwaarden. Binnen organisaties moeten ook aanspreekpunten aangewezen worden.
 
 De waardepropositie van het DSFL moet ook duidelijk zijn voor partijen. Het aansluiten op DSFL kost deelnemers in eerste instantie per definitie een investering om te kunnen voldoen aan de voorwaarden. De waarde ligt voor een deel in standaardisatie. Het is belangrijk om een goed gesprek te voeren samen met (potentiële) deelnemers en samen te bepalen waar de waarde voor verschillende betrokkenen ligt. Hergebruik van gegevens is een belangrijk deel van de waarde. Tegelijkertijd is dat ook een algemene plicht voor overheden; om gegevens die al kenbaar zijn te hergebruiken.
@@ -75,7 +43,7 @@ De waardepropositie van het DSFL moet ook duidelijk zijn voor partijen. Het aans
 De vrijblijvendheid moet er tegelijkertijd uit. Er moet formeel beleid komen en er moeten ook audits komen. Het zou onderdeel moeten zijn van de taakstelling van bronhouders. Tegelijkertijd moeten partijen ook worden geholpen worden met bijvoorbeed voorbeeldimplementaties en een implementatiehandreiking. Het concept van de ring kan bijvoorbeeld beter worden uitgelegd. Het moet ook verder gaan dan de basisregistraties; het moet veel meer over de kernregistraties gaan. Kies er een aantal waar de aandacht vooral aan wordt besteedt.
 
 
-## Semantisch (Danny, Walter)
+## Semantische interoperabiliteit (Danny, Walter)
 Op semantisch niveau is het belangrijk dat gegevens betekenis hebben voor gebruikers van de gegevens die worden uitgewisseld. Dat gaat in eerste instantie over het helder definiëren van begrippen, zodat er een gemeenschappelijke betekenis wordt gegeven aan bepaalde termen. Vervolgens dient het domein van gesprek te worden gedefinieerd in een conceptueel informatiemodel dat de betekenis verder formaliseert, zodat het duidelijk genoeg is voor de vertaling naar informatievoorziening en gegevensuitwisseling. Voor het definiëren van begrippen is inmiddels de [Nederlandse standaard voor het beschrijven van begrippen](https://docs.geostandaarden.nl/nl-sbb/nl-sbb/) (NL-SBB) beschikbaar. Voor het definiëren van conceptuele informatiemodellen kan gebruik worden gemaakt van het [Metamodel voor Informatiemodellering](https://docs.geostandaarden.nl/mim/mim/) (MIM) of de Linked Data standaarden [RDFS](https://www.w3.org/TR/rdf-schema/) en [OWL](https://www.w3.org/TR/owl2-overview/).
 
 In bredere zin is het belangrijk dat gegevens worden voorzien van betekenisvolle metagegevens zodat afnemers begrijpen wat ze betreffen en of ze bruikbaar zijn voor een bepaald gebruiksdoel. In eerste instantie gaat dat over verzamelingen van gegevens (datasets) die expliciet worden gepubliceerd in een gegevenscatalogus zoals het Nationaal Geo Register en data.overheid.nl. Hiervoor zijn standaarden beschikbaar zoals [DCAT](https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/) en [ISO 19115](https://docs.geostandaarden.nl/md/mdprofiel-iso19115/), waarmee relevante eigenschappen kunnen vastgelegd. Dat gaat over beschrijvende metagegevens zoals titel, samenvatting en trefwoorden. Er zouden ook metagegevens moeten worden opgenomen over de kwaliteit van de gegevens, zodat gebruikers beter kunnen inschatten of de gegevens betrouwbaar genoeg zijn voor hun toepassing.
@@ -117,7 +85,7 @@ DCAT-AP-NL faciliteert de uitwisseling van metadata tussen Nederlandse datacatal
 - Toegankelijkheid van metadata voor alle toepassingsdomeinen – generiek doorzoekbaar maken
 
 
-## Technisch (Danny, Otto, Arno)
+## Technische interoperabiliteit (Danny, Otto, Arno)
 Op technisch niveau vindt de daadwerkelijke uitwisseling van gegevens plaats, maar daarvoor zijn ook technische afspraken en metagegevens nodig. Dat gaat bijvoorbeeld over logische gegevensmodellen en fysieke datamodellen, maar ook over informatie over de precieze locatie van gegevens en de opbouw van API's. De eerder genoemde standaard MIM kan gebruikt worden voor het definiëren van logische gegevensmodellen. Ze worden vertaald naar XML- of JSON Schema's, bij voorkeur geautomatiseerd. Linked Data gebaseerde modellen maken gebruik van de [SHACL](https://www.w3.org/TR/shacl/) standaard, die de RDFS/OWL specificaties verdiepen en duidelijk maken in welke gegevensstructuur gegevens beschikbaar zijn.
 
 De locatie van gegevens en de beschikbare formaten worden beschreven in standaarden zoals DCAT en ISO 19115/19119. Daarnaast moeten er specificiaties voor API's worden opgesteld. Hiervoor is de [OpenAPI](https://www.openapis.org/) specificatie beschikbaar. Het resultaat wordt gepubliceerd op developer.overheid.nl zodat ontwikkelaars snel voor hen relevante API's kunnen vinden en gebruiken. Het is in meer algemene zin de plek waar ontwikkelaars binnen de overheid informatie kunnen vinden over hoe er binnen de Nederlandse overheid software wordt ontwikkeld.
@@ -140,7 +108,29 @@ Wanneer veel datasets onderdeel worden van het datastelsel dan is het belangrijk
 
 Metadata
 
-Nader uit te werken:
+## De specifieke rol van geo in interoperabiliteit (Otto, Marcel)
+- Data en datasets
+- brede definitie van data: ook algoritmes, DT-configuraties, regelgeving, vergunningen, etc. vallen hier onder
+- “Ringen” van data gezien vanuit Zicht op Nederland -> staat beschreven in datawaardeketen, geput uit spoor 2 2024
+- Ring 0: basisregistraties geo ->  staat beschreven in datawaardeketen, geput uit spoor 2 2024
+- overige ringen -> staat beschreven in datawaardeketen, geput uit spoor 2 2024
+- Databronnen (misschien verschuift deze naar 'Componenten/Voorzieningen')
+- De rol van geo-specifieke informatie-elementen
+- Combineren van Geo- en niet geo-informatie
+
+- architectuur
+  - 'moet' geo referenties uit wet-, regelgeving en beleid kunnen verwerken, consequentie?
+  - combineren van overheids geo data en commerciele geo data
+  - jurische beperkingen op het gebruik van commerciele geodata/kaarten zoals Google Maps, Garmin, TomTom
+  - geo specifieke begripsmodel(len), logische geo standaarden, "geo vertaal/mapping" middelen
+  - combineren van 2d, 3d en 4d (tijd, historie/toekomst) geo gegevens
+  - verschillende technische standaarden combineren / datamapping
+  - op kunnen bouwen van geo(informatie)producten op basis van verschillende geo bronnen => consequenties?
+  - mobiel gebruik realtime data => latency issues bij streaming data van verschillende data providers
+- use cases
+  - toepassingsgebied van wet- en regelgeving, beleid etc.; geeft geografische grenzen aan en veroorzaakt daarmee juridische interoperabiliteit tussen gebieden
+
+## Nader uit te werken:
 - Is Linked Data onderdeel van het datastelsel?
 - geo localiseren van services, het zoeken van beschikbare dataservices op basis van geo data; bijvoorbeeld per provincie een specifieke service voor het afnemen van provinciale geodata. DSFL zorgt ervoor dat je de juiste service krijgt op basis van opgegeven relevant gebied?
 - Welke coordinaatreferentiestelsels worden ondersteund? En, worden transformaties tussen coordinaatstelsels aangeboden?
@@ -152,3 +142,21 @@ Dit betekent:
 - Publiceren van API's op developer.overheid.nl
 - Publiceren van Datasets en Services op data.overheid.nl (DCAT)
 - Publiceren van Datasets en Services op NGR (specifiek voor geo-informatie volgens ISO 19115/19119), waarbij deze ook vindbaar zijn via data.overheid.nl (DCAT)
+
+
+Checken of we alles hebben:
+- EIF lagenmodel uitgelegd.
+  - Juridisch
+  - Organisatorisch
+  - Semantisch
+  - Technisch
+- Locatie als aparte laag
+- Relatie met DSSC blueprint.
+- Wat is interoperabiliteit en hoe verhoudt zich dat tot metadata
+- Behoefte aan interoperabiliteit / noodzaak tot data services
+  - Operationele context
+- Interoperabiliteitsprofielen (Walter)
+
+Kritieke succesfactor voor interoperabiliteit is dat de vrijblijvendheid eruit moet. Er moet formeel beleid komen en er moeten ook audits komen. Tegelijkertijd moeten partijen ook worden geholpen worden met bijvoorbeed voorbeeldimplementaties en een implementatiehandreiking. Het concept van de ring kan bijvoorbeeld beter worden uitgelegd. Het moet ook verder gaan dan de basisregistraties; het moet veel meer over de kernregistraties gaan. Kies er een aantal waar de aandacht vooral aan wordt besteedt.
+
+Dilemma: is muteren ook onderdeel van de DSFL? Is typisch geen onderdeel van data space concepten, maar wel in scope van de waardeketen als geheel die DSFL ondersteunt. 
