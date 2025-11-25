@@ -160,6 +160,9 @@ Dit betekent:
 - Databronnen (misschien verschuift deze naar 'Componenten/Voorzieningen')
 - De rol van geo-specifieke informatie-elementen
 - Combineren van Geo- en niet geo-informatie
+- Coordinaatstelsels (uit: datawaardeketen): Voor de coördinatenstelsels geldt dat deze te beschouwen zijn als ‘going concern’. Rijkswaterstaat, Hydrografische Dienst en Kadaster hebben de middelen voor het beheer van de geodetische infrastructuur. Deze partijen werken ook goed samen en zijn van plan om alle grondslagpunten in gezamenlijkheid te ontsluiten in verschillende coördinaatsystemen. Belangrijke ontwikkeling zijn de 3D transformaties. Acties (uit: datawaardeketen):
+      1. Toevoegen standaard voor conversie tussen coördinaatstelsels in 3D. 
+      2. Gezamenlijke ontsluiting door NSGI van informatie over het coördinatensysteem en referentiepunten in verschillende coördinaatsystemen vanaf één plek (in plaats van de huidige 3 organisaties).  
 
 - architectuur
   - 'moet' geo referenties uit wet-, regelgeving en beleid kunnen verwerken, consequentie?
