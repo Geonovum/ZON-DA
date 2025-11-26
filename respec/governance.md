@@ -21,7 +21,7 @@ De bestuursorganen, zitting hebbend in het GI-beraad, hebben als eerste profijt 
 
 > Het is aan de betrokken bestuursorganen om te organiseren dat de kennis, informatie en data duurzaam beschikbaar zijn. 
 
-<figure><img src='respec/media/DFL_architectuur_ZoN.svg' alt='Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.' style='width: 100%;'></img><figcaption>Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.<i></i></figcaption></figure>
+<figure><img src='media/DFL_architectuur_ZoN.svg' alt='Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.' style='width: 100%;'></img><figcaption>Inrichting van een datawaardeketen in de Dataspace Fysieke leefomgeving en de rol van bestuursorganen.<i></i></figcaption></figure>
 
 
 - Relatie tussen waardeketen en bedrijfsprocessen
